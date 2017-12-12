@@ -3,11 +3,11 @@
 import React from 'react'
 import { render, shallow, mount } from 'enzyme'
 
-import H1 from './H1.js'
+import Link from './Link.js'
 
 describe('With Snapshot Testing', () => {
-  it('H1 shows "swhurl.com"', () => {
-      const wrapper = render(<H1>shwurl.com</H1>)
+  it('Link shows "About" with href "/about"', () => {
+      const wrapper = render(<Link href="/about" name="About"/>)
       expect(wrapper).toMatchSnapshot()
     })
 })

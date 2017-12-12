@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`With Snapshot Testing Index page shows "swhurl.com" H1 1`] = `
+<div>
+  <nav>
+    <a
+      class="sc-bwzfXH iFEnoI"
+      href="/"
+    >
+      Home
+    </a>
+     | 
+    <a
+      class="sc-bwzfXH iFEnoI"
+      href="/about"
+    >
+      About
+    </a>
+     | 
+    <a
+      class="sc-bwzfXH iFEnoI"
+      href="/contact"
+    >
+      Contact
+    </a>
+  </nav>
+  <h1
+    class="sc-bdVaJa bNwHsP"
+  >
+    swhurl.com
+  </h1>
+  <p>
+    Example next.js app, including:
+  </p>
+  <ul>
+    <li>
+      styled components
+    </li>
+  </ul>
+</div>
+`;

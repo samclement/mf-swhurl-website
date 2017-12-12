@@ -3,11 +3,11 @@
 import React from 'react'
 import { render, shallow, mount } from 'enzyme'
 
-import H1 from './H1.js'
+import Contact from './contact.js'
 
 describe('With Snapshot Testing', () => {
-  it('H1 shows "swhurl.com"', () => {
-      const wrapper = render(<H1>shwurl.com</H1>)
+  it('Contact page shows "Contact" H1', () => {
+      const wrapper = render(<Contact/>)
       expect(wrapper).toMatchSnapshot()
     })
 })

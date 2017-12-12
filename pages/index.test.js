@@ -3,11 +3,11 @@
 import React from 'react'
 import { render, shallow, mount } from 'enzyme'
 
-import H1 from './H1.js'
+import Index from './index.js'
 
 describe('With Snapshot Testing', () => {
-  it('H1 shows "swhurl.com"', () => {
-      const wrapper = render(<H1>shwurl.com</H1>)
+  it('Index page shows "swhurl.com" H1', () => {
+      const wrapper = render(<Index/>)
       expect(wrapper).toMatchSnapshot()
     })
 })

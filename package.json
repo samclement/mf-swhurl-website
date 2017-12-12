@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.1.5",
+    "ignore-loader": "^0.1.2",
     "next": "4.2.0",
     "react": "16.2.0",
     "react-dom": "16.2.0",
@@ -27,9 +28,33 @@
     "setupFiles": [
       "./jest.setup.js"
     ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
     "testPathIgnorePatterns": [
       "./.next",
       "./node_modules/"
-    ]
+    ],
+    "collectCoverage": true,
+    "coverageDirectory": "./coverage",
+    "collectCoverageFrom": [
+      "blocks/**/*.js",
+      "elements/**/*.js",
+      "pages/**/*.js"
+    ],
+    "coveragePathIgnorePatterns": [
+      "./coverage/",
+      "./node_modules/",
+      "./.next",
+      "./pages/_document.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
+        "statements": -10
+      }
+    }
   }
 }

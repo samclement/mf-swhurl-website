@@ -2,12 +2,13 @@
 
 import React from 'react'
 import { render, shallow, mount } from 'enzyme'
+import toJson from 'enzyme-to-json'
 
-import H1 from './H1.js'
+import Nav from './index.js'
 
 describe('With Snapshot Testing', () => {
-  it('H1 shows "swhurl.com"', () => {
-      const wrapper = render(<H1>shwurl.com</H1>)
+  it('Nav has 3 sections', () => {
+      const wrapper = render(<Nav/>)
       expect(wrapper).toMatchSnapshot()
     })
 })

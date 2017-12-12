@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`With Snapshot Testing About page shows "About" H1 1`] = `
+<div>
+  <nav>
+    <a
+      class="sc-bwzfXH iFEnoI"
+      href="/"
+    >
+      Home
+    </a>
+     | 
+    <a
+      class="sc-bwzfXH iFEnoI"
+      href="/about"
+    >
+      About
+    </a>
+     | 
+    <a
+      class="sc-bwzfXH iFEnoI"
+      href="/contact"
+    >
+      Contact
+    </a>
+  </nav>
+  <h1
+    class="sc-bdVaJa bNwHsP"
+  >
+    About
+  </h1>
+</div>
+`;

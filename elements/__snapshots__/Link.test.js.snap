@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`With Snapshot Testing Link shows "About" with href "/about" 1`] = `
+<a
+  class="sc-bdVaJa kPUKaM"
+  href="/about"
+>
+  About
+</a>
+`;
