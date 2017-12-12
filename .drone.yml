@@ -1,0 +1,7 @@
+pipeline:
+  test:
+    image: node:8-alpine
+    commands:
+      - npm i
+      - npm test
+
