@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "NODE_ENV=test jest"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.1.5",
@@ -13,5 +14,22 @@
     "react-dom": "16.2.0",
     "styled-components": "^2.1.0"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.0",
+    "enzyme-to-json": "^3.2.2",
+    "jest": "^21.2.1",
+    "prettier": "^1.9.1",
+    "raf": "^3.4.0"
+  },
+  "jest": {
+    "setupFiles": [
+      "./jest.setup.js"
+    ],
+    "testPathIgnorePatterns": [
+      "./.next",
+      "./node_modules/"
+    ]
+  }
 }
