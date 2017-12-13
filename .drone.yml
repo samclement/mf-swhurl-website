@@ -7,6 +7,7 @@ pipeline:
   publish:
     image: plugins/docker
     repo: swhurl/website
+    force_tag: true
     tags:
       - latest
       - 1.0.0
