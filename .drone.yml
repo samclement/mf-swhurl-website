@@ -10,8 +10,6 @@ pipeline:
     force_tag: true
     tags:
       - latest
-      - 1.0.0
-      - 1.0
     secrets: [docker_username, docker_password]
     when:
       branch: master
