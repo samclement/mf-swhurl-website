@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`With Snapshot Testing Version page shows correct "version" 1`] = `
+<p>
+  v
+  1.0.0
+</p>
+`;
