@@ -10,7 +10,7 @@
   "dependencies": {
     "babel-plugin-styled-components": "^1.1.5",
     "ignore-loader": "^0.1.2",
-    "next": "4.2.0",
+    "next": "4.2.1",
     "react": "16.2.0",
     "react-dom": "16.2.0",
     "styled-components": "^2.1.0"

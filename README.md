@@ -2,6 +2,8 @@
 
 # Example app with styled-components
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/samclement/swhurl-website.svg)](https://greenkeeper.io/)
+
 ## How to use
 
 Download the example [or clone the repo](https://github.com/zeit/next.js):
