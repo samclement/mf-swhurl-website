@@ -11,6 +11,7 @@ export default () => {
       <p>Example next.js app, including:</p>
       <ul>
         <li>styled components</li>
+        <li>jest snapshot testing</li>
       </ul>
     </div>
   )

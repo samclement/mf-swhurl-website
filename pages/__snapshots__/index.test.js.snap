@@ -36,6 +36,9 @@ exports[`With Snapshot Testing Index page shows "swhurl.com" H1 1`] = `
     <li>
       styled components
     </li>
+    <li>
+      jest snapshot testing
+    </li>
   </ul>
 </div>
 `;
