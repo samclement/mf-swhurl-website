@@ -1,12 +1,14 @@
 pipeline:
   test:
-    image: node:8-alpine
+    image: swhurl/node-with-deps:8-alpine
     commands:
-      - npm i
-      - npm test
+      - yarn install
+      - npm test 
   publish:
     image: plugins/docker
     repo: swhurl/website
+    build_args:
+      - target=production
     force_tag: true
     tags:
       - latest

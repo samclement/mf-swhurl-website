@@ -1,17 +1,10 @@
 {
   "env": { 
-    "development": {
-    },
-    "production": {
-    },
     "test": {
       "presets": [
-        ["next/babel", {
-          "preset-env": {
-            "modules": "commonjs"
-          }
-        }]
-      ],
+        "next/babel", 
+        ["env", { "modules": "commonjs" } ]
+      ]
     }
   },
   "presets": [
