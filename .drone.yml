@@ -1,17 +1,38 @@
 pipeline:
-  test:
-    image: swhurl/node-with-deps:8-alpine
+  build:
+    image: michalpodeszwa/docker-compose:latest 
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
     commands:
-      - yarn install
-      - npm test 
+      - docker-compose -f docker-compose.test.yml up -d --build
+        
+  test:
+    image: michalpodeszwa/docker-compose:latest 
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    commands:
+      - docker-compose -f docker-compose.test.yml run test npm test
+
+  cleanup:
+    image: michalpodeszwa/docker-compose:latest 
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    commands:
+      - docker-compose -f docker-compose.test.yml rm -f
+      - docker-compose -f docker-compose.test.yml down
+    when:
+      status: [success,failure]
+
   publish:
     image: plugins/docker
     repo: swhurl/website
     build_args:
       - target=production
+      - rm
     force_tag: true
     tags:
       - latest
     secrets: [docker_username, docker_password]
     when:
       branch: master
+      status: [success]

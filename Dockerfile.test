@@ -1,6 +1,5 @@
-FROM swhurl/node-with-deps:8-alpine
+FROM node:8-wheezy
 WORKDIR /www
 COPY . /www/
 RUN yarn install
-RUN npm test
 

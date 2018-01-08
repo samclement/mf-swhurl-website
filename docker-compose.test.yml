@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  website:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+  test:
+    build:
+      context: .
+      dockerfile: Dockerfile.test
+    command:
+      - 'true'
+    depends_on:
+      - website
+
