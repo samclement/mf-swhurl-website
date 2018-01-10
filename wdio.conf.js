@@ -21,7 +21,7 @@ exports.config = {
     // Test Configurations
     // ===================
     sync: true,
-    logLevel: 'verbose',
+    logLevel: 'silent',
     coloredLogs: true,
     deprecationWarnings: true,
     bail: 0,
