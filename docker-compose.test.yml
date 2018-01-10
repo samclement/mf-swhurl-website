@@ -10,6 +10,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.test
+    environment:
+      - DOCKER_COMPOSE=true
     command:
       - 'true'
     depends_on:

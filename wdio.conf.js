@@ -1,3 +1,4 @@
+const targetHost = process.env.DOCKER_COMPOSE ? 'website' : 'localhost'
 exports.config = {
 
     // ==================
@@ -25,7 +26,7 @@ exports.config = {
     deprecationWarnings: true,
     bail: 0,
     screenshotPath: './shots/',
-    baseUrl: 'http://website:3000',
+    baseUrl: `http://${targetHost}:3000`,
     waitforTimeout: 10000,
     connectionRetryTimeout: 90000,
     connectionRetryCount: 3,
