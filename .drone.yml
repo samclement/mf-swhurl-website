@@ -23,7 +23,7 @@ pipeline:
     when:
       status: [success,failure]
 
-  publish:
+  publish-and-deploy:
     image: plugins/docker
     repo: swhurl/website
     build_args:
@@ -31,8 +31,7 @@ pipeline:
       - rm
     force_tag: true
     tags:
-      - latest
+      - ${DRONE_TAG##v}
     secrets: [docker_username, docker_password]
     when:
-      branch: master
-      status: [success]
+      event: [tag]
