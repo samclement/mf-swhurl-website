@@ -28,7 +28,6 @@ pipeline:
     repo: swhurl/website
     build_args:
       - target=production
-      - rm
     force_tag: true
     tags:
       - ${DRONE_TAG##v}
