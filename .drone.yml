@@ -31,6 +31,7 @@ pipeline:
     force_tag: true
     tags:
       - ${DRONE_TAG##v}
+      - latest
     secrets: [docker_username, docker_password]
     when:
       event: [tag]
