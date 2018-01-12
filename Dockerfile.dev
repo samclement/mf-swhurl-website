@@ -1,0 +1,4 @@
+FROM node:8-alpine
+WORKDIR /www
+CMD ["npm", "run", "dev"]
+
