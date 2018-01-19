@@ -1,4 +1,4 @@
-const targetHost = process.env.DOCKER_COMPOSE ? 'website' : 'localhost'
+const targetHost = process.env.DOCKER_COMPOSE == 'true' ? 'website' : 'localhost'
 exports.config = {
 
     // ==================
@@ -15,11 +15,23 @@ exports.config = {
     // ============
     maxInstances: 1,
     capabilities: [
-      { browserName: 'phantomjs' }
+      {
+        browserName: 'chrome',
+        chromeOptions: {
+          args: [
+            '--headless',
+            '--disable-gpu',
+            '--no-sandbox',
+            '--window-size=1280,800'
+          ]
+        }
+      }
     ],
     // ===================
     // Test Configurations
     // ===================
+    port: 9515,
+    path: '/',
     sync: true,
     logLevel: 'silent',
     coloredLogs: true,
@@ -30,7 +42,7 @@ exports.config = {
     waitforTimeout: 10000,
     connectionRetryTimeout: 90000,
     connectionRetryCount: 3,
-    services: ['phantomjs'],
+    services: ['chromedriver'],
     framework: 'mocha',
     reporters: ['spec'],
     mochaOpts: {
