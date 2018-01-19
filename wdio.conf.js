@@ -25,7 +25,7 @@ exports.config = {
     coloredLogs: true,
     deprecationWarnings: true,
     bail: 0,
-    screenshotPath: './shots/',
+    screenshotPath: './test/screenshots/',
     baseUrl: `http://${targetHost}:3000`,
     waitforTimeout: 10000,
     connectionRetryTimeout: 90000,
