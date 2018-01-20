@@ -1,4 +1,4 @@
-const { createServer } = require('http')
+const express = require('express')
 const { parse } = require('url')
 const next = require('next')
 const { version } = require('./package')
@@ -8,16 +8,17 @@ const app = next({ dev })
 const handle = app.getRequestHandler()
 
 app.prepare().then(() => {
-  createServer((req, res) => {
-    const parsedUrl = parse(req.url, true)
-    const { pathname, query } = parsedUrl
-    if (pathname === '/version') {
-      res.write(version)
-      res.end()
-    } else {
-      handle(req, res, parsedUrl)
-    }
-  }).listen(3000, err => {
+  const server = express()
+
+  server.get('/version', (req, res) => {
+    res.send(version)
+  })
+
+  server.get('*', (req, res) => {
+    handle(req, res)
+  })
+
+  server.listen(3000, err => {
     if (err) throw err
     console.log('> Ready on http://localhost:3000')
   })
