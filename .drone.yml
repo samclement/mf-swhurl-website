@@ -1,14 +1,3 @@
-clone:
-  git:
-    image: plugins/git
-    commands: 
-      - git init
-      - git remote add origin ${DRONE_REMOTE_URL}
-      - git fetch --no-tags --all
-      - git reset --hard -q ${DRONE_COMMIT_SHA}
-      - git submodule update --init --recursive
-      - ./release.sh
-      
 pipeline:
 
   build:
@@ -17,6 +6,8 @@ pipeline:
       - /var/run/docker.sock:/var/run/docker.sock
     commands:
       - docker-compose -f docker-compose.test.yml up -d --build
+    when:
+      event: [ push, tag ]
         
   test:
     image: michalpodeszwa/docker-compose:latest 
@@ -24,6 +15,8 @@ pipeline:
       - /var/run/docker.sock:/var/run/docker.sock
     commands:
       - docker-compose -f docker-compose.test.yml run test npm test
+    when:
+      event: [ push, tag ]
 
   cleanup:
     image: michalpodeszwa/docker-compose:latest 
@@ -33,17 +26,60 @@ pipeline:
       - docker-compose -f docker-compose.test.yml rm -f
       - docker-compose -f docker-compose.test.yml down
     when:
-      status: [success,failure]
+      event: [ push, tag ]
+      status: [ success, failure ]
 
-  publish-and-deploy:
+  publish-staging:
     image: plugins/docker
     repo: swhurl/website
     build_args:
-      - target=production
+      - DRONE_COMMIT=${DRONE_COMMIT}
+    force_tag: true
+    tags:
+      - staging
+    secrets: [docker_username, docker_password]
+    when:
+      branch: [ master ]
+      event: [ push ]
+
+  deploy-staging:
+    image: appleboy/drone-ssh
+    host: swhurl.com
+    port: 22
+    secrets: [ ssh_username, ssh_password ]
+    script:
+      - docker pull swhurl/website:staging
+      - docker stop website-staging
+      - docker rm website-staging
+      - docker run --name website-staging --net swhurl --restart always -d swhurl/website:staging 
+    when:
+      event: deployment
+      environment: staging
+
+  publish-production:
+    image: plugins/docker
+    repo: swhurl/website
+    build_args:
+      - DRONE_COMMIT=$DRONE_COMMIT
     force_tag: true
     tags:
       - ${DRONE_TAG##v}
-      - latest
     secrets: [docker_username, docker_password]
     when:
-      event: [tag]
+      event: [ tag ]
+
+  deploy-production:
+    image: appleboy/drone-ssh
+    host: swhurl.com
+    username: sam
+    port: 22
+    secrets: [ssh_key]
+    script:
+      - docker stop website
+      - docker rm website
+      - docker pull swhurl/website:$DRONE_TAG
+      - docker run --name website --net swhurl --restart always -d swhurl/website:$DRONE_TAG 
+    when:
+      event: deployment
+      environment: production
+
