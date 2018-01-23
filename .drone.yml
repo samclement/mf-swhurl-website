@@ -1,4 +1,16 @@
+clone:
+  git:
+    image: plugins/git
+    commands: 
+      - git init
+      - git remote add origin ${DRONE_REMOTE_URL}
+      - git fetch --no-tags --all
+      - git reset --hard -q ${DRONE_COMMIT_SHA}
+      - git submodule update --init --recursive
+      - ./release.sh
+      
 pipeline:
+
   build:
     image: michalpodeszwa/docker-compose:latest 
     volumes:
