@@ -53,8 +53,8 @@ pipeline:
       - docker rm website-staging
       - docker run --name website-staging --net swhurl --restart always -d swhurl/website:staging 
     when:
-      event: deployment
-      environment: staging
+      branch: [ master ]
+      event: [ push ]
 
   publish-production:
     image: plugins/docker
@@ -80,6 +80,5 @@ pipeline:
       - docker pull swhurl/website:$DRONE_TAG
       - docker run --name website --net swhurl --restart always -d swhurl/website:$DRONE_TAG 
     when:
-      event: deployment
-      environment: production
+      event: [ tag ]
 
