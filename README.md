@@ -2,13 +2,24 @@
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/samclement/swhurl-website.svg)](https://greenkeeper.io/)
 
-## How to use
+## Install
+
+- `yarn install`
+
+## Run
+
+### Development
+
+- `npm run dev`
+
+### Production
+
+- `npm run build`
+- `npm start`
+
+### Docker
 
 - `docker build -t swhurl/website .`
 - `docker run -d --restart always --net swhurl --name website swhurl/website`
 
-## Dev (dev.swhurl.com)
-
-- `docker build -t swhurl/website-dev .`
-- `docker run -it -d --rm -v ${PWD}/:/www/ --name website-dev --net swhurl swhurl/website-dev`
 
