@@ -10,12 +10,12 @@
 
 ### Development
 
-- `npm run dev`
+- `yarn run dev`
 
 ### Production
 
-- `npm run build`
-- `npm start`
+- `yarn run build`
+- `yarn start`
 
 ### Docker
 
