@@ -78,8 +78,8 @@ pipeline:
     script:
       - docker stop website
       - docker rm website
-      - docker pull swhurl/website:$DRONE_TAG
-      - docker run --name website --net swhurl --restart always -d swhurl/website:$DRONE_TAG 
+      - docker pull swhurl/website:${DRONE_TAG}
+      - docker run --name website --net swhurl --restart always -d swhurl/website:${DRONE_TAG} 
     when:
       event: [ tag ]
 
