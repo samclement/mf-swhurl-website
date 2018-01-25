@@ -61,6 +61,7 @@ pipeline:
     repo: swhurl/website
     build_args:
       - DRONE_COMMIT=$DRONE_COMMIT
+      - DRONE_TAG=$DRONE_TAG
     force_tag: true
     tags:
       - ${DRONE_TAG##v}

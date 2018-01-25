@@ -1,7 +1,7 @@
 const express = require('express')
 const { parse } = require('url')
 const next = require('next')
-const { version, gitCommitHash } = require('./package')
+const { version, tag, commitHash } = require('./package')
 
 const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dev })
@@ -15,7 +15,7 @@ app.prepare().then(() => {
 
   server.get('/version', (req, res) => {
     res.set('Content-Type', 'text/plain')
-    res.send(`version: ${version}\ngit commit hash: ${gitCommitHash}`)
+    res.send(`npm version: ${version}\ngit tag: ${tag}\ngit commit hash: ${commitHash}`)
   })
 
   server.get('*', (req, res) => {
