@@ -30,17 +30,18 @@ pipeline:
       status: [ success, failure ]
 
   publish-staging:
-    image: plugins/docker
-    repo: swhurl/website
-    build_args:
-      - DRONE_COMMIT=${DRONE_COMMIT}
-    force_tag: true
-    tags:
-      - staging
-    secrets: [docker_username, docker_password]
+    secrets: [ docker_username, docker_password ]
+    image: docker
+    privileged: true
+    environment:
+      - DOCKER_HOST=unix:///drone/docker.sock
+    commands:
+      - env
+      - echo ${DOCKER_USERNAME}
+      - ./publish.sh staging
     when:
       branch: [ master ]
-      event: [ push ]
+      event: [ push, deployment ]
 
   deploy-staging:
     image: appleboy/drone-ssh
@@ -48,24 +49,22 @@ pipeline:
     port: 22
     secrets: [ ssh_username, ssh_password ]
     script:
-      - docker pull swhurl/website:staging
+      - docker pull registry.swhurl.com/swhurl/website:staging
       - docker stop website-staging
       - docker rm website-staging
-      - docker run --name website-staging --net swhurl --restart always -d swhurl/website:staging 
+      - docker run --name website-staging --net swhurl --restart always -d registry.swhurl.com/swhurl/website:staging 
     when:
       branch: [ master ]
       event: [ push ]
 
   publish-production:
-    image: plugins/docker
-    repo: swhurl/website
-    build_args:
-      - DRONE_COMMIT=${DRONE_COMMIT}
-      - DRONE_TAG=${DRONE_TAG}
-    force_tag: true
-    tags:
-      - ${DRONE_TAG##v}
-    secrets: [docker_username, docker_password]
+    secrets: [ docker_username, docker_password ]
+    image: docker
+    privileged: true
+    environment:
+      - DOCKER_HOST=unix:///drone/docker.sock
+    commands:
+      - ./publish.sh production
     when:
       event: [ tag ]
 
@@ -76,10 +75,15 @@ pipeline:
     port: 22
     secrets: [ ssh_username, ssh_password ]
     script:
+      - docker pull registry.swhurl.com/swhurl/website:${DRONE_TAG##v}
       - docker stop website
       - docker rm website
-      - docker pull swhurl/website:${DRONE_TAG##v}
-      - docker run --name website --net swhurl --restart always -d swhurl/website:${DRONE_TAG##v} 
+      - docker run --name website --net swhurl --restart always -d registry.swhurl.com/swhurl/website:${DRONE_TAG##v} 
     when:
       event: [ tag ]
 
+services:
+  docker:
+    image: docker:dind
+    privileged: true
+    command: [ '-H', 'unix:///drone/docker.sock' ]
