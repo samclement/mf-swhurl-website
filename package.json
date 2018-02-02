@@ -52,7 +52,7 @@
       "./test"
     ],
     "collectCoverage": true,
-    "coverageDirectory": "./coverage",
+    "coverageDirectory": "./test/coverage",
     "collectCoverageFrom": [
       "blocks/**/*.js",
       "elements/**/*.js",

@@ -1,6 +1,7 @@
 node_modules
 .next
-coverage
 *.DS_Store
 test/screenshots
 !test/screenshots/.gitkeep
+test/coverage
+!test/coverage/.gitkeep
