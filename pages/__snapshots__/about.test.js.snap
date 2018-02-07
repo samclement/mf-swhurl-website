@@ -1,31 +1,39 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`With Snapshot Testing About page shows "About" H1 1`] = `
+.c1 {
+  color: deeppink;
+}
+
+.c0 {
+  color: 'deeppink';
+}
+
 <div>
   <nav>
     <a
-      class="sc-bwzfXH iFEnoI"
+      class="c0"
       href="/"
     >
       Home
     </a>
      | 
     <a
-      class="sc-bwzfXH iFEnoI"
+      class="c0"
       href="/about"
     >
       About
     </a>
      | 
     <a
-      class="sc-bwzfXH iFEnoI"
+      class="c0"
       href="/contact"
     >
       Contact
     </a>
   </nav>
   <h1
-    class="sc-bdVaJa bNwHsP"
+    class="c1"
   >
     About
   </h1>

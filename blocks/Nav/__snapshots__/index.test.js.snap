@@ -1,23 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`With Snapshot Testing Nav has 3 sections 1`] = `
+.c0 {
+  color: 'deeppink';
+}
+
 <nav>
   <a
-    class="sc-bdVaJa kPUKaM"
+    class="c0"
     href="/"
   >
     Home
   </a>
    | 
   <a
-    class="sc-bdVaJa kPUKaM"
+    class="c0"
     href="/about"
   >
     About
   </a>
    | 
   <a
-    class="sc-bdVaJa kPUKaM"
+    class="c0"
     href="/contact"
   >
     Contact

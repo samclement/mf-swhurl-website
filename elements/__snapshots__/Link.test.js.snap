@@ -1,8 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`With Snapshot Testing Link shows "About" with href "/about" 1`] = `
+.c0 {
+  color: 'deeppink';
+}
+
 <a
-  class="sc-bdVaJa kPUKaM"
+  class="c0"
   href="/about"
 >
   About
