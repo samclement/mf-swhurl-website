@@ -20,6 +20,6 @@
 ### Docker
 
 - `docker build -t swhurl/website .`
-- `docker run -d --restart always --net swhurl --name website swhurl/website`
+- `docker run -d --init --restart always --net swhurl --name website swhurl/website`
 
 
