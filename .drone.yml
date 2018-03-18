@@ -50,7 +50,7 @@ pipeline:
       - docker pull registry.swhurl.com/swhurl/website:staging
       - docker stop website-staging
       - docker rm website-staging
-      - docker run --init --name website-staging --net swhurl --restart always -d registry.swhurl.com/swhurl/website:staging 
+      - docker run --init --name website-staging --net swhurl --restart always -d -e ENV=staging registry.swhurl.com/swhurl/website:staging 
     when:
       branch: [ master ]
       event: [ push ]
@@ -76,7 +76,7 @@ pipeline:
       - docker pull registry.swhurl.com/swhurl/website:${DRONE_TAG##v}
       - docker stop website
       - docker rm website
-      - docker run --init --name website --net swhurl --restart always -d registry.swhurl.com/swhurl/website:${DRONE_TAG##v} 
+      - docker run --init --name website --net swhurl --restart always -d -e ENV=production registry.swhurl.com/swhurl/website:${DRONE_TAG##v} 
     when:
       event: [ tag ]
 
