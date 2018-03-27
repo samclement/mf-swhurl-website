@@ -1,4 +1,4 @@
-# Example app with styled-components
+# Next.js app  with styled-components
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/samclement/swhurl-website.svg)](https://greenkeeper.io/)
 
@@ -19,7 +19,8 @@
 
 ### Docker
 
-- `docker build -t swhurl/website .`
-- `docker run -d --init --restart always --net swhurl --name website swhurl/website`
+- `docker build -t registry.swhurl.com/swhurl/website .`
+- `docker run -d --init --restart always --net swhurl --name website registry.swhurl.com/swhurl/website`
+
 
 
