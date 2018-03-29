@@ -21,6 +21,3 @@
 
 - `docker build -t registry.swhurl.com/swhurl/website .`
 - `docker run -d --init --restart always --net swhurl --name website registry.swhurl.com/swhurl/website`
-
-
-
