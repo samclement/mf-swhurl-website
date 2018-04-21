@@ -6,8 +6,8 @@ const StyledLink = styled.a`
   color: 'deeppink';
 `
 
-export default ({href, name}) => (
+ export default ({href, label}) => (
   <Link prefetch href={href} passHref>
-    <StyledLink>{name}</StyledLink>
+    <StyledLink>{label}</StyledLink>
   </Link>
 )

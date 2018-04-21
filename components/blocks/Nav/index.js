@@ -1,15 +1,14 @@
 import React from 'react'
-import styled from 'styled-components'
 import Link from '../../elements/Link'
 
-export default() => {
+export default () => {
   return (
     <nav>
-      <Link href="/" name="Home"/>
+      <Link href="/" label="Home"/>
       &nbsp;|&nbsp;
-      <Link href="/about" name="About"/>
+      <Link href="/about" label="About"/>
       &nbsp;|&nbsp;
-      <Link href="/contact" name="Contact"/>
+      <Link href="/contact" label="Contact"/>
     </nav>
   )
 }

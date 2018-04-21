@@ -1,7 +1,7 @@
 /* eslint-env jest */
 
 import React from 'react'
-import { render, shallow, mount } from 'enzyme'
+import { render } from 'enzyme'
 import 'jest-styled-components'
 
 import Contact from './contact.js'

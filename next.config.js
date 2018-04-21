@@ -4,15 +4,15 @@ module.exports = {
       test: /\.test.js$/,
       loader: 'ignore-loader'
     })
-    if(!dev) {
+    if (!dev) {
       config.devtool = 'source-map'
       for (const options of config.plugins) {
         if (options['constructor']['name'] === 'UglifyJsPlugin') {
-          options.options.sourceMap = true;
-          break;
+          options.options.sourceMap = true
+          break
         }
       }
     }
-    return config;
+    return config
   }
 }

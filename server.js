@@ -4,7 +4,7 @@ const UDPSender = require('./node_modules/jaeger-client/dist/src/reporters/udp_s
 const env = process.env.ENV || 'local'
 const jaegerHost = process.env.JAEGER_HOST || 'jaeger'
 
-const instrument = new Instrument({
+const instrument = new Instrument({ // eslint-disable-line
   tracers: [
     new jaeger.Tracer(
       `swhurl-website-${env}`,
@@ -16,14 +16,13 @@ const instrument = new Instrument({
 })
 
 const express = require('express')
-const { parse } = require('url')
 const next = require('next')
 const { version, tag, commitHash } = require('./package')
 
 const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dev })
 const handle = app.getRequestHandler()
-const promBundle = require("express-prom-bundle")
+const promBundle = require('express-prom-bundle')
 const metricsMiddleware = promBundle({includeMethod: true, includePath: true})
 
 app.prepare().then(() => {
@@ -41,6 +40,6 @@ app.prepare().then(() => {
 
   server.listen(3000, err => {
     if (err) throw err
-    console.log('> Ready on http://localhost:3000')
+    console.log('> Ready on http://localhost:3000') // eslint-disable-line
   })
 })

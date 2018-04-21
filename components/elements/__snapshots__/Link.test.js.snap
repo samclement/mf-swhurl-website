@@ -8,7 +8,5 @@ exports[`With Snapshot Testing Link shows "About" with href "/about" 1`] = `
 <a
   class="c0"
   href="/about"
->
-  About
-</a>
+/>
 `;
