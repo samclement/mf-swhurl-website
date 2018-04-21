@@ -58,8 +58,7 @@
     "collectCoverage": true,
     "coverageDirectory": "./test/coverage",
     "collectCoverageFrom": [
-      "blocks/**/*.js",
-      "elements/**/*.js",
+      "components/**/*.js",
       "pages/**/*.js"
     ],
     "coveragePathIgnorePatterns": [
