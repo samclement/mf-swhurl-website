@@ -5,7 +5,7 @@ import Nav from '../components/blocks/Nav'
 export default () => {
   return (
     <div>
-      <Nav/>
+      <Nav />
       <H1>swhurl.com</H1>
       <p>Example next.js app, including:</p>
       <ul>

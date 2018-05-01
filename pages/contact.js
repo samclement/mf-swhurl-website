@@ -5,7 +5,7 @@ import Nav from '../components/blocks/Nav'
 export default () => {
   return (
     <div>
-      <Nav/>
+      <Nav />
       <H1>Contact</H1>
     </div>
   )

@@ -1,8 +1,7 @@
 {
   "extends": [ 
     "standard", 
-    "eslint:recommended",
-    "plugin:react/recommended"
+    "standard-react"
   ],
   "plugins": [
     "styled-components-config"

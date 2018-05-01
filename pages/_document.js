@@ -15,7 +15,7 @@ export default class MyDocument extends Document {
       <html>
         <Head>
           <title>swhurl.com</title>
-          <link rel="icon" type="images/x-icon" href="/static/favicon.ico" />
+          <link rel='icon' type='images/x-icon' href='/static/favicon.ico' />
           {this.props.styleTags}
         </Head>
         <body>

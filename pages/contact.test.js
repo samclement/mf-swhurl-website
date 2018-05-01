@@ -8,8 +8,7 @@ import Contact from './contact.js'
 
 describe('With Snapshot Testing', () => {
   it('Contact page shows "Contact" H1', () => {
-      const wrapper = render(<Contact/>)
-      expect(wrapper).toMatchSnapshot()
-    })
+    const wrapper = render(<Contact />)
+    expect(wrapper).toMatchSnapshot()
+  })
 })
-

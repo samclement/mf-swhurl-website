@@ -8,8 +8,7 @@ import Nav from './index.js'
 
 describe('With Snapshot Testing', () => {
   it('Nav has 3 sections', () => {
-      const wrapper = render(<Nav/>)
-      expect(wrapper).toMatchSnapshot()
-    })
+    const wrapper = render(<Nav />)
+    expect(wrapper).toMatchSnapshot()
+  })
 })
-

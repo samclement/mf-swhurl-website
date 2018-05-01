@@ -1,7 +1,7 @@
 describe('homepage', () => {
   it('title', () => {
-    browser.url('/');
-    browser.getTitle().should.be.equal('swhurl.com');
+    browser.url('/')
+    browser.getTitle().should.be.equal('swhurl.com')
   })
   it('header', () => {
     browser.url('/')

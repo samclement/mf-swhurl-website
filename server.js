@@ -8,7 +8,7 @@ const instrument = new Instrument({ // eslint-disable-line
   tracers: [
     new jaeger.Tracer(
       `swhurl-website-${env}`,
-      new jaeger.RemoteReporter(new UDPSender.default({ host: jaegerHost })),
+      new jaeger.RemoteReporter(new UDPSender.default({ host: jaegerHost })), // eslint-disable-line
       new jaeger.RateLimitingSampler(1),
       {}
     )
