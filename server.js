@@ -4,7 +4,8 @@ const UDPSender = require('./node_modules/jaeger-client/dist/src/reporters/udp_s
 const env = process.env.ENV || 'local'
 const jaegerHost = process.env.JAEGER_HOST || 'jaeger'
 
-const instrument = new Instrument({ // eslint-disable-line
+// prettier-ignore
+new Instrument({ // eslint-disable-line
   tracers: [
     new jaeger.Tracer(
       `swhurl-website-${env}`,
@@ -23,7 +24,7 @@ const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dev })
 const handle = app.getRequestHandler()
 const promBundle = require('express-prom-bundle')
-const metricsMiddleware = promBundle({includeMethod: true, includePath: true})
+const metricsMiddleware = promBundle({ includeMethod: true, includePath: true })
 
 app.prepare().then(() => {
   const server = express()

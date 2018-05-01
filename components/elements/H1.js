@@ -5,8 +5,6 @@ const H1 = styled.h1`
   color: deeppink;
 `
 
-export default ({children}) => {
-  return (
-    <H1>{children}</H1>
-  )
+export default ({ children }) => {
+  return <H1>{children}</H1>
 }
