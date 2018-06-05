@@ -1,4 +1,5 @@
 node_modules
+tags
 .next
 *.DS_Store
 test/screenshots
