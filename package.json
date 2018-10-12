@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@risingstack/opentracing-auto": "^1.5.2",
-    "babel-plugin-styled-components": "^1.1.5",
+    "babel-plugin-styled-components": "^1.8.0",
     "express": "^4.16.2",
     "express-prom-bundle": "^4.2.1",
     "ignore-loader": "^0.1.2",
@@ -25,13 +25,17 @@
     "next": "7.0.2",
     "react": "16.5.2",
     "react-dom": "16.5.2",
-    "styled-components": "^3.0.1"
+    "styled-components": "^3.4.9",
+    "yarn": "^1.10.1"
   },
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "babel-core": "^7.0.0-bridge",
+    "babel-jest": "^23.6.0",
     "chai": "^4.1.2",
     "chromedriver": "^2.34.1",
-    "enzyme": "^3.2.0",
+    "enzyme": "^3.4.3",
     "enzyme-adapter-react-16": "^1.1.0",
     "enzyme-to-json": "^3.2.2",
     "eslint": "^5.6.1",
@@ -57,12 +61,23 @@
     "webdriverio": "^4.9.11"
   },
   "jest": {
-    "setupFiles": ["./jest.setup.js"],
-    "snapshotSerializers": ["enzyme-to-json/serializer"],
-    "testPathIgnorePatterns": ["./.next", "./node_modules/", "./test"],
+    "setupFiles": [
+      "./jest.setup.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "testPathIgnorePatterns": [
+      "./.next",
+      "./node_modules/",
+      "./test"
+    ],
     "collectCoverage": true,
     "coverageDirectory": "./test/coverage",
-    "collectCoverageFrom": ["components/**/*.js", "pages/**/*.js"],
+    "collectCoverageFrom": [
+      "components/**/*.js",
+      "pages/**/*.js"
+    ],
     "coveragePathIgnorePatterns": [
       "./coverage/",
       "./node_modules/",

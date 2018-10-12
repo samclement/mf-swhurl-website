@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`With Snapshot Testing H1 shows "swhurl.com" 1`] = `
-<styled.h1>
+<H1>
   shwurl.com
-</styled.h1>
+</H1>
 `;
