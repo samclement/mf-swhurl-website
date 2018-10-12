@@ -4,18 +4,18 @@
 
 ## Install
 
-- `yarn install`
+- `npm install`
 
 ## Run
 
 ### Development
 
-- `yarn run dev`
+- `npm run dev`
 
 ### Production
 
-- `yarn run build`
-- `yarn start`
+- `npm run build`
+- `npm start`
 
 ### Docker
 

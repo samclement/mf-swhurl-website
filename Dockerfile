@@ -7,7 +7,7 @@ ENV DRONE_TAG=$DRONE_TAG
 WORKDIR /www
 COPY . /www/
 RUN sed -i '4i\ \ "commitHash": "'"$DRONE_COMMIT"'",\n\ \ "tag": "'"$DRONE_TAG"'",' package.json
-RUN yarn install --production \
+RUN npm install --production \
     && npm run build
 CMD ["npm", "start", "--", "-p", "3000"]
 
