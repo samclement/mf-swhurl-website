@@ -47,10 +47,10 @@ pipeline:
     port: 22
     secrets: [ ssh_username, ssh_password ]
     script:
-      - docker pull swhurl/website:staging
+      - docker pull swhurl/website:${DRONE_COMMIT}
       - docker stop website-staging
       - docker rm website-staging
-      - docker run --init --name website-staging --net swhurl --restart always -d -e ENV=staging swhurl/website:staging 
+      - docker run --init --name website-staging --net swhurl --restart always -d -e ENV=staging swhurl/website:${DRONE_COMMIT} 
     when:
       branch: [ master ]
       event: [ push ]
@@ -73,7 +73,7 @@ pipeline:
     port: 22
     secrets: [ ssh_username, ssh_password ]
     script:
-      - docker pull registry.swhurl.com/swhurl/website:${DRONE_TAG##v}
+      - docker pull swhurl/website:${DRONE_TAG##v}
       - docker stop website
       - docker rm website
       - docker run --init --name website --net swhurl --restart always -d -e ENV=production swhurl/website:${DRONE_TAG##v} 

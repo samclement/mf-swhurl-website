@@ -10,14 +10,15 @@ while test $# -gt 0; do
     staging)
       shift
       echo "Publishing staging image"
-      docker build --build-arg DRONE_COMMIT=${DRONE_COMMIT} -t swhurl/website:staging .
-      docker push swhurl/website:staging
+      docker build --build-arg DRONE_COMMIT=${DRONE_COMMIT} -t swhurl/website:${DRONE_COMMIT} .
+      docker push swhurl/website:${DRONE_COMMIT}
       ;;
     production)
       shift
       GIT_TAG=${DRONE_TAG##v}
       echo "Publishing production image: $GIT_TAG"
-      docker build --build-arg DRONE_COMMIT=${DRONE_COMMIT} --build-arg DRONE_TAG=$GIT_TAG -t swhurl/website:$GIT_TAG .
+      docker pull swhurl/website:${DRONE_COMMIT}
+      docker tag swhurl/website:${DRONE_COMMIT} swhurl/website:$GI_TAG
       docker push swhurl/website:$GIT_TAG
       ;;
     *)
