@@ -18,8 +18,8 @@ while test $# -gt 0; do
       GIT_TAG=${DRONE_TAG##v}
       echo "Publishing production image: $GIT_TAG"
       docker pull swhurl/website:${DRONE_COMMIT}
-      docker tag swhurl/website:${DRONE_COMMIT} swhurl/website:${DRONE_TAG}
-      docker push swhurl/website:${DRONE_TAG}
+      docker tag swhurl/website:${DRONE_COMMIT} swhurl/website:${DRONE_TAG//v}
+      docker push swhurl/website:${DRONE_TAG//v}
       ;;
     *)
       echo "Please supply either 'staging' or 'production' as the target environment"
