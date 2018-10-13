@@ -1,6 +1,8 @@
-# Next.js app  with styled-components
+# Next.js app  demo application
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/samclement/swhurl-website.svg)](https://greenkeeper.io/)
+
+Demo Nextjs application that includes: styled-compoenents, open-tracing, prometheus instrumentation and jest snapshot testing.
 
 ## Install
 
