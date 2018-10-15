@@ -1,0 +1,87 @@
+version: 2
+jobs:
+  build_test: 
+    machine: true
+    steps:
+      - checkout
+      - run: |
+          echo -e "commit: $CIRCLE_SHA1\ntag: $CIRCLE_TAG" > ./version.txt
+          docker build -t swhurl/website:$CIRCLE_SHA1 .
+          docker build -t swhurl/website-test -f Dockerfile.test .
+      - run: |
+          docker network create -d bridge swhurl
+          docker run -d --name website --net swhurl swhurl/website:$CIRCLE_SHA1
+          docker run --name website-test --net swhurl -e DOCKER_NETWORK=true swhurl/website-test
+          docker stop website
+          docker network rm swhurl
+  build_test_push:
+    machine: true
+    steps:
+      - checkout
+      - run: |
+          echo -e "commit: $CIRCLE_SHA1\ntag: $CIRCLE_TAG" > ./version.txt
+          docker build -t swhurl/website:$CIRCLE_SHA1 .
+          docker build -t swhurl/website-test -f Dockerfile.test .
+      - run: |
+          docker network create -d bridge swhurl
+          docker run -d --name website --net swhurl swhurl/website:$CIRCLE_SHA1
+          docker run --name website-test --net swhurl -e DOCKER_NETWORK=true swhurl/website-test
+          docker stop website
+          docker network rm swhurl
+      - run: |
+          echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin
+          docker push swhurl/website:$CIRCLE_SHA1
+  deploy_staging:
+    machine: true
+    steps:
+      - add_ssh_keys:
+          fingerprints: 
+            - "35:df:e3:cc:13:79:99:24:29:2f:39:b4:8b:5a:0a:14"
+      - run: |
+          echo "staging: branch == master"
+          echo "sha1: '$CIRCLE_SHA1'"
+          echo "tag: '$CIRCLE_TAG'"
+          echo "deploy: swhurl/website:$CIRCLE_SHA1"
+          ssh $SSH_USER@$SSH_HOST "kubectl get deployment swhurl-website-staging -o yaml | sed -r 's/website:(.*)/website:$CIRCLE_SHA1/g' | kubectl apply -f -"
+  deploy_prod:
+    machine: true
+    steps:
+      - add_ssh_keys:
+          fingerprints: 
+            - "35:df:e3:cc:13:79:99:24:29:2f:39:b4:8b:5a:0a:14"
+      - run: |
+          echo "production: tag == $CIRCLE_TAG"
+          echo "sha1: '$CIRCLE_SHA1'"
+          echo "tag: '$CIRCLE_TAG'"
+          echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin
+          docker pull swhurl/website:$CIRCLE_SHA1
+          docker tag swhurl/website:$CIRCLE_SHA1 swhurl/website:${CIRCLE_TAG##v}
+          docker push swhurl/website:${CIRCLE_TAG##v}
+          echo "deploy swhurl/website:${CIRCLE_TAG##v}"
+          ssh $SSH_USER@$SSH_HOST "kubectl get deployment swhurl-website -o yaml | sed -r 's/website:(.*)/website:${CIRCLE_TAG##v}/g' | kubectl apply -f -"
+        
+workflows:
+  version: 2
+  build_test:
+    jobs:
+      - build_test:
+          filters:
+            branches:
+              ignore: master
+  deploy_staging:
+    jobs: 
+      - build_test_push
+      - deploy_staging:
+          requires:
+            - build_test_push
+          filters:
+            branches:
+              only: master
+  deploy_prod:
+    jobs:
+      - deploy_prod:
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /^v(.*)/

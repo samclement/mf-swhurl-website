@@ -3,6 +3,7 @@ const jaeger = require('jaeger-client')
 const UDPSender = require('./node_modules/jaeger-client/dist/src/reporters/udp_sender.js')
 const env = process.env.ENV || 'local'
 const jaegerHost = process.env.JAEGER_HOST || 'jaeger'
+const fs = require('fs')
 
 // prettier-ignore
 new Instrument({ // eslint-disable-line
@@ -18,7 +19,6 @@ new Instrument({ // eslint-disable-line
 
 const express = require('express')
 const next = require('next')
-const { version, tag, commitHash } = require('./package')
 
 const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dev })
@@ -32,7 +32,9 @@ app.prepare().then(() => {
 
   server.get('/version', (req, res) => {
     res.set('Content-Type', 'text/plain')
-    res.send(`npm version: ${version}\ngit tag: ${tag}\ngit commit hash: ${commitHash}`)
+    fs.createReadStream('./version.txt')
+      .on('error', e => res.status(500).send(e))
+      .pipe(res)
   })
 
   server.get('*', (req, res) => {

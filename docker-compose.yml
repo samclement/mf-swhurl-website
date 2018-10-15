@@ -1,10 +1,17 @@
 version: '3'
 
 services:
-  swhurl-website:
-    container_name: 'swhurl-website'
-    image: swhurl/website:1.0.0
-    ports:
-      - 3000:3000
-    restart: always
+  website:
+    build:
+      context: .
+      dockerfile: Dockerfile
+  test:
+    build:
+      context: .
+      dockerfile: Dockerfile.test
+    environment:
+      - DOCKER_COMPOSE=true
+    depends_on:
+      - website
+
 

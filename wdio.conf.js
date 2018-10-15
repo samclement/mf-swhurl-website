@@ -1,5 +1,5 @@
 const targetHost =
-  process.env.DOCKER_COMPOSE === 'true' ? 'website' : 'localhost'
+  process.env.DOCKER_NETWORK === 'true' ? 'website' : 'localhost'
 exports.config = {
   // ==================
   // Specify Test Files
