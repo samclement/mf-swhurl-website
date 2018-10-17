@@ -62,23 +62,25 @@ jobs:
         
 workflows:
   version: 2
-  build_test:
+  build_test_deploy:
     jobs:
       - build_test:
           filters:
             branches:
-              ignore: master
-  deploy_staging:
-    jobs: 
-      - build_test_push
+              ignore: 
+                - master
+      - build_test_push:
+          filters:
+            branches: 
+              only:
+                - master
       - deploy_staging:
           requires:
             - build_test_push
           filters:
             branches:
-              only: master
-  deploy_prod:
-    jobs:
+              only: 
+                - master
       - deploy_prod:
           filters:
             branches:
