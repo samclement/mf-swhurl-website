@@ -1,22 +1,4 @@
-const Instrument = require('@risingstack/opentracing-auto')
-const jaeger = require('jaeger-client')
-const UDPSender = require('./node_modules/jaeger-client/dist/src/reporters/udp_sender.js')
-const env = process.env.ENV || 'local'
-const jaegerHost = process.env.JAEGER_HOST || 'jaeger'
 const fs = require('fs')
-
-// prettier-ignore
-new Instrument({ // eslint-disable-line
-  tracers: [
-    new jaeger.Tracer(
-      `swhurl-website-${env}`,
-      new jaeger.RemoteReporter(new UDPSender.default({ host: jaegerHost })), // eslint-disable-line
-      new jaeger.RateLimitingSampler(1),
-      {}
-    )
-  ]
-})
-
 const express = require('express')
 const next = require('next')
 
