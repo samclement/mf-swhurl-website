@@ -14,7 +14,7 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <html>
+      <html lang="en">
         <Head>
           <title>swhurl.com</title>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
