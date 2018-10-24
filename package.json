@@ -29,7 +29,6 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.1.2",
     "babel-core": "^7.0.0-bridge",
     "babel-jest": "^23.6.0",
     "chai": "^4.1.2",
