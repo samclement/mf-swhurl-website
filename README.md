@@ -21,5 +21,12 @@ Demo Nextjs application that includes: styled-compoenents, open-tracing, prometh
 
 ### Docker
 
-- `docker build -t registry.swhurl.com/swhurl/website .`
+#### Create test base for faster builds
+
+- `docker build -t swhurl/website-test-base:node-10-chrome-stable -f Dockerfile.test-base .`
+- `docker push swhurl/website-test-base:node-10-chrome-stable`
+
+#### Build and run container image
+
+- `docker build -t swhurl/website .`
 - `docker run -d --init --restart always --net swhurl --name website swhurl/website`
