@@ -28,10 +28,13 @@ spec:
       labels:
         app: swhurl-website-staging
         tier: frontend
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "3000"
     spec:
       containers:
       - name: swhurl-website-staging
-        image: swhurl/website:e030ac8f9ca03942c4791e7cc015a95a03c7bd05
+        image: swhurl/website:607ddcd0de0ddd64fa5ce1fd4ae0476d44b072e8
         resources:
           requests:
             cpu: 100m
