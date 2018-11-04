@@ -5,5 +5,5 @@ COPY . /www/
 RUN npm i --production \
     && npm run build \
     && npm prune --production
-CMD ["yarn", "start", "--", "-p", "3000"]
+CMD ["npm", "start", "--", "-p", "3000"]
 
