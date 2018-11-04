@@ -59,6 +59,12 @@ jobs:
           docker push swhurl/website:${CIRCLE_TAG##v}
           echo "deploy swhurl/website:${CIRCLE_TAG##v}"
           ssh $SSH_USER@$SSH_HOST "kubectl get deployment swhurl-website -o yaml | sed -r 's/website:(.*)/website:${CIRCLE_TAG##v}/g' | kubectl apply -f -"
+  release_tag:
+    machine: true
+    steps:
+      - run: |
+          echo "deploy swhurl/website:${CIRCLE_TAG}"
+          ssh $SSH_USER@$SSH_HOST "kubectl get deployment swhurl-website -o yaml | sed -r 's/website:(.*)/website:${CIRCLE_TAG}/g' | kubectl apply -f -"
         
 workflows:
   version: 2
