@@ -31,6 +31,13 @@ exports[`With Snapshot Testing Index page shows "swhurl.com" H1 1`] = `
     >
       Contact
     </a>
+     | 
+    <a
+      class="c0"
+      href="/login"
+    >
+      Login
+    </a>
   </nav>
   <h1
     class="c1"

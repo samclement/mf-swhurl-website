@@ -5,6 +5,9 @@ describe('main navigation', () => {
   it('should navigate to the Contact page', () => {
     navigate('Contact')
   })
+  it('should navigate to the Login page', () => {
+    navigate('Login')
+  })
 })
 
 function navigate(header) {

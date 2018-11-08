@@ -9,6 +9,8 @@ export default () => {
       <Link href="/about" label="About" />
       &nbsp;|&nbsp;
       <Link href="/contact" label="Contact" />
+      &nbsp;|&nbsp;
+      <Link href="/login" label="Login" />
     </nav>
   )
 }
