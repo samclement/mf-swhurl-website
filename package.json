@@ -24,7 +24,7 @@
     "next": "7.0.2",
     "react": "16.6.1",
     "react-dom": "16.6.1",
-    "styled-components": "^3.4.9",
+    "styled-components": "^4.0.3",
     "yarn": "^1.10.1"
   },
   "license": "ISC",
