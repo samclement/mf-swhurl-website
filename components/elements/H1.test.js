@@ -10,6 +10,5 @@ describe('With Snapshot Testing', () => {
   it('H1 shows "swhurl.com"', () => {
     const wrapper = shallow(<H1>shwurl.com</H1>)
     expect(wrapper).toMatchSnapshot()
-    expect(wrapper).toHaveStyleRule('color', 'deeppink')
   })
 })

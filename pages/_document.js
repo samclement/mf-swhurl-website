@@ -1,17 +1,13 @@
 import React from 'react'
 import Document, { Head, Main, NextScript } from 'next/document'
-import { ServerStyleSheet, injectGlobal } from 'styled-components'
+import { createGlobalStyle } from 'styled-components'
 
-export default class MyDocument extends Document {
-  static getInitialProps({ renderPage }) {
-    const sheet = new ServerStyleSheet()
-    const page = renderPage(App => props =>
-      sheet.collectStyles(<App {...props} />)
-    )
-    const styleTags = sheet.getStyleElement()
-    return { ...page, styleTags }
+const GlobalStyle = createGlobalStyle`
+  body {
+    font-family: Helvetica, Arial, sans-serif;
   }
-
+`
+export default class MyDocument extends Document {
   render() {
     return (
       <html lang="en">
@@ -20,7 +16,7 @@ export default class MyDocument extends Document {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="Description" content="swhurl.com website." />
           <link rel="icon" type="images/x-icon" href="/static/favicon.ico" />
-          {this.props.styleTags}
+          <GlobalStyle />
         </Head>
         <body>
           <Main />
@@ -30,9 +26,3 @@ export default class MyDocument extends Document {
     )
   }
 }
-
-injectGlobal`
-  body {
-    font-family: Helvetica, Arial, sans-serif;
-  }
-`
