@@ -8,7 +8,7 @@
     "test": "npm run lint && npm run test:unit && npm run test:e2e && npm run test:perf",
     "test:unit": "NODE_ENV=test jest",
     "test:e2e": "wdio",
-    "test:perf": "lighthouse http://website:3000 --chrome-flags=\"--headless --no-sandbox --disable-gpu\" --output-path=./lighthouse.html",
+    "test:perf": "lighthouse http://website:3000 --config-path=./lighthouse.config.json --chrome-flags=\"--headless --no-sandbox --disable-gpu\" --output-path=./lighthouse.html",
     "lint": "eslint .",
     "precommit": "precise-commits"
   },

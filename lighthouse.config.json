@@ -1,0 +1,21 @@
+{
+  "extends": "lighthouse:default",
+  "settings": {
+    "skipAudits": [
+      "uses-text-compression",
+      "works-offline",
+      "load-fast-enough-for-pwa",
+      "webapp-install-banner",
+      "is-on-https",
+      "redirects-http",
+      "service-worker",
+      "splash-screen",
+      "themed-omnibox",
+      "manifest-short-name-length",
+      "pwa-cross-browser",
+      "pwa-page-transitions",
+      "pwa-each-page-has-url",
+      "uses-http2"
+    ]
+  }
+}
