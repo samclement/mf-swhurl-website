@@ -13,11 +13,11 @@ jobs:
           docker network create -d bridge swhurl
           docker run -d --name website --net swhurl swhurl/website:$CIRCLE_SHA1
           docker run --name website-test --net swhurl -e DOCKER_NETWORK=true swhurl/website-test
-          docker cp website-test:/www/lighthouse.html /home/circleci/project/
+          docker cp website-test:/www/lighthouse.report.html /home/circleci/project/
           docker stop website
           docker network rm swhurl
       - store_artifacts:
-          path: /home/circleci/project/lighthouse.html
+          path: /home/circleci/project/lighthouse.report.html
   build_test_push:
     machine: true
     steps:
@@ -31,11 +31,11 @@ jobs:
           docker network create -d bridge swhurl
           docker run -d --name website --net swhurl swhurl/website:$CIRCLE_SHA1
           docker run --name website-test --net swhurl -e DOCKER_NETWORK=true swhurl/website-test
-          docker cp website-test:/www/lighthouse.html /home/circleci/project/
+          docker cp website-test:/www/lighthouse.report.html /home/circleci/project/
           docker stop website
           docker network rm swhurl
       - store_artifacts:
-          path: /home/circleci/project/lighthouse.html
+          path: /home/circleci/project/lighthouse.report.html
       - run: |
           echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin
           docker push swhurl/website:$CIRCLE_SHA1

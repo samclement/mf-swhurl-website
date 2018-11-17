@@ -8,7 +8,7 @@
     "test": "npm run lint && npm run test:unit && npm run test:e2e && npm run test:perf",
     "test:unit": "NODE_ENV=test jest",
     "test:e2e": "wdio",
-    "test:perf": "lighthouse http://website:3000 --config-path=./lighthouse.config.json --chrome-flags=\"--headless --no-sandbox --disable-gpu\" --output-path=./lighthouse.html",
+    "test:perf": "lighthouse http://website:3000 --quiet --output=json html --config-path=./lighthouse.config.json --chrome-flags=\"--headless --no-sandbox --disable-gpu\" --output-path=./lighthouse && node ./lighthouse-report-parser.js",
     "lint": "eslint .",
     "precommit": "precise-commits"
   },
@@ -54,6 +54,7 @@
     "precise-commits": "^1.0.2",
     "prettier": "^1.9.1",
     "raf": "^3.4.0",
+    "table": "^5.1.0",
     "wdio-chromedriver-service": "^0.1.2",
     "wdio-mocha-framework": "^0.6.3",
     "wdio-spec-reporter": "^0.1.3",
