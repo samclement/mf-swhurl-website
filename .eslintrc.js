@@ -1,4 +1,5 @@
 module.exports = {
+  parser: "babel-eslint",
   extends: ['standard', 'standard-react'],
   plugins: ['styled-components-config'],
   rules: {
