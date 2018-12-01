@@ -1,10 +1,14 @@
 import React from 'react'
 import H1 from '../components/elements/H1.js'
 import Nav from '../components/blocks/Nav'
+import Head from 'next/head'
 
 export default () => {
   return (
     <div>
+      <Head>
+        <title>swhurl.com</title>
+      </Head>
       <Nav />
       <H1>swhurl.com</H1>
       <p>Example next.js app, including:</p>
