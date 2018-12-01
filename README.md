@@ -1,5 +1,6 @@
 # Next.js app  demo application
 
+[![CircleCI](https://circleci.com/gh/samclement/swhurl-website.svg?style=svg)](https://circleci.com/gh/samclement/swhurl-website)
 [![Greenkeeper badge](https://badges.greenkeeper.io/samclement/swhurl-website.svg)](https://greenkeeper.io/)
 
 Demo Nextjs application that includes: styled-compoenents, open-tracing, prometheus instrumentation and jest snapshot testing.
