@@ -17,7 +17,7 @@
     "url": "https://github.com/samclement/swhurl-website.git"
   },
   "dependencies": {
-    "@babel/core": "7.1.6",
+    "@babel/core": "7.2.2",
     "express": "4.16.4",
     "express-prom-bundle": "4.2.1",
     "ignore-loader": "0.1.2",
