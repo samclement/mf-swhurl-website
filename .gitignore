@@ -2,6 +2,8 @@ node_modules
 tags
 .next
 *.DS_Store
+test-output/allure
+!test-output/allure/.gitkeep
 test-output/screenshots
 !test-output/screenshots/.gitkeep
 test-output/coverage

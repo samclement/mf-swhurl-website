@@ -12,6 +12,8 @@ describe('main navigation', () => {
 
 function navigate(header) {
   browser.url('/')
-  browser.element(`a*=${header}`).click()
-  browser.getText('h1').should.be.equal(header)
+  const elem = $(`a*=${header}`)
+  elem.click()
+  const h1 = $('h1')
+  h1.getText().should.be.equal(header)
 }

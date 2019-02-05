@@ -5,6 +5,7 @@ describe('homepage', () => {
   })
   it('header', () => {
     browser.url('/')
-    browser.getText('h1').should.be.equal('swhurl.com')
+    const h1 = $('h1')
+    h1.getText().should.be.equal('swhurl.com')
   })
 })
