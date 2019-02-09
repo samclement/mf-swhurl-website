@@ -2,6 +2,7 @@ version: '3'
 
 services:
   website:
+    image: "swhurl/website:${CIRCLE_SHA1}"
     build:
       context: .
       dockerfile: Dockerfile
@@ -13,5 +14,7 @@ services:
       - DOCKER_COMPOSE=true
     depends_on:
       - website
+    volumes:
+      - ./test-output:/www/test-output
 
 

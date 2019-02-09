@@ -1,2 +1,4 @@
 yarn.lock
 .circleci
+node_modules
+test-output

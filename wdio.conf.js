@@ -1,5 +1,5 @@
 const targetHost =
-  process.env.DOCKER_NETWORK === 'true' ? 'website' : 'localhost'
+  process.env.DOCKER_COMPOSE === 'true' ? 'website' : 'localhost'
 exports.config = {
   // ==================
   // Specify Test Files
@@ -31,11 +31,11 @@ exports.config = {
   port: 9515,
   path: '/',
   sync: true,
-  logLevel: 'silent',
+  logLevel: 'verbose',
   coloredLogs: true,
   deprecationWarnings: true,
   bail: 0,
-  screenshotPath: './test/screenshots/',
+  screenshotPath: './test-output/screenshots/',
   baseUrl: `http://${targetHost}:3000`,
   waitforTimeout: 10000,
   connectionRetryTimeout: 90000,

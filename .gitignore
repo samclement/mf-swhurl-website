@@ -2,9 +2,9 @@ node_modules
 tags
 .next
 *.DS_Store
-test/screenshots
-!test/screenshots/.gitkeep
-test/coverage
-!test/coverage/.gitkeep
+test-output/screenshots
+!test-output/screenshots/.gitkeep
+test-output/coverage
+!test-output/coverage/.gitkeep
 yarn-error.log
 lighthouse.report.*

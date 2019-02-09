@@ -8,7 +8,7 @@
     "test": "npm run lint && npm run test:unit && npm run test:e2e && npm run test:perf",
     "test:unit": "NODE_ENV=test jest",
     "test:e2e": "wdio",
-    "test:perf": "lighthouse http://website:3000 --quiet --output=json html --config-path=./lighthouse.config.json --chrome-flags=\"--headless --no-sandbox --disable-gpu\" --output-path=./lighthouse && node ./lighthouse-report-parser.js",
+    "test:perf": "lighthouse http://website:3000 --quiet --output=json html --config-path=./lighthouse.config.json --chrome-flags=\"--headless --no-sandbox --disable-gpu\" --output-path=./test-output/lighthouse && node ./lighthouse-report-parser.js",
     "lint": "eslint .",
     "precommit": "precise-commits --whitelist=\"./package-lock.json\""
   },
@@ -74,13 +74,13 @@
       "./test"
     ],
     "collectCoverage": true,
-    "coverageDirectory": "./test/coverage",
+    "coverageDirectory": "./test-output/coverage",
     "collectCoverageFrom": [
       "components/**/*.js",
       "pages/**/*.js"
     ],
     "coveragePathIgnorePatterns": [
-      "./coverage/",
+      "./test-output/coverage/",
       "./node_modules/",
       "./.next",
       "./pages/_document.js"

@@ -4,38 +4,24 @@ jobs:
     machine: true
     steps:
       - checkout
-      - run: ls -al
       - run: |
           echo -e "commit: $CIRCLE_SHA1\ntag: $CIRCLE_TAG" > ./version.txt
-          docker build -t swhurl/website:$CIRCLE_SHA1 .
-          docker build -t swhurl/website-test -f Dockerfile.test .
       - run: |
-          docker network create -d bridge swhurl
-          docker run -d --name website --net swhurl swhurl/website:$CIRCLE_SHA1
-          docker run --name website-test --net swhurl -e DOCKER_NETWORK=true swhurl/website-test
-          docker cp website-test:/www/lighthouse.report.html /home/circleci/project/
-          docker stop website
-          docker network rm swhurl
+          docker-compose build
+          docker-compose up --exit-code-from test
       - store_artifacts:
-          path: /home/circleci/project/lighthouse.report.html
+          path: /home/circleci/project/test-output
   build_test_push:
     machine: true
     steps:
       - checkout
-      - run: ls -al
       - run: |
           echo -e "commit: $CIRCLE_SHA1\ntag: $CIRCLE_TAG" > ./version.txt
-          docker build -t swhurl/website:$CIRCLE_SHA1 .
-          docker build -t swhurl/website-test -f Dockerfile.test .
       - run: |
-          docker network create -d bridge swhurl
-          docker run -d --name website --net swhurl swhurl/website:$CIRCLE_SHA1
-          docker run --name website-test --net swhurl -e DOCKER_NETWORK=true swhurl/website-test
-          docker cp website-test:/www/lighthouse.report.html /home/circleci/project/
-          docker stop website
-          docker network rm swhurl
+          docker-compose build
+          docker-compose up --exit-code-from test
       - store_artifacts:
-          path: /home/circleci/project/lighthouse.report.html
+          path: /home/circleci/project/test-output
       - run: |
           echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin
           docker push swhurl/website:$CIRCLE_SHA1
