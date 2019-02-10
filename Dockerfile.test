@@ -1,4 +1,5 @@
 FROM swhurl/website-test-base:node-10-chrome-stable
 WORKDIR /www
 COPY . /www/
-ENTRYPOINT ["npm", "test"]
+RUN npm i --dev-only -q
+ENTRYPOINT ["npm", "run", "test"]
