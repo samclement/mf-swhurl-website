@@ -9,6 +9,8 @@ jobs:
       - run: |
           docker-compose build
           docker-compose up --exit-code-from test
+      - store_test_results:
+          path: /home/circleci/project/test-output/junit
       - store_artifacts:
           path: /home/circleci/project/test-output
   build_test_push:
@@ -20,6 +22,8 @@ jobs:
       - run: |
           docker-compose build
           docker-compose up --exit-code-from test
+      - store_test_results:
+          path: /home/circleci/project/test-output/junit
       - store_artifacts:
           path: /home/circleci/project/test-output
       - run: |
