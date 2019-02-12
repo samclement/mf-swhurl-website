@@ -1,7 +1,8 @@
 version: 2
 jobs:
   build_test: 
-    machine: true
+    machine: 
+      image: circleci/openjdk:latest
     steps:
       - checkout
       - run: |
@@ -9,6 +10,11 @@ jobs:
       - run: |
           docker-compose build
           docker-compose up --exit-code-from test
+      - run: |
+          sudo apt-add-repository ppa:yandex-qatools/allure-framework
+          sudo apt-get update
+          sudo apt-get install allure-commandline
+          allure generate ./test-output/allure -o ./test-output/allure-report
       - store_test_results:
           path: /home/circleci/project/test-output/junit
       - store_artifacts:
@@ -22,6 +28,11 @@ jobs:
       - run: |
           docker-compose build
           docker-compose up --exit-code-from test
+      - run: |
+          sudo apt-add-repository ppa:yandex-qatools/allure-framework
+          sudo apt-get update
+          sudo apt-get install allure-commandline
+          allure generate ./test-output/allure -o ./test-output/allure-report
       - store_test_results:
           path: /home/circleci/project/test-output/junit
       - store_artifacts:
