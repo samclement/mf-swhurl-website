@@ -16,9 +16,9 @@ jobs:
           sudo apt-get install allure-commandline
           allure generate ./test-output/allure -o ./test-output/allure-report
       - store_test_results:
-          path: /home/circleci/project/test-output/junit
+          path: ./test-output
       - store_artifacts:
-          path: /home/circleci/project/test-output
+          path: ./test-output/allure-report
   build_test_push:
     machine: true
     steps:
@@ -34,9 +34,9 @@ jobs:
           sudo apt-get install allure-commandline
           allure generate ./test-output/allure -o ./test-output/allure-report
       - store_test_results:
-          path: /home/circleci/project/test-output/junit
+          path: ./test-output
       - store_artifacts:
-          path: /home/circleci/project/test-output
+          path: ./test-output/allure-report
       - run: |
           echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin
           docker push swhurl/website:$CIRCLE_SHA1

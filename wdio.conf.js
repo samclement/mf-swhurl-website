@@ -121,7 +121,7 @@ exports.config = {
       disableWebdriverScreenshotsReporting: true
     }],
     ['junit', {
-      outputDir: './test-output/junit',
+      outputDir: './test-output/mocha',
       outputFileFormat: function(opts) {
         return `results-${opts.cid}.${opts.capabilities}.xml`
       },

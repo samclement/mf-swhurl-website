@@ -78,7 +78,7 @@
       "./test"
     ],
     "collectCoverage": true,
-    "coverageDirectory": "./test-output/coverage",
+    "coverageDirectory": "./test-output/jest",
     "collectCoverageFrom": [
       "components/**/*.js",
       "pages/**/*.js"

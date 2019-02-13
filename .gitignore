@@ -2,13 +2,10 @@ node_modules
 tags
 .next
 *.DS_Store
-test-output/allure
+test-output/
 !test-output/allure/.gitkeep
-test-output/junit
-!test-output/junit/.gitkeep
-test-output/screenshots
+!test-output/mocha/.gitkeep
 !test-output/screenshots/.gitkeep
-test-output/coverage
-!test-output/coverage/.gitkeep
+!test-output/jest/.gitkeep
 yarn-error.log
 lighthouse.report.*
