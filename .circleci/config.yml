@@ -1,8 +1,7 @@
 version: 2
 jobs:
   build_test: 
-    machine: 
-      image: circleci/openjdk:latest
+    machine: true
     steps:
       - checkout
       - run: |
