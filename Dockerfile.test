@@ -3,4 +3,4 @@ WORKDIR /www
 COPY ./package-lock.json ./package.json /www/
 RUN npm i --dev-only -q
 COPY . /www/
-ENTRYPOINT ["npm", "run", "test"]
+ENTRYPOINT ["npm", "run", "test:ci"]
