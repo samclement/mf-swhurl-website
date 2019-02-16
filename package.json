@@ -10,7 +10,7 @@
     "test:unit": "NODE_ENV=test jest",
     "test:jest:ci": "JEST_JUNIT_OUTPUT=test-output/junit/js-test-results.xml jest --ci --runInBand --reporters=default --reporters=jest-junit",
     "test:e2e": "wdio",
-    "test:perf": "lighthouse http://website:3000 --quiet --output=json html --config-path=./lighthouse.config.json --chrome-flags=\"--headless --no-sandbox --disable-gpu\" --output-path=./test-output/lighthouse && node ./lighthouse-report-parser.js",
+    "test:perf": "lighthouse http://website:3000 --quiet --output=json html --config-path=./lighthouse.config.json --chrome-flags=\"--headless --no-sandbox --disable-gpu\" --output-path=./test-output/lighthouse/lighthouse && node ./lighthouse-report-parser.js",
     "lint": "eslint .",
     "precommit": "precise-commits --whitelist=\"./package-lock.json\""
   },

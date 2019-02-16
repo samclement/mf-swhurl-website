@@ -12,6 +12,8 @@ jobs:
           docker run -e MC_HOSTS_swhurl=https://$MINIO_ACCESS_KEY:$MINIO_SECRET_KEY@minio.swhurl.com -v $(pwd)/test-output:/tmp/test-output minio/mc cp -r /tmp/test-output/allure swhurl/swhurl-test-output/allure
       - store_test_results:
           path: ./test-output
+      - store_artifacts:
+          path: ./test-output/lighthouse
   build_test_push:
     machine: true
     steps:
@@ -24,6 +26,8 @@ jobs:
           docker run -e MC_HOSTS_swhurl=https://$MINIO_ACCESS_KEY:$MINIO_SECRET_KEY@minio.swhurl.com -v $(pwd)/test-output:/tmp/test-output minio/mc cp -r /tmp/test-output/allure swhurl/swhurl-test-output/allure
       - store_test_results:
           path: ./test-output
+      - store_artifacts:
+          path: ./test-output/lighthouse
       - run: |
           echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin
           docker push swhurl/website:$CIRCLE_SHA1
