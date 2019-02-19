@@ -20,12 +20,11 @@
     "url": "https://github.com/samclement/swhurl-website.git"
   },
   "dependencies": {
-    "acorn": "^6.1.0",
     "@babel/core": "7.3.3",
     "express": "4.16.4",
     "express-prom-bundle": "4.3.0",
     "ignore-loader": "0.1.2",
-    "next": "8.0.1",
+    "next": "7.0.3",
     "react": "16.8.2",
     "react-dom": "16.8.2",
     "styled-components": "4.1.3",
