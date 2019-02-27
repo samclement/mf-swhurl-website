@@ -13,7 +13,8 @@ describe('main navigation', () => {
 function navigate(header) {
   browser.url('/')
   const elem = $(`a*=${header}`)
+  const h1 = $(`h1*=${header}`)
   elem.click()
-  const h1 = $('h1')
+  h1.waitForExist()
   h1.getText().should.be.equal(header)
 }

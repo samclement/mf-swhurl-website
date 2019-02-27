@@ -1,5 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`With Snapshot Testing About page gets correct data 1`] = `
+Object {
+  "completed": false,
+  "id": 1,
+  "title": "delectus aut autem",
+  "userId": 1,
+}
+`;
+
 exports[`With Snapshot Testing About page shows "About" H1 1`] = `
 .c1 {
   color: deeppink;
@@ -44,5 +53,6 @@ exports[`With Snapshot Testing About page shows "About" H1 1`] = `
   >
     About
   </h1>
+  <p />
 </div>
 `;

@@ -10,3 +10,4 @@ test-output/
 !test-output/lighthouse/.gitkeep
 yarn-error.log
 lighthouse.report.*
+junit.xml

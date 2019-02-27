@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getApiUrl Should get hostname API URL 1`] = `"//localhost:"`;
+
+exports[`getApiUrl Should get local API URL 1`] = `"http://localhost:3000"`;
+
+exports[`getApiUrl Should get local API URL by default 1`] = `"http://localhost:3000"`;
+
+exports[`getMessage Should get remote message 1`] = `
+Object {
+  "completed": false,
+  "id": 1,
+  "title": "delectus aut autem",
+  "userId": 1,
+}
+`;

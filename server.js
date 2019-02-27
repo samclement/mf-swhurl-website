@@ -19,6 +19,10 @@ app.prepare().then(() => {
       .pipe(res)
   })
 
+  server.get('/api/demo', (req, res) => {
+    res.send({ message: 'Remote message.' })
+  })
+
   server.get('*', (req, res) => {
     handle(req, res)
   })
