@@ -12,9 +12,9 @@ services:
       dockerfile: Dockerfile.test
     environment:
       - DOCKER_COMPOSE=true
+      - MC_HOSTS_swhurl=https://${MINIO_ACCESS_KEY}:${MINIO_SECRET_KEY}@minio.swhurl.com
+      - CIRCLE_BUILD_NUM=${CIRCLE_BUILD_NUM}
     depends_on:
       - website
-    volumes:
-      - ./test-output:/www/test-output
 
 
