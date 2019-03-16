@@ -24,7 +24,7 @@
     "express": "4.16.4",
     "express-prom-bundle": "5.1.0",
     "ignore-loader": "0.1.2",
-    "next": "7.0.3",
+    "next": "8.0.3",
     "node-fetch": "^2.3.0",
     "react": "16.8.3",
     "react-dom": "16.8.3",
