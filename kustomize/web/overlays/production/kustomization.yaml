@@ -1,0 +1,12 @@
+bases:
+- ../../base
+namePrefix: production-
+commonLabels:
+  app: production-swhurl-website
+patchesJson6902:
+- target:
+    group: extensions
+    version: v1beta1
+    kind: Ingress
+    name: swhurl-website-ingress
+  path: ingress-patch.json

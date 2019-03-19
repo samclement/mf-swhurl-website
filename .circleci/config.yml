@@ -40,7 +40,7 @@ jobs:
           echo "sha1: '$CIRCLE_SHA1'"
           echo "tag: '$CIRCLE_TAG'"
           echo "deploy: swhurl/website:$CIRCLE_SHA1"
-          ssh $SSH_USER@$SSH_HOST "kubectl get deployment swhurl-website-staging -o yaml | sed -r 's/website:(.*)/website:$CIRCLE_SHA1/g' | kubectl apply -f -"
+          ssh $SSH_USER@$SSH_HOST "kubectl get deployment staging-swhurl-website -o yaml | sed -r 's/website:(.*)/website:$CIRCLE_SHA1/g' | kubectl apply -f -"
   deploy_prod:
     machine: true
     steps:
@@ -56,13 +56,13 @@ jobs:
           docker tag swhurl/website:$CIRCLE_SHA1 swhurl/website:${CIRCLE_TAG##v}
           docker push swhurl/website:${CIRCLE_TAG##v}
           echo "deploy swhurl/website:${CIRCLE_TAG##v}"
-          ssh $SSH_USER@$SSH_HOST "kubectl get deployment swhurl-website -o yaml | sed -r 's/website:(.*)/website:${CIRCLE_TAG##v}/g' | kubectl apply -f -"
+          ssh $SSH_USER@$SSH_HOST "kubectl get deployment production-swhurl-website -o yaml | sed -r 's/website:(.*)/website:${CIRCLE_TAG##v}/g' | kubectl apply -f -"
   release_tag:
     machine: true
     steps:
       - run: |
           echo "deploy swhurl/website:${CIRCLE_TAG}"
-          ssh $SSH_USER@$SSH_HOST "kubectl get deployment swhurl-website -o yaml | sed -r 's/website:(.*)/website:${CIRCLE_TAG}/g' | kubectl apply -f -"
+          ssh $SSH_USER@$SSH_HOST "kubectl get deployment production-swhurl-website -o yaml | sed -r 's/website:(.*)/website:${CIRCLE_TAG}/g' | kubectl apply -f -"
         
 workflows:
   version: 2

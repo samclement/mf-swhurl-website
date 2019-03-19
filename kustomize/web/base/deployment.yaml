@@ -1,0 +1,27 @@
+apiVersion: apps/v1 
+kind: Deployment
+metadata:
+  name: swhurl-website
+spec:
+  selector:
+    matchLabels:
+      app: staging-swhurl-website
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: swhurl-website
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "3000"
+    spec:
+      containers:
+      - name: swhurl-website
+        image: swhurl/website:1.13.0
+        resources:
+          requests:
+            cpu: 100m
+            memory: 250Mi
+        ports:
+        - containerPort: 3000
+

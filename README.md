@@ -31,8 +31,6 @@ Demo Nextjs application that includes: styled-compoenents, open-tracing, prometh
 
 - `docker build -t swhurl/website .`
 - `docker run -d --init --restart always --net swhurl --name website swhurl/website`
-<<<<<<< Updated upstream
-=======
 
 ### k8s
 
@@ -41,4 +39,3 @@ Install `kustomize` - https://github.com/kubernetes-sigs/kustomize
 - `kustomize build kustomize/web/overlays/staging | kubectl apply -f -``
 - `kustomize build kustomize/web/overlays/production | kubectl apply -f -``
 - `kustomize build kustomize/oauth2 | kubectl apply -f -``
->>>>>>> Stashed changes

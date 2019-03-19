@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: swhurl-website
+spec:
+  ports:
+  - port: 80
+    targetPort: 3000
+

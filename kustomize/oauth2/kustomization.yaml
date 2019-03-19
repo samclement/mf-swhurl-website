@@ -1,0 +1,8 @@
+namePrefix: staging-swhurl-website-
+commonLabels:
+  app: staging-swhurl-website-oauth2-proxy
+resources:
+- secret.yaml
+- deployment.yaml
+- service.yaml
+- ingress.yaml

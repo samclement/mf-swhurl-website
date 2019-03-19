@@ -1,0 +1,21 @@
+[
+  { "op": "add", "path": "/metadata/annotations/nginx.ingress.kubernetes.io~1auth-url", "value": "https://$host/oauth2/auth"},
+  { "op": "add", "path": "/metadata/annotations/nginx.ingress.kubernetes.io~1auth-signin", "value": "https://$host/oauth2/start?rd=$request_uri"},
+  { "op": "replace", "path": "/spec/tls/0/hosts/0", "value": "staging.swhurl.com" },
+  { "op": "replace", "path": "/spec/tls/0/secretName", "value": "staging-swhurl-com-tls" },
+  {
+    "op": "replace",
+    "path": "/spec/rules/0",
+    "value": {
+      "host": "staging.swhurl.com",
+      "http": {
+        "paths": [
+          {
+            "path": "/",
+            "backend": { "serviceName": "staging-swhurl-website", "servicePort": 80 }
+          }
+        ]
+      }
+    }
+  }
+]

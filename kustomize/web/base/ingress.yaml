@@ -1,0 +1,21 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: swhurl-website-ingress
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    kubernetes.io/tls-acme: "true"
+spec:
+  tls:
+  - hosts:
+    - swhurl.com
+    secretName: swhurl-com-tls
+  rules:
+  - host: swhurl.com
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: swhurl-website
+          servicePort: 80
+

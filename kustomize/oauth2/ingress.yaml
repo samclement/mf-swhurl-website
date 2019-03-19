@@ -1,0 +1,18 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: oauth2-proxy
+spec:
+  rules:
+  - host: staging.swhurl.com
+    http:
+      paths:
+      - backend:
+          serviceName: staging-swhurl-website-oauth2-proxy
+          servicePort: 4180
+        path: /oauth2
+  tls:
+  - hosts:
+    - staging.swhurl.com
+    secretName: staging-swhurl-com-tls
+

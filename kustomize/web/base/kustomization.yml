@@ -1,0 +1,6 @@
+commonLabels:
+  app: swhurl-website
+resources:
+- deployment.yaml
+- service.yaml
+- ingress.yaml

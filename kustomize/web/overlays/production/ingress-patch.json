@@ -1,0 +1,18 @@
+[
+  { "op": "add", "path": "/spec/tls/0/hosts/1", "value": "www.swhurl.com" },
+  {
+    "op": "add",
+    "path": "/spec/rules/1",
+    "value": {
+      "host": "www.swhurl.com",
+      "http": {
+        "paths": [
+          {
+            "path": "/",
+            "backend": { "serviceName": "production-swhurl-website", "servicePort": 80 }
+          }
+        ]
+      }
+    }
+  }
+]
