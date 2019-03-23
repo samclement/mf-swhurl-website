@@ -1,6 +1,6 @@
-namePrefix: staging-swhurl-website-
+namePrefix: staging-mf-swhurl-website-
 commonLabels:
-  app: staging-swhurl-website-oauth2-proxy
+  app: staging-mf-website-oauth2-proxy
 resources:
 - secret.yaml
 - deployment.yaml

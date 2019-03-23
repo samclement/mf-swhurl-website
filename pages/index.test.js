@@ -7,7 +7,7 @@ import 'jest-styled-components'
 import Index from './index.js'
 
 describe('With Snapshot Testing', () => {
-  it('Index page shows "swhurl.com" H1', () => {
+  it('Index page shows "mf.swhurl.com" H1', () => {
     const wrapper = render(<Index />)
     expect(wrapper).toMatchSnapshot()
   })

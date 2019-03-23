@@ -1,5 +1,5 @@
 commonLabels:
-  app: swhurl-website
+  app: mf-swhurl-website
 resources:
 - deployment.yaml
 - service.yaml

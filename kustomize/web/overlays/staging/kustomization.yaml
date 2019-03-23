@@ -2,11 +2,11 @@ bases:
 - ../../base
 namePrefix: staging-
 commonLabels:
-  app: staging-swhurl-website
+  app: staging-mf-swhurl-website
 patchesJson6902:
 - target:
     group: extensions
     version: v1beta1
     kind: Ingress
-    name: swhurl-website-ingress
+    name: mf-swhurl-website-ingress
   path: ingress-patch.json

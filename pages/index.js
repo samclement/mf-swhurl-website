@@ -7,10 +7,10 @@ export default () => {
   return (
     <div>
       <Head>
-        <title>swhurl.com</title>
+        <title>mf.swhurl.com</title>
       </Head>
       <Nav />
-      <H1>swhurl.com</H1>
+      <H1>mf.swhurl.com</H1>
       <p>Example next.js app, including:</p>
       <ul>
         <li>styled components</li>

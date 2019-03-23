@@ -2,7 +2,7 @@ version: '3'
 
 services:
   website:
-    image: "swhurl/website:${CIRCLE_SHA1}"
+    image: "swhurl/mf-website:${CIRCLE_SHA1}"
     build:
       context: .
       dockerfile: Dockerfile

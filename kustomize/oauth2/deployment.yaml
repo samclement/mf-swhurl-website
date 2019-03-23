@@ -18,22 +18,22 @@ spec:
         - name: OAUTH2_PROXY_CLIENT_ID
           valueFrom:
             secretKeyRef:
-              name: staging-swhurl-website-oauth2-proxy
+              name: staging-mf-swhurl-website-oauth2-proxy
               key: github_client_id
         - name: OAUTH2_PROXY_CLIENT_SECRET
           valueFrom:
             secretKeyRef:
-              name: staging-swhurl-website-oauth2-proxy
+              name: staging-mf-swhurl-website-oauth2-proxy
               key: github_client_secret
         # docker run -ti --rm python:3-alpine python -c 'import secrets,base64; print(base64.b64encode(base64.b64encode(secrets.token_bytes(16))));'
         - name: OAUTH2_PROXY_COOKIE_SECRET
           valueFrom:
             secretKeyRef:
-              name: staging-swhurl-website-oauth2-proxy
+              name: staging-mf-swhurl-website-oauth2-proxy
               key: cookie_secret
         image: docker.io/colemickens/oauth2_proxy:latest
         imagePullPolicy: Always
-        name: swhurl-staging-oauth2-proxy
+        name: mf-swhurl-staging-oauth2-proxy
         ports:
         - containerPort: 4180
           protocol: TCP

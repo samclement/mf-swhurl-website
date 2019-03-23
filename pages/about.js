@@ -9,7 +9,7 @@ function About (props) {
   return (
     <div>
       <Head>
-        <title>swhurl.com | About</title>
+        <title>mf.swhurl.com | About</title>
       </Head>
       <Nav />
       <H1>About</H1>

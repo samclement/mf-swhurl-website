@@ -24,7 +24,7 @@ export default class MyDocument extends Document {
       <html lang="en">
         <Head>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta name="Description" content="swhurl.com website." />
+          <meta name="Description" content="mf.swhurl.com website." />
           <link rel="icon" type="images/x-icon" href="/static/favicon.ico" />
         </Head>
         <body>

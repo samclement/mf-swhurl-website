@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`With Snapshot Testing Index page shows "swhurl.com" H1 1`] = `
+exports[`With Snapshot Testing Index page shows "mf.swhurl.com" H1 1`] = `
 .c1 {
   color: deeppink;
 }
@@ -42,7 +42,7 @@ exports[`With Snapshot Testing Index page shows "swhurl.com" H1 1`] = `
   <h1
     class="c1"
   >
-    swhurl.com
+    mf.swhurl.com
   </h1>
   <p>
     Example next.js app, including:

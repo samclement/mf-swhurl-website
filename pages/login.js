@@ -7,7 +7,7 @@ export default () => {
   return (
     <div>
       <Head>
-        <title>swhurl.com | Login</title>
+        <title>mf.swhurl.com | Login</title>
       </Head>
       <Nav />
       <H1>Login</H1>
