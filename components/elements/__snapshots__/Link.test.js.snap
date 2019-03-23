@@ -2,7 +2,15 @@
 
 exports[`With Snapshot Testing Link shows "About" with href "/about" 1`] = `
 .c0 {
-  color: 'deeppink';
+  color: darkgray;
+}
+
+.c0:hover {
+  color: #F00;
+}
+
+.c0:visited {
+  color: darkgray;
 }
 
 <a

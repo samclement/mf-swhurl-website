@@ -2,7 +2,15 @@
 
 exports[`With Snapshot Testing Nav has 3 sections 1`] = `
 .c0 {
-  color: 'deeppink';
+  color: darkgray;
+}
+
+.c0:hover {
+  color: #F00;
+}
+
+.c0:visited {
+  color: darkgray;
 }
 
 <nav>

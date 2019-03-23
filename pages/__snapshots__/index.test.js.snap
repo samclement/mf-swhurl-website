@@ -2,11 +2,19 @@
 
 exports[`With Snapshot Testing Index page shows "mf.swhurl.com" H1 1`] = `
 .c1 {
-  color: deeppink;
+  color: black;
 }
 
 .c0 {
-  color: 'deeppink';
+  color: darkgray;
+}
+
+.c0:hover {
+  color: #F00;
+}
+
+.c0:visited {
+  color: darkgray;
 }
 
 <div>
