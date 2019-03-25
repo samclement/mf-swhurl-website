@@ -1,0 +1,274 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`With Snapshot Testing FilterBlock displays items 1`] = `
+.c3 {
+  color: black;
+  padding-right: 5px;
+}
+
+.c3:hover {
+  color: #F00;
+}
+
+.c3:visited {
+  color: black;
+}
+
+.c0 {
+  width: 150px;
+  padding: 10px;
+}
+
+.c1 {
+  padding: 0;
+  margin: 0;
+}
+
+.c2 {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+<div
+  class="c0"
+>
+  <h2>
+    Designer
+  </h2>
+  <ul
+    class="c1"
+  >
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensalyx"
+      >
+        1017 ALYX 9SM
+      </a>
+    </li>
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amens-2xu"
+      >
+        2XU
+      </a>
+    </li>
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensandwander"
+      >
+        And Wander
+      </a>
+    </li>
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensaztech-mountain"
+      >
+        Aztech Mountain
+      </a>
+    </li>
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensblackbarrett-by"
+      >
+        Blackbarrett by Neil Barrett
+      </a>
+    </li>
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amenscafe-du"
+      >
+        Café Du Cycliste
+      </a>
+    </li>
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amenscastore"
+      >
+        Castore
+      </a>
+    </li>
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensfalke"
+      >
+        Falke
+      </a>
+    </li>
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensfendi"
+      >
+        Fendi
+      </a>
+    </li>
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amenshelly-hansen"
+      >
+        Helly Hansen
+      </a>
+    </li>
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensiffley-road"
+      >
+        Iffley Road
+      </a>
+    </li>
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amenslndr"
+      >
+        LNDR
+      </a>
+    </li>
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensmammut"
+      >
+        Mammut Delta X
+      </a>
+    </li>
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensmoncler"
+      >
+        Moncler
+      </a>
+    </li>
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensmoncler-genius"
+      >
+        Moncler Genius
+      </a>
+    </li>
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensmoncler-grenoble"
+      >
+        Moncler Grenoble
+      </a>
+    </li>
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensnemen"
+      >
+        Nemen
+      </a>
+    </li>
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amenspeak-performance"
+      >
+        Peak Performance
+      </a>
+    </li>
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensperfect-moment"
+      >
+        Perfect Moment
+      </a>
+    </li>
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amenssalomon"
+      >
+        Salomon
+      </a>
+    </li>
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amenssatisfy"
+      >
+        Satisfy
+      </a>
+    </li>
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensthe-upside"
+      >
+        The Upside
+      </a>
+    </li>
+    <li
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amenstilak"
+      >
+        Tilak
+      </a>
+    </li>
+  </ul>
+</div>
+`;

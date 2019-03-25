@@ -1,6 +1,7 @@
 import React from 'react'
 import ProductListItem from '../components/blocks/ProductListItem'
 import Nav from '../components/blocks/Nav'
+import FilterBlock from '../components/blocks/FilterBlock'
 import Head from 'next/head'
 import { mens, womens } from '../navigation.js'
 import { getSearchResults } from '../services'
@@ -16,8 +17,19 @@ const StyledH1 = styled.h1`
   margin-bottom: 0px;
 `
 
+const SearchContainer = styled.div`
+  align: left;
+  display: flex;
+  align-items: flex-start;
+`
+
+const FilterBlockContainer = styled.div`
+  display: flex;
+  flex-flow: column nowrap;
+`
+
 function Plp (props) {
-  const { gender, results } = props
+  const { gender, results, categoryFacets, facets } = props
   return (
     <div>
       <Head>
@@ -26,11 +38,19 @@ function Plp (props) {
       <Nav items={mens} gender="mens" />
       <Nav items={womens} gender="womens" />
       <StyledH1>{gender}</StyledH1>
-      <ProductsList>
-        { results.map((item, i) => {
-          return <ProductListItem key={i} item={item} />
-        })}
-      </ProductsList>
+      <SearchContainer>
+        <FilterBlockContainer>
+          <FilterBlock title="Category" filters={categoryFacets} />
+          { facets.map((f, i) => {
+            return <FilterBlock key={i} title={f.name} filters={f.values} />
+          })}
+        </FilterBlockContainer>
+        <ProductsList>
+          { results.map((item, i) => {
+            return <ProductListItem key={i} item={item} />
+          })}
+        </ProductsList>
+      </SearchContainer>
     </div>
   )
 }
@@ -38,9 +58,9 @@ function Plp (props) {
 Plp.getInitialProps = async ({ req, query }) => {
   const q = req && req.query ? req.query : query
   const res = await getSearchResults(q, !!req)
-  const { results } = res.data
+  const { results, categoryFacets, facets } = res.data
   const gender = q.url.match(/\/mens/) ? 'mens' : 'womens'
-  return { results, gender }
+  return { results, gender, categoryFacets, facets }
 }
 
 export default Plp

@@ -6,11 +6,15 @@ import 'jest-styled-components'
 import Plp from './plp.js'
 import { parseSearchResults } from '../lib/plp.js'
 const data = require('../test-data/activewear.json')
+const parsed = parseSearchResults(data)
+const results = parsed.results
+const facets = parsed.facets
+const categoryFacets = parsed.categoryFacets
 
 describe('With Snapshot Testing', () => {
   it('Plp page shows "mf.swhurl.com" H1', () => {
-    const r = { gender: 'mens', results: parseSearchResults(data).results }
-    const wrapper = render(<Plp results={r.results} gender={r.gender} />)
+    const r = { gender: 'mens', results, facets, categoryFacets }
+    const wrapper = render(<Plp results={r.results} gender={r.gender} facets={facets} categoryFacets={categoryFacets} />)
     expect(wrapper).toMatchSnapshot()
   })
   it('Plp getInitialProps', async () => {
