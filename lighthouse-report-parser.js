@@ -4,10 +4,10 @@ const s = {
   ...report.categories
 }
 const thresholds = {
-  performance: 90,
-  accessibility: 100,
-  seo: 100,
-  'best-practices': 100
+  performance: 80,
+  accessibility: 80,
+  seo: 80,
+  'best-practices': 80
 }
 let isPassing = true
 
