@@ -3,13 +3,13 @@ import Link from 'next/link'
 import styled from 'styled-components'
 
 const StyledLink = styled.a`
-  color: darkgray;
+  color: black;
   padding-right: 5px;
   &:hover {
     color: #F00;
   }
   &:visited {
-    color: darkgray;
+    color: black;
   }
 `
 

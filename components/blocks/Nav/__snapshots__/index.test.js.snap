@@ -2,7 +2,7 @@
 
 exports[`With Snapshot Testing Nav displays items 1`] = `
 .c2 {
-  color: darkgray;
+  color: black;
   padding-right: 5px;
 }
 
@@ -11,7 +11,7 @@ exports[`With Snapshot Testing Nav displays items 1`] = `
 }
 
 .c2:visited {
-  color: darkgray;
+  color: black;
 }
 
 .c1 {
