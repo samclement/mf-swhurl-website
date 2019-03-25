@@ -1,5 +1,6 @@
 const fs = require('fs')
 const express = require('express')
+const compression = require('compression')
 const next = require('next')
 const axios = require('axios')
 const parser = require('./lib/plp.js')
@@ -16,6 +17,7 @@ const metricsMiddleware = promBundle({ includeMethod: true, includePath: true })
 
 app.prepare().then(() => {
   const server = express()
+  server.use(compression())
   server.use(metricsMiddleware)
 
   server.get('/version', (req, res) => {
