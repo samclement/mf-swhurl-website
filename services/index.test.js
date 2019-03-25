@@ -1,4 +1,7 @@
-import { getApiUrl, getMessage } from './'
+import { getApiUrl, getNav, getSearchResults } from './'
+import axios from 'axios'
+const data = require('../test-data/activewear.json')
+jest.mock('axios')
 
 describe('getApiUrl', () => {
   it('Should get local API URL', () => {
@@ -12,8 +15,20 @@ describe('getApiUrl', () => {
   })
 })
 
-describe('getMessage', () => {
-  it('Should get remote message', async () => {
-    expect(await getMessage()).toMatchSnapshot()
+describe('API calls', () => {
+  beforeEach(() => {
+    axios.mockReset()
+  })
+  it('Should get nav', async () => {
+    axios.mockReturnValue(Promise.resolve(data))
+    const res = await getNav()
+    expect(axios).toHaveBeenCalledTimes(1)
+    expect(res).toMatchSnapshot()
+  })
+  it('Should get search results', async () => {
+    axios.mockReturnValue(Promise.resolve(data))
+    const res = await getSearchResults('', true)
+    expect(axios).toHaveBeenCalledTimes(1)
+    expect(res).toMatchSnapshot()
   })
 })

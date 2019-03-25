@@ -1,54 +1,120 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`With Snapshot Testing Index page shows "mf.swhurl.com" H1 1`] = `
-.c1 {
+.c3 {
   color: black;
 }
 
-.c0 {
-  color: darkgray;
+.c2 {
+  color: black;
+  padding-right: 5px;
 }
 
-.c0:hover {
+.c2:hover {
   color: #F00;
 }
 
-.c0:visited {
-  color: darkgray;
+.c2:visited {
+  color: black;
+}
+
+.c1 {
+  font-weight: bold;
+  text-transform: capitalize;
+  padding-right: 10px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
 }
 
 <div>
-  <nav>
-    <a
-      class="c0"
-      href="/"
+  <nav
+    class="c0"
+  >
+    <div
+      class="c1"
     >
-      Home
+      mens
+    </div>
+    <a
+      class="c2"
+      href="/mens/shop/accessories"
+    >
+      Accessories
     </a>
-     | 
     <a
-      class="c0"
-      href="/about"
+      class="c2"
+      href="/mens/shop/shoes"
     >
-      About
+      Shoes
     </a>
-     | 
     <a
-      class="c0"
-      href="/contact"
+      class="c2"
+      href="/mens/shop/clothing"
     >
-      Contact
+      Clothing
     </a>
-     | 
     <a
-      class="c0"
-      href="/login"
+      class="c2"
+      href="/mens/shop/bags"
     >
-      Login
+      Bags
+    </a>
+    <a
+      class="c2"
+      href="/mens/shop/homeware"
+    >
+      Homeware
+    </a>
+  </nav>
+  <nav
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      womens
+    </div>
+    <a
+      class="c2"
+      href="/womens/shop/accessories"
+    >
+      Accessories
+    </a>
+    <a
+      class="c2"
+      href="/womens/shop/bags"
+    >
+      Bags
+    </a>
+    <a
+      class="c2"
+      href="/womens/shop/clothing"
+    >
+      Clothing
+    </a>
+    <a
+      class="c2"
+      href="/womens/shop/shoes"
+    >
+      Shoes
+    </a>
+    <a
+      class="c2"
+      href="/womens/shop/homeware"
+    >
+      Homeware
     </a>
   </nav>
   <h1
-    class="c1"
+    class="c3"
   >
     mf.swhurl.com
   </h1>

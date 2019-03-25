@@ -1,11 +1,14 @@
-import fetch from 'node-fetch'
+import axios from 'axios'
 
 export const getApiUrl = (isServer = true) => {
   return isServer ? 'http://localhost:3000' : `//${window.location.hostname}:${window.location.port}`
 }
 
-export const getMessage = async function (req) {
+export const getNav = async function (req) {
   const isServer = !!req
-  const res = await fetch(`${getApiUrl(isServer)}/api/demo`)
-  return res.json()
+  return axios(`${getApiUrl(isServer)}/api/navigation/mens`)
+}
+
+export const getSearchResults = async function (q, isServer) {
+  return axios(`${getApiUrl(isServer)}/api/catalogue${q.url}`)
 }
