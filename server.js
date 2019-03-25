@@ -4,9 +4,7 @@ const next = require('next')
 const axios = require('axios')
 const parser = require('./lib/plp.js')
 
-let cache = {}
-const get = (k) => cache[encodeURIComponent(k)] || null
-const set = (k, v) => { cache[encodeURIComponent(k)] = v }
+const cache = require('memory-cache')
 const BASE_URL = `https://www.matchesfashion.com`
 const headers = { 'User-Agent': 'API' }
 
@@ -47,25 +45,16 @@ app.prepare().then(() => {
     const delimiter = cleanPath.includes('?') ? '&' : '?'
     const formatPath = `${cleanPath}${delimiter}format=json`
     const url = `${BASE_URL}/${formatPath}`
-    const cachedSearchResults = get(url)
+    const cachedSearchResults = cache.get(encodeURIComponent(url))
     if (cachedSearchResults) {
       res.send(cachedSearchResults)
       return
     }
     const opts = { url, headers }
-    // request(opts, (err, response, body) => {
-    //   if (err) {
-    //     console.log(err)
-    //   }
-    //   const json = JSON.parse(body)
-    //   const data = parser.parseSearchResults(json)
-    //   set(url, data)
-    //   res.send(data)
-    // })
     axios(opts)
       .then((data) => {
         const parsed = parser.parseSearchResults(data.data)
-        set(url, parsed)
+        cache.put(encodeURIComponent(url), parsed, 1000 * 60 * 10)
         res.send(parsed)
       }).catch((err) => console.log(err))
   })
