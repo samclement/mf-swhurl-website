@@ -2,6 +2,8 @@
   "extends": "lighthouse:default",
   "settings": {
     "skipAudits": [
+      "installable-manifest",
+      "offline-start-url",
       "uses-text-compression",
       "works-offline",
       "load-fast-enough-for-pwa",
