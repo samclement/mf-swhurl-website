@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`With Snapshot Testing Product list item 1`] = `
+.c0 {
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+}
+
+<div
+  class="c0"
+>
+  <img
+    src="//assetsprx.matchesfashion.com/img/product/1_1_small.jpg"
+  />
+  test
+</div>
+`;

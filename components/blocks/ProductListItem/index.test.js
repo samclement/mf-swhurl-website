@@ -4,11 +4,12 @@ import React from 'react'
 import { render } from 'enzyme'
 import 'jest-styled-components'
 
-import Contact from './contact.js'
+import ProductListItem from './index.js'
 
 describe('With Snapshot Testing', () => {
-  it('Contact page shows "Contact" H1', () => {
-    const wrapper = render(<Contact />)
+  it('Product list item', () => {
+    const item = { code: 1, name: 'test' }
+    const wrapper = render(<ProductListItem item={item} />)
     expect(wrapper).toMatchSnapshot()
   })
 })

@@ -3,6 +3,7 @@
 exports[`With Snapshot Testing Link shows "About" with href "/about" 1`] = `
 .c0 {
   color: darkgray;
+  padding-right: 5px;
 }
 
 .c0:hover {

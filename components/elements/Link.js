@@ -4,6 +4,7 @@ import styled from 'styled-components'
 
 const StyledLink = styled.a`
   color: darkgray;
+  padding-right: 5px;
   &:hover {
     color: #F00;
   }
@@ -12,8 +13,8 @@ const StyledLink = styled.a`
   }
 `
 
-export default ({ href, label }) => (
-  <Link prefetch href={href} passHref>
+export default ({ as, href, label }) => (
+  <Link prefetch as={as} href={href} passHref>
     <StyledLink>{label}</StyledLink>
   </Link>
 )
