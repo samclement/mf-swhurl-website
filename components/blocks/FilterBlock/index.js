@@ -1,9 +1,9 @@
 import React from 'react'
-import Link from '../../elements/Link'
+import Link from 'next/link'
 import styled from 'styled-components'
 
 const StyledBlock = styled.div`
-  width: 150px;
+  width: 170px;
   padding: 10px;
 `
 
@@ -18,6 +18,12 @@ const StyledLi = styled.li`
   margin-left: 0;
 `
 
+const StyledLink = styled.a`
+  color: black;
+  font-size: 11px;
+  text-decoration: none;
+`
+
 export default ({ title, filters }) => {
   return (
     <StyledBlock>
@@ -27,7 +33,9 @@ export default ({ title, filters }) => {
           const url = `/plp?url=${f.url}`
           return (
             <StyledLi key={i}>
-              <Link key={i} href={url} as={f.url} label={f.name} />
+              <Link key={i} href={url} as={f.url}>
+                <StyledLink href="#"><input type="checkbox" readOnly checked={f.selected} /> {f.name}</StyledLink>
+              </Link>
             </StyledLi>
           )
         })}

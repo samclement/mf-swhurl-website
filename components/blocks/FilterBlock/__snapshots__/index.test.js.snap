@@ -1,21 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`With Snapshot Testing FilterBlock displays items 1`] = `
-.c3 {
-  color: black;
-  padding-right: 5px;
-}
-
-.c3:hover {
-  color: #F00;
-}
-
-.c3:visited {
-  color: black;
-}
-
 .c0 {
-  width: 150px;
+  width: 170px;
   padding: 10px;
 }
 
@@ -28,6 +15,13 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
   list-style: none;
   padding-left: 0;
   margin-left: 0;
+}
+
+.c3 {
+  color: black;
+  font-size: 11px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 <div
@@ -44,9 +38,13 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
     >
       <a
         class="c3"
-        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensalyx"
+        href="#"
       >
-        1017 ALYX 9SM
+        <input
+          readonly=""
+          type="checkbox"
+        />
+         1017 ALYX 9SM
       </a>
     </li>
     <li
@@ -54,9 +52,13 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
     >
       <a
         class="c3"
-        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amens-2xu"
+        href="#"
       >
-        2XU
+        <input
+          readonly=""
+          type="checkbox"
+        />
+         2XU
       </a>
     </li>
     <li
@@ -64,9 +66,13 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
     >
       <a
         class="c3"
-        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensandwander"
+        href="#"
       >
-        And Wander
+        <input
+          readonly=""
+          type="checkbox"
+        />
+         And Wander
       </a>
     </li>
     <li
@@ -74,9 +80,13 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
     >
       <a
         class="c3"
-        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensaztech-mountain"
+        href="#"
       >
-        Aztech Mountain
+        <input
+          readonly=""
+          type="checkbox"
+        />
+         Aztech Mountain
       </a>
     </li>
     <li
@@ -84,9 +94,13 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
     >
       <a
         class="c3"
-        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensblackbarrett-by"
+        href="#"
       >
-        Blackbarrett by Neil Barrett
+        <input
+          readonly=""
+          type="checkbox"
+        />
+         Blackbarrett by Neil Barrett
       </a>
     </li>
     <li
@@ -94,9 +108,13 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
     >
       <a
         class="c3"
-        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amenscafe-du"
+        href="#"
       >
-        Café Du Cycliste
+        <input
+          readonly=""
+          type="checkbox"
+        />
+         Café Du Cycliste
       </a>
     </li>
     <li
@@ -104,9 +122,13 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
     >
       <a
         class="c3"
-        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amenscastore"
+        href="#"
       >
-        Castore
+        <input
+          readonly=""
+          type="checkbox"
+        />
+         Castore
       </a>
     </li>
     <li
@@ -114,9 +136,13 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
     >
       <a
         class="c3"
-        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensfalke"
+        href="#"
       >
-        Falke
+        <input
+          readonly=""
+          type="checkbox"
+        />
+         Falke
       </a>
     </li>
     <li
@@ -124,9 +150,13 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
     >
       <a
         class="c3"
-        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensfendi"
+        href="#"
       >
-        Fendi
+        <input
+          readonly=""
+          type="checkbox"
+        />
+         Fendi
       </a>
     </li>
     <li
@@ -134,9 +164,13 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
     >
       <a
         class="c3"
-        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amenshelly-hansen"
+        href="#"
       >
-        Helly Hansen
+        <input
+          readonly=""
+          type="checkbox"
+        />
+         Helly Hansen
       </a>
     </li>
     <li
@@ -144,9 +178,13 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
     >
       <a
         class="c3"
-        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensiffley-road"
+        href="#"
       >
-        Iffley Road
+        <input
+          readonly=""
+          type="checkbox"
+        />
+         Iffley Road
       </a>
     </li>
     <li
@@ -154,9 +192,13 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
     >
       <a
         class="c3"
-        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amenslndr"
+        href="#"
       >
-        LNDR
+        <input
+          readonly=""
+          type="checkbox"
+        />
+         LNDR
       </a>
     </li>
     <li
@@ -164,9 +206,13 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
     >
       <a
         class="c3"
-        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensmammut"
+        href="#"
       >
-        Mammut Delta X
+        <input
+          readonly=""
+          type="checkbox"
+        />
+         Mammut Delta X
       </a>
     </li>
     <li
@@ -174,9 +220,13 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
     >
       <a
         class="c3"
-        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensmoncler"
+        href="#"
       >
-        Moncler
+        <input
+          readonly=""
+          type="checkbox"
+        />
+         Moncler
       </a>
     </li>
     <li
@@ -184,9 +234,13 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
     >
       <a
         class="c3"
-        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensmoncler-genius"
+        href="#"
       >
-        Moncler Genius
+        <input
+          readonly=""
+          type="checkbox"
+        />
+         Moncler Genius
       </a>
     </li>
     <li
@@ -194,9 +248,13 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
     >
       <a
         class="c3"
-        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensmoncler-grenoble"
+        href="#"
       >
-        Moncler Grenoble
+        <input
+          readonly=""
+          type="checkbox"
+        />
+         Moncler Grenoble
       </a>
     </li>
     <li
@@ -204,9 +262,13 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
     >
       <a
         class="c3"
-        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensnemen"
+        href="#"
       >
-        Nemen
+        <input
+          readonly=""
+          type="checkbox"
+        />
+         Nemen
       </a>
     </li>
     <li
@@ -214,9 +276,13 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
     >
       <a
         class="c3"
-        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amenspeak-performance"
+        href="#"
       >
-        Peak Performance
+        <input
+          readonly=""
+          type="checkbox"
+        />
+         Peak Performance
       </a>
     </li>
     <li
@@ -224,9 +290,13 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
     >
       <a
         class="c3"
-        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensperfect-moment"
+        href="#"
       >
-        Perfect Moment
+        <input
+          readonly=""
+          type="checkbox"
+        />
+         Perfect Moment
       </a>
     </li>
     <li
@@ -234,9 +304,13 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
     >
       <a
         class="c3"
-        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amenssalomon"
+        href="#"
       >
-        Salomon
+        <input
+          readonly=""
+          type="checkbox"
+        />
+         Salomon
       </a>
     </li>
     <li
@@ -244,9 +318,13 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
     >
       <a
         class="c3"
-        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amenssatisfy"
+        href="#"
       >
-        Satisfy
+        <input
+          readonly=""
+          type="checkbox"
+        />
+         Satisfy
       </a>
     </li>
     <li
@@ -254,9 +332,13 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
     >
       <a
         class="c3"
-        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensthe-upside"
+        href="#"
       >
-        The Upside
+        <input
+          readonly=""
+          type="checkbox"
+        />
+         The Upside
       </a>
     </li>
     <li
@@ -264,9 +346,13 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
     >
       <a
         class="c3"
-        href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amenstilak"
+        href="#"
       >
-        Tilak
+        <input
+          readonly=""
+          type="checkbox"
+        />
+         Tilak
       </a>
     </li>
   </ul>
