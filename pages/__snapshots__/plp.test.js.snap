@@ -97,6 +97,8 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
 }
 
 .c3 {
+  width: 100%;
+  text-align: center;
   text-transform: capitalize;
   margin-bottom: 0px;
 }

@@ -13,6 +13,8 @@ const ProductsList = styled.div`
 `
 
 const StyledH1 = styled.h1`
+  width: 100%;
+  text-align: center;
   text-transform: capitalize;
   margin-bottom: 0px;
 `
