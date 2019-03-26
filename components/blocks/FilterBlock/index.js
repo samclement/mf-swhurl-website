@@ -33,7 +33,7 @@ export default ({ title, filters }) => {
           const url = `/plp?url=${f.url}`
           return (
             <StyledLi key={i}>
-              <Link key={i} href={url} as={f.url}>
+              <Link prefetch key={i} href={url} as={f.url}>
                 <StyledLink href="#"><input type="checkbox" readOnly checked={f.selected} /> {f.name}</StyledLink>
               </Link>
             </StyledLi>

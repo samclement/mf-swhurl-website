@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from '../../elements/Link'
+import NavLink from '../../elements/NavLink'
 import styled from 'styled-components'
 
 const StyledTitle = styled.div`
@@ -19,7 +19,7 @@ export default ({ items, gender }) => {
       <StyledTitle>{gender}</StyledTitle>
       {items.map((item, i) => {
         const url = `/plp?url=${item.url}`
-        return <Link key={i} href={url} as={item.url} label={item.name} />
+        return <NavLink key={i} href={url} as={item.url} label={item.name} />
       })}
     </StyledNav>
   )

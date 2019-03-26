@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`With Snapshot Testing Link shows "About" with href "/about" 1`] = `
+exports[`With Snapshot Testing NavLink shows "About" with href "/about" 1`] = `
 .c0 {
   color: black;
   padding-right: 5px;
