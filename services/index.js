@@ -12,3 +12,7 @@ export const getNav = async function (req) {
 export const getSearchResults = async function (q, isServer) {
   return axios(`${getApiUrl(isServer)}/api/catalogue${q.url}`)
 }
+
+export const getProduct = async function (q, isServer) {
+  return axios(`${getApiUrl(isServer)}/api/product${q.url}`)
+}
