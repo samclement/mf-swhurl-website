@@ -11,6 +11,7 @@ exports[`With Snapshot Testing Product list item 1`] = `
   class="c0"
 >
   <img
+    alt="test"
     src="//assetsprx.matchesfashion.com/img/product/1_1_small.jpg"
   />
   test

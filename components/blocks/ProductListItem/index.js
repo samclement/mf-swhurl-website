@@ -11,7 +11,7 @@ export default ({ item }) => {
   const imageUrl = `//assetsprx.matchesfashion.com/img/product/${item.code}_1_small.jpg`
   return (
     <StyledProduct>
-      <img src={imageUrl} />
+      <img src={imageUrl} alt={item.name} />
       {item.name}
     </StyledProduct>
   )
