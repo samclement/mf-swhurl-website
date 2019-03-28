@@ -7,17 +7,6 @@ const StyledBlock = styled.div`
   padding: 10px;
 `
 
-const StyledList = styled.ul`
-  padding: 0;
-  margin: 0;
-`
-
-const StyledLi = styled.li`
-  list-style: none;
-  padding-left: 0;
-  margin-left: 0;
-`
-
 const StyledLink = styled.a`
   color: black;
   font-size: 11px;
@@ -37,28 +26,29 @@ const StyledInput = styled.input`
   position: relative;
   top: -1px;
   *overflow: hidden;
+  cursor: pointer;
+`
+
+const StyledLabel = styled.label`
+  cursor: pointer;
 `
 
 export default ({ title, filters }) => {
   return (
     <StyledBlock>
       <h2>{title}</h2>
-      <StyledList>
-        {filters.map((f, i) => {
-          const url = `/plp?url=${f.url}`
-          return (
-            <StyledLi key={i}>
-              <Link prefetch key={i} href={url} as={f.url}>
-                <StyledLink href="#">
-                  <label>
-                    <StyledInput type="checkbox" readOnly checked={f.selected} /> {f.name}
-                  </label>
-                </StyledLink>
-              </Link>
-            </StyledLi>
-          )
-        })}
-      </StyledList>
+      {filters.map((f, i) => {
+        const url = `/plp?url=${f.url}`
+        return (
+          <Link prefetch key={i} href={url} as={f.url}>
+            <StyledLink href="#">
+              <StyledLabel>
+                <StyledInput type="checkbox" readOnly checked={f.selected} /> {f.name}
+              </StyledLabel>
+            </StyledLink>
+          </Link>
+        )
+      })}
     </StyledBlock>
   )
 }

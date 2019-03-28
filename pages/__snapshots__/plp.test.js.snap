@@ -28,7 +28,7 @@ Object {
 `;
 
 exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
-.c12 {
+.c11 {
   width: 150px;
   padding: 10px;
   text-align: center;
@@ -69,17 +69,6 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
 }
 
 .c7 {
-  padding: 0;
-  margin: 0;
-}
-
-.c8 {
-  list-style: none;
-  padding-left: 0;
-  margin-left: 0;
-}
-
-.c9 {
   color: black;
   font-size: 11px;
   -webkit-text-decoration: none;
@@ -90,7 +79,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
   margin-bottom: 5px;
 }
 
-.c10 {
+.c9 {
   width: 13px;
   height: 13px;
   padding: 0;
@@ -99,9 +88,14 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
   position: relative;
   top: -1px;
   *overflow: hidden;
+  cursor: pointer;
 }
 
-.c11 {
+.c8 {
+  cursor: pointer;
+}
+
+.c10 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -236,236 +230,232 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         <h2>
           Category
         </h2>
-        <ul
+        <a
           class="c7"
+          href="#"
         >
-          <li
+          <label
             class="c8"
           >
-            <a
+            <input
+              checked=""
               class="c9"
-              href="#"
-            >
-              <input
-                checked=""
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Activewear
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Activewear
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Blazers
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Blazers
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Casual Shirts
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Casual Shirts
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Coats and Jackets
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Coats and Jackets
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Formal Shirts
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Formal Shirts
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Jeans
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Jeans
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Knitwear
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Knitwear
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Polo Shirts
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Polo Shirts
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Shorts
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Shorts
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Suits
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Suits
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Sweats
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Sweats
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Swimwear
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Swimwear
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               T-Shirts
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             T-Shirts
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Trousers
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Trousers
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Underwear and Nightwear
-            </a>
-          </li>
-        </ul>
+              readonly=""
+              type="checkbox"
+            />
+             Underwear and Nightwear
+          </label>
+        </a>
       </div>
       <div
         class="c6"
@@ -473,355 +463,351 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         <h2>
           Designer
         </h2>
-        <ul
+        <a
           class="c7"
+          href="#"
         >
-          <li
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               1017 ALYX 9SM
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             1017 ALYX 9SM
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               2XU
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             2XU
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               And Wander
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             And Wander
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Aztech Mountain
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Aztech Mountain
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Blackbarrett by Neil Barrett
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Blackbarrett by Neil Barrett
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Café Du Cycliste
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Café Du Cycliste
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Castore
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Castore
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Falke
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Falke
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Fendi
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Fendi
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Helly Hansen
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Helly Hansen
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Iffley Road
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Iffley Road
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               LNDR
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             LNDR
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Mammut Delta X
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Mammut Delta X
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Moncler
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Moncler
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Moncler Genius
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Moncler Genius
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Moncler Grenoble
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Moncler Grenoble
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Nemen
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Nemen
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Peak Performance
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Peak Performance
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Perfect Moment
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Perfect Moment
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Salomon
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Salomon
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Satisfy
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Satisfy
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               The Upside
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             The Upside
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Tilak
-            </a>
-          </li>
-        </ul>
+              readonly=""
+              type="checkbox"
+            />
+             Tilak
+          </label>
+        </a>
       </div>
       <div
         class="c6"
@@ -829,235 +815,231 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         <h2>
           Colour
         </h2>
-        <ul
+        <a
           class="c7"
+          href="#"
         >
-          <li
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Black
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Black
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Blue
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Blue
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Brown
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Brown
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Green
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Green
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Grey
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Grey
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Metallic
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Metallic
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Navy
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Navy
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Neutral
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Neutral
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Orange
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Orange
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Print
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Print
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Purple
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Purple
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Red
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Red
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Tan
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             Tan
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               White
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             White
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Yellow
-            </a>
-          </li>
-        </ul>
+              readonly=""
+              type="checkbox"
+            />
+             Yellow
+          </label>
+        </a>
       </div>
       <div
         class="c6"
@@ -1065,137 +1047,133 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         <h2>
           Clothes Size
         </h2>
-        <ul
+        <a
           class="c7"
+          href="#"
         >
-          <li
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               XXS
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             XXS
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               XS
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             XS
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               S
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             S
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               M
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             M
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               L
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             L
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               XL
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             XL
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               XXL
-            </a>
-          </li>
-          <li
+              readonly=""
+              type="checkbox"
+            />
+             XXL
+          </label>
+        </a>
+        <a
+          class="c7"
+          href="#"
+        >
+          <label
             class="c8"
           >
-            <a
+            <input
               class="c9"
-              href="#"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               3XL
-            </a>
-          </li>
-        </ul>
+              readonly=""
+              type="checkbox"
+            />
+             3XL
+          </label>
+        </a>
       </div>
     </div>
     <div
-      class="c11"
+      class="c10"
     >
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Hooded zip-up track jacket"
@@ -1204,7 +1182,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Hooded zip-up track jacket
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Agile technical ripstop jacket "
@@ -1213,7 +1191,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Agile technical ripstop jacket 
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Logo-print cotton-blend T-shirt"
@@ -1222,7 +1200,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Logo-print cotton-blend T-shirt
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Accelerate compression stretch leggings"
@@ -1231,7 +1209,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Accelerate compression stretch leggings
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Hooded technical jacket"
@@ -1240,7 +1218,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Hooded technical jacket
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Hybrid mesh T-shirt"
@@ -1249,7 +1227,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Hybrid mesh T-shirt
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Technical track pants"
@@ -1258,7 +1236,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Technical track pants
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Tech-Preme logo-patch technical sweatshirt"
@@ -1267,7 +1245,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Tech-Preme logo-patch technical sweatshirt
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="FF-logo zip-through cotton-blend hooded sweatshirt"
@@ -1276,7 +1254,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         FF-logo zip-through cotton-blend hooded sweatshirt
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Logo-patch raglan jersey T-shirt"
@@ -1285,7 +1263,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Logo-patch raglan jersey T-shirt
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Belted stretch trousers"
@@ -1294,7 +1272,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Belted stretch trousers
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="FF cotton-blend hooded sweatshirt"
@@ -1303,7 +1281,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         FF cotton-blend hooded sweatshirt
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="GHST two-in-one jacket "
@@ -1312,7 +1290,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         GHST two-in-one jacket 
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Logo-patch crew-neck cotton T-shirt"
@@ -1321,7 +1299,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Logo-patch crew-neck cotton T-shirt
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Urban jersey track pants"
@@ -1330,7 +1308,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Urban jersey track pants
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Run West moth-eaten cotton T-shirt"
@@ -1339,7 +1317,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Run West moth-eaten cotton T-shirt
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Contrast-panel hooded bomber jacket"
@@ -1348,7 +1326,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Contrast-panel hooded bomber jacket
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Cult moth-eaten cotton tank top"
@@ -1357,7 +1335,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Cult moth-eaten cotton tank top
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Striped cotton-blend track pants"
@@ -1366,7 +1344,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Striped cotton-blend track pants
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Rix hooded jacket"
@@ -1375,7 +1353,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Rix hooded jacket
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Front-stripe logo-printed jersey sweatshirt"
@@ -1384,7 +1362,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Front-stripe logo-printed jersey sweatshirt
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Logo print cotton-blend T-shirt"
@@ -1393,7 +1371,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Logo print cotton-blend T-shirt
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Zip-pocket track shorts"
@@ -1402,7 +1380,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Zip-pocket track shorts
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Striped cotton-blend jersey T-shirt"
@@ -1411,7 +1389,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Striped cotton-blend jersey T-shirt
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="The Redford cotton sweatshirt"
@@ -1420,7 +1398,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         The Redford cotton sweatshirt
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Baldwin checked cotton shirt"
@@ -1429,7 +1407,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Baldwin checked cotton shirt
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Seamless compression tights"
@@ -1438,7 +1416,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Seamless compression tights
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Reverse cotton T-shirt"
@@ -1447,7 +1425,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Reverse cotton T-shirt
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Marlow technical-twill running jacket"
@@ -1456,7 +1434,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Marlow technical-twill running jacket
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Big Logo-print cotton tank top"
@@ -1465,7 +1443,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Big Logo-print cotton tank top
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Windsor II stretch-jersey leggings"
@@ -1474,7 +1452,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Windsor II stretch-jersey leggings
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Sense Pro crew-neck T-shirt"
@@ -1483,7 +1461,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Sense Pro crew-neck T-shirt
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Mesh zip-up track top"
@@ -1492,7 +1470,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Mesh zip-up track top
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="The Newman cotton T-shirt"
@@ -1501,7 +1479,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         The Newman cotton T-shirt
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Court-stripe leggings"
@@ -1510,7 +1488,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Court-stripe leggings
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Big Logo-print cotton tank top"
@@ -1519,7 +1497,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Big Logo-print cotton tank top
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="GHST contrast-panel performance top"
@@ -1528,7 +1506,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         GHST contrast-panel performance top
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Marion stretch-jersey T-shirt"
@@ -1537,7 +1515,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Marion stretch-jersey T-shirt
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Royston track pants"
@@ -1546,7 +1524,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Royston track pants
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Fellows long-sleeved stretch-mesh T-shirt"
@@ -1555,7 +1533,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Fellows long-sleeved stretch-mesh T-shirt
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Quarter-zip technical hooded jacket "
@@ -1564,7 +1542,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Quarter-zip technical hooded jacket 
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Logo-print longline performance T-shirt"
@@ -1573,7 +1551,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Logo-print longline performance T-shirt
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Compression running leggings"
@@ -1582,7 +1560,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Compression running leggings
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="FF-logo appliqué cotton T-shirt"
@@ -1591,7 +1569,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         FF-logo appliqué cotton T-shirt
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Mesh-panel performance top"
@@ -1600,7 +1578,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Mesh-panel performance top
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Performance T-shirt"
@@ -1609,7 +1587,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Performance T-shirt
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Climbing belted trousers"
@@ -1618,7 +1596,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Climbing belted trousers
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Guard technical jacket "
@@ -1627,7 +1605,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Guard technical jacket 
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Constrast-panel performance jacket"
@@ -1636,7 +1614,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Constrast-panel performance jacket
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Guard reflective jacket"
@@ -1645,7 +1623,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Guard reflective jacket
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Revolt technical jacket "
@@ -1654,7 +1632,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Revolt technical jacket 
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Dondi crew-neck technical sweatshirt"
@@ -1663,7 +1641,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Dondi crew-neck technical sweatshirt
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Scramble nylon shorts "
@@ -1672,7 +1650,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Scramble nylon shorts 
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Crushed technical fabric trousers"
@@ -1681,7 +1659,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Crushed technical fabric trousers
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Utility shell sweatshirt"
@@ -1690,7 +1668,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Utility shell sweatshirt
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Dondi technical-shell sweatshirt"
@@ -1699,7 +1677,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Dondi technical-shell sweatshirt
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Marking reflective jacket"
@@ -1708,7 +1686,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Marking reflective jacket
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Haloes hybrid hooded down-filled jacket"
@@ -1717,7 +1695,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Haloes hybrid hooded down-filled jacket
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Agile mesh-panel performance shorts"
@@ -1726,7 +1704,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Agile mesh-panel performance shorts
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <img
           alt="Agile polka dot-print performance jacket"

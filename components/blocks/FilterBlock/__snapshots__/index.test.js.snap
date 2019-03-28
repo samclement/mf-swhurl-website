@@ -7,17 +7,6 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
 }
 
 .c1 {
-  padding: 0;
-  margin: 0;
-}
-
-.c2 {
-  list-style: none;
-  padding-left: 0;
-  margin-left: 0;
-}
-
-.c3 {
   color: black;
   font-size: 11px;
   -webkit-text-decoration: none;
@@ -28,7 +17,7 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
   margin-bottom: 5px;
 }
 
-.c4 {
+.c3 {
   width: 13px;
   height: 13px;
   padding: 0;
@@ -37,6 +26,11 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
   position: relative;
   top: -1px;
   *overflow: hidden;
+  cursor: pointer;
+}
+
+.c2 {
+  cursor: pointer;
 }
 
 <div
@@ -45,354 +39,350 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
   <h2>
     Designer
   </h2>
-  <ul
+  <a
     class="c1"
+    href="#"
   >
-    <li
+    <label
       class="c2"
     >
-      <a
+      <input
         class="c3"
-        href="#"
-      >
-        <input
-          class="c4"
-          readonly=""
-          type="checkbox"
-        />
-         1017 ALYX 9SM
-      </a>
-    </li>
-    <li
+        readonly=""
+        type="checkbox"
+      />
+       1017 ALYX 9SM
+    </label>
+  </a>
+  <a
+    class="c1"
+    href="#"
+  >
+    <label
       class="c2"
     >
-      <a
+      <input
         class="c3"
-        href="#"
-      >
-        <input
-          class="c4"
-          readonly=""
-          type="checkbox"
-        />
-         2XU
-      </a>
-    </li>
-    <li
+        readonly=""
+        type="checkbox"
+      />
+       2XU
+    </label>
+  </a>
+  <a
+    class="c1"
+    href="#"
+  >
+    <label
       class="c2"
     >
-      <a
+      <input
         class="c3"
-        href="#"
-      >
-        <input
-          class="c4"
-          readonly=""
-          type="checkbox"
-        />
-         And Wander
-      </a>
-    </li>
-    <li
+        readonly=""
+        type="checkbox"
+      />
+       And Wander
+    </label>
+  </a>
+  <a
+    class="c1"
+    href="#"
+  >
+    <label
       class="c2"
     >
-      <a
+      <input
         class="c3"
-        href="#"
-      >
-        <input
-          class="c4"
-          readonly=""
-          type="checkbox"
-        />
-         Aztech Mountain
-      </a>
-    </li>
-    <li
+        readonly=""
+        type="checkbox"
+      />
+       Aztech Mountain
+    </label>
+  </a>
+  <a
+    class="c1"
+    href="#"
+  >
+    <label
       class="c2"
     >
-      <a
+      <input
         class="c3"
-        href="#"
-      >
-        <input
-          class="c4"
-          readonly=""
-          type="checkbox"
-        />
-         Blackbarrett by Neil Barrett
-      </a>
-    </li>
-    <li
+        readonly=""
+        type="checkbox"
+      />
+       Blackbarrett by Neil Barrett
+    </label>
+  </a>
+  <a
+    class="c1"
+    href="#"
+  >
+    <label
       class="c2"
     >
-      <a
+      <input
         class="c3"
-        href="#"
-      >
-        <input
-          class="c4"
-          readonly=""
-          type="checkbox"
-        />
-         Café Du Cycliste
-      </a>
-    </li>
-    <li
+        readonly=""
+        type="checkbox"
+      />
+       Café Du Cycliste
+    </label>
+  </a>
+  <a
+    class="c1"
+    href="#"
+  >
+    <label
       class="c2"
     >
-      <a
+      <input
         class="c3"
-        href="#"
-      >
-        <input
-          class="c4"
-          readonly=""
-          type="checkbox"
-        />
-         Castore
-      </a>
-    </li>
-    <li
+        readonly=""
+        type="checkbox"
+      />
+       Castore
+    </label>
+  </a>
+  <a
+    class="c1"
+    href="#"
+  >
+    <label
       class="c2"
     >
-      <a
+      <input
         class="c3"
-        href="#"
-      >
-        <input
-          class="c4"
-          readonly=""
-          type="checkbox"
-        />
-         Falke
-      </a>
-    </li>
-    <li
+        readonly=""
+        type="checkbox"
+      />
+       Falke
+    </label>
+  </a>
+  <a
+    class="c1"
+    href="#"
+  >
+    <label
       class="c2"
     >
-      <a
+      <input
         class="c3"
-        href="#"
-      >
-        <input
-          class="c4"
-          readonly=""
-          type="checkbox"
-        />
-         Fendi
-      </a>
-    </li>
-    <li
+        readonly=""
+        type="checkbox"
+      />
+       Fendi
+    </label>
+  </a>
+  <a
+    class="c1"
+    href="#"
+  >
+    <label
       class="c2"
     >
-      <a
+      <input
         class="c3"
-        href="#"
-      >
-        <input
-          class="c4"
-          readonly=""
-          type="checkbox"
-        />
-         Helly Hansen
-      </a>
-    </li>
-    <li
+        readonly=""
+        type="checkbox"
+      />
+       Helly Hansen
+    </label>
+  </a>
+  <a
+    class="c1"
+    href="#"
+  >
+    <label
       class="c2"
     >
-      <a
+      <input
         class="c3"
-        href="#"
-      >
-        <input
-          class="c4"
-          readonly=""
-          type="checkbox"
-        />
-         Iffley Road
-      </a>
-    </li>
-    <li
+        readonly=""
+        type="checkbox"
+      />
+       Iffley Road
+    </label>
+  </a>
+  <a
+    class="c1"
+    href="#"
+  >
+    <label
       class="c2"
     >
-      <a
+      <input
         class="c3"
-        href="#"
-      >
-        <input
-          class="c4"
-          readonly=""
-          type="checkbox"
-        />
-         LNDR
-      </a>
-    </li>
-    <li
+        readonly=""
+        type="checkbox"
+      />
+       LNDR
+    </label>
+  </a>
+  <a
+    class="c1"
+    href="#"
+  >
+    <label
       class="c2"
     >
-      <a
+      <input
         class="c3"
-        href="#"
-      >
-        <input
-          class="c4"
-          readonly=""
-          type="checkbox"
-        />
-         Mammut Delta X
-      </a>
-    </li>
-    <li
+        readonly=""
+        type="checkbox"
+      />
+       Mammut Delta X
+    </label>
+  </a>
+  <a
+    class="c1"
+    href="#"
+  >
+    <label
       class="c2"
     >
-      <a
+      <input
         class="c3"
-        href="#"
-      >
-        <input
-          class="c4"
-          readonly=""
-          type="checkbox"
-        />
-         Moncler
-      </a>
-    </li>
-    <li
+        readonly=""
+        type="checkbox"
+      />
+       Moncler
+    </label>
+  </a>
+  <a
+    class="c1"
+    href="#"
+  >
+    <label
       class="c2"
     >
-      <a
+      <input
         class="c3"
-        href="#"
-      >
-        <input
-          class="c4"
-          readonly=""
-          type="checkbox"
-        />
-         Moncler Genius
-      </a>
-    </li>
-    <li
+        readonly=""
+        type="checkbox"
+      />
+       Moncler Genius
+    </label>
+  </a>
+  <a
+    class="c1"
+    href="#"
+  >
+    <label
       class="c2"
     >
-      <a
+      <input
         class="c3"
-        href="#"
-      >
-        <input
-          class="c4"
-          readonly=""
-          type="checkbox"
-        />
-         Moncler Grenoble
-      </a>
-    </li>
-    <li
+        readonly=""
+        type="checkbox"
+      />
+       Moncler Grenoble
+    </label>
+  </a>
+  <a
+    class="c1"
+    href="#"
+  >
+    <label
       class="c2"
     >
-      <a
+      <input
         class="c3"
-        href="#"
-      >
-        <input
-          class="c4"
-          readonly=""
-          type="checkbox"
-        />
-         Nemen
-      </a>
-    </li>
-    <li
+        readonly=""
+        type="checkbox"
+      />
+       Nemen
+    </label>
+  </a>
+  <a
+    class="c1"
+    href="#"
+  >
+    <label
       class="c2"
     >
-      <a
+      <input
         class="c3"
-        href="#"
-      >
-        <input
-          class="c4"
-          readonly=""
-          type="checkbox"
-        />
-         Peak Performance
-      </a>
-    </li>
-    <li
+        readonly=""
+        type="checkbox"
+      />
+       Peak Performance
+    </label>
+  </a>
+  <a
+    class="c1"
+    href="#"
+  >
+    <label
       class="c2"
     >
-      <a
+      <input
         class="c3"
-        href="#"
-      >
-        <input
-          class="c4"
-          readonly=""
-          type="checkbox"
-        />
-         Perfect Moment
-      </a>
-    </li>
-    <li
+        readonly=""
+        type="checkbox"
+      />
+       Perfect Moment
+    </label>
+  </a>
+  <a
+    class="c1"
+    href="#"
+  >
+    <label
       class="c2"
     >
-      <a
+      <input
         class="c3"
-        href="#"
-      >
-        <input
-          class="c4"
-          readonly=""
-          type="checkbox"
-        />
-         Salomon
-      </a>
-    </li>
-    <li
+        readonly=""
+        type="checkbox"
+      />
+       Salomon
+    </label>
+  </a>
+  <a
+    class="c1"
+    href="#"
+  >
+    <label
       class="c2"
     >
-      <a
+      <input
         class="c3"
-        href="#"
-      >
-        <input
-          class="c4"
-          readonly=""
-          type="checkbox"
-        />
-         Satisfy
-      </a>
-    </li>
-    <li
+        readonly=""
+        type="checkbox"
+      />
+       Satisfy
+    </label>
+  </a>
+  <a
+    class="c1"
+    href="#"
+  >
+    <label
       class="c2"
     >
-      <a
+      <input
         class="c3"
-        href="#"
-      >
-        <input
-          class="c4"
-          readonly=""
-          type="checkbox"
-        />
-         The Upside
-      </a>
-    </li>
-    <li
+        readonly=""
+        type="checkbox"
+      />
+       The Upside
+    </label>
+  </a>
+  <a
+    class="c1"
+    href="#"
+  >
+    <label
       class="c2"
     >
-      <a
+      <input
         class="c3"
-        href="#"
-      >
-        <input
-          class="c4"
-          readonly=""
-          type="checkbox"
-        />
-         Tilak
-      </a>
-    </li>
-  </ul>
+        readonly=""
+        type="checkbox"
+      />
+       Tilak
+    </label>
+  </a>
 </div>
 `;
