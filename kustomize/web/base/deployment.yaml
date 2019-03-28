@@ -18,6 +18,12 @@ spec:
       containers:
       - name: mf-swhurl-website
         image: swhurl/mf-website:1.0.0
+        env:
+        - name: API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: mf-swhurl-com-api-key
+              key: apikey
         resources:
           requests:
             cpu: 100m

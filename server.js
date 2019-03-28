@@ -7,7 +7,8 @@ const parser = require('./lib/plp.js')
 
 const cache = require('memory-cache')
 const BASE_URL = `https://www.matchesfashion.com`
-const headers = { 'User-Agent': 'API', 'Accept-Encoding': 'gzip' }
+const API_KEY = process.env.API_KEY || ''
+const headers = { 'User-Agent': `API/${API_KEY}`, 'Accept-Encoding': 'gzip' }
 
 const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dev })
