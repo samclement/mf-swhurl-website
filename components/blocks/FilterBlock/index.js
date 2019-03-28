@@ -49,7 +49,11 @@ export default ({ title, filters }) => {
           return (
             <StyledLi key={i}>
               <Link prefetch key={i} href={url} as={f.url}>
-                <StyledLink href="#"><StyledInput type="checkbox" readOnly checked={f.selected} /> {f.name}</StyledLink>
+                <StyledLink href="#">
+                  <label>
+                    <StyledInput type="checkbox" readOnly checked={f.selected} /> {f.name}
+                  </label>
+                </StyledLink>
               </Link>
             </StyledLi>
           )
