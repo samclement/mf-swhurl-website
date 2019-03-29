@@ -3,7 +3,8 @@ const express = require('express')
 const compression = require('compression')
 const next = require('next')
 const axios = require('axios')
-const parser = require('./lib/plp.js')
+const plpParser = require('./lib/plp.js')
+const pdpParser = require('./lib/pdp.js')
 
 const cache = require('memory-cache')
 const BASE_URL = `https://www.matchesfashion.com`
@@ -29,18 +30,6 @@ app.prepare().then(() => {
   })
 
   // API
-  // Navigation
-
-  server.get('/api/navigation/:gender', (req, res) => {
-    const url = `${BASE_URL}/${req.params.gender}/shop/clothing?format=json`
-    const opts = { url, headers }
-    axios(opts)
-      .then((data) => {
-        const parsed = parser.parseNavigation(data.data)
-        res.send(parsed)
-      }).catch((err) => console.log(err))
-  })
-
   // Catalogue
 
   server.get('/api/catalogue/*', (req, res) => {
@@ -56,7 +45,26 @@ app.prepare().then(() => {
     const opts = { url, headers }
     axios(opts)
       .then((data) => {
-        const parsed = parser.parseSearchResults(data.data)
+        const parsed = plpParser.parseSearchResults(data.data)
+        cache.put(encodeURIComponent(url), parsed, 1000 * 60 * 10)
+        res.send(parsed)
+      }).catch((err) => console.log(err))
+  })
+
+  server.get('/api/products/*', (req, res) => {
+    const cleanPath = req.url.replace(/^\/api\//gi, '')
+    const delimiter = cleanPath.includes('?') ? '&' : '?'
+    const formatPath = `${cleanPath}${delimiter}format=json`
+    const url = `${BASE_URL}/${formatPath}`
+    const cachedSearchResults = cache.get(encodeURIComponent(url))
+    if (cachedSearchResults) {
+      res.send(cachedSearchResults)
+      return
+    }
+    const opts = { url, headers }
+    axios(opts)
+      .then((data) => {
+        const parsed = pdpParser.parseProduct(data.data)
         cache.put(encodeURIComponent(url), parsed, 1000 * 60 * 10)
         res.send(parsed)
       }).catch((err) => console.log(err))
