@@ -4,7 +4,6 @@ const compression = require('compression')
 const next = require('next')
 const axios = require('axios')
 const plpParser = require('./lib/plp.js')
-const pdpParser = require('./lib/pdp.js')
 
 const cache = require('memory-cache')
 const BASE_URL = `https://www.matchesfashion.com`
@@ -48,14 +47,12 @@ app.prepare().then(() => {
         const parsed = plpParser.parseSearchResults(data.data)
         cache.put(encodeURIComponent(url), parsed, 1000 * 60 * 10)
         res.send(parsed)
-      }).catch((err) => console.log(err))
+      })
+      .catch((err) => console.log(err))
   })
 
-  server.get('/api/products/*', (req, res) => {
-    const cleanPath = req.url.replace(/^\/api\//gi, '')
-    const delimiter = cleanPath.includes('?') ? '&' : '?'
-    const formatPath = `${cleanPath}${delimiter}format=json`
-    const url = `${BASE_URL}/${formatPath}`
+  server.get('/api/products/:code', (req, res) => {
+    const url = `${BASE_URL}/ajax/p/${req.params.code}`
     const cachedSearchResults = cache.get(encodeURIComponent(url))
     if (cachedSearchResults) {
       res.send(cachedSearchResults)
@@ -63,11 +60,12 @@ app.prepare().then(() => {
     }
     const opts = { url, headers }
     axios(opts)
-      .then((data) => {
-        const parsed = pdpParser.parseProduct(data.data)
-        cache.put(encodeURIComponent(url), parsed, 1000 * 60 * 10)
-        res.send(parsed)
-      }).catch((err) => console.log(err))
+      .then((response) => {
+        const product = response.data
+        cache.put(encodeURIComponent(url), product, 1000 * 60 * 10)
+        res.send(product)
+      })
+      .catch((err) => console.log(err))
   })
 
   // PAGES
@@ -76,11 +74,23 @@ app.prepare().then(() => {
     return app.render(req, res, '/plp', { url: req.params.url })
   })
 
+  server.get('/pdp', (req, res) => {
+    return app.render(req, res, '/pdp', { code: req.query.code })
+  })
+
   server.get('*', (req, res) => {
     // SSR for PLP SEO URLs
     if (req.url.startsWith('/mens') || req.url.startsWith('/womens')) {
       req.query.url = req.url
       return app.render(req, res, '/plp', { url: req.url })
+    }
+
+    // SSR for PDP SEO URLs
+    if (req.url.startsWith('/products')) {
+      const l = req.url.length
+      const code = req.url.substring(l - 7, l)
+      req.query.code = code
+      return app.render(req, res, '/pdp', { code: code })
     }
 
     // Pages

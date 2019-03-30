@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`With Snapshot Testing Plp getInitialProps 1`] = `Object {}`;
+
+exports[`With Snapshot Testing Plp getInitialProps 2`] = `Object {}`;
+
+exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
+.c2 {
+  color: black;
+  padding-right: 5px;
+}
+
+.c2:hover {
+  color: #F00;
+}
+
+.c2:visited {
+  color: black;
+}
+
+.c1 {
+  font-weight: bold;
+  text-transform: capitalize;
+  padding-right: 10px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.c3 {
+  width: 100%;
+}
+
+.c4 {
+  width: 100%;
+  max-width: 510px;
+}
+
+<div>
+  <nav
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      mens
+    </div>
+    <a
+      class="c2"
+      href="/mens/shop/accessories"
+    >
+      Accessories
+    </a>
+    <a
+      class="c2"
+      href="/mens/shop/shoes"
+    >
+      Shoes
+    </a>
+    <a
+      class="c2"
+      href="/mens/shop/clothing"
+    >
+      Clothing
+    </a>
+    <a
+      class="c2"
+      href="/mens/shop/bags"
+    >
+      Bags
+    </a>
+    <a
+      class="c2"
+      href="/mens/shop/homeware"
+    >
+      Homeware
+    </a>
+  </nav>
+  <nav
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      womens
+    </div>
+    <a
+      class="c2"
+      href="/womens/shop/accessories"
+    >
+      Accessories
+    </a>
+    <a
+      class="c2"
+      href="/womens/shop/bags"
+    >
+      Bags
+    </a>
+    <a
+      class="c2"
+      href="/womens/shop/clothing"
+    >
+      Clothing
+    </a>
+    <a
+      class="c2"
+      href="/womens/shop/shoes"
+    >
+      Shoes
+    </a>
+    <a
+      class="c2"
+      href="/womens/shop/homeware"
+    >
+      Homeware
+    </a>
+  </nav>
+  <h1>
+    Bottega Veneta
+  </h1>
+  <h2>
+    Intrecciato leather cardholder
+  </h2>
+  <p>
+    £265
+  </p>
+  <div
+    class="c3"
+  >
+    <img
+      alt="Intrecciato leather cardholder"
+      class="c4"
+      src="//assetsprx.matchesfashion.com/img/product/1247661_1_large.jpg"
+    />
+  </div>
+</div>
+`;

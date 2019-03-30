@@ -14,5 +14,5 @@ export const getSearchResults = async function (q, isServer) {
 }
 
 export const getProduct = async function (q, isServer) {
-  return axios(`${getApiUrl(isServer)}/api/product${q.url}`)
+  return axios(`${getApiUrl(isServer)}/api/products/${q.code}`)
 }
