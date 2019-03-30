@@ -1,6 +1,7 @@
 import React from 'react'
 import ProductListItem from '../components/blocks/ProductListItem'
 import Nav from '../components/blocks/Nav'
+import GenderHeader from '../components/elements/GenderHeader.js'
 import FilterBlock from '../components/blocks/FilterBlock'
 import Head from 'next/head'
 import { mens, womens } from '../navigation.js'
@@ -12,15 +13,7 @@ const ProductsList = styled.div`
   flex-flow: row wrap;
 `
 
-const StyledH1 = styled.h1`
-  width: 100%;
-  text-align: center;
-  text-transform: capitalize;
-  margin-bottom: 0px;
-`
-
 const SearchContainer = styled.div`
-  align: left;
   display: flex;
   align-items: flex-start;
 `
@@ -39,7 +32,7 @@ function Plp (props) {
       </Head>
       <Nav items={mens} gender="mens" />
       <Nav items={womens} gender="womens" />
-      <StyledH1>{gender}</StyledH1>
+      <GenderHeader gender={gender} />
       <SearchContainer>
         <FilterBlockContainer>
           <FilterBlock title="Category" filters={categoryFacets} />

@@ -34,11 +34,19 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
   flex-flow: row wrap;
 }
 
-.c5 {
+.c3 {
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 0px;
+  background-color: #eee;
+}
+
+.c6 {
   width: 100%;
 }
 
-.c3 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -52,36 +60,36 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
   justify-content: center;
 }
 
-.c6 {
+.c7 {
   min-width: 320px;
 }
 
 @media only screen and (min-width:640px) {
-  .c4 {
+  .c5 {
     max-width: 320px;
   }
 }
 
 @media only screen and (min-width:800px) {
-  .c4 {
+  .c5 {
     max-width: 500px;
   }
 }
 
 @media only screen and (max-width:320px) {
-  .c5 {
+  .c6 {
     max-width: 320px;
   }
 }
 
 @media only screen and (min-width:640px) {
-  .c5 {
+  .c6 {
     margin-right: 50px;
   }
 }
 
 @media only screen and (min-width:640px) {
-  .c3 {
+  .c4 {
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
@@ -167,27 +175,32 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
       Homeware
     </a>
   </nav>
-  <div
+  <h1
     class="c3"
   >
+    Womens
+  </h1>
+  <div
+    class="c4"
+  >
     <div
-      class="c4"
+      class="c5"
     >
       <img
         alt="Intrecciato leather cardholder"
-        class="c5"
+        class="c6"
         src="//assetsprx.matchesfashion.com/img/product/1247661_1_large.jpg"
       />
     </div>
     <div
-      class="c6"
+      class="c7"
     >
-      <h1>
-        Bottega Veneta
-      </h1>
       <h2>
-        Intrecciato leather cardholder
+        Bottega Veneta
       </h2>
+      <h3>
+        Intrecciato leather cardholder
+      </h3>
       <p>
         £265
       </p>

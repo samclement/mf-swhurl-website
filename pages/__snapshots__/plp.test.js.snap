@@ -63,6 +63,14 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
   flex-flow: row wrap;
 }
 
+.c3 {
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 0px;
+  background-color: #eee;
+}
+
 .c6 {
   width: 170px;
   padding: 10px;
@@ -105,15 +113,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
   flex-flow: row wrap;
 }
 
-.c3 {
-  width: 100%;
-  text-align: center;
-  text-transform: capitalize;
-  margin-bottom: 0px;
-}
-
 .c4 {
-  align: left;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;

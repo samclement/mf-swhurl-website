@@ -3,6 +3,7 @@ import Nav from '../components/blocks/Nav'
 import Head from 'next/head'
 import { mens, womens } from '../navigation.js'
 import { getProduct } from '../services'
+import GenderHeader from '../components/elements/GenderHeader.js'
 import styled from 'styled-components'
 
 const ImageContainer = styled.div`
@@ -38,7 +39,7 @@ const ProductDetailsContainer = styled.div`
 `
 
 function Pdp(props) {
-  const { name, thumbnail, designerData, priceData } = props
+  const { name, thumbnail, designerData, priceData, sizeTaxonomyName } = props
   return (
     <div>
       <Head>
@@ -46,13 +47,14 @@ function Pdp(props) {
       </Head>
       <Nav items={mens} gender="mens" />
       <Nav items={womens} gender="womens" />
+      <GenderHeader gender={sizeTaxonomyName.split(' ')[0]} />
       <StyledProductContainer>
         <ImageContainer>
           <StyledImage src={thumbnail.replace('thumbnail', 'large')} alt={name} />
         </ImageContainer>
         <ProductDetailsContainer>
-          <h1 dangerouslySetInnerHTML={{ __html: designerData.name }} />
-          <h2 dangerouslySetInnerHTML={{ __html: name }} />
+          <h2 dangerouslySetInnerHTML={{ __html: designerData.name }} />
+          <h3 dangerouslySetInnerHTML={{ __html: name }} />
           <p dangerouslySetInnerHTML={{ __html: priceData.formattedValue }} />
         </ProductDetailsContainer>
       </StyledProductContainer>
