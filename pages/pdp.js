@@ -6,12 +6,35 @@ import { getProduct } from '../services'
 import styled from 'styled-components'
 
 const ImageContainer = styled.div`
-  width: 100%;
+  @media only screen and (min-width: 640px) {
+    max-width: 320px;
+  }
+  @media only screen and (min-width: 800px) {
+    max-width: 500px;
+  }
 `
 
 const StyledImage = styled.img`
   width: 100%;
-  max-width: 510px;
+  @media only screen and (max-width: 320px) {
+    max-width: 320px;
+  }
+  @media only screen and (min-width: 640px) {
+    margin-right: 50px;
+  }
+`
+
+const StyledProductContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  @media only screen and (min-width: 640px) {
+    flex-wrap: nowrap;
+  }
+`
+
+const ProductDetailsContainer = styled.div`
+  min-width: 320px;
 `
 
 function Pdp(props) {
@@ -23,12 +46,16 @@ function Pdp(props) {
       </Head>
       <Nav items={mens} gender="mens" />
       <Nav items={womens} gender="womens" />
-      <h1 dangerouslySetInnerHTML={{ __html: designerData.name }} />
-      <h2 dangerouslySetInnerHTML={{ __html: name }} />
-      <p dangerouslySetInnerHTML={{ __html: priceData.formattedValue }} />
-      <ImageContainer>
-        <StyledImage src={thumbnail.replace('thumbnail', 'large')} alt={name} />
-      </ImageContainer>
+      <StyledProductContainer>
+        <ImageContainer>
+          <StyledImage src={thumbnail.replace('thumbnail', 'large')} alt={name} />
+        </ImageContainer>
+        <ProductDetailsContainer>
+          <h1 dangerouslySetInnerHTML={{ __html: designerData.name }} />
+          <h2 dangerouslySetInnerHTML={{ __html: name }} />
+          <p dangerouslySetInnerHTML={{ __html: priceData.formattedValue }} />
+        </ProductDetailsContainer>
+      </StyledProductContainer>
     </div>
   )
 }
