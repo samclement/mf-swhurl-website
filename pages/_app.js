@@ -3,9 +3,8 @@ import React from 'react'
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
-  body {
-    font-family: Helvetica, Arial, sans-serif;
-  }
+  body { font-family: Helvetica, Arial, sans-serif; }
+  .touch { -webkit-overflow-scrolling: touch; }
 `
 
 export default class MyApp extends App {
