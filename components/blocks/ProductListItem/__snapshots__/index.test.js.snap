@@ -1,7 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`With Snapshot Testing Product list item 1`] = `
-.c0 {
+<DocumentFragment>
+  .c0 {
   width: 150px;
   padding: 10px;
   text-align: center;
@@ -22,16 +23,17 @@ exports[`With Snapshot Testing Product list item 1`] = `
 }
 
 <div
-  class="c0"
->
-  <a
-    href="/pdp?code=1"
+    class="c0"
   >
-    <img
-      alt="test"
-      src="//assetsprx.matchesfashion.com/img/product/1_1_small.jpg"
-    />
-  </a>
-  test
-</div>
+    <a
+      href="/pdp?code=1"
+    >
+      <img
+        alt="test"
+        src="//assetsprx.matchesfashion.com/img/product/1_1_small.jpg"
+      />
+    </a>
+    test
+  </div>
+</DocumentFragment>
 `;

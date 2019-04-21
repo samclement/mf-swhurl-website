@@ -1,7 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`With Snapshot Testing NavLink shows "About" with href "/about" 1`] = `
-.c0 {
+<DocumentFragment>
+  .c0 {
   color: black;
   padding-right: 5px;
 }
@@ -15,7 +16,8 @@ exports[`With Snapshot Testing NavLink shows "About" with href "/about" 1`] = `
 }
 
 <a
-  class="c0"
-  href="/about"
-/>
+    class="c0"
+    href="/about"
+  />
+</DocumentFragment>
 `;

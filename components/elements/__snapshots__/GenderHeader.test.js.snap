@@ -1,7 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`With Snapshot Testing H1 shows "mf.swhurl.com" 1`] = `
-<GenderHeader__StyledH1>
-  test
-</GenderHeader__StyledH1>
+<DocumentFragment>
+  .c0 {
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 0px;
+  background-color: #eee;
+}
+
+<h1
+    class="c0"
+  >
+    test
+  </h1>
+</DocumentFragment>
 `;

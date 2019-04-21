@@ -1,14 +1,14 @@
 /* eslint-env jest */
 
 import React from 'react'
-import { shallow } from 'enzyme'
+import { render } from 'react-testing-library'
 import 'jest-styled-components'
-
+import 'jest-dom/extend-expect'
 import GenderHeader from './GenderHeader.js'
 
 describe('With Snapshot Testing', () => {
   it('H1 shows "mf.swhurl.com"', () => {
-    const wrapper = shallow(<GenderHeader gender="test" />)
-    expect(wrapper).toMatchSnapshot()
+    const { asFragment } = render(<GenderHeader gender="test" />)
+    expect(asFragment()).toMatchSnapshot()
   })
 })
