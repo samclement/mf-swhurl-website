@@ -1,12 +1,16 @@
 import React from 'react'
-import { render } from 'enzyme'
+import { render } from 'react-testing-library'
 import 'jest-styled-components'
-
+import 'jest-dom/extend-expect'
 import NavLink from './NavLink.js'
+// Nextjs routing support
+import Router from 'next/router'
+const mockedRouter = { push: () => {}, prefetch: () => {} }
+Router.router = mockedRouter
 
 describe('With Snapshot Testing', () => {
   it('NavLink shows "About" with href "/about"', () => {
-    const wrapper = render(<NavLink href="/about" name="About" />)
-    expect(wrapper).toMatchSnapshot()
+    const { asFragment } = render(<NavLink href="/about" name="About" />)
+    expect(asFragment()).toMatchSnapshot()
   })
 })

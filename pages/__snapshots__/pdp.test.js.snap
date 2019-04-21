@@ -5,7 +5,8 @@ exports[`With Snapshot Testing Plp getInitialProps 1`] = `Object {}`;
 exports[`With Snapshot Testing Plp getInitialProps 2`] = `Object {}`;
 
 exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
-.c2 {
+<DocumentFragment>
+  .c2 {
   color: black;
   padding-right: 5px;
 }
@@ -97,114 +98,115 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
 }
 
 <div>
-  <nav
-    class="c0"
-  >
+    <nav
+      class="c0"
+    >
+      <div
+        class="c1"
+      >
+        mens
+      </div>
+      <a
+        class="c2"
+        href="/mens/shop/accessories"
+      >
+        Accessories
+      </a>
+      <a
+        class="c2"
+        href="/mens/shop/shoes"
+      >
+        Shoes
+      </a>
+      <a
+        class="c2"
+        href="/mens/shop/clothing"
+      >
+        Clothing
+      </a>
+      <a
+        class="c2"
+        href="/mens/shop/bags"
+      >
+        Bags
+      </a>
+      <a
+        class="c2"
+        href="/mens/shop/homeware"
+      >
+        Homeware
+      </a>
+    </nav>
+    <nav
+      class="c0"
+    >
+      <div
+        class="c1"
+      >
+        womens
+      </div>
+      <a
+        class="c2"
+        href="/womens/shop/accessories"
+      >
+        Accessories
+      </a>
+      <a
+        class="c2"
+        href="/womens/shop/bags"
+      >
+        Bags
+      </a>
+      <a
+        class="c2"
+        href="/womens/shop/clothing"
+      >
+        Clothing
+      </a>
+      <a
+        class="c2"
+        href="/womens/shop/shoes"
+      >
+        Shoes
+      </a>
+      <a
+        class="c2"
+        href="/womens/shop/homeware"
+      >
+        Homeware
+      </a>
+    </nav>
+    <h1
+      class="c3"
+    >
+      Womens
+    </h1>
     <div
-      class="c1"
+      class="c4"
     >
-      mens
-    </div>
-    <a
-      class="c2"
-      href="/mens/shop/accessories"
-    >
-      Accessories
-    </a>
-    <a
-      class="c2"
-      href="/mens/shop/shoes"
-    >
-      Shoes
-    </a>
-    <a
-      class="c2"
-      href="/mens/shop/clothing"
-    >
-      Clothing
-    </a>
-    <a
-      class="c2"
-      href="/mens/shop/bags"
-    >
-      Bags
-    </a>
-    <a
-      class="c2"
-      href="/mens/shop/homeware"
-    >
-      Homeware
-    </a>
-  </nav>
-  <nav
-    class="c0"
-  >
-    <div
-      class="c1"
-    >
-      womens
-    </div>
-    <a
-      class="c2"
-      href="/womens/shop/accessories"
-    >
-      Accessories
-    </a>
-    <a
-      class="c2"
-      href="/womens/shop/bags"
-    >
-      Bags
-    </a>
-    <a
-      class="c2"
-      href="/womens/shop/clothing"
-    >
-      Clothing
-    </a>
-    <a
-      class="c2"
-      href="/womens/shop/shoes"
-    >
-      Shoes
-    </a>
-    <a
-      class="c2"
-      href="/womens/shop/homeware"
-    >
-      Homeware
-    </a>
-  </nav>
-  <h1
-    class="c3"
-  >
-    Womens
-  </h1>
-  <div
-    class="c4"
-  >
-    <div
-      class="c5"
-    >
-      <img
-        alt="Intrecciato leather cardholder"
-        class="c6"
-        src="//assetsprx.matchesfashion.com/img/product/1247661_1_large.jpg"
-      />
-    </div>
-    <div
-      class="c7"
-    >
-      <h2>
-        Bottega Veneta
-      </h2>
-      <h3>
-        Intrecciato leather cardholder
-      </h3>
-      <p>
-        £265
-      </p>
+      <div
+        class="c5"
+      >
+        <img
+          alt="Intrecciato leather cardholder"
+          class="c6"
+          src="//assetsprx.matchesfashion.com/img/product/1247661_1_large.jpg"
+        />
+      </div>
+      <div
+        class="c7"
+      >
+        <h2>
+          Bottega Veneta
+        </h2>
+        <h3>
+          Intrecciato leather cardholder
+        </h3>
+        <p>
+          £265
+        </p>
+      </div>
     </div>
   </div>
-</div>
+</DocumentFragment>
 `;

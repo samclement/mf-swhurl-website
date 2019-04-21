@@ -1,7 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`With Snapshot Testing Nav displays items 1`] = `
-.c2 {
+<DocumentFragment>
+  .c2 {
   color: black;
   padding-right: 5px;
 }
@@ -31,42 +32,43 @@ exports[`With Snapshot Testing Nav displays items 1`] = `
 }
 
 <nav
-  class="c0"
->
-  <div
-    class="c1"
+    class="c0"
   >
-    mens
-  </div>
-  <a
-    class="c2"
-    href="/mens/shop/accessories"
-  >
-    Accessories
-  </a>
-  <a
-    class="c2"
-    href="/mens/shop/shoes"
-  >
-    Shoes
-  </a>
-  <a
-    class="c2"
-    href="/mens/shop/clothing"
-  >
-    Clothing
-  </a>
-  <a
-    class="c2"
-    href="/mens/shop/bags"
-  >
-    Bags
-  </a>
-  <a
-    class="c2"
-    href="/mens/shop/homeware"
-  >
-    Homeware
-  </a>
-</nav>
+    <div
+      class="c1"
+    >
+      mens
+    </div>
+    <a
+      class="c2"
+      href="/mens/shop/accessories"
+    >
+      Accessories
+    </a>
+    <a
+      class="c2"
+      href="/mens/shop/shoes"
+    >
+      Shoes
+    </a>
+    <a
+      class="c2"
+      href="/mens/shop/clothing"
+    >
+      Clothing
+    </a>
+    <a
+      class="c2"
+      href="/mens/shop/bags"
+    >
+      Bags
+    </a>
+    <a
+      class="c2"
+      href="/mens/shop/homeware"
+    >
+      Homeware
+    </a>
+  </nav>
+</DocumentFragment>
 `;

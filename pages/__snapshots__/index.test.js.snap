@@ -1,7 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`With Snapshot Testing Index page shows "mf.swhurl.com" H1 1`] = `
-.c3 {
+<DocumentFragment>
+  .c3 {
   color: black;
 }
 
@@ -35,99 +36,100 @@ exports[`With Snapshot Testing Index page shows "mf.swhurl.com" H1 1`] = `
 }
 
 <div>
-  <nav
-    class="c0"
-  >
-    <div
-      class="c1"
+    <nav
+      class="c0"
     >
-      mens
-    </div>
-    <a
-      class="c2"
-      href="/mens/shop/accessories"
+      <div
+        class="c1"
+      >
+        mens
+      </div>
+      <a
+        class="c2"
+        href="/mens/shop/accessories"
+      >
+        Accessories
+      </a>
+      <a
+        class="c2"
+        href="/mens/shop/shoes"
+      >
+        Shoes
+      </a>
+      <a
+        class="c2"
+        href="/mens/shop/clothing"
+      >
+        Clothing
+      </a>
+      <a
+        class="c2"
+        href="/mens/shop/bags"
+      >
+        Bags
+      </a>
+      <a
+        class="c2"
+        href="/mens/shop/homeware"
+      >
+        Homeware
+      </a>
+    </nav>
+    <nav
+      class="c0"
     >
-      Accessories
-    </a>
-    <a
-      class="c2"
-      href="/mens/shop/shoes"
+      <div
+        class="c1"
+      >
+        womens
+      </div>
+      <a
+        class="c2"
+        href="/womens/shop/accessories"
+      >
+        Accessories
+      </a>
+      <a
+        class="c2"
+        href="/womens/shop/bags"
+      >
+        Bags
+      </a>
+      <a
+        class="c2"
+        href="/womens/shop/clothing"
+      >
+        Clothing
+      </a>
+      <a
+        class="c2"
+        href="/womens/shop/shoes"
+      >
+        Shoes
+      </a>
+      <a
+        class="c2"
+        href="/womens/shop/homeware"
+      >
+        Homeware
+      </a>
+    </nav>
+    <h1
+      class="c3"
     >
-      Shoes
-    </a>
-    <a
-      class="c2"
-      href="/mens/shop/clothing"
-    >
-      Clothing
-    </a>
-    <a
-      class="c2"
-      href="/mens/shop/bags"
-    >
-      Bags
-    </a>
-    <a
-      class="c2"
-      href="/mens/shop/homeware"
-    >
-      Homeware
-    </a>
-  </nav>
-  <nav
-    class="c0"
-  >
-    <div
-      class="c1"
-    >
-      womens
-    </div>
-    <a
-      class="c2"
-      href="/womens/shop/accessories"
-    >
-      Accessories
-    </a>
-    <a
-      class="c2"
-      href="/womens/shop/bags"
-    >
-      Bags
-    </a>
-    <a
-      class="c2"
-      href="/womens/shop/clothing"
-    >
-      Clothing
-    </a>
-    <a
-      class="c2"
-      href="/womens/shop/shoes"
-    >
-      Shoes
-    </a>
-    <a
-      class="c2"
-      href="/womens/shop/homeware"
-    >
-      Homeware
-    </a>
-  </nav>
-  <h1
-    class="c3"
-  >
-    mf.swhurl.com
-  </h1>
-  <p>
-    Example next.js app, including:
-  </p>
-  <ul>
-    <li>
-      styled components
-    </li>
-    <li>
-      jest snapshot testing
-    </li>
-  </ul>
-</div>
+      mf.swhurl.com
+    </h1>
+    <p>
+      Example next.js app, including:
+    </p>
+    <ul>
+      <li>
+        styled components
+      </li>
+      <li>
+        jest snapshot testing
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
 `;
