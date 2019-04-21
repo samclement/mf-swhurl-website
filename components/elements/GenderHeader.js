@@ -9,7 +9,7 @@ const StyledH1 = styled.h1`
   background-color: #eee;
 `
 
-export default (props) => {
+export default props => {
   const { gender } = props
   return <StyledH1>{gender}</StyledH1>
 }

@@ -43,7 +43,8 @@ export default ({ title, filters }) => {
           <Link prefetch key={i} href={url} as={f.url}>
             <StyledLink href="#">
               <StyledLabel>
-                <StyledInput type="checkbox" readOnly checked={f.selected} /> {f.name}
+                <StyledInput type="checkbox" readOnly checked={f.selected} />{' '}
+                {f.name}
               </StyledLabel>
             </StyledLink>
           </Link>

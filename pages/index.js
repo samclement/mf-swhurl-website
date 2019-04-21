@@ -4,7 +4,7 @@ import Nav from '../components/blocks/Nav'
 import Head from 'next/head'
 import { mens, womens } from '../navigation.js'
 
-export default (props) => {
+export default props => {
   return (
     <div>
       <Head>

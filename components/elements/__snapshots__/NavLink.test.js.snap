@@ -8,7 +8,7 @@ exports[`With Snapshot Testing NavLink shows "About" with href "/about" 1`] = `
 }
 
 .c0:hover {
-  color: #F00;
+  color: #f00;
 }
 
 .c0:visited {

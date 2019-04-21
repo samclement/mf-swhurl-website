@@ -14,7 +14,8 @@
     "test:e2e": "wdio",
     "test:perf": "lighthouse http://website:3000 --quiet --output=json html --config-path=./lighthouse.config.json --chrome-flags=\"--headless --no-sandbox --disable-gpu\" --output-path=./test-output/lighthouse/lighthouse && node ./lighthouse-report-parser.js",
     "lint": "eslint .",
-    "precommit": "precise-commits --whitelist=\"./package-lock.json\""
+    "precommit": "precise-commits --whitelist=\"./package-lock.json\"",
+    "fmt": "prettier --write \"{pages,components}/**/*.js\""
   },
   "repository": {
     "type": "git",

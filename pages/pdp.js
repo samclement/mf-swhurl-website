@@ -50,7 +50,10 @@ function Pdp(props) {
       <GenderHeader gender={sizeTaxonomyName.split(' ')[0]} />
       <StyledProductContainer>
         <ImageContainer>
-          <StyledImage src={thumbnail.replace('thumbnail', 'large')} alt={name} />
+          <StyledImage
+            src={thumbnail.replace('thumbnail', 'large')}
+            alt={name}
+          />
         </ImageContainer>
         <ProductDetailsContainer>
           <h2 dangerouslySetInnerHTML={{ __html: designerData.name }} />

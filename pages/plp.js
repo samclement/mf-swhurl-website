@@ -26,11 +26,15 @@ const FilterBlockContainer = styled.div`
 `
 
 const DesktopFilterBlockContainer = styled(FilterBlockContainer)`
-  @media only screen and (max-width: 640px) { display: none }
+  @media only screen and (max-width: 640px) {
+    display: none;
+  }
 `
 
 const FilterButton = styled.button`
-  @media only screen and (min-width: 640px) { display: none }
+  @media only screen and (min-width: 640px) {
+    display: none;
+  }
 `
 
 function Plp(props) {
@@ -44,7 +48,9 @@ function Plp(props) {
       <Nav items={mens} gender="mens" />
       <Nav items={womens} gender="womens" />
       <GenderHeader gender={gender} />
-      <FilterButton onClick={() => setMenuOpen(!menuOpen)}>Show Filters</FilterButton>
+      <FilterButton onClick={() => setMenuOpen(!menuOpen)}>
+        Show Filters
+      </FilterButton>
       <SearchContainer>
         <CheeseburgerMenu
           isOpen={menuOpen}

@@ -15,7 +15,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
 }
 
 .c2:hover {
-  color: #F00;
+  color: #f00;
 }
 
 .c2:visited {

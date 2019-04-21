@@ -6,7 +6,7 @@ const StyledLink = styled.a`
   color: black;
   padding-right: 5px;
   &:hover {
-    color: #F00;
+    color: #f00;
   }
   &:visited {
     color: black;

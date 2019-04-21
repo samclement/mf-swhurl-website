@@ -44,7 +44,9 @@ describe('With Snapshot Testing', () => {
     expect(res).toMatchSnapshot()
   })
   it('Plp getInitialProps', async () => {
-    const res = await Plp.getInitialProps({ req: { query: { url: '/womens/' } } })
+    const res = await Plp.getInitialProps({
+      req: { query: { url: '/womens/' } }
+    })
     expect(res).toMatchSnapshot()
   })
   it('Plp getInitialProps', async () => {

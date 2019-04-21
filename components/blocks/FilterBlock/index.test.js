@@ -18,7 +18,9 @@ const facet = facets[0]
 
 describe('With Snapshot Testing', () => {
   it('FilterBlock displays items', () => {
-    const { asFragment } = render(<FilterBlock title={facet.name} filters={facet.values} />)
+    const { asFragment } = render(
+      <FilterBlock title={facet.name} filters={facet.values} />
+    )
     expect(asFragment()).toMatchSnapshot()
   })
 })
