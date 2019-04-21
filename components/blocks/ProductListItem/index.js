@@ -6,8 +6,8 @@ const StyledProduct = styled.div`
   width: 150px;
   padding: 10px;
   text-align: center;
-  margin: 0 6px;
-  @media only screen and (max-width: 640px) {
+  margin: 0;
+  @media only screen and (min-width: 380px) and (max-width: 640px) {
     margin: 0 12px;
   }
   @media only screen and (min-width: 641px) and (max-width: 780px) {

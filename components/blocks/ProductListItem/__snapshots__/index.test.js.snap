@@ -6,10 +6,10 @@ exports[`With Snapshot Testing Product list item 1`] = `
   width: 150px;
   padding: 10px;
   text-align: center;
-  margin: 0 6px;
+  margin: 0;
 }
 
-@media only screen and (max-width:640px) {
+@media only screen and (min-width:380px) and (max-width:640px) {
   .c0 {
     margin: 0 12px;
   }
