@@ -43,26 +43,26 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
   background-color: #eee;
 }
 
+.c5 {
+  width: 100%;
+  float: left;
+}
+
 .c6 {
   width: 100%;
+  margin: 0 auto;
 }
 
 .c4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  text-align: center;
+}
+
+.c8 {
+  min-width: 320px;
 }
 
 .c7 {
-  min-width: 320px;
+  margin-bottom: 20px;
 }
 
 @media only screen and (min-width:640px) {
@@ -71,29 +71,17 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
   }
 }
 
-@media only screen and (min-width:800px) {
+@media only screen and (min-width:641px) {
   .c5 {
+    width: 50%;
     max-width: 500px;
+    padding-right: 20px;
   }
 }
 
 @media only screen and (max-width:320px) {
   .c6 {
     max-width: 320px;
-  }
-}
-
-@media only screen and (min-width:640px) {
-  .c6 {
-    margin-right: 50px;
-  }
-}
-
-@media only screen and (min-width:640px) {
-  .c4 {
-    -webkit-flex-wrap: nowrap;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
   }
 }
 
@@ -187,14 +175,73 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
       <div
         class="c5"
       >
-        <img
-          alt="Intrecciato leather cardholder"
-          class="c6"
-          src="//assetsprx.matchesfashion.com/img/product/1247661_1_large.jpg"
-        />
+        <div
+          class="react-swipe-container carousel"
+          style="overflow: hidden; visibility: visible; position: relative;"
+        >
+          <div
+            style="overflow: hidden; position: relative; width: 0px;"
+          >
+            <div
+              data-index="0"
+              style="float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 0ms; webkit-transition-duration: 0ms; webkit-transform: translate(0px,0)translateZ(0);"
+            >
+              <img
+                class="c6"
+                src="//assetsprx.matchesfashion.com/img/product/1247661_1_large.jpg"
+              />
+            </div>
+            <div
+              data-index="1"
+              style="float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 0ms; webkit-transition-duration: 0ms; webkit-transform: translate(0px,0)translateZ(0);"
+            >
+              <img
+                class="c6"
+                src="//assetsprx.matchesfashion.com/img/product/1247661_2_large.jpg"
+              />
+            </div>
+            <div
+              data-index="2"
+              style="float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 0ms; webkit-transition-duration: 0ms; webkit-transform: translate(0px,0)translateZ(0);"
+            >
+              <img
+                class="c6"
+                src="//assetsprx.matchesfashion.com/img/product/1247661_3_large.jpg"
+              />
+            </div>
+            <div
+              data-index="3"
+              style="float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 0ms; webkit-transition-duration: 0ms; webkit-transform: translate(0px,0)translateZ(0);"
+            >
+              <img
+                class="c6"
+                src="//assetsprx.matchesfashion.com/img/product/1247661_4_large.jpg"
+              />
+            </div>
+            <div
+              data-index="4"
+              style="float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 0ms; webkit-transition-duration: 0ms; webkit-transform: translate(0px,0)translateZ(0);"
+            >
+              <img
+                class="c6"
+                src="//assetsprx.matchesfashion.com/img/product/1247661_5_large.jpg"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="c7"
+        >
+          <button>
+            Previous
+          </button>
+          <button>
+            Next
+          </button>
+        </div>
       </div>
       <div
-        class="c7"
+        class="c8"
       >
         <h2>
           Bottega Veneta
@@ -209,4 +256,203 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
     </div>
   </div>
 </DocumentFragment>
+`;
+
+exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 2`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -96,11 +96,11 @@
+            <div
+              style=\\"overflow: hidden; position: relative; width: 0px;\\"
+            >
+              <div
+                data-index=\\"0\\"
+-               style=\\"float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 0ms; webkit-transition-duration: 0ms; webkit-transform: translate(0px,0)translateZ(0);\\"
++               style=\\"float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 300ms; webkit-transition-duration: 300ms; webkit-transform: translate(NaNpx,0)translateZ(0);\\"
+              >
+                <img
+                  class=\\"pdp__StyledImage-sc-13y4x6f-1 dLyRAI\\"
+                  src=\\"//assetsprx.matchesfashion.com/img/product/1247661_1_large.jpg\\"
+                />"
+`;
+
+exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 3`] = `
+Object {
+  Symbol(SameObject caches): Object {
+    "childNodes": NodeList [
+      <div>
+        <nav
+          class="Nav__StyledNav-sc-1ihr5rt-1 hUoJBi"
+        >
+          <div
+            class="Nav__StyledTitle-sc-1ihr5rt-0 gQKJST"
+          >
+            mens
+          </div>
+          <a
+            class="NavLink__StyledLink-ttkpnb-0 fjtgGB"
+            href="/mens/shop/accessories"
+          >
+            Accessories
+          </a>
+          <a
+            class="NavLink__StyledLink-ttkpnb-0 fjtgGB"
+            href="/mens/shop/shoes"
+          >
+            Shoes
+          </a>
+          <a
+            class="NavLink__StyledLink-ttkpnb-0 fjtgGB"
+            href="/mens/shop/clothing"
+          >
+            Clothing
+          </a>
+          <a
+            class="NavLink__StyledLink-ttkpnb-0 fjtgGB"
+            href="/mens/shop/bags"
+          >
+            Bags
+          </a>
+          <a
+            class="NavLink__StyledLink-ttkpnb-0 fjtgGB"
+            href="/mens/shop/homeware"
+          >
+            Homeware
+          </a>
+        </nav>
+        <nav
+          class="Nav__StyledNav-sc-1ihr5rt-1 hUoJBi"
+        >
+          <div
+            class="Nav__StyledTitle-sc-1ihr5rt-0 gQKJST"
+          >
+            womens
+          </div>
+          <a
+            class="NavLink__StyledLink-ttkpnb-0 fjtgGB"
+            href="/womens/shop/accessories"
+          >
+            Accessories
+          </a>
+          <a
+            class="NavLink__StyledLink-ttkpnb-0 fjtgGB"
+            href="/womens/shop/bags"
+          >
+            Bags
+          </a>
+          <a
+            class="NavLink__StyledLink-ttkpnb-0 fjtgGB"
+            href="/womens/shop/clothing"
+          >
+            Clothing
+          </a>
+          <a
+            class="NavLink__StyledLink-ttkpnb-0 fjtgGB"
+            href="/womens/shop/shoes"
+          >
+            Shoes
+          </a>
+          <a
+            class="NavLink__StyledLink-ttkpnb-0 fjtgGB"
+            href="/womens/shop/homeware"
+          >
+            Homeware
+          </a>
+        </nav>
+        <h1
+          class="GenderHeader__StyledH1-sc-1mvdkw3-0 hXAFdv"
+        >
+          Womens
+        </h1>
+        <div
+          class="pdp__StyledProductContainer-sc-13y4x6f-2 jlbPtp"
+        >
+          <div
+            class="pdp__ImageContainer-sc-13y4x6f-0 Zupon"
+          >
+            <div
+              class="react-swipe-container carousel"
+              style="overflow: hidden; visibility: visible; position: relative;"
+            >
+              <div
+                style="overflow: hidden; position: relative; width: 0px;"
+              >
+                <div
+                  data-index="0"
+                  style="float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 0ms; webkit-transition-duration: 0ms; webkit-transform: translate(0px,0)translateZ(0);"
+                >
+                  <img
+                    class="pdp__StyledImage-sc-13y4x6f-1 dLyRAI"
+                    src="//assetsprx.matchesfashion.com/img/product/1247661_1_large.jpg"
+                  />
+                </div>
+                <div
+                  data-index="1"
+                  style="float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 0ms; webkit-transition-duration: 0ms; webkit-transform: translate(0px,0)translateZ(0);"
+                >
+                  <img
+                    class="pdp__StyledImage-sc-13y4x6f-1 dLyRAI"
+                    src="//assetsprx.matchesfashion.com/img/product/1247661_2_large.jpg"
+                  />
+                </div>
+                <div
+                  data-index="2"
+                  style="float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 0ms; webkit-transition-duration: 0ms; webkit-transform: translate(0px,0)translateZ(0);"
+                >
+                  <img
+                    class="pdp__StyledImage-sc-13y4x6f-1 dLyRAI"
+                    src="//assetsprx.matchesfashion.com/img/product/1247661_3_large.jpg"
+                  />
+                </div>
+                <div
+                  data-index="3"
+                  style="float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 0ms; webkit-transition-duration: 0ms; webkit-transform: translate(0px,0)translateZ(0);"
+                >
+                  <img
+                    class="pdp__StyledImage-sc-13y4x6f-1 dLyRAI"
+                    src="//assetsprx.matchesfashion.com/img/product/1247661_4_large.jpg"
+                  />
+                </div>
+                <div
+                  data-index="4"
+                  style="float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 0ms; webkit-transition-duration: 0ms; webkit-transform: translate(0px,0)translateZ(0);"
+                >
+                  <img
+                    class="pdp__StyledImage-sc-13y4x6f-1 dLyRAI"
+                    src="//assetsprx.matchesfashion.com/img/product/1247661_5_large.jpg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="pdp__Controls-sc-13y4x6f-4 bCaMIM"
+            >
+              <button>
+                Previous
+              </button>
+              <button>
+                Next
+              </button>
+            </div>
+          </div>
+          <div
+            class="pdp__ProductDetailsContainer-sc-13y4x6f-3 feVxiE"
+          >
+            <h2>
+              Bottega Veneta
+            </h2>
+            <h3>
+              Intrecciato leather cardholder
+            </h3>
+            <p>
+              £265
+            </p>
+          </div>
+        </div>
+      </div>,
+    ],
+  },
+}
 `;

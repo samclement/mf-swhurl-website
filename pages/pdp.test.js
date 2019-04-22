@@ -1,7 +1,7 @@
 /* eslint-env jest */
 
 import React from 'react'
-import { render } from 'react-testing-library'
+import { render, fireEvent } from 'react-testing-library'
 import 'jest-styled-components'
 import 'jest-dom/extend-expect'
 import Pdp from './pdp.js'
@@ -9,13 +9,21 @@ import Pdp from './pdp.js'
 import Router from 'next/router'
 const mockedRouter = { push: () => {}, prefetch: () => {} }
 Router.router = mockedRouter
+// Snapshot diffing support
+const { toMatchDiffSnapshot } = require('snapshot-diff')
+expect.extend({ toMatchDiffSnapshot })
 // Data
 const data = require('../test-data/pdp.json')
 
 describe('With Snapshot Testing', () => {
   it('Plp page shows "mf.swhurl.com" H1', () => {
-    const { asFragment } = render(<Pdp {...data} />)
-    expect(asFragment()).toMatchSnapshot()
+    const { getByText, asFragment } = render(<Pdp {...data} />)
+    const firstRender = asFragment()
+    expect(firstRender).toMatchSnapshot()
+    fireEvent.click(getByText(/Next/i))
+    expect(firstRender).toMatchDiffSnapshot(asFragment())
+    fireEvent.click(getByText(/Previous/i))
+    expect(firstRender).toMatchSnapshot(asFragment())
   })
   it('Plp getInitialProps', async () => {
     const res = await Pdp.getInitialProps({ query: { code: 1247661 } })

@@ -5,41 +5,44 @@ import { mens, womens } from '../navigation.js'
 import { getProduct } from '../services'
 import GenderHeader from '../components/elements/GenderHeader.js'
 import styled from 'styled-components'
+import ReactSwipe from 'react-swipe'
 
 const ImageContainer = styled.div`
+  width: 100%;
   @media only screen and (min-width: 640px) {
     max-width: 320px;
   }
-  @media only screen and (min-width: 800px) {
+  @media only screen and (min-width: 641px) {
+    width: 50%;
     max-width: 500px;
+    padding-right: 20px;
   }
+  float: left;
 `
 
 const StyledImage = styled.img`
   width: 100%;
+  margin: 0 auto;
   @media only screen and (max-width: 320px) {
     max-width: 320px;
-  }
-  @media only screen and (min-width: 640px) {
-    margin-right: 50px;
   }
 `
 
 const StyledProductContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  @media only screen and (min-width: 640px) {
-    flex-wrap: nowrap;
-  }
+  text-align: center;
 `
 
 const ProductDetailsContainer = styled.div`
   min-width: 320px;
 `
 
+const Controls = styled.div`
+  margin-bottom: 20px;
+`
+
 function Pdp(props) {
   const { name, thumbnail, designerData, priceData, sizeTaxonomyName } = props
+  let reactSwipeEl
   return (
     <div>
       <Head>
@@ -50,10 +53,23 @@ function Pdp(props) {
       <GenderHeader gender={sizeTaxonomyName.split(' ')[0]} />
       <StyledProductContainer>
         <ImageContainer>
-          <StyledImage
-            src={thumbnail.replace('thumbnail', 'large')}
-            alt={name}
-          />
+          <ReactSwipe className="carousel" ref={el => (reactSwipeEl = el)}>
+            {[...Array(5).keys()].map(num => {
+              return (
+                <div>
+                  <StyledImage
+                    src={thumbnail
+                      .replace('thumbnail', 'large')
+                      .replace('_1', `_${num + 1}`)}
+                  />
+                </div>
+              )
+            })}
+          </ReactSwipe>
+          <Controls>
+            <button onClick={() => reactSwipeEl.prev()}>Previous</button>
+            <button onClick={() => reactSwipeEl.next()}>Next</button>
+          </Controls>
         </ImageContainer>
         <ProductDetailsContainer>
           <h2 dangerouslySetInnerHTML={{ __html: designerData.name }} />
