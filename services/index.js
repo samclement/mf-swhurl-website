@@ -1,12 +1,9 @@
-import axios from 'axios'
-import { setupCache } from 'axios-cache-adapter'
+import { setup } from 'axios-cache-adapter'
 
-const cache = setupCache({
-  maxAge: 5 * 60 * 1000
-})
-
-const api = axios.create({
-  adapter: cache.adapter
+const api = setup({
+  cache: {
+    maxAge: 5 * 60 * 1000
+  }
 })
 
 export const getApiUrl = (isServer = true) => {

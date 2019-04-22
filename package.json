@@ -23,7 +23,6 @@
   },
   "dependencies": {
     "@babel/core": "7.3.4",
-    "axios": "^0.18.0",
     "axios-cache-adapter": "^2.3.0",
     "cheerio": "^1.0.0-rc.2",
     "cheeseburger-menu": "0.0.13",
