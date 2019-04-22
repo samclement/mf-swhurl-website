@@ -3,9 +3,11 @@ const express = require('express')
 const compression = require('compression')
 const next = require('next')
 const axios = require('axios')
+const { setupCache } = require('axios-cache-adapter')
+const cache = setupCache({ maxAge: 5 * 60 * 1000 })
+const api = axios.create({ adapter: cache.adapter })
 const plpParser = require('./lib/plp.js')
 
-const cache = require('memory-cache')
 const BASE_URL = `https://www.matchesfashion.com`
 const API_KEY = process.env.API_KEY || ''
 const headers = { 'User-Agent': `API/${API_KEY}`, 'Accept-Encoding': 'gzip' }
@@ -36,16 +38,10 @@ app.prepare().then(() => {
     const delimiter = cleanPath.includes('?') ? '&' : '?'
     const formatPath = `${cleanPath}${delimiter}format=json`
     const url = `${BASE_URL}/${formatPath}`
-    const cachedSearchResults = cache.get(encodeURIComponent(url))
-    if (cachedSearchResults) {
-      res.send(cachedSearchResults)
-      return
-    }
     const opts = { url, headers }
-    axios(opts)
+    api(opts)
       .then((data) => {
         const parsed = plpParser.parseSearchResults(data.data)
-        cache.put(encodeURIComponent(url), parsed, 1000 * 60 * 10)
         res.send(parsed)
       })
       .catch((err) => console.log(err))
@@ -53,16 +49,10 @@ app.prepare().then(() => {
 
   server.get('/api/products/:code', (req, res) => {
     const url = `${BASE_URL}/ajax/p/${req.params.code}`
-    const cachedSearchResults = cache.get(encodeURIComponent(url))
-    if (cachedSearchResults) {
-      res.send(cachedSearchResults)
-      return
-    }
     const opts = { url, headers }
-    axios(opts)
+    api(opts)
       .then((response) => {
         const product = response.data
-        cache.put(encodeURIComponent(url), product, 1000 * 60 * 10)
         res.send(product)
       })
       .catch((err) => console.log(err))
