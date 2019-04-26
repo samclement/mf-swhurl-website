@@ -26,7 +26,7 @@ export default ({ item }) => {
   return (
     <StyledProduct>
       <Link href={url} as={item.url}>
-        <a>
+        <a aria-label={item.name}>
           <LazyLoad offsetVertical={500}>
             <img src={imageUrl} alt={item.name} width="100%" />
           </LazyLoad>

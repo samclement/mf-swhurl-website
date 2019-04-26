@@ -27,6 +27,7 @@ exports[`With Snapshot Testing Product list item 1`] = `
     class="c0"
   >
     <a
+      aria-label="test"
       href="/pdp?code=1"
     >
       <div

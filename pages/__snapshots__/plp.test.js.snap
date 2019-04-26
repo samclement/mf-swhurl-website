@@ -2170,6 +2170,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Hooded zip-up track jacket"
             href="/products/Blackbarrett-by-Neil-Barrett-Hooded-zip-up-track-jacket-1245717"
           >
             <div
@@ -2182,6 +2183,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Agile technical ripstop jacket "
             href="/products/Salomon-Agile-technical-ripstop-jacket--1263536"
           >
             <div
@@ -2194,6 +2196,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Logo-print cotton-blend T-shirt"
             href="/products/Blackbarrett-by-Neil-Barrett-Logo-print-cotton-blend-T-shirt-1245726"
           >
             <div
@@ -2206,6 +2209,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Accelerate compression stretch leggings"
             href="/products/2XU-Accelerate-compression-stretch-leggings-1261981"
           >
             <div
@@ -2218,6 +2222,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Hooded technical jacket"
             href="/products/And-Wander-Hooded-technical-jacket-1256827"
           >
             <div
@@ -2230,6 +2235,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Hybrid mesh T-shirt"
             href="/products/And-Wander-Hybrid-mesh-T-shirt-1256819"
           >
             <div
@@ -2242,6 +2248,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Technical track pants"
             href="/products/Blackbarrett-by-Neil-Barrett-Technical-track-pants-1245719"
           >
             <div
@@ -2254,6 +2261,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Tech-Preme logo-patch technical sweatshirt"
             href="/products/LNDR-Tech-Preme-logo-patch-technical-sweatshirt-1247264"
           >
             <div
@@ -2266,6 +2274,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="FF-logo zip-through cotton-blend hooded sweatshirt"
             href="/products/Fendi-FF-logo-zip-through-cotton-blend-hooded-sweatshirt-1256167"
           >
             <div
@@ -2278,6 +2287,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Logo-patch raglan jersey T-shirt"
             href="/products/And-Wander-Logo-patch-raglan-jersey-T-shirt-1256820"
           >
             <div
@@ -2290,6 +2300,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Belted stretch trousers"
             href="/products/And-Wander-Belted-stretch-trousers-1256815"
           >
             <div
@@ -2302,6 +2313,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="FF cotton-blend hooded sweatshirt"
             href="/products/Fendi-FF-cotton-blend-hooded-sweatshirt-1256180"
           >
             <div
@@ -2314,6 +2326,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="GHST two-in-one jacket "
             href="/products/2XU-GHST-two-in-one-jacket--1261985"
           >
             <div
@@ -2326,6 +2339,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Logo-patch crew-neck cotton T-shirt"
             href="/products/Fendi-Logo-patch-crew-neck-cotton-T-shirt-1221480"
           >
             <div
@@ -2338,6 +2352,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Urban jersey track pants"
             href="/products/2XU-Urban-jersey-track-pants-1261994"
           >
             <div
@@ -2350,6 +2365,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Run West moth-eaten cotton T-shirt"
             href="/products/Satisfy-Run-West-moth-eaten-cotton-T-shirt-1256197"
           >
             <div
@@ -2362,6 +2378,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Contrast-panel hooded bomber jacket"
             href="/products/Moncler-Contrast-panel-hooded-bomber-jacket-1194379"
           >
             <div
@@ -2374,6 +2391,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Cult moth-eaten cotton tank top"
             href="/products/Satisfy-Cult-moth-eaten-cotton-tank-top-1256190"
           >
             <div
@@ -2386,6 +2404,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Striped cotton-blend track pants"
             href="/products/Fendi-Striped-cotton-blend-track-pants-1221482"
           >
             <div
@@ -2398,6 +2417,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Rix hooded jacket"
             href="/products/Castore-Rix-hooded-jacket-1262681"
           >
             <div
@@ -2410,6 +2430,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Front-stripe logo-printed jersey sweatshirt"
             href="/products/Fendi-Front-stripe-logo-printed-jersey-sweatshirt-1256166"
           >
             <div
@@ -2422,6 +2443,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Logo print cotton-blend T-shirt"
             href="/products/Blackbarrett-by-Neil-Barrett-Logo-print-cotton-blend-T-shirt-1245725"
           >
             <div
@@ -2434,6 +2456,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Zip-pocket track shorts"
             href="/products/Blackbarrett-by-Neil-Barrett-Zip-pocket-track-shorts-1245720"
           >
             <div
@@ -2446,6 +2469,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Striped cotton-blend jersey T-shirt"
             href="/products/Blackbarrett-by-Neil-Barrett-Striped-cotton-blend-jersey-T-shirt-1245727"
           >
             <div
@@ -2458,6 +2482,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="The Redford cotton sweatshirt"
             href="/products/The-Upside-The-Redford-cotton-sweatshirt-1263588"
           >
             <div
@@ -2470,6 +2495,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Baldwin checked cotton shirt"
             href="/products/Aztech-Mountain-Baldwin-checked-cotton-shirt-1256157"
           >
             <div
@@ -2482,6 +2508,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Seamless compression tights"
             href="/products/Falke-Ess-Seamless-compression-tights-1247647"
           >
             <div
@@ -2494,6 +2521,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Reverse cotton T-shirt"
             href="/products/Satisfy-Reverse-cotton-T-shirt-1256192"
           >
             <div
@@ -2506,6 +2534,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Marlow technical-twill running jacket"
             href="/products/Iffley-Road-Marlow-technical-twill-running-jacket-1261935"
           >
             <div
@@ -2518,6 +2547,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Big Logo-print cotton tank top"
             href="/products/The-Upside-Big-Logo-print-cotton-tank-top-1263586"
           >
             <div
@@ -2530,6 +2560,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Windsor II stretch-jersey leggings"
             href="/products/Iffley-Road-Windsor-II-stretch-jersey-leggings-1261936"
           >
             <div
@@ -2542,6 +2573,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Sense Pro crew-neck T-shirt"
             href="/products/Salomon-Sense-Pro-crew-neck-T-shirt-1263540"
           >
             <div
@@ -2554,6 +2586,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Mesh zip-up track top"
             href="/products/Blackbarrett-by-Neil-Barrett-Mesh-zip-up-track-top-1245722"
           >
             <div
@@ -2566,6 +2599,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="The Newman cotton T-shirt"
             href="/products/The-Upside-The-Newman-cotton-T-shirt-1263591"
           >
             <div
@@ -2578,6 +2612,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Court-stripe leggings"
             href="/products/Blackbarrett-by-Neil-Barrett-Court-stripe-leggings-1245728"
           >
             <div
@@ -2590,6 +2625,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Big Logo-print cotton tank top"
             href="/products/The-Upside-Big-Logo-print-cotton-tank-top-1263596"
           >
             <div
@@ -2602,6 +2638,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="GHST contrast-panel performance top"
             href="/products/2XU-GHST-contrast-panel-performance-top-1261987"
           >
             <div
@@ -2614,6 +2651,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Marion stretch-jersey T-shirt"
             href="/products/Caf%C3%A9-Du-Cycliste-Marion-stretch-jersey-T-shirt-1263246"
           >
             <div
@@ -2626,6 +2664,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Royston track pants"
             href="/products/Iffley-Road-Royston-track-pants-1261948"
           >
             <div
@@ -2638,6 +2677,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Fellows long-sleeved stretch-mesh T-shirt"
             href="/products/Castore-Fellows-long-sleeved-stretch-mesh-T-shirt-1262688"
           >
             <div
@@ -2650,6 +2690,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Quarter-zip technical hooded jacket "
             href="/products/Satisfy-Quarter-zip-technical-hooded-jacket--1256196"
           >
             <div
@@ -2662,6 +2703,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Logo-print longline performance T-shirt"
             href="/products/And-Wander-Logo-print-longline-performance-T-shirt-1256816"
           >
             <div
@@ -2674,6 +2716,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Compression running leggings"
             href="/products/2XU-Compression-running-leggings-1261980"
           >
             <div
@@ -2686,6 +2729,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="FF-logo appliqué cotton T-shirt"
             href="/products/Fendi-FF-logo-appliqu%C3%A9-cotton-T-shirt-1288573"
           >
             <div
@@ -2698,6 +2742,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Mesh-panel performance top"
             href="/products/And-Wander-Mesh-panel-performance-top-1256818"
           >
             <div
@@ -2710,6 +2755,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Performance T-shirt"
             href="/products/Falke-Ess-Performance-T-shirt-1247641"
           >
             <div
@@ -2722,6 +2768,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Climbing belted trousers"
             href="/products/And-Wander-Climbing-belted-trousers-1256811"
           >
             <div
@@ -2734,6 +2781,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Guard technical jacket "
             href="/products/Nemen-Guard-technical-jacket--1261151"
           >
             <div
@@ -2746,6 +2794,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Constrast-panel performance jacket"
             href="/products/Nemen-Constrast-panel-performance-jacket-1261142"
           >
             <div
@@ -2758,6 +2807,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Guard reflective jacket"
             href="/products/Nemen-Guard-reflective-jacket-1261139"
           >
             <div
@@ -2770,6 +2820,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Revolt technical jacket "
             href="/products/Nemen-Revolt-technical-jacket--1261140"
           >
             <div
@@ -2782,6 +2833,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Dondi crew-neck technical sweatshirt"
             href="/products/Nemen-Dondi-crew-neck-technical-sweatshirt-1261149"
           >
             <div
@@ -2794,6 +2846,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Scramble nylon shorts "
             href="/products/Nemen-Scramble-nylon-shorts--1261148"
           >
             <div
@@ -2806,6 +2859,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Crushed technical fabric trousers"
             href="/products/Nemen-Crushed-technical-fabric-trousers-1261147"
           >
             <div
@@ -2818,6 +2872,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Utility shell sweatshirt"
             href="/products/Nemen-Utility-shell-sweatshirt-1261141"
           >
             <div
@@ -2830,6 +2885,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Dondi technical-shell sweatshirt"
             href="/products/Nemen-Dondi-technical-shell-sweatshirt-1261145"
           >
             <div
@@ -2842,6 +2898,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Marking reflective jacket"
             href="/products/Nemen-Marking-reflective-jacket-1261143"
           >
             <div
@@ -2854,6 +2911,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Haloes hybrid hooded down-filled jacket"
             href="/products/Salomon-Haloes-hybrid-hooded-down-filled-jacket-1263534"
           >
             <div
@@ -2866,6 +2924,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Agile mesh-panel performance shorts"
             href="/products/Salomon-Agile-mesh-panel-performance-shorts-1263551"
           >
             <div
@@ -2878,6 +2937,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           class="c13"
         >
           <a
+            aria-label="Agile polka dot-print performance jacket"
             href="/products/Salomon-Agile-polka-dot-print-performance-jacket-1263537"
           >
             <div
