@@ -1,9 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
+import LazyLoad from 'react-lazy-load'
 
 const StyledProduct = styled.div`
   width: 150px;
+  min-height: 220px;
   padding: 10px;
   text-align: center;
   margin: 0;
@@ -25,7 +27,9 @@ export default ({ item }) => {
     <StyledProduct>
       <Link href={url} as={item.url}>
         <a>
-          <img src={imageUrl} alt={item.name} />
+          <LazyLoad offsetVertical={500}>
+            <img src={imageUrl} alt={item.name} width="100%" />
+          </LazyLoad>
         </a>
       </Link>
       {item.name}
