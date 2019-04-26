@@ -54,7 +54,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
 
 .c8 {
   color: black;
-  font-size: 11px;
+  font-size: 12px;
   -webkit-text-decoration: none;
   text-decoration: none;
   display: block;

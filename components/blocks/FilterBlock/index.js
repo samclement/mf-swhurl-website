@@ -9,7 +9,7 @@ const StyledBlock = styled.div`
 
 const StyledLink = styled.a`
   color: black;
-  font-size: 11px;
+  font-size: 12px;
   text-decoration: none;
   display: block;
   padding-left: 15px;

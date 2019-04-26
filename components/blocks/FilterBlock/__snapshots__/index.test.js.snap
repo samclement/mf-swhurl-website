@@ -9,7 +9,7 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
 
 .c1 {
   color: black;
-  font-size: 11px;
+  font-size: 12px;
   -webkit-text-decoration: none;
   text-decoration: none;
   display: block;
