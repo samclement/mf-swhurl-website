@@ -56,7 +56,7 @@ function Pdp(props) {
           <ReactSwipe className="carousel" ref={el => (reactSwipeEl = el)}>
             {[...Array(5).keys()].map(num => {
               return (
-                <div>
+                <div key={num}>
                   <StyledImage
                     src={thumbnail
                       .replace('thumbnail', 'large')
