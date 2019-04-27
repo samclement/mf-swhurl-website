@@ -2,7 +2,7 @@
 
 exports[`With Snapshot Testing Plp - show filters button 1`] = `
 <DocumentFragment>
-  .c13 {
+  .c12 {
   width: 150px;
   min-height: 220px;
   padding: 10px;
@@ -58,28 +58,31 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   display: block;
-  padding-left: 15px;
+  padding-left: 10px;
   text-indent: -15px;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
 }
 
-.c10 {
-  width: 13px;
-  height: 13px;
-  padding: 0;
-  margin: 0;
-  vertical-align: bottom;
-  position: relative;
-  top: -1px;
-  *overflow: hidden;
-  cursor: pointer;
+.c8::before {
+  content: url("/static/checkbox_checked.svg");
 }
 
 .c9 {
-  cursor: pointer;
+  color: black;
+  font-size: 12px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: block;
+  padding-left: 10px;
+  text-indent: -15px;
+  margin-bottom: 6px;
 }
 
-.c12 {
+.c9::before {
+  content: url("/static/checkbox_unchecked.svg");
+}
+
+.c11 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -114,7 +117,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
   flex-flow: column nowrap;
 }
 
-.c11 {
+.c10 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -125,20 +128,20 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
 }
 
 @media only screen and (min-width:380px) and (max-width:640px) {
-  .c13 {
+  .c12 {
     margin: 0 12px;
   }
 }
 
 @media only screen and (min-width:641px) and (max-width:780px) {
-  .c13 {
+  .c12 {
     padding: 10px 5px;
     margin: 0;
   }
 }
 
 @media only screen and (max-width:640px) {
-  .c11 {
+  .c10 {
     display: none;
   }
 }
@@ -272,227 +275,91 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
                     class="c8"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        checked=""
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Activewear
-                    </label>
+                    Activewear
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Blazers
-                    </label>
+                    Blazers
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Casual Shirts
-                    </label>
+                    Casual Shirts
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Coats and Jackets
-                    </label>
+                    Coats and Jackets
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Formal Shirts
-                    </label>
+                    Formal Shirts
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Jeans
-                    </label>
+                    Jeans
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Knitwear
-                    </label>
+                    Knitwear
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Polo Shirts
-                    </label>
+                    Polo Shirts
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Shorts
-                    </label>
+                    Shorts
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Suits
-                    </label>
+                    Suits
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Sweats
-                    </label>
+                    Sweats
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Swimwear
-                    </label>
+                    Swimwear
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       T-Shirts
-                    </label>
+                    T-Shirts
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Trousers
-                    </label>
+                    Trousers
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Underwear and Nightwear
-                    </label>
+                    Underwear and Nightwear
                   </a>
                 </div>
                 <div
@@ -502,349 +369,142 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
                     Designer
                   </h2>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       1017 ALYX 9SM
-                    </label>
+                    1017 ALYX 9SM
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       2XU
-                    </label>
+                    2XU
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       And Wander
-                    </label>
+                    And Wander
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Aztech Mountain
-                    </label>
+                    Aztech Mountain
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Blackbarrett by Neil Barrett
-                    </label>
+                    Blackbarrett by Neil Barrett
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Café Du Cycliste
-                    </label>
+                    Café Du Cycliste
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Castore
-                    </label>
+                    Castore
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Falke
-                    </label>
+                    Falke
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Fendi
-                    </label>
+                    Fendi
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Helly Hansen
-                    </label>
+                    Helly Hansen
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Iffley Road
-                    </label>
+                    Iffley Road
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       LNDR
-                    </label>
+                    LNDR
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Mammut Delta X
-                    </label>
+                    Mammut Delta X
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Moncler
-                    </label>
+                    Moncler
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Moncler Genius
-                    </label>
+                    Moncler Genius
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Moncler Grenoble
-                    </label>
+                    Moncler Grenoble
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Nemen
-                    </label>
+                    Nemen
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Peak Performance
-                    </label>
+                    Peak Performance
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Perfect Moment
-                    </label>
+                    Perfect Moment
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Salomon
-                    </label>
+                    Salomon
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Satisfy
-                    </label>
+                    Satisfy
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       The Upside
-                    </label>
+                    The Upside
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Tilak
-                    </label>
+                    Tilak
                   </a>
                 </div>
                 <div
@@ -854,229 +514,94 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
                     Colour
                   </h2>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Black
-                    </label>
+                    Black
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Blue
-                    </label>
+                    Blue
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Brown
-                    </label>
+                    Brown
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Green
-                    </label>
+                    Green
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Grey
-                    </label>
+                    Grey
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Metallic
-                    </label>
+                    Metallic
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Navy
-                    </label>
+                    Navy
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Neutral
-                    </label>
+                    Neutral
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Orange
-                    </label>
+                    Orange
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Print
-                    </label>
+                    Print
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Purple
-                    </label>
+                    Purple
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Red
-                    </label>
+                    Red
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Tan
-                    </label>
+                    Tan
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       White
-                    </label>
+                    White
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       Yellow
-                    </label>
+                    Yellow
                   </a>
                 </div>
                 <div
@@ -1086,124 +611,52 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
                     Clothes Size
                   </h2>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       XXS
-                    </label>
+                    XXS
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       XS
-                    </label>
+                    XS
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       S
-                    </label>
+                    S
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       M
-                    </label>
+                    M
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       L
-                    </label>
+                    L
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       XL
-                    </label>
+                    XL
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       XXL
-                    </label>
+                    XXL
                   </a>
                   <a
-                    class="c8"
+                    class="c9"
                     href="#"
                   >
-                    <label
-                      class="c9"
-                    >
-                      <input
-                        class="c10"
-                        readonly=""
-                        type="checkbox"
-                      />
-                       3XL
-                    </label>
+                    3XL
                   </a>
                 </div>
               </div>
@@ -1216,7 +669,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
         </div>
       </div>
       <div
-        class="c11"
+        class="c10"
       >
         <div
           class="c7"
@@ -1228,227 +681,91 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             class="c8"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                checked=""
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Activewear
-            </label>
+            Activewear
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Blazers
-            </label>
+            Blazers
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Casual Shirts
-            </label>
+            Casual Shirts
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Coats and Jackets
-            </label>
+            Coats and Jackets
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Formal Shirts
-            </label>
+            Formal Shirts
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Jeans
-            </label>
+            Jeans
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Knitwear
-            </label>
+            Knitwear
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Polo Shirts
-            </label>
+            Polo Shirts
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Shorts
-            </label>
+            Shorts
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Suits
-            </label>
+            Suits
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Sweats
-            </label>
+            Sweats
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Swimwear
-            </label>
+            Swimwear
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               T-Shirts
-            </label>
+            T-Shirts
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Trousers
-            </label>
+            Trousers
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Underwear and Nightwear
-            </label>
+            Underwear and Nightwear
           </a>
         </div>
         <div
@@ -1458,349 +775,142 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             Designer
           </h2>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               1017 ALYX 9SM
-            </label>
+            1017 ALYX 9SM
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               2XU
-            </label>
+            2XU
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               And Wander
-            </label>
+            And Wander
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Aztech Mountain
-            </label>
+            Aztech Mountain
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Blackbarrett by Neil Barrett
-            </label>
+            Blackbarrett by Neil Barrett
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Café Du Cycliste
-            </label>
+            Café Du Cycliste
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Castore
-            </label>
+            Castore
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Falke
-            </label>
+            Falke
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Fendi
-            </label>
+            Fendi
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Helly Hansen
-            </label>
+            Helly Hansen
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Iffley Road
-            </label>
+            Iffley Road
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               LNDR
-            </label>
+            LNDR
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Mammut Delta X
-            </label>
+            Mammut Delta X
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Moncler
-            </label>
+            Moncler
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Moncler Genius
-            </label>
+            Moncler Genius
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Moncler Grenoble
-            </label>
+            Moncler Grenoble
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Nemen
-            </label>
+            Nemen
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Peak Performance
-            </label>
+            Peak Performance
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Perfect Moment
-            </label>
+            Perfect Moment
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Salomon
-            </label>
+            Salomon
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Satisfy
-            </label>
+            Satisfy
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               The Upside
-            </label>
+            The Upside
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Tilak
-            </label>
+            Tilak
           </a>
         </div>
         <div
@@ -1810,229 +920,94 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             Colour
           </h2>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Black
-            </label>
+            Black
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Blue
-            </label>
+            Blue
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Brown
-            </label>
+            Brown
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Green
-            </label>
+            Green
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Grey
-            </label>
+            Grey
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Metallic
-            </label>
+            Metallic
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Navy
-            </label>
+            Navy
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Neutral
-            </label>
+            Neutral
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Orange
-            </label>
+            Orange
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Print
-            </label>
+            Print
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Purple
-            </label>
+            Purple
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Red
-            </label>
+            Red
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Tan
-            </label>
+            Tan
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               White
-            </label>
+            White
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               Yellow
-            </label>
+            Yellow
           </a>
         </div>
         <div
@@ -2042,132 +1017,60 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             Clothes Size
           </h2>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               XXS
-            </label>
+            XXS
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               XS
-            </label>
+            XS
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               S
-            </label>
+            S
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               M
-            </label>
+            M
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               L
-            </label>
+            L
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               XL
-            </label>
+            XL
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               XXL
-            </label>
+            XXL
           </a>
           <a
-            class="c8"
+            class="c9"
             href="#"
           >
-            <label
-              class="c9"
-            >
-              <input
-                class="c10"
-                readonly=""
-                type="checkbox"
-              />
-               3XL
-            </label>
+            3XL
           </a>
         </div>
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Hooded zip-up track jacket"
@@ -2180,7 +1083,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Hooded zip-up track jacket
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Agile technical ripstop jacket "
@@ -2193,7 +1096,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Agile technical ripstop jacket 
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Logo-print cotton-blend T-shirt"
@@ -2206,7 +1109,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Logo-print cotton-blend T-shirt
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Accelerate compression stretch leggings"
@@ -2219,7 +1122,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Accelerate compression stretch leggings
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Hooded technical jacket"
@@ -2232,7 +1135,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Hooded technical jacket
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Hybrid mesh T-shirt"
@@ -2245,7 +1148,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Hybrid mesh T-shirt
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Technical track pants"
@@ -2258,7 +1161,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Technical track pants
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Tech-Preme logo-patch technical sweatshirt"
@@ -2271,7 +1174,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Tech-Preme logo-patch technical sweatshirt
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="FF-logo zip-through cotton-blend hooded sweatshirt"
@@ -2284,7 +1187,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           FF-logo zip-through cotton-blend hooded sweatshirt
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Logo-patch raglan jersey T-shirt"
@@ -2297,7 +1200,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Logo-patch raglan jersey T-shirt
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Belted stretch trousers"
@@ -2310,7 +1213,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Belted stretch trousers
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="FF cotton-blend hooded sweatshirt"
@@ -2323,7 +1226,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           FF cotton-blend hooded sweatshirt
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="GHST two-in-one jacket "
@@ -2336,7 +1239,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           GHST two-in-one jacket 
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Logo-patch crew-neck cotton T-shirt"
@@ -2349,7 +1252,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Logo-patch crew-neck cotton T-shirt
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Urban jersey track pants"
@@ -2362,7 +1265,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Urban jersey track pants
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Run West moth-eaten cotton T-shirt"
@@ -2375,7 +1278,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Run West moth-eaten cotton T-shirt
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Contrast-panel hooded bomber jacket"
@@ -2388,7 +1291,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Contrast-panel hooded bomber jacket
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Cult moth-eaten cotton tank top"
@@ -2401,7 +1304,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Cult moth-eaten cotton tank top
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Striped cotton-blend track pants"
@@ -2414,7 +1317,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Striped cotton-blend track pants
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Rix hooded jacket"
@@ -2427,7 +1330,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Rix hooded jacket
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Front-stripe logo-printed jersey sweatshirt"
@@ -2440,7 +1343,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Front-stripe logo-printed jersey sweatshirt
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Logo print cotton-blend T-shirt"
@@ -2453,7 +1356,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Logo print cotton-blend T-shirt
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Zip-pocket track shorts"
@@ -2466,7 +1369,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Zip-pocket track shorts
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Striped cotton-blend jersey T-shirt"
@@ -2479,7 +1382,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Striped cotton-blend jersey T-shirt
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="The Redford cotton sweatshirt"
@@ -2492,7 +1395,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           The Redford cotton sweatshirt
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Baldwin checked cotton shirt"
@@ -2505,7 +1408,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Baldwin checked cotton shirt
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Seamless compression tights"
@@ -2518,7 +1421,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Seamless compression tights
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Reverse cotton T-shirt"
@@ -2531,7 +1434,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Reverse cotton T-shirt
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Marlow technical-twill running jacket"
@@ -2544,7 +1447,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Marlow technical-twill running jacket
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Big Logo-print cotton tank top"
@@ -2557,7 +1460,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Big Logo-print cotton tank top
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Windsor II stretch-jersey leggings"
@@ -2570,7 +1473,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Windsor II stretch-jersey leggings
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Sense Pro crew-neck T-shirt"
@@ -2583,7 +1486,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Sense Pro crew-neck T-shirt
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Mesh zip-up track top"
@@ -2596,7 +1499,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Mesh zip-up track top
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="The Newman cotton T-shirt"
@@ -2609,7 +1512,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           The Newman cotton T-shirt
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Court-stripe leggings"
@@ -2622,7 +1525,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Court-stripe leggings
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Big Logo-print cotton tank top"
@@ -2635,7 +1538,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Big Logo-print cotton tank top
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="GHST contrast-panel performance top"
@@ -2648,7 +1551,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           GHST contrast-panel performance top
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Marion stretch-jersey T-shirt"
@@ -2661,7 +1564,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Marion stretch-jersey T-shirt
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Royston track pants"
@@ -2674,7 +1577,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Royston track pants
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Fellows long-sleeved stretch-mesh T-shirt"
@@ -2687,7 +1590,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Fellows long-sleeved stretch-mesh T-shirt
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Quarter-zip technical hooded jacket "
@@ -2700,7 +1603,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Quarter-zip technical hooded jacket 
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Logo-print longline performance T-shirt"
@@ -2713,7 +1616,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Logo-print longline performance T-shirt
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Compression running leggings"
@@ -2726,7 +1629,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Compression running leggings
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="FF-logo appliqué cotton T-shirt"
@@ -2739,7 +1642,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           FF-logo appliqué cotton T-shirt
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Mesh-panel performance top"
@@ -2752,7 +1655,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Mesh-panel performance top
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Performance T-shirt"
@@ -2765,7 +1668,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Performance T-shirt
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Climbing belted trousers"
@@ -2778,7 +1681,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Climbing belted trousers
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Guard technical jacket "
@@ -2791,7 +1694,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Guard technical jacket 
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Constrast-panel performance jacket"
@@ -2804,7 +1707,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Constrast-panel performance jacket
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Guard reflective jacket"
@@ -2817,7 +1720,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Guard reflective jacket
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Revolt technical jacket "
@@ -2830,7 +1733,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Revolt technical jacket 
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Dondi crew-neck technical sweatshirt"
@@ -2843,7 +1746,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Dondi crew-neck technical sweatshirt
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Scramble nylon shorts "
@@ -2856,7 +1759,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Scramble nylon shorts 
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Crushed technical fabric trousers"
@@ -2869,7 +1772,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Crushed technical fabric trousers
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Utility shell sweatshirt"
@@ -2882,7 +1785,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Utility shell sweatshirt
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Dondi technical-shell sweatshirt"
@@ -2895,7 +1798,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Dondi technical-shell sweatshirt
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Marking reflective jacket"
@@ -2908,7 +1811,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Marking reflective jacket
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Haloes hybrid hooded down-filled jacket"
@@ -2921,7 +1824,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Haloes hybrid hooded down-filled jacket
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Agile mesh-panel performance shorts"
@@ -2934,7 +1837,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           Agile mesh-panel performance shorts
         </div>
         <div
-          class="c13"
+          class="c12"
         >
           <a
             aria-label="Agile polka dot-print performance jacket"
@@ -2983,7 +1886,7 @@ exports[`With Snapshot Testing Plp - show filters button 2`] = `
                 class=\\"cheeseburger-menu-inner touch\\"
                 style=\\"height: 100%; padding-bottom: 0px; overflow-y: auto;\\"
               >
-@@ -1058,11 +1058,11 @@
+@@ -508,11 +508,11 @@
                   </div>
                 </div>
               </div>

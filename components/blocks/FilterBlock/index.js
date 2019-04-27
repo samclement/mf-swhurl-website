@@ -12,25 +12,15 @@ const StyledLink = styled.a`
   font-size: 12px;
   text-decoration: none;
   display: block;
-  padding-left: 15px;
+  padding-left: 10px;
   text-indent: -15px;
-  margin-bottom: 5px;
-`
-
-const StyledInput = styled.input`
-  width: 13px;
-  height: 13px;
-  padding: 0;
-  margin: 0;
-  vertical-align: bottom;
-  position: relative;
-  top: -1px;
-  *overflow: hidden;
-  cursor: pointer;
-`
-
-const StyledLabel = styled.label`
-  cursor: pointer;
+  margin-bottom: 6px;
+  ::before {
+    content: ${props =>
+    props.selected
+      ? 'url("/static/checkbox_checked.svg")'
+      : 'url("/static/checkbox_unchecked.svg")'};
+  }
 `
 
 export default ({ title, filters }) => {
@@ -41,11 +31,8 @@ export default ({ title, filters }) => {
         const url = `/plp?url=${f.url}`
         return (
           <Link prefetch key={i} href={url} as={f.url}>
-            <StyledLink href="#">
-              <StyledLabel>
-                <StyledInput type="checkbox" readOnly checked={f.selected} />{' '}
-                {f.name}
-              </StyledLabel>
+            <StyledLink href="#" selected={f.selected}>
+              {f.name}
             </StyledLink>
           </Link>
         )
