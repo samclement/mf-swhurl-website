@@ -20,6 +20,8 @@ const StyledLink = styled.a`
       props.selected
         ? 'url("/static/checkbox_checked.svg")'
         : 'url("/static/checkbox_unchecked.svg")'};
+    position: relative;
+    bottom: -2px;
   }
 `
 

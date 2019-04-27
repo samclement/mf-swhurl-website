@@ -20,6 +20,8 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
 
 .c1::before {
   content: url("/static/checkbox_unchecked.svg");
+  position: relative;
+  bottom: -2px;
 }
 
 <div

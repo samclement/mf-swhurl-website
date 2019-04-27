@@ -65,6 +65,8 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
 
 .c8::before {
   content: url("/static/checkbox_checked.svg");
+  position: relative;
+  bottom: -2px;
 }
 
 .c9 {
@@ -80,6 +82,8 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
 
 .c9::before {
   content: url("/static/checkbox_unchecked.svg");
+  position: relative;
+  bottom: -2px;
 }
 
 .c11 {
