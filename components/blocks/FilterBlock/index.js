@@ -17,9 +17,9 @@ const StyledLink = styled.a`
   margin-bottom: 6px;
   ::before {
     content: ${props =>
-    props.selected
-      ? 'url("/static/checkbox_checked.svg")'
-      : 'url("/static/checkbox_unchecked.svg")'};
+      props.selected
+        ? 'url("/static/checkbox_checked.svg")'
+        : 'url("/static/checkbox_unchecked.svg")'};
   }
 `
 
