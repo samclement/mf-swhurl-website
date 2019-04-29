@@ -32,6 +32,10 @@ const DesktopFilterBlockContainer = styled(FilterBlockContainer)`
 `
 
 const FilterButton = styled.button`
+  position: sticky;
+  position: -webkit-sticky;
+  display: block;
+  top: 5px;
   @media only screen and (min-width: 640px) {
     display: none;
   }
@@ -41,7 +45,11 @@ function Plp(props) {
   const { gender, results, categoryFacets, facets } = props
   const [menuOpen, setMenuOpen] = useState(false)
   useEffect(() => {
-    document.body.style.overflow = menuOpen ? 'hidden' : 'auto'
+    if (menuOpen) {
+      document.body.classList.add('no-scroll')
+    } else {
+      document.body.classList.remove('no-scroll')
+    }
   })
   return (
     <div>
@@ -51,7 +59,7 @@ function Plp(props) {
       <Nav items={mens} gender="mens" />
       <Nav items={womens} gender="womens" />
       <GenderHeader gender={gender} />
-      <FilterButton onClick={() => setMenuOpen(!menuOpen)}>
+      <FilterButton id="filterButton" onClick={() => setMenuOpen(!menuOpen)}>
         Show Filters
       </FilterButton>
       <SearchContainer>

@@ -131,6 +131,14 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
   flex-flow: column nowrap;
 }
 
+.c4 {
+  position: -webkit-sticky;
+  position: sticky;
+  position: -webkit-sticky;
+  display: block;
+  top: 5px;
+}
+
 @media only screen and (min-width:380px) and (max-width:640px) {
   .c12 {
     margin: 0 12px;
@@ -242,6 +250,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
     </h1>
     <button
       class="c4"
+      id="filterButton"
     >
       Show Filters
     </button>
@@ -1984,7 +1993,7 @@ exports[`With Snapshot Testing Plp - show filters button 2`] = `
 - First value
 + Second value
 
-@@ -90,22 +90,22 @@
+@@ -91,22 +91,22 @@
       </button>
       <div
         class=\\"plp__SearchContainer-sc-1apcfk2-1 jhpmrg\\"
@@ -2010,7 +2019,7 @@ exports[`With Snapshot Testing Plp - show filters button 2`] = `
                 class=\\"cheeseburger-menu-inner touch\\"
                 style=\\"height: 100%; padding-bottom: 0px; overflow-y: auto;\\"
               >
-@@ -508,11 +508,11 @@
+@@ -509,11 +509,11 @@
                   </div>
                 </div>
               </div>
