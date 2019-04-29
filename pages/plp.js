@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import ProductListItem from '../components/blocks/ProductListItem'
 import Nav from '../components/blocks/Nav'
 import GenderHeader from '../components/elements/GenderHeader.js'
@@ -40,6 +40,9 @@ const FilterButton = styled.button`
 function Plp(props) {
   const { gender, results, categoryFacets, facets } = props
   const [menuOpen, setMenuOpen] = useState(false)
+  useEffect(() => {
+    document.body.style.overflow = menuOpen ? 'hidden' : 'auto'
+  })
   return (
     <div>
       <Head>
