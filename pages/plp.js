@@ -8,6 +8,7 @@ import { mens, womens } from '../navigation.js'
 import { getSearchResults } from '../services'
 import styled from 'styled-components'
 import CheeseburgerMenu from 'cheeseburger-menu'
+import { disableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock'
 
 const ProductsList = styled.div`
   display: flex;
@@ -46,9 +47,11 @@ function Plp(props) {
   const [menuOpen, setMenuOpen] = useState(false)
   useEffect(() => {
     if (menuOpen) {
-      document.body.classList.add('no-scroll')
+      disableBodyScroll(
+        document.getElementsByClassName('cheeseburger-menu-inner')[0]
+      )
     } else {
-      document.body.classList.remove('no-scroll')
+      clearAllBodyScrollLocks()
     }
   })
   return (
