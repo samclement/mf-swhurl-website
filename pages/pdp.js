@@ -7,15 +7,20 @@ import GenderHeader from '../components/elements/GenderHeader.js'
 import styled from 'styled-components'
 import ReactSwipe from 'react-swipe'
 
+const StyledProductContainer = styled.div`
+  width: 100%;
+  @media only screen and (min-width: 641px) {
+    display: inline-block;
+    text-align: center;
+  }
+`
+
 const ImageContainer = styled.div`
   width: 100%;
-  @media only screen and (min-width: 640px) {
-    max-width: 320px;
-  }
   @media only screen and (min-width: 641px) {
-    width: 50%;
-    max-width: 500px;
-    padding-right: 20px;
+    width: 44%;
+    display: inline-block;
+    padding: 10px 3% 0 3%;
   }
   float: left;
 `
@@ -28,15 +33,15 @@ const StyledImage = styled.img`
   }
 `
 
-const StyledProductContainer = styled.div`
-  text-align: center;
-`
-
 const ProductDetailsContainer = styled.div`
-  min-width: 320px;
+  @media only screen and (min-width: 641px) {
+    width: 50%;
+    display: inline-block;
+  }
 `
 
 const Controls = styled.div`
+  text-align: center;
   margin-bottom: 20px;
 `
 
