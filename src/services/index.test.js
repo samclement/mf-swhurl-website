@@ -1,7 +1,7 @@
 import { getApiUrl, getNav, getSearchResults, getProduct } from './'
 import axios from 'axios'
-const plp = require('../test-data/activewear.json')
-const pdp = require('../test-data/pdp.json')
+const plp = require('../../test-data/activewear.json')
+const pdp = require('../../test-data/pdp.json')
 jest.mock('axios')
 
 describe('getApiUrl', () => {

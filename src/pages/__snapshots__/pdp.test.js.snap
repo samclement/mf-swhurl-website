@@ -278,7 +278,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 2`] = `
 +               style=\\"float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 300ms; webkit-transition-duration: 300ms; webkit-transform: translate(NaNpx,0)translateZ(0);\\"
               >
                 <img
-                  class=\\"pdp__StyledImage-sc-13y4x6f-2 cdQgTH\\"
+                  class=\\"pdp__StyledImage-sc-8q6d8y-2 cnURja\\"
                   src=\\"//assetsprx.matchesfashion.com/img/product/1247661_1_large.jpg\\"
                 />"
 `;
@@ -289,93 +289,93 @@ Object {
     "childNodes": NodeList [
       <div>
         <nav
-          class="Nav__StyledNav-sc-1ihr5rt-1 hUoJBi"
+          class="Nav__StyledNav-sc-1jn739u-1 iVzYBs"
         >
           <div
-            class="Nav__StyledTitle-sc-1ihr5rt-0 gQKJST"
+            class="Nav__StyledTitle-sc-1jn739u-0 gsLjLB"
           >
             mens
           </div>
           <a
-            class="NavLink__StyledLink-ttkpnb-0 fjtgGB"
+            class="NavLink__StyledLink-sc-1rtt1l3-0 iOdWij"
             href="/mens/shop/accessories"
           >
             Accessories
           </a>
           <a
-            class="NavLink__StyledLink-ttkpnb-0 fjtgGB"
+            class="NavLink__StyledLink-sc-1rtt1l3-0 iOdWij"
             href="/mens/shop/shoes"
           >
             Shoes
           </a>
           <a
-            class="NavLink__StyledLink-ttkpnb-0 fjtgGB"
+            class="NavLink__StyledLink-sc-1rtt1l3-0 iOdWij"
             href="/mens/shop/clothing"
           >
             Clothing
           </a>
           <a
-            class="NavLink__StyledLink-ttkpnb-0 fjtgGB"
+            class="NavLink__StyledLink-sc-1rtt1l3-0 iOdWij"
             href="/mens/shop/bags"
           >
             Bags
           </a>
           <a
-            class="NavLink__StyledLink-ttkpnb-0 fjtgGB"
+            class="NavLink__StyledLink-sc-1rtt1l3-0 iOdWij"
             href="/mens/shop/homeware"
           >
             Homeware
           </a>
         </nav>
         <nav
-          class="Nav__StyledNav-sc-1ihr5rt-1 hUoJBi"
+          class="Nav__StyledNav-sc-1jn739u-1 iVzYBs"
         >
           <div
-            class="Nav__StyledTitle-sc-1ihr5rt-0 gQKJST"
+            class="Nav__StyledTitle-sc-1jn739u-0 gsLjLB"
           >
             womens
           </div>
           <a
-            class="NavLink__StyledLink-ttkpnb-0 fjtgGB"
+            class="NavLink__StyledLink-sc-1rtt1l3-0 iOdWij"
             href="/womens/shop/accessories"
           >
             Accessories
           </a>
           <a
-            class="NavLink__StyledLink-ttkpnb-0 fjtgGB"
+            class="NavLink__StyledLink-sc-1rtt1l3-0 iOdWij"
             href="/womens/shop/bags"
           >
             Bags
           </a>
           <a
-            class="NavLink__StyledLink-ttkpnb-0 fjtgGB"
+            class="NavLink__StyledLink-sc-1rtt1l3-0 iOdWij"
             href="/womens/shop/clothing"
           >
             Clothing
           </a>
           <a
-            class="NavLink__StyledLink-ttkpnb-0 fjtgGB"
+            class="NavLink__StyledLink-sc-1rtt1l3-0 iOdWij"
             href="/womens/shop/shoes"
           >
             Shoes
           </a>
           <a
-            class="NavLink__StyledLink-ttkpnb-0 fjtgGB"
+            class="NavLink__StyledLink-sc-1rtt1l3-0 iOdWij"
             href="/womens/shop/homeware"
           >
             Homeware
           </a>
         </nav>
         <h1
-          class="GenderHeader__StyledH1-sc-1mvdkw3-0 hXAFdv"
+          class="GenderHeader__StyledH1-hihn4e-0 hBiQqN"
         >
           Womens
         </h1>
         <div
-          class="pdp__StyledProductContainer-sc-13y4x6f-0 jnlLvV"
+          class="pdp__StyledProductContainer-sc-8q6d8y-0 jdVYRm"
         >
           <div
-            class="pdp__ImageContainer-sc-13y4x6f-1 lajZMA"
+            class="pdp__ImageContainer-sc-8q6d8y-1 fniJjf"
           >
             <div
               class="react-swipe-container carousel"
@@ -389,7 +389,7 @@ Object {
                   style="float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 0ms; webkit-transition-duration: 0ms; webkit-transform: translate(0px,0)translateZ(0);"
                 >
                   <img
-                    class="pdp__StyledImage-sc-13y4x6f-2 cdQgTH"
+                    class="pdp__StyledImage-sc-8q6d8y-2 cnURja"
                     src="//assetsprx.matchesfashion.com/img/product/1247661_1_large.jpg"
                   />
                 </div>
@@ -398,7 +398,7 @@ Object {
                   style="float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 0ms; webkit-transition-duration: 0ms; webkit-transform: translate(0px,0)translateZ(0);"
                 >
                   <img
-                    class="pdp__StyledImage-sc-13y4x6f-2 cdQgTH"
+                    class="pdp__StyledImage-sc-8q6d8y-2 cnURja"
                     src="//assetsprx.matchesfashion.com/img/product/1247661_2_large.jpg"
                   />
                 </div>
@@ -407,7 +407,7 @@ Object {
                   style="float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 0ms; webkit-transition-duration: 0ms; webkit-transform: translate(0px,0)translateZ(0);"
                 >
                   <img
-                    class="pdp__StyledImage-sc-13y4x6f-2 cdQgTH"
+                    class="pdp__StyledImage-sc-8q6d8y-2 cnURja"
                     src="//assetsprx.matchesfashion.com/img/product/1247661_3_large.jpg"
                   />
                 </div>
@@ -416,7 +416,7 @@ Object {
                   style="float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 0ms; webkit-transition-duration: 0ms; webkit-transform: translate(0px,0)translateZ(0);"
                 >
                   <img
-                    class="pdp__StyledImage-sc-13y4x6f-2 cdQgTH"
+                    class="pdp__StyledImage-sc-8q6d8y-2 cnURja"
                     src="//assetsprx.matchesfashion.com/img/product/1247661_4_large.jpg"
                   />
                 </div>
@@ -425,14 +425,14 @@ Object {
                   style="float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 0ms; webkit-transition-duration: 0ms; webkit-transform: translate(0px,0)translateZ(0);"
                 >
                   <img
-                    class="pdp__StyledImage-sc-13y4x6f-2 cdQgTH"
+                    class="pdp__StyledImage-sc-8q6d8y-2 cnURja"
                     src="//assetsprx.matchesfashion.com/img/product/1247661_5_large.jpg"
                   />
                 </div>
               </div>
             </div>
             <div
-              class="pdp__Controls-sc-13y4x6f-4 jfqsPM"
+              class="pdp__Controls-sc-8q6d8y-4 fukWF"
             >
               <button>
                 Previous
@@ -443,7 +443,7 @@ Object {
             </div>
           </div>
           <div
-            class="pdp__ProductDetailsContainer-sc-13y4x6f-3 geNPhG"
+            class="pdp__ProductDetailsContainer-sc-8q6d8y-3 jydWRR"
           >
             <h2>
               Bottega Veneta

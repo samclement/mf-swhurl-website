@@ -14,7 +14,7 @@ Router.router = mockedRouter
 const { toMatchDiffSnapshot } = require('snapshot-diff')
 expect.extend({ toMatchDiffSnapshot })
 // Data
-const data = require('../test-data/activewear.json')
+const data = require('../../test-data/activewear.json')
 const parsed = parseSearchResults(data)
 const results = parsed.results
 const facets = parsed.facets
