@@ -3,7 +3,24 @@
 [![CircleCI](https://circleci.com/gh/samclement/mf-swhurl-website.svg?style=svg)](https://circleci.com/gh/samclement/mf-swhurl-website)
 [![Greenkeeper badge](https://badges.greenkeeper.io/samclement/mf-swhurl-website.svg)](https://greenkeeper.io/)
 
-Demo Nextjs application that includes: styled-compoenents, open-tracing, prometheus instrumentation and jest snapshot testing.
+Demo Nextjs application that includes: 
+
+- nextjs (server-side rendering single-page application)
+- styled-compoenents
+- linting with eslint
+- jest snapshot testing
+- prettier formatting
+- lighthouse performance testing
+- chrome browser testing (wdio)
+- greenkeeper (automatic PRs for upgrading dependencies)
+- kustomize (k8s deployment configuration)
+
+THe application is deployed to a k8s cluster that includes:
+
+- cert-manager (automatic TLS certificate provisioning from LetsEncript)
+- oauth2-proxy (authentication against github)
+- prometheus (infrastructure and applicaiton monitoring)
+- fluentbit / loggly integration (log aggregation)
 
 ## Install
 
