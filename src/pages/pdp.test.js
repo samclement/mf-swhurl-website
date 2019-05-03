@@ -13,7 +13,7 @@ Router.router = mockedRouter
 const { toMatchDiffSnapshot } = require('snapshot-diff')
 expect.extend({ toMatchDiffSnapshot })
 // Data
-const data = require('../test-data/pdp.json')
+const data = require('../../test-data/pdp.json')
 
 describe('With Snapshot Testing', () => {
   it('Plp page shows "mf.swhurl.com" H1', () => {

@@ -2,9 +2,9 @@
   "name": "mf-swhurl-website",
   "version": "1.1.0",
   "scripts": {
-    "dev": "node server.js",
-    "build": "next build",
-    "start": "NODE_ENV=production node server.js",
+    "dev": "node ./src/server.js",
+    "build": "next build ./src",
+    "start": "NODE_ENV=production node ./src/server.js",
     "test": "npm run lint && npm run test:unit",
     "test:ci": "npm run lint && npm run test:jest:ci && npm run test:e2e && npm run test:perf && npm run test:ci:send",
     "test:ci:send": "./send-test-output.sh",
@@ -15,7 +15,7 @@
     "test:perf": "lighthouse http://website:3000 --quiet --output=json html --config-path=./lighthouse.config.json --chrome-flags=\"--headless --no-sandbox --disable-gpu\" --output-path=./test-output/lighthouse/lighthouse && node ./lighthouse-report-parser.js",
     "lint": "eslint .",
     "precommit": "precise-commits --whitelist=\"./package-lock.json\"",
-    "fmt": "prettier --write \"{pages,components}/**/*.js\""
+    "fmt": "prettier --write \"{src/pages,src/components}/**/*.js\""
   },
   "repository": {
     "type": "git",

@@ -6,7 +6,7 @@ import 'jest-styled-components'
 import 'jest-dom/extend-expect'
 import FilterBlock from './index.js'
 // Data
-import data from '../../../test-data/activewear.json'
+import data from '../../../../test-data/activewear.json'
 import { parseSearchResults } from '../../../lib/plp.js'
 // Nextjs routing support
 import Router from 'next/router'

@@ -13,7 +13,7 @@ const API_KEY = process.env.API_KEY || ''
 const headers = { 'User-Agent': `API/${API_KEY}`, 'Accept-Encoding': 'gzip' }
 
 const dev = process.env.NODE_ENV !== 'production'
-const app = next({ dev })
+const app = next({ dev, dir: './src' })
 const handle = app.getRequestHandler()
 const promBundle = require('express-prom-bundle')
 const metricsMiddleware = promBundle({ includeMethod: true, includePath: true })
