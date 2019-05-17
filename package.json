@@ -28,7 +28,7 @@
     "cheerio": "^1.0.0-rc.2",
     "cheeseburger-menu": "0.0.13",
     "compression": "^1.7.4",
-    "express": "4.16.4",
+    "express": "4.17.0",
     "express-prom-bundle": "5.1.5",
     "ignore-loader": "0.1.2",
     "next": "8.1.0",
