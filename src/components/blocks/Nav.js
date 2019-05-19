@@ -1,5 +1,5 @@
 import React from 'react'
-import NavLink from '../../elements/NavLink'
+import NavLink from '../elements/NavLink'
 import styled from 'styled-components'
 
 const StyledTitle = styled.div`

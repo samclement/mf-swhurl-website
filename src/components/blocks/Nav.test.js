@@ -4,23 +4,17 @@ import React from 'react'
 import { render } from 'react-testing-library'
 import 'jest-styled-components'
 import 'jest-dom/extend-expect'
-import FilterBlock from './index.js'
+import Nav from './Nav.js'
 // Data
-import data from '../../../../test-data/activewear.json'
-import { parseSearchResults } from '../../../lib/plp.js'
+import { mens } from '../../navigation.js'
 // Nextjs routing support
 import Router from 'next/router'
 const mockedRouter = { push: () => {}, prefetch: () => {} }
 Router.router = mockedRouter
 
-const facets = parseSearchResults(data).facets
-const facet = facets[0]
-
 describe('With Snapshot Testing', () => {
-  it('FilterBlock displays items', () => {
-    const { asFragment } = render(
-      <FilterBlock title={facet.name} filters={facet.values} />
-    )
+  it('Nav displays items', () => {
+    const { asFragment } = render(<Nav items={mens} gender="mens" />)
     expect(asFragment()).toMatchSnapshot()
   })
 })
