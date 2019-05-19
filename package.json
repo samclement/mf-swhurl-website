@@ -23,22 +23,20 @@
   },
   "dependencies": {
     "@babel/core": "7.4.4",
-    "axios-cache-adapter": "^2.3.0",
-    "body-scroll-lock": "^2.6.1",
-    "cheerio": "^1.0.0-rc.2",
+    "axios-cache-adapter": "2.3.0",
+    "body-scroll-lock": "2.6.1",
     "cheeseburger-menu": "0.0.13",
-    "compression": "^1.7.4",
+    "compression": "1.7.4",
     "express": "4.17.0",
     "express-prom-bundle": "5.1.5",
     "ignore-loader": "0.1.2",
     "next": "8.1.0",
-    "prom-client": "^11.2.1",
+    "prom-client": "11.2.1",
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-swipe": "^6.0.4",
     "styled-components": "4.2.0",
-    "swipe-js-iso": "^2.1.5",
-    "yarn": "1.16.0"
+    "swipe-js-iso": "2.1.5"
   },
   "license": "ISC",
   "devDependencies": {
