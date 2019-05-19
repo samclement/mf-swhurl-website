@@ -38,7 +38,7 @@
     "react-swipe": "^6.0.4",
     "styled-components": "4.2.0",
     "swipe-js-iso": "^2.1.5",
-    "yarn": "1.15.2"
+    "yarn": "1.16.0"
   },
   "license": "ISC",
   "devDependencies": {
