@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from '../components/blocks/Nav'
+import Nav from '../components/blocks/Nav.js'
 import Head from 'next/head'
 import { mens, womens } from '../navigation.js'
 import { getProduct } from '../services'
