@@ -16,7 +16,7 @@ export default props => {
       <p>Example next.js app, including:</p>
       <ul>
         <li>nextjs (server-side rendering single-page application)</li>
-        <li>styled-compoenents</li>
+        <li>styled-components</li>
         <li>linting with eslint</li>
         <li>jest snapshot testing</li>
         <li>prettier formatting</li>

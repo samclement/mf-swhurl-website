@@ -127,7 +127,7 @@ exports[`With Snapshot Testing Index page shows "mf.swhurl.com" H1 1`] = `
         nextjs (server-side rendering single-page application)
       </li>
       <li>
-        styled-compoenents
+        styled-components
       </li>
       <li>
         linting with eslint
