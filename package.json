@@ -87,9 +87,10 @@
     "collectCoverage": true,
     "coverageDirectory": "./test-output/jest",
     "collectCoverageFrom": [
-      "components/**/*.js",
-      "pages/**/*.js",
-      "services/**/*.js"
+      "src/components/**/*.js",
+      "src/pages/**/*.js",
+      "src/services/**/*.js",
+      "src/lib/**/*.js"
     ],
     "coveragePathIgnorePatterns": [
       "./test-output/coverage/",
