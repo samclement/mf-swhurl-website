@@ -28,6 +28,8 @@ THe application is deployed to a k8s cluster that includes:
 
 ## Run
 
+You will need an API key and set it as an environment variable (`API_KEY`) for local development:
+
 ### Development
 
 - `npm run dev`
