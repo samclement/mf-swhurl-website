@@ -5,7 +5,9 @@ const catLevel3Data = require('../../test-data/sports-jackets.json')
 
 describe('PLP', () => {
   it('Should parse the navigation', () => {
-    expect(parser.parseNavigation(catLevel1Data.level1CategoriesData)).toMatchSnapshot()
+    expect(
+      parser.parseNavigation(catLevel1Data.level1CategoriesData)
+    ).toMatchSnapshot()
   })
   it('Should parse search results  for level 1 categories', () => {
     expect(parser.parseSearchResults(catLevel1Data)).toMatchSnapshot()

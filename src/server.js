@@ -40,22 +40,22 @@ app.prepare().then(() => {
     const url = `${BASE_URL}/${formatPath}`
     const opts = { url, headers }
     api(opts)
-      .then((data) => {
+      .then(data => {
         const parsed = plpParser.parseSearchResults(data.data)
         res.send(parsed)
       })
-      .catch((err) => console.log(err))
+      .catch(err => console.log(err))
   })
 
   server.get('/api/products/:code', (req, res) => {
     const url = `${BASE_URL}/ajax/p/${req.params.code}`
     const opts = { url, headers }
     api(opts)
-      .then((response) => {
+      .then(response => {
         const product = response.data
         res.send(product)
       })
-      .catch((err) => console.log(err))
+      .catch(err => console.log(err))
   })
 
   // PAGES

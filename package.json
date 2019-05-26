@@ -15,7 +15,7 @@
     "test:perf": "lighthouse http://website:3000 --quiet --output=json html --config-path=./lighthouse.config.json --chrome-flags=\"--headless --no-sandbox --disable-gpu\" --output-path=./test-output/lighthouse/lighthouse && node ./lighthouse-report-parser.js",
     "lint": "eslint .",
     "precommit": "precise-commits --whitelist=\"./package-lock.json\"",
-    "fmt": "prettier --write \"{src/pages,src/components}/**/*.js\""
+    "fmt": "prettier --write \"src/**/*.js\""
   },
   "repository": {
     "type": "git",
