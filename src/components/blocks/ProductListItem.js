@@ -30,6 +30,7 @@ export default ({ item }) => {
         </a>
       </Link>
       {item.name}
+      <p>&pound;{new Intl.NumberFormat().format(item.price)}</p>
     </StyledProduct>
   )
 }
