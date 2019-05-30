@@ -37,6 +37,9 @@ exports[`With Snapshot Testing Product list item 1`] = `
       />
     </a>
     test
+    <p>
+      £NaN
+    </p>
   </div>
 </DocumentFragment>
 `;
