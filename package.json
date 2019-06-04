@@ -31,7 +31,7 @@
     "express-prom-bundle": "5.1.5",
     "ignore-loader": "0.1.2",
     "next": "8.1.0",
-    "prom-client": "11.2.1",
+    "prom-client": "11.4.0",
     "react": "16.9.0",
     "react-dom": "16.9.0",
     "react-swipe": "^6.0.4",
