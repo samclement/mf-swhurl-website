@@ -8,7 +8,7 @@ import ProductListItem from './ProductListItem.js'
 
 describe('With Snapshot Testing', () => {
   it('Product list item', () => {
-    const item = { code: 1, name: 'test' }
+    const item = { code: 1, name: 'test', price: 10 }
     const { asFragment } = render(<ProductListItem item={item} />)
     expect(asFragment()).toMatchSnapshot()
   })
