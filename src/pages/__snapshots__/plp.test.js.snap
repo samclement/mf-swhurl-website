@@ -10,6 +10,11 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
   margin: 0;
 }
 
+.c13 {
+  border-radius: 3px;
+  border: 2px solid #ccc;
+}
+
 .c2 {
   color: black;
   padding-right: 5px;
@@ -1096,7 +1101,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Hooded zip-up track jacket
-          <p>
+          <p
+            class="c13"
+          >
             £555
           </p>
         </div>
@@ -1114,7 +1121,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Agile technical ripstop jacket 
-          <p>
+          <p
+            class="c13"
+          >
             £70
           </p>
         </div>
@@ -1132,7 +1141,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Logo-print cotton-blend T-shirt
-          <p>
+          <p
+            class="c13"
+          >
             £120
           </p>
         </div>
@@ -1150,7 +1161,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Accelerate compression stretch leggings
-          <p>
+          <p
+            class="c13"
+          >
             £80
           </p>
         </div>
@@ -1168,7 +1181,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Hooded technical jacket
-          <p>
+          <p
+            class="c13"
+          >
             £440
           </p>
         </div>
@@ -1186,7 +1201,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Hybrid mesh T-shirt
-          <p>
+          <p
+            class="c13"
+          >
             £180
           </p>
         </div>
@@ -1204,7 +1221,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Technical track pants
-          <p>
+          <p
+            class="c13"
+          >
             £290
           </p>
         </div>
@@ -1222,7 +1241,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Tech-Preme logo-patch technical sweatshirt
-          <p>
+          <p
+            class="c13"
+          >
             £155
           </p>
         </div>
@@ -1240,7 +1261,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           FF-logo zip-through cotton-blend hooded sweatshirt
-          <p>
+          <p
+            class="c13"
+          >
             £690
           </p>
         </div>
@@ -1258,7 +1281,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Logo-patch raglan jersey T-shirt
-          <p>
+          <p
+            class="c13"
+          >
             £145
           </p>
         </div>
@@ -1276,7 +1301,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Belted stretch trousers
-          <p>
+          <p
+            class="c13"
+          >
             £305
           </p>
         </div>
@@ -1294,7 +1321,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           FF cotton-blend hooded sweatshirt
-          <p>
+          <p
+            class="c13"
+          >
             £450
           </p>
         </div>
@@ -1312,7 +1341,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           GHST two-in-one jacket 
-          <p>
+          <p
+            class="c13"
+          >
             £135
           </p>
         </div>
@@ -1330,7 +1361,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Logo-patch crew-neck cotton T-shirt
-          <p>
+          <p
+            class="c13"
+          >
             £250
           </p>
         </div>
@@ -1348,7 +1381,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Urban jersey track pants
-          <p>
+          <p
+            class="c13"
+          >
             £45
           </p>
         </div>
@@ -1366,7 +1401,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Run West moth-eaten cotton T-shirt
-          <p>
+          <p
+            class="c13"
+          >
             £105
           </p>
         </div>
@@ -1384,7 +1421,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Contrast-panel hooded bomber jacket
-          <p>
+          <p
+            class="c13"
+          >
             £595
           </p>
         </div>
@@ -1402,7 +1441,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Cult moth-eaten cotton tank top
-          <p>
+          <p
+            class="c13"
+          >
             £105
           </p>
         </div>
@@ -1420,7 +1461,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Striped cotton-blend track pants
-          <p>
+          <p
+            class="c13"
+          >
             £450
           </p>
         </div>
@@ -1438,7 +1481,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Rix hooded jacket
-          <p>
+          <p
+            class="c13"
+          >
             £245
           </p>
         </div>
@@ -1456,7 +1501,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Front-stripe logo-printed jersey sweatshirt
-          <p>
+          <p
+            class="c13"
+          >
             £490
           </p>
         </div>
@@ -1474,7 +1521,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Logo print cotton-blend T-shirt
-          <p>
+          <p
+            class="c13"
+          >
             £120
           </p>
         </div>
@@ -1492,7 +1541,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Zip-pocket track shorts
-          <p>
+          <p
+            class="c13"
+          >
             £238
           </p>
         </div>
@@ -1510,7 +1561,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Striped cotton-blend jersey T-shirt
-          <p>
+          <p
+            class="c13"
+          >
             £150
           </p>
         </div>
@@ -1528,7 +1581,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           The Redford cotton sweatshirt
-          <p>
+          <p
+            class="c13"
+          >
             £120
           </p>
         </div>
@@ -1546,7 +1601,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Baldwin checked cotton shirt
-          <p>
+          <p
+            class="c13"
+          >
             £565
           </p>
         </div>
@@ -1564,7 +1621,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Seamless compression tights
-          <p>
+          <p
+            class="c13"
+          >
             £45
           </p>
         </div>
@@ -1582,7 +1641,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Reverse cotton T-shirt
-          <p>
+          <p
+            class="c13"
+          >
             £80
           </p>
         </div>
@@ -1600,7 +1661,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Marlow technical-twill running jacket
-          <p>
+          <p
+            class="c13"
+          >
             £210
           </p>
         </div>
@@ -1618,7 +1681,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Big Logo-print cotton tank top
-          <p>
+          <p
+            class="c13"
+          >
             £60
           </p>
         </div>
@@ -1636,7 +1701,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Windsor II stretch-jersey leggings
-          <p>
+          <p
+            class="c13"
+          >
             £90
           </p>
         </div>
@@ -1654,7 +1721,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Sense Pro crew-neck T-shirt
-          <p>
+          <p
+            class="c13"
+          >
             £50
           </p>
         </div>
@@ -1672,7 +1741,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Mesh zip-up track top
-          <p>
+          <p
+            class="c13"
+          >
             £330
           </p>
         </div>
@@ -1690,7 +1761,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           The Newman cotton T-shirt
-          <p>
+          <p
+            class="c13"
+          >
             £80
           </p>
         </div>
@@ -1708,7 +1781,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Court-stripe leggings
-          <p>
+          <p
+            class="c13"
+          >
             £198
           </p>
         </div>
@@ -1726,7 +1801,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Big Logo-print cotton tank top
-          <p>
+          <p
+            class="c13"
+          >
             £60
           </p>
         </div>
@@ -1744,7 +1821,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           GHST contrast-panel performance top
-          <p>
+          <p
+            class="c13"
+          >
             £70
           </p>
         </div>
@@ -1762,7 +1841,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Marion stretch-jersey T-shirt
-          <p>
+          <p
+            class="c13"
+          >
             £40
           </p>
         </div>
@@ -1780,7 +1861,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Royston track pants
-          <p>
+          <p
+            class="c13"
+          >
             £110
           </p>
         </div>
@@ -1798,7 +1881,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Fellows long-sleeved stretch-mesh T-shirt
-          <p>
+          <p
+            class="c13"
+          >
             £120
           </p>
         </div>
@@ -1816,7 +1901,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Quarter-zip technical hooded jacket 
-          <p>
+          <p
+            class="c13"
+          >
             £395
           </p>
         </div>
@@ -1834,7 +1921,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Logo-print longline performance T-shirt
-          <p>
+          <p
+            class="c13"
+          >
             £245
           </p>
         </div>
@@ -1852,7 +1941,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Compression running leggings
-          <p>
+          <p
+            class="c13"
+          >
             £105
           </p>
         </div>
@@ -1870,7 +1961,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           FF-logo appliqué cotton T-shirt
-          <p>
+          <p
+            class="c13"
+          >
             £250
           </p>
         </div>
@@ -1888,7 +1981,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Mesh-panel performance top
-          <p>
+          <p
+            class="c13"
+          >
             £200
           </p>
         </div>
@@ -1906,7 +2001,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Performance T-shirt
-          <p>
+          <p
+            class="c13"
+          >
             £85
           </p>
         </div>
@@ -1924,7 +2021,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Climbing belted trousers
-          <p>
+          <p
+            class="c13"
+          >
             £280
           </p>
         </div>
@@ -1942,7 +2041,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Guard technical jacket 
-          <p>
+          <p
+            class="c13"
+          >
             £570
           </p>
         </div>
@@ -1960,7 +2061,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Constrast-panel performance jacket
-          <p>
+          <p
+            class="c13"
+          >
             £750
           </p>
         </div>
@@ -1978,7 +2081,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Guard reflective jacket
-          <p>
+          <p
+            class="c13"
+          >
             £795
           </p>
         </div>
@@ -1996,7 +2101,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Revolt technical jacket 
-          <p>
+          <p
+            class="c13"
+          >
             £570
           </p>
         </div>
@@ -2014,7 +2121,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Dondi crew-neck technical sweatshirt
-          <p>
+          <p
+            class="c13"
+          >
             £370
           </p>
         </div>
@@ -2032,7 +2141,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Scramble nylon shorts 
-          <p>
+          <p
+            class="c13"
+          >
             £320
           </p>
         </div>
@@ -2050,7 +2161,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Crushed technical fabric trousers
-          <p>
+          <p
+            class="c13"
+          >
             £350
           </p>
         </div>
@@ -2068,7 +2181,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Utility shell sweatshirt
-          <p>
+          <p
+            class="c13"
+          >
             £370
           </p>
         </div>
@@ -2086,7 +2201,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Dondi technical-shell sweatshirt
-          <p>
+          <p
+            class="c13"
+          >
             £370
           </p>
         </div>
@@ -2104,7 +2221,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Marking reflective jacket
-          <p>
+          <p
+            class="c13"
+          >
             £750
           </p>
         </div>
@@ -2122,7 +2241,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Haloes hybrid hooded down-filled jacket
-          <p>
+          <p
+            class="c13"
+          >
             £160
           </p>
         </div>
@@ -2140,7 +2261,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Agile mesh-panel performance shorts
-          <p>
+          <p
+            class="c13"
+          >
             £45
           </p>
         </div>
@@ -2158,7 +2281,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             />
           </a>
           Agile polka dot-print performance jacket
-          <p>
+          <p
+            class="c13"
+          >
             £70
           </p>
         </div>
