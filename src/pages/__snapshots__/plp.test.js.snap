@@ -12,7 +12,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
 
 .c13 {
   border-radius: 3px;
-  border: 2px solid #ccc;
+  border: 1px solid #ccc;
 }
 
 .c2 {
