@@ -19,7 +19,7 @@ const StyledProduct = styled.div`
 
 const StyledPrice = styled.p`
   border-radius: 3px;
-  border: 2px solid #ccc;
+  border: 1px solid #ccc;
 `
 
 export default ({ item }) => {
