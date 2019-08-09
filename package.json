@@ -32,7 +32,7 @@
     "ignore-loader": "0.1.2",
     "next": "8.1.0",
     "prom-client": "11.2.1",
-    "react": "16.8.6",
+    "react": "16.9.0",
     "react-dom": "16.8.6",
     "react-swipe": "^6.0.4",
     "styled-components": "4.2.0",
