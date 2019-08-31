@@ -7,7 +7,7 @@ module.exports.parseNavigation = navigation => {
 
 module.exports.parseSearchResults = searchResults => {
   return {
-    categoryFacets: parseCategoryFacets(searchResults.categoryNavData),
+    categoryFacets: parseCategoryFacets(), // Category navigation data has been removed from the aAPI
     facets: parseFacets(searchResults.facets),
     results: parseResults(searchResults.results)
   }
@@ -17,7 +17,7 @@ function parseResults(results) {
   return results.map(parseProductResult)
 }
 
-function parseCategoryFacets(cFacets) {
+function parseCategoryFacets(cFacets = []) {
   return cFacets.map(parseCategoryFacet)
 }
 

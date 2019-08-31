@@ -2,7 +2,7 @@
 
 exports[`With Snapshot Testing Plp - show filters button 1`] = `
 <DocumentFragment>
-  .c12 {
+  .c11 {
   width: 150px;
   min-height: 220px;
   padding: 10px;
@@ -10,7 +10,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
   margin: 0;
 }
 
-.c13 {
+.c12 {
   border-radius: 3px;
   border: 1px solid #ccc;
 }
@@ -69,29 +69,12 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
 }
 
 .c8::before {
-  content: url("/static/checkbox_checked.svg");
-  position: relative;
-  bottom: -2px;
-}
-
-.c9 {
-  color: black;
-  font-size: 12px;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  display: block;
-  padding-left: 10px;
-  text-indent: -15px;
-  margin-bottom: 6px;
-}
-
-.c9::before {
   content: url("/static/checkbox_unchecked.svg");
   position: relative;
   bottom: -2px;
 }
 
-.c11 {
+.c10 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -126,7 +109,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
   flex-flow: column nowrap;
 }
 
-.c10 {
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -145,20 +128,20 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
 }
 
 @media only screen and (min-width:380px) and (max-width:640px) {
-  .c12 {
+  .c11 {
     margin: 0 12px;
   }
 }
 
 @media only screen and (min-width:641px) and (max-width:780px) {
-  .c12 {
+  .c11 {
     padding: 10px 5px;
     margin: 0;
   }
 }
 
 @media only screen and (max-width:640px) {
-  .c10 {
+  .c9 {
     display: none;
   }
 }
@@ -289,96 +272,6 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
                   <h2>
                     Category
                   </h2>
-                  <a
-                    class="c8"
-                    href="#"
-                  >
-                    Activewear
-                  </a>
-                  <a
-                    class="c9"
-                    href="#"
-                  >
-                    Blazers
-                  </a>
-                  <a
-                    class="c9"
-                    href="#"
-                  >
-                    Casual Shirts
-                  </a>
-                  <a
-                    class="c9"
-                    href="#"
-                  >
-                    Coats and Jackets
-                  </a>
-                  <a
-                    class="c9"
-                    href="#"
-                  >
-                    Formal Shirts
-                  </a>
-                  <a
-                    class="c9"
-                    href="#"
-                  >
-                    Jeans
-                  </a>
-                  <a
-                    class="c9"
-                    href="#"
-                  >
-                    Knitwear
-                  </a>
-                  <a
-                    class="c9"
-                    href="#"
-                  >
-                    Polo Shirts
-                  </a>
-                  <a
-                    class="c9"
-                    href="#"
-                  >
-                    Shorts
-                  </a>
-                  <a
-                    class="c9"
-                    href="#"
-                  >
-                    Suits
-                  </a>
-                  <a
-                    class="c9"
-                    href="#"
-                  >
-                    Sweats
-                  </a>
-                  <a
-                    class="c9"
-                    href="#"
-                  >
-                    Swimwear
-                  </a>
-                  <a
-                    class="c9"
-                    href="#"
-                  >
-                    T-Shirts
-                  </a>
-                  <a
-                    class="c9"
-                    href="#"
-                  >
-                    Trousers
-                  </a>
-                  <a
-                    class="c9"
-                    href="#"
-                  >
-                    Underwear and Nightwear
-                  </a>
                 </div>
                 <div
                   class="c7"
@@ -387,139 +280,139 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
                     Designer
                   </h2>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     1017 ALYX 9SM
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     2XU
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     And Wander
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Aztech Mountain
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Blackbarrett by Neil Barrett
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Café Du Cycliste
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Castore
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Falke
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Fendi
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Helly Hansen
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Iffley Road
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     LNDR
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Mammut Delta X
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Moncler
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Moncler Genius
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Moncler Grenoble
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Nemen
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Peak Performance
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Perfect Moment
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Salomon
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Satisfy
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     The Upside
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Tilak
@@ -532,91 +425,91 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
                     Colour
                   </h2>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Black
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Blue
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Brown
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Green
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Grey
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Metallic
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Navy
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Neutral
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Orange
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Print
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Purple
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Red
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Tan
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     White
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     Yellow
@@ -629,49 +522,49 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
                     Clothes Size
                   </h2>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     XXS
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     XS
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     S
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     M
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     L
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     XL
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     XXL
                   </a>
                   <a
-                    class="c9"
+                    class="c8"
                     href="#"
                   >
                     3XL
@@ -687,7 +580,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
         </div>
       </div>
       <div
-        class="c10"
+        class="c9"
       >
         <div
           class="c7"
@@ -695,96 +588,6 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           <h2>
             Category
           </h2>
-          <a
-            class="c8"
-            href="#"
-          >
-            Activewear
-          </a>
-          <a
-            class="c9"
-            href="#"
-          >
-            Blazers
-          </a>
-          <a
-            class="c9"
-            href="#"
-          >
-            Casual Shirts
-          </a>
-          <a
-            class="c9"
-            href="#"
-          >
-            Coats and Jackets
-          </a>
-          <a
-            class="c9"
-            href="#"
-          >
-            Formal Shirts
-          </a>
-          <a
-            class="c9"
-            href="#"
-          >
-            Jeans
-          </a>
-          <a
-            class="c9"
-            href="#"
-          >
-            Knitwear
-          </a>
-          <a
-            class="c9"
-            href="#"
-          >
-            Polo Shirts
-          </a>
-          <a
-            class="c9"
-            href="#"
-          >
-            Shorts
-          </a>
-          <a
-            class="c9"
-            href="#"
-          >
-            Suits
-          </a>
-          <a
-            class="c9"
-            href="#"
-          >
-            Sweats
-          </a>
-          <a
-            class="c9"
-            href="#"
-          >
-            Swimwear
-          </a>
-          <a
-            class="c9"
-            href="#"
-          >
-            T-Shirts
-          </a>
-          <a
-            class="c9"
-            href="#"
-          >
-            Trousers
-          </a>
-          <a
-            class="c9"
-            href="#"
-          >
-            Underwear and Nightwear
-          </a>
         </div>
         <div
           class="c7"
@@ -793,139 +596,139 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             Designer
           </h2>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             1017 ALYX 9SM
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             2XU
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             And Wander
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Aztech Mountain
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Blackbarrett by Neil Barrett
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Café Du Cycliste
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Castore
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Falke
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Fendi
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Helly Hansen
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Iffley Road
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             LNDR
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Mammut Delta X
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Moncler
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Moncler Genius
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Moncler Grenoble
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Nemen
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Peak Performance
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Perfect Moment
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Salomon
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Satisfy
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             The Upside
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Tilak
@@ -938,91 +741,91 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             Colour
           </h2>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Black
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Blue
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Brown
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Green
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Grey
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Metallic
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Navy
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Neutral
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Orange
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Print
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Purple
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Red
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Tan
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             White
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             Yellow
@@ -1035,49 +838,49 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
             Clothes Size
           </h2>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             XXS
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             XS
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             S
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             M
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             L
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             XL
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             XXL
           </a>
           <a
-            class="c9"
+            class="c8"
             href="#"
           >
             3XL
@@ -1085,10 +888,10 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
         </div>
       </div>
       <div
-        class="c11"
+        class="c10"
       >
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Hooded zip-up track jacket"
@@ -1102,13 +905,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Hooded zip-up track jacket
           <p
-            class="c13"
+            class="c12"
           >
             £555
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Agile technical ripstop jacket "
@@ -1122,13 +925,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Agile technical ripstop jacket 
           <p
-            class="c13"
+            class="c12"
           >
             £70
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Logo-print cotton-blend T-shirt"
@@ -1142,13 +945,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Logo-print cotton-blend T-shirt
           <p
-            class="c13"
+            class="c12"
           >
             £120
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Accelerate compression stretch leggings"
@@ -1162,13 +965,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Accelerate compression stretch leggings
           <p
-            class="c13"
+            class="c12"
           >
             £80
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Hooded technical jacket"
@@ -1182,13 +985,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Hooded technical jacket
           <p
-            class="c13"
+            class="c12"
           >
             £440
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Hybrid mesh T-shirt"
@@ -1202,13 +1005,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Hybrid mesh T-shirt
           <p
-            class="c13"
+            class="c12"
           >
             £180
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Technical track pants"
@@ -1222,13 +1025,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Technical track pants
           <p
-            class="c13"
+            class="c12"
           >
             £290
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Tech-Preme logo-patch technical sweatshirt"
@@ -1242,13 +1045,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Tech-Preme logo-patch technical sweatshirt
           <p
-            class="c13"
+            class="c12"
           >
             £155
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="FF-logo zip-through cotton-blend hooded sweatshirt"
@@ -1262,13 +1065,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           FF-logo zip-through cotton-blend hooded sweatshirt
           <p
-            class="c13"
+            class="c12"
           >
             £690
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Logo-patch raglan jersey T-shirt"
@@ -1282,13 +1085,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Logo-patch raglan jersey T-shirt
           <p
-            class="c13"
+            class="c12"
           >
             £145
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Belted stretch trousers"
@@ -1302,13 +1105,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Belted stretch trousers
           <p
-            class="c13"
+            class="c12"
           >
             £305
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="FF cotton-blend hooded sweatshirt"
@@ -1322,13 +1125,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           FF cotton-blend hooded sweatshirt
           <p
-            class="c13"
+            class="c12"
           >
             £450
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="GHST two-in-one jacket "
@@ -1342,13 +1145,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           GHST two-in-one jacket 
           <p
-            class="c13"
+            class="c12"
           >
             £135
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Logo-patch crew-neck cotton T-shirt"
@@ -1362,13 +1165,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Logo-patch crew-neck cotton T-shirt
           <p
-            class="c13"
+            class="c12"
           >
             £250
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Urban jersey track pants"
@@ -1382,13 +1185,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Urban jersey track pants
           <p
-            class="c13"
+            class="c12"
           >
             £45
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Run West moth-eaten cotton T-shirt"
@@ -1402,13 +1205,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Run West moth-eaten cotton T-shirt
           <p
-            class="c13"
+            class="c12"
           >
             £105
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Contrast-panel hooded bomber jacket"
@@ -1422,13 +1225,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Contrast-panel hooded bomber jacket
           <p
-            class="c13"
+            class="c12"
           >
             £595
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Cult moth-eaten cotton tank top"
@@ -1442,13 +1245,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Cult moth-eaten cotton tank top
           <p
-            class="c13"
+            class="c12"
           >
             £105
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Striped cotton-blend track pants"
@@ -1462,13 +1265,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Striped cotton-blend track pants
           <p
-            class="c13"
+            class="c12"
           >
             £450
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Rix hooded jacket"
@@ -1482,13 +1285,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Rix hooded jacket
           <p
-            class="c13"
+            class="c12"
           >
             £245
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Front-stripe logo-printed jersey sweatshirt"
@@ -1502,13 +1305,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Front-stripe logo-printed jersey sweatshirt
           <p
-            class="c13"
+            class="c12"
           >
             £490
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Logo print cotton-blend T-shirt"
@@ -1522,13 +1325,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Logo print cotton-blend T-shirt
           <p
-            class="c13"
+            class="c12"
           >
             £120
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Zip-pocket track shorts"
@@ -1542,13 +1345,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Zip-pocket track shorts
           <p
-            class="c13"
+            class="c12"
           >
             £238
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Striped cotton-blend jersey T-shirt"
@@ -1562,13 +1365,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Striped cotton-blend jersey T-shirt
           <p
-            class="c13"
+            class="c12"
           >
             £150
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="The Redford cotton sweatshirt"
@@ -1582,13 +1385,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           The Redford cotton sweatshirt
           <p
-            class="c13"
+            class="c12"
           >
             £120
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Baldwin checked cotton shirt"
@@ -1602,13 +1405,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Baldwin checked cotton shirt
           <p
-            class="c13"
+            class="c12"
           >
             £565
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Seamless compression tights"
@@ -1622,13 +1425,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Seamless compression tights
           <p
-            class="c13"
+            class="c12"
           >
             £45
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Reverse cotton T-shirt"
@@ -1642,13 +1445,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Reverse cotton T-shirt
           <p
-            class="c13"
+            class="c12"
           >
             £80
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Marlow technical-twill running jacket"
@@ -1662,13 +1465,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Marlow technical-twill running jacket
           <p
-            class="c13"
+            class="c12"
           >
             £210
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Big Logo-print cotton tank top"
@@ -1682,13 +1485,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Big Logo-print cotton tank top
           <p
-            class="c13"
+            class="c12"
           >
             £60
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Windsor II stretch-jersey leggings"
@@ -1702,13 +1505,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Windsor II stretch-jersey leggings
           <p
-            class="c13"
+            class="c12"
           >
             £90
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Sense Pro crew-neck T-shirt"
@@ -1722,13 +1525,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Sense Pro crew-neck T-shirt
           <p
-            class="c13"
+            class="c12"
           >
             £50
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Mesh zip-up track top"
@@ -1742,13 +1545,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Mesh zip-up track top
           <p
-            class="c13"
+            class="c12"
           >
             £330
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="The Newman cotton T-shirt"
@@ -1762,13 +1565,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           The Newman cotton T-shirt
           <p
-            class="c13"
+            class="c12"
           >
             £80
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Court-stripe leggings"
@@ -1782,13 +1585,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Court-stripe leggings
           <p
-            class="c13"
+            class="c12"
           >
             £198
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Big Logo-print cotton tank top"
@@ -1802,13 +1605,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Big Logo-print cotton tank top
           <p
-            class="c13"
+            class="c12"
           >
             £60
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="GHST contrast-panel performance top"
@@ -1822,13 +1625,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           GHST contrast-panel performance top
           <p
-            class="c13"
+            class="c12"
           >
             £70
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Marion stretch-jersey T-shirt"
@@ -1842,13 +1645,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Marion stretch-jersey T-shirt
           <p
-            class="c13"
+            class="c12"
           >
             £40
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Royston track pants"
@@ -1862,13 +1665,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Royston track pants
           <p
-            class="c13"
+            class="c12"
           >
             £110
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Fellows long-sleeved stretch-mesh T-shirt"
@@ -1882,13 +1685,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Fellows long-sleeved stretch-mesh T-shirt
           <p
-            class="c13"
+            class="c12"
           >
             £120
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Quarter-zip technical hooded jacket "
@@ -1902,13 +1705,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Quarter-zip technical hooded jacket 
           <p
-            class="c13"
+            class="c12"
           >
             £395
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Logo-print longline performance T-shirt"
@@ -1922,13 +1725,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Logo-print longline performance T-shirt
           <p
-            class="c13"
+            class="c12"
           >
             £245
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Compression running leggings"
@@ -1942,13 +1745,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Compression running leggings
           <p
-            class="c13"
+            class="c12"
           >
             £105
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="FF-logo appliqué cotton T-shirt"
@@ -1962,13 +1765,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           FF-logo appliqué cotton T-shirt
           <p
-            class="c13"
+            class="c12"
           >
             £250
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Mesh-panel performance top"
@@ -1982,13 +1785,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Mesh-panel performance top
           <p
-            class="c13"
+            class="c12"
           >
             £200
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Performance T-shirt"
@@ -2002,13 +1805,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Performance T-shirt
           <p
-            class="c13"
+            class="c12"
           >
             £85
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Climbing belted trousers"
@@ -2022,13 +1825,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Climbing belted trousers
           <p
-            class="c13"
+            class="c12"
           >
             £280
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Guard technical jacket "
@@ -2042,13 +1845,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Guard technical jacket 
           <p
-            class="c13"
+            class="c12"
           >
             £570
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Constrast-panel performance jacket"
@@ -2062,13 +1865,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Constrast-panel performance jacket
           <p
-            class="c13"
+            class="c12"
           >
             £750
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Guard reflective jacket"
@@ -2082,13 +1885,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Guard reflective jacket
           <p
-            class="c13"
+            class="c12"
           >
             £795
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Revolt technical jacket "
@@ -2102,13 +1905,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Revolt technical jacket 
           <p
-            class="c13"
+            class="c12"
           >
             £570
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Dondi crew-neck technical sweatshirt"
@@ -2122,13 +1925,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Dondi crew-neck technical sweatshirt
           <p
-            class="c13"
+            class="c12"
           >
             £370
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Scramble nylon shorts "
@@ -2142,13 +1945,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Scramble nylon shorts 
           <p
-            class="c13"
+            class="c12"
           >
             £320
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Crushed technical fabric trousers"
@@ -2162,13 +1965,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Crushed technical fabric trousers
           <p
-            class="c13"
+            class="c12"
           >
             £350
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Utility shell sweatshirt"
@@ -2182,13 +1985,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Utility shell sweatshirt
           <p
-            class="c13"
+            class="c12"
           >
             £370
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Dondi technical-shell sweatshirt"
@@ -2202,13 +2005,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Dondi technical-shell sweatshirt
           <p
-            class="c13"
+            class="c12"
           >
             £370
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Marking reflective jacket"
@@ -2222,13 +2025,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Marking reflective jacket
           <p
-            class="c13"
+            class="c12"
           >
             £750
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Haloes hybrid hooded down-filled jacket"
@@ -2242,13 +2045,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Haloes hybrid hooded down-filled jacket
           <p
-            class="c13"
+            class="c12"
           >
             £160
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Agile mesh-panel performance shorts"
@@ -2262,13 +2065,13 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Agile mesh-panel performance shorts
           <p
-            class="c13"
+            class="c12"
           >
             £45
           </p>
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           <a
             aria-label="Agile polka dot-print performance jacket"
@@ -2282,7 +2085,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
           </a>
           Agile polka dot-print performance jacket
           <p
-            class="c13"
+            class="c12"
           >
             £70
           </p>
@@ -2324,7 +2127,7 @@ exports[`With Snapshot Testing Plp - show filters button 2`] = `
                 class=\\"cheeseburger-menu-inner touch\\"
                 style=\\"height: 100%; padding-bottom: 0px; overflow-y: auto;\\"
               >
-@@ -509,11 +509,11 @@
+@@ -419,11 +419,11 @@
                   </div>
                 </div>
               </div>
