@@ -74,7 +74,7 @@
     "raf": "3.4.1",
     "react-testing-library": "^7.0.0",
     "snapshot-diff": "^0.5.1",
-    "table": "5.3.0",
+    "table": "5.4.0",
     "wdio-chromedriver-service": "^5.0.0",
     "webdriverio": "^5.4.14"
   },
