@@ -1,4 +1,5 @@
 import App, { Container } from 'next/app'
+import Router from 'next/router'
 import React from 'react'
 import { createGlobalStyle } from 'styled-components'
 
@@ -15,6 +16,24 @@ export default class MyApp extends App {
       pageProps = await Component.getInitialProps(ctx)
     }
     return { pageProps }
+  }
+  componentDidMount() {
+    const cachedPageHeight = []
+    const html = document.querySelector('html')
+
+    Router.events.on('routeChangeStart', () => {
+      cachedPageHeight.push(document.documentElement.offsetHeight)
+    })
+
+    Router.events.on('routeChangeComplete', () => {
+      html.style.height = 'initial'
+    })
+
+    Router.beforePopState(() => {
+      html.style.height = `${cachedPageHeight.pop()}px`
+
+      return true
+    })
   }
   render() {
     const { Component, pageProps } = this.props
