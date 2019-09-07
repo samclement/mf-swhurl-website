@@ -40,6 +40,7 @@
   },
   "license": "ISC",
   "devDependencies": {
+    "@testing-library/react": "^9.1.4",
     "@wdio/allure-reporter": "^5.4.16",
     "@wdio/cli": "^5.4.17",
     "@wdio/junit-reporter": "^5.9.1",
@@ -72,7 +73,6 @@
     "precise-commits": "1.0.2",
     "prettier": "1.17.0",
     "raf": "3.4.1",
-    "react-testing-library": "^8.0.0",
     "snapshot-diff": "^0.5.1",
     "table": "5.4.0",
     "wdio-chromedriver-service": "^5.0.0",
