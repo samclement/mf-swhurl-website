@@ -1,7 +1,7 @@
 /* eslint-env jest */
 
 import React from 'react'
-import { render, fireEvent } from 'react-testing-library'
+import { render, fireEvent } from '@testing-library/react'
 import 'jest-styled-components'
 import 'jest-dom/extend-expect'
 import Plp from './plp.js'
