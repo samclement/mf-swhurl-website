@@ -15,7 +15,7 @@ Demo Nextjs application that includes:
 - greenkeeper (automatic PRs for upgrading dependencies)
 - kustomize (k8s deployment configuration)
 
-THe application is deployed to a k8s cluster that includes:
+The application is deployed to a k8s cluster that includes:
 
 - cert-manager (automatic TLS certificate provisioning from LetsEncript)
 - oauth2-proxy (authentication against github)
@@ -55,6 +55,6 @@ You will need an API key and set it as an environment variable (`API_KEY`) for l
 
 Install `kustomize` - https://github.com/kubernetes-sigs/kustomize
 
-- `kustomize build kustomize/web/overlays/staging | kubectl apply -f -``
-- `kustomize build kustomize/web/overlays/production | kubectl apply -f -``
-- `kustomize build kustomize/oauth2 | kubectl apply -f -``
+- `kustomize build kustomize/web/overlays/staging | kubectl apply -f -`
+- `kustomize build kustomize/web/overlays/production | kubectl apply -f -`
+- `kustomize build kustomize/oauth2 | kubectl apply -f -`
