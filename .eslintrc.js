@@ -8,7 +8,8 @@ module.exports = {
     'react/prop-types': 0,
     'space-before-function-paren': 0,
     'jsx-quotes': ['error', 'prefer-double'],
-    'indent': 0
+    'indent': 0,
+    'lines-between-class-members': 0
   },
   env: {
     browser: true,

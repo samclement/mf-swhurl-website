@@ -11,7 +11,7 @@ const thresholds = {
 }
 let isPassing = true
 
-let data = Object.keys(thresholds).map(key => {
+const data = Object.keys(thresholds).map(key => {
   const score = s[key].score * 100
   if (score < thresholds[key]) {
     isPassing = false
