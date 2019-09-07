@@ -40,6 +40,7 @@
   },
   "license": "ISC",
   "devDependencies": {
+    "@testing-library/jest-dom": "^4.1.0",
     "@testing-library/react": "^9.1.4",
     "@wdio/allure-reporter": "^5.4.16",
     "@wdio/cli": "^5.4.17",
@@ -65,7 +66,6 @@
     "eslint-plugin-styled-components-config": "0.0.2",
     "husky": "2.4.0",
     "jest": "^24.1.0",
-    "jest-dom": "^4.0.0",
     "jest-junit": "^6.3.0",
     "jest-styled-components": "6.3.2",
     "lighthouse": "5.1.0",
