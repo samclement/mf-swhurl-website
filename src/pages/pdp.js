@@ -66,6 +66,7 @@ function Pdp(props) {
                     src={thumbnail
                       .replace('thumbnail', 'large')
                       .replace('_1', `_${num + 1}`)}
+                    alt={name}
                   />
                 </div>
               )

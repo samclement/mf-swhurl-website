@@ -192,6 +192,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
               style="float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 0ms; webkit-transition-duration: 0ms; webkit-transform: translate(0px,0)translateZ(0);"
             >
               <img
+                alt="Intrecciato leather cardholder"
                 class="c6"
                 src="//assetsprx.matchesfashion.com/img/product/1247661_1_large.jpg"
               />
@@ -201,6 +202,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
               style="float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 0ms; webkit-transition-duration: 0ms; webkit-transform: translate(0px,0)translateZ(0);"
             >
               <img
+                alt="Intrecciato leather cardholder"
                 class="c6"
                 src="//assetsprx.matchesfashion.com/img/product/1247661_2_large.jpg"
               />
@@ -210,6 +212,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
               style="float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 0ms; webkit-transition-duration: 0ms; webkit-transform: translate(0px,0)translateZ(0);"
             >
               <img
+                alt="Intrecciato leather cardholder"
                 class="c6"
                 src="//assetsprx.matchesfashion.com/img/product/1247661_3_large.jpg"
               />
@@ -219,6 +222,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
               style="float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 0ms; webkit-transition-duration: 0ms; webkit-transform: translate(0px,0)translateZ(0);"
             >
               <img
+                alt="Intrecciato leather cardholder"
                 class="c6"
                 src="//assetsprx.matchesfashion.com/img/product/1247661_4_large.jpg"
               />
@@ -228,6 +232,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
               style="float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 0ms; webkit-transition-duration: 0ms; webkit-transform: translate(0px,0)translateZ(0);"
             >
               <img
+                alt="Intrecciato leather cardholder"
                 class="c6"
                 src="//assetsprx.matchesfashion.com/img/product/1247661_5_large.jpg"
               />
@@ -278,9 +283,9 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 2`] = `
 +               style=\\"float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 300ms; webkit-transition-duration: 300ms; webkit-transform: translate(NaNpx,0)translateZ(0);\\"
               >
                 <img
+                  alt=\\"Intrecciato leather cardholder\\"
                   class=\\"pdp__StyledImage-sc-8q6d8y-2 cnURja\\"
-                  src=\\"//assetsprx.matchesfashion.com/img/product/1247661_1_large.jpg\\"
-                />"
+                  src=\\"//assetsprx.matchesfashion.com/img/product/1247661_1_large.jpg\\""
 `;
 
 exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 3`] = `
@@ -389,6 +394,7 @@ Object {
                   style="float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 0ms; webkit-transition-duration: 0ms; webkit-transform: translate(0px,0)translateZ(0);"
                 >
                   <img
+                    alt="Intrecciato leather cardholder"
                     class="pdp__StyledImage-sc-8q6d8y-2 cnURja"
                     src="//assetsprx.matchesfashion.com/img/product/1247661_1_large.jpg"
                   />
@@ -398,6 +404,7 @@ Object {
                   style="float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 0ms; webkit-transition-duration: 0ms; webkit-transform: translate(0px,0)translateZ(0);"
                 >
                   <img
+                    alt="Intrecciato leather cardholder"
                     class="pdp__StyledImage-sc-8q6d8y-2 cnURja"
                     src="//assetsprx.matchesfashion.com/img/product/1247661_2_large.jpg"
                   />
@@ -407,6 +414,7 @@ Object {
                   style="float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 0ms; webkit-transition-duration: 0ms; webkit-transform: translate(0px,0)translateZ(0);"
                 >
                   <img
+                    alt="Intrecciato leather cardholder"
                     class="pdp__StyledImage-sc-8q6d8y-2 cnURja"
                     src="//assetsprx.matchesfashion.com/img/product/1247661_3_large.jpg"
                   />
@@ -416,6 +424,7 @@ Object {
                   style="float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 0ms; webkit-transition-duration: 0ms; webkit-transform: translate(0px,0)translateZ(0);"
                 >
                   <img
+                    alt="Intrecciato leather cardholder"
                     class="pdp__StyledImage-sc-8q6d8y-2 cnURja"
                     src="//assetsprx.matchesfashion.com/img/product/1247661_4_large.jpg"
                   />
@@ -425,6 +434,7 @@ Object {
                   style="float: left; width: 0px; position: relative; transition-property: transform; left: 0px; transition-duration: 0ms; webkit-transition-duration: 0ms; webkit-transform: translate(0px,0)translateZ(0);"
                 >
                   <img
+                    alt="Intrecciato leather cardholder"
                     class="pdp__StyledImage-sc-8q6d8y-2 cnURja"
                     src="//assetsprx.matchesfashion.com/img/product/1247661_5_large.jpg"
                   />
