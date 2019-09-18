@@ -33,7 +33,7 @@ export default ({ title, filters }) => {
         const url = `/plp?url=${f.url}`
         return (
           <Link prefetch key={i} href={url} as={f.url}>
-            <StyledLink href="#" selected={f.selected}>
+            <StyledLink href={f.url} selected={f.selected}>
               {f.name}
             </StyledLink>
           </Link>

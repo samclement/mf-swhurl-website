@@ -47,6 +47,7 @@ const Controls = styled.div`
 
 function Pdp(props) {
   const { name, thumbnail, designerData, priceData, sizeTaxonomyName } = props
+  const mainImage = thumbnail.replace('thumbnail', 'large')
   let reactSwipeEl
   return (
     <div>
@@ -63,15 +64,16 @@ function Pdp(props) {
               return (
                 <div key={num}>
                   <StyledImage
-                    src={thumbnail
-                      .replace('thumbnail', 'large')
-                      .replace('_1', `_${num + 1}`)}
+                    src={mainImage.replace('_1', `_${num + 1}`)}
                     alt={name}
                   />
                 </div>
               )
             })}
           </ReactSwipe>
+          <noscript>
+            <img src={mainImage} />
+          </noscript>
           <Controls>
             <button onClick={() => reactSwipeEl.prev()}>Previous</button>
             <button onClick={() => reactSwipeEl.next()}>Next</button>

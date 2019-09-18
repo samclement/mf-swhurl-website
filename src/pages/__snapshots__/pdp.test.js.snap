@@ -239,6 +239,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
             </div>
           </div>
         </div>
+        <noscript />
         <div
           class="c7"
         >
@@ -441,6 +442,7 @@ Object {
                 </div>
               </div>
             </div>
+            <noscript />
             <div
               class="pdp__Controls-sc-8q6d8y-4 fukWF"
             >
