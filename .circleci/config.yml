@@ -6,7 +6,6 @@ jobs:
     steps:
       - checkout
       - setup_remote_docker:
-          docker_layer_caching: true
       - run: |
           echo -e "commit: $CIRCLE_SHA1\ntag: $CIRCLE_TAG" > ./version.txt
       - run:
