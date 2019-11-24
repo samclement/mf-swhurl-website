@@ -3,13 +3,20 @@ import Link from 'next/link'
 import styled from 'styled-components'
 
 const StyledBlock = styled.div`
-  width: 170px;
+  width: 210px;
   padding: 10px;
 `
 
+const StyledFilters = styled.div`
+  max-height: ${props => props.scrollable ? '420px' : 'initial'};
+  overflow-y: ${props => props.scrollable ? 'auto' : 'initial'};
+  border: ${props => props.scrollable ? '1px solid #ccc' : 'initial'};
+  padding: ${props => props.scrollable ? '5px 9px' : 'initial'};
+ `
+
 const StyledLink = styled.a`
   color: black;
-  font-size: 12px;
+  font-size: 13px;
   text-decoration: none;
   display: block;
   padding-left: 10px;
@@ -25,20 +32,22 @@ const StyledLink = styled.a`
   }
 `
 
-export default ({ title, filters }) => {
+export default ({ title, filters, scrollable }) => {
   return (
     <StyledBlock>
       <h2>{title}</h2>
-      {filters.map((f, i) => {
-        const url = `/plp?url=${f.url}`
-        return (
-          <Link prefetch key={i} href={url} as={f.url}>
-            <StyledLink href={f.url} selected={f.selected}>
-              {f.name}
-            </StyledLink>
-          </Link>
-        )
-      })}
+      <StyledFilters scrollable={scrollable}>
+        {filters.map((f, i) => {
+          const url = `/plp?url=${f.url}`
+          return (
+            <Link prefetch key={i} href={url} as={f.url}>
+              <StyledLink href={f.url} selected={f.selected}>
+                {f.name}
+              </StyledLink>
+            </Link>
+          )
+        })}
+      </StyledFilters>
     </StyledBlock>
   )
 }

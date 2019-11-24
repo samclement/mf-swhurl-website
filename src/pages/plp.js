@@ -68,21 +68,21 @@ function Plp(props) {
       <SearchContainer>
         <CheeseburgerMenu
           isOpen={menuOpen}
-          width={220}
+          width={245}
           innerClassName="touch"
           closeCallback={() => setMenuOpen(false)}
         >
           <FilterBlockContainer>
             <FilterBlock title="Category" filters={categoryFacets} />
             {facets.map((f, i) => {
-              return <FilterBlock key={i} title={f.name} filters={f.values} />
+              return <FilterBlock key={i} title={f.name} filters={f.values} scrollable={false} />
             })}
           </FilterBlockContainer>
         </CheeseburgerMenu>
         <DesktopFilterBlockContainer>
           <FilterBlock title="Category" filters={categoryFacets} />
           {facets.map((f, i) => {
-            return <FilterBlock key={i} title={f.name} filters={f.values} />
+            return <FilterBlock key={i} title={f.name} filters={f.values} scrollable />
           })}
         </DesktopFilterBlockContainer>
         <ProductsList>
