@@ -1,6 +1,7 @@
 commonLabels:
   app: mf-swhurl-website
 resources:
+- secret.yaml
 - deployment.yaml
 - service.yaml
 - ingress.yaml

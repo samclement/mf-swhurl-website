@@ -53,7 +53,17 @@ You will need an API key and set it as an environment variable (`API_KEY`) for l
 
 ### k8s
 
-Install `kustomize` - https://github.com/kubernetes-sigs/kustomize
+Replace placeholder secrets values for oauth with base64 encoded values:
+
+- `github_client_id`
+- `github_client_secret`
+- `cookie_secret`
+
+Replace placeholder secrets values for web with base64 encoded values:
+
+- `apiKey`
+
+Install via `kustomize` - https://github.com/kubernetes-sigs/kustomize
 
 - `kustomize build kustomize/web/overlays/staging | kubectl apply -f -`
 - `kustomize build kustomize/web/overlays/production | kubectl apply -f -`
