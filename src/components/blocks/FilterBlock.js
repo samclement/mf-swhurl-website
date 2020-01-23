@@ -25,8 +25,8 @@ const StyledLink = styled.a`
   ::before {
     content: ${props =>
       props.selected
-        ? 'url("/static/checkbox_checked.svg")'
-        : 'url("/static/checkbox_unchecked.svg")'};
+        ? 'url("/checkbox_checked.svg")'
+        : 'url("/checkbox_unchecked.svg")'};
     position: relative;
     bottom: -2px;
   }
@@ -40,7 +40,7 @@ export default ({ title, filters, scrollable }) => {
         {filters.map((f, i) => {
           const url = `/plp?url=${f.url}`
           return (
-            <Link prefetch key={i} href={url} as={f.url}>
+            <Link key={i} href={url} as={f.url}>
               <StyledLink href={f.url} selected={f.selected}>
                 {f.name}
               </StyledLink>

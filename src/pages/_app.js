@@ -1,4 +1,4 @@
-import App, { Container } from 'next/app'
+import App from 'next/app'
 import Router from 'next/router'
 import React from 'react'
 import { createGlobalStyle } from 'styled-components'
@@ -38,10 +38,10 @@ export default class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props
     return (
-      <Container>
+      <React.Fragment>
         <GlobalStyle />
         <Component {...pageProps} />
-      </Container>
+      </React.Fragment>
     )
   }
 }

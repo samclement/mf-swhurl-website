@@ -9,7 +9,7 @@ import Nav from './Nav.js'
 import { mens } from '../navigation.js'
 // Nextjs routing support
 import Router from 'next/router'
-const mockedRouter = { push: () => {}, prefetch: () => {} }
+const mockedRouter = { push: () => {} }
 Router.router = mockedRouter
 
 describe('With Snapshot Testing', () => {

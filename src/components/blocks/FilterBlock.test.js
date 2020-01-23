@@ -10,7 +10,7 @@ import data from '../../../test-data/activewear.json'
 import { parseSearchResults } from '../../lib/plp.js'
 // Nextjs routing support
 import Router from 'next/router'
-const mockedRouter = { push: () => {}, prefetch: () => {} }
+const mockedRouter = { push: () => {} }
 Router.router = mockedRouter
 
 const facets = parseSearchResults(data).facets

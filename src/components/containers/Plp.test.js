@@ -8,7 +8,7 @@ import Plp from './Plp.js'
 import { parseSearchResults } from '../../lib/plp.js'
 // Nextjs routing support
 import Router from 'next/router'
-const mockedRouter = { push: () => {}, prefetch: () => {} }
+const mockedRouter = { push: () => {} }
 Router.router = mockedRouter
 // Snapshot diffing support
 const { toMatchDiffSnapshot } = require('snapshot-diff')
