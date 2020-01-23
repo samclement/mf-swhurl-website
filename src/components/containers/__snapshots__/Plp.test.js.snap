@@ -83,7 +83,7 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
 }
 
 .c9::before {
-  content: url("/static/checkbox_unchecked.svg");
+  content: url("/checkbox_unchecked.svg");
   position: relative;
   bottom: -2px;
 }

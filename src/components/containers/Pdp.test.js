@@ -7,7 +7,7 @@ import '@testing-library/jest-dom/extend-expect'
 import Pdp from './Pdp.js'
 // Nextjs routing support
 import Router from 'next/router'
-const mockedRouter = { push: () => {}, prefetch: () => {} }
+const mockedRouter = { push: () => {} }
 Router.router = mockedRouter
 // Snapshot diffing support
 const { toMatchDiffSnapshot } = require('snapshot-diff')
