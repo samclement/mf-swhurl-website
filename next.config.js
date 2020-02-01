@@ -6,8 +6,8 @@ module.exports = {
     })
     if (!dev) {
       config.devtool = 'source-map'
-      for (const options of config.plugins) { // eslint-disable-line
-        if (options['constructor']['name'] === 'UglifyJsPlugin') {
+      for (const options of config.optimization.minimizer) { // eslint-disable-line
+        if (options['constructor']['name'] === 'TerserPlugin') {
           options.options.sourceMap = true
           break
         }
