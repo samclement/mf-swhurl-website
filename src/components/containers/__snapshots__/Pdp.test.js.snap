@@ -285,7 +285,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 2`] = `
               >
                 <img
                   alt=\\"Intrecciato leather cardholder\\"
-                  class=\\"pdp__StyledImage-sc-8q6d8y-2 cnURja\\"
+                  class=\\"Pdp__StyledImage-sc-1l9qd5e-2 dxSsMs\\"
                   src=\\"//assetsprx.matchesfashion.com/img/product/1247661_1_large.jpg\\""
 `;
 
@@ -378,10 +378,10 @@ Object {
           Womens
         </h1>
         <div
-          class="pdp__StyledProductContainer-sc-8q6d8y-0 jdVYRm"
+          class="Pdp__StyledProductContainer-sc-1l9qd5e-0 bXaihQ"
         >
           <div
-            class="pdp__ImageContainer-sc-8q6d8y-1 fniJjf"
+            class="Pdp__ImageContainer-sc-1l9qd5e-1 bFPfIa"
           >
             <div
               class="react-swipe-container carousel"
@@ -396,7 +396,7 @@ Object {
                 >
                   <img
                     alt="Intrecciato leather cardholder"
-                    class="pdp__StyledImage-sc-8q6d8y-2 cnURja"
+                    class="Pdp__StyledImage-sc-1l9qd5e-2 dxSsMs"
                     src="//assetsprx.matchesfashion.com/img/product/1247661_1_large.jpg"
                   />
                 </div>
@@ -406,7 +406,7 @@ Object {
                 >
                   <img
                     alt="Intrecciato leather cardholder"
-                    class="pdp__StyledImage-sc-8q6d8y-2 cnURja"
+                    class="Pdp__StyledImage-sc-1l9qd5e-2 dxSsMs"
                     src="//assetsprx.matchesfashion.com/img/product/1247661_2_large.jpg"
                   />
                 </div>
@@ -416,7 +416,7 @@ Object {
                 >
                   <img
                     alt="Intrecciato leather cardholder"
-                    class="pdp__StyledImage-sc-8q6d8y-2 cnURja"
+                    class="Pdp__StyledImage-sc-1l9qd5e-2 dxSsMs"
                     src="//assetsprx.matchesfashion.com/img/product/1247661_3_large.jpg"
                   />
                 </div>
@@ -426,7 +426,7 @@ Object {
                 >
                   <img
                     alt="Intrecciato leather cardholder"
-                    class="pdp__StyledImage-sc-8q6d8y-2 cnURja"
+                    class="Pdp__StyledImage-sc-1l9qd5e-2 dxSsMs"
                     src="//assetsprx.matchesfashion.com/img/product/1247661_4_large.jpg"
                   />
                 </div>
@@ -436,7 +436,7 @@ Object {
                 >
                   <img
                     alt="Intrecciato leather cardholder"
-                    class="pdp__StyledImage-sc-8q6d8y-2 cnURja"
+                    class="Pdp__StyledImage-sc-1l9qd5e-2 dxSsMs"
                     src="//assetsprx.matchesfashion.com/img/product/1247661_5_large.jpg"
                   />
                 </div>
@@ -444,7 +444,7 @@ Object {
             </div>
             <noscript />
             <div
-              class="pdp__Controls-sc-8q6d8y-4 fukWF"
+              class="Pdp__Controls-sc-1l9qd5e-4 kAHnNc"
             >
               <button>
                 Previous
@@ -455,7 +455,7 @@ Object {
             </div>
           </div>
           <div
-            class="pdp__ProductDetailsContainer-sc-8q6d8y-3 jydWRR"
+            class="Pdp__ProductDetailsContainer-sc-1l9qd5e-3 evYRvz"
           >
             <h2>
               Bottega Veneta

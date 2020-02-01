@@ -6,7 +6,7 @@ import 'jest-styled-components'
 import '@testing-library/jest-dom/extend-expect'
 import Nav from './Nav.js'
 // Data
-import { mens } from '../../navigation.js'
+import { mens } from '../navigation.js'
 // Nextjs routing support
 import Router from 'next/router'
 const mockedRouter = { push: () => {}, prefetch: () => {} }

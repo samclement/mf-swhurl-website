@@ -4,7 +4,7 @@ import React from 'react'
 import { render, fireEvent } from '@testing-library/react'
 import 'jest-styled-components'
 import '@testing-library/jest-dom/extend-expect'
-import Pdp from './pdp.js'
+import Pdp from './Pdp.js'
 // Nextjs routing support
 import Router from 'next/router'
 const mockedRouter = { push: () => {}, prefetch: () => {} }
@@ -13,7 +13,7 @@ Router.router = mockedRouter
 const { toMatchDiffSnapshot } = require('snapshot-diff')
 expect.extend({ toMatchDiffSnapshot })
 // Data
-const data = require('../../test-data/pdp.json')
+const data = require('../../../test-data/pdp.json')
 
 describe('With Snapshot Testing', () => {
   it('Plp page shows "mf.swhurl.com" H1', () => {
