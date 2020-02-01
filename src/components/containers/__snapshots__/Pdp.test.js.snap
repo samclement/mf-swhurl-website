@@ -1,8 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`With Snapshot Testing Plp getInitialProps 1`] = `Object {}`;
-
-exports[`With Snapshot Testing Plp getInitialProps 2`] = `Object {}`;
+exports[`With Snapshot Testing Plp getInitialProps 1`] = `undefined`;
 
 exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
 <DocumentFragment>
@@ -285,7 +283,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 2`] = `
               >
                 <img
                   alt=\\"Intrecciato leather cardholder\\"
-                  class=\\"Pdp__StyledImage-sc-1l9qd5e-2 dxSsMs\\"
+                  class=\\"sc-bZQynM hVWCYP\\"
                   src=\\"//assetsprx.matchesfashion.com/img/product/1247661_1_large.jpg\\""
 `;
 
@@ -295,93 +293,93 @@ Object {
     "childNodes": NodeList [
       <div>
         <nav
-          class="Nav__StyledNav-kiytek-1 hdzbsq"
+          class="sc-htpNat jTKDdr"
         >
           <div
-            class="Nav__StyledTitle-kiytek-0 jgJRnT"
+            class="sc-bwzfXH jLqewP"
           >
             mens
           </div>
           <a
-            class="NavLink__StyledLink-sc-1rtt1l3-0 iOdWij"
+            class="sc-bdVaJa kArkpF"
             href="/mens/shop/accessories"
           >
             Accessories
           </a>
           <a
-            class="NavLink__StyledLink-sc-1rtt1l3-0 iOdWij"
+            class="sc-bdVaJa kArkpF"
             href="/mens/shop/shoes"
           >
             Shoes
           </a>
           <a
-            class="NavLink__StyledLink-sc-1rtt1l3-0 iOdWij"
+            class="sc-bdVaJa kArkpF"
             href="/mens/shop/clothing"
           >
             Clothing
           </a>
           <a
-            class="NavLink__StyledLink-sc-1rtt1l3-0 iOdWij"
+            class="sc-bdVaJa kArkpF"
             href="/mens/shop/bags"
           >
             Bags
           </a>
           <a
-            class="NavLink__StyledLink-sc-1rtt1l3-0 iOdWij"
+            class="sc-bdVaJa kArkpF"
             href="/mens/shop/homeware"
           >
             Homeware
           </a>
         </nav>
         <nav
-          class="Nav__StyledNav-kiytek-1 hdzbsq"
+          class="sc-htpNat jTKDdr"
         >
           <div
-            class="Nav__StyledTitle-kiytek-0 jgJRnT"
+            class="sc-bwzfXH jLqewP"
           >
             womens
           </div>
           <a
-            class="NavLink__StyledLink-sc-1rtt1l3-0 iOdWij"
+            class="sc-bdVaJa kArkpF"
             href="/womens/shop/accessories"
           >
             Accessories
           </a>
           <a
-            class="NavLink__StyledLink-sc-1rtt1l3-0 iOdWij"
+            class="sc-bdVaJa kArkpF"
             href="/womens/shop/bags"
           >
             Bags
           </a>
           <a
-            class="NavLink__StyledLink-sc-1rtt1l3-0 iOdWij"
+            class="sc-bdVaJa kArkpF"
             href="/womens/shop/clothing"
           >
             Clothing
           </a>
           <a
-            class="NavLink__StyledLink-sc-1rtt1l3-0 iOdWij"
+            class="sc-bdVaJa kArkpF"
             href="/womens/shop/shoes"
           >
             Shoes
           </a>
           <a
-            class="NavLink__StyledLink-sc-1rtt1l3-0 iOdWij"
+            class="sc-bdVaJa kArkpF"
             href="/womens/shop/homeware"
           >
             Homeware
           </a>
         </nav>
         <h1
-          class="GenderHeader__StyledH1-hihn4e-0 hBiQqN"
+          class="sc-bxivhb fZrdfe"
         >
           Womens
         </h1>
         <div
-          class="Pdp__StyledProductContainer-sc-1l9qd5e-0 bXaihQ"
+          class="sc-ifAKCX bHfPLL"
         >
           <div
-            class="Pdp__ImageContainer-sc-1l9qd5e-1 bFPfIa"
+            class="sc-EHOje bjMwPJ"
           >
             <div
               class="react-swipe-container carousel"
@@ -396,7 +394,7 @@ Object {
                 >
                   <img
                     alt="Intrecciato leather cardholder"
-                    class="Pdp__StyledImage-sc-1l9qd5e-2 dxSsMs"
+                    class="sc-bZQynM hVWCYP"
                     src="//assetsprx.matchesfashion.com/img/product/1247661_1_large.jpg"
                   />
                 </div>
@@ -406,7 +404,7 @@ Object {
                 >
                   <img
                     alt="Intrecciato leather cardholder"
-                    class="Pdp__StyledImage-sc-1l9qd5e-2 dxSsMs"
+                    class="sc-bZQynM hVWCYP"
                     src="//assetsprx.matchesfashion.com/img/product/1247661_2_large.jpg"
                   />
                 </div>
@@ -416,7 +414,7 @@ Object {
                 >
                   <img
                     alt="Intrecciato leather cardholder"
-                    class="Pdp__StyledImage-sc-1l9qd5e-2 dxSsMs"
+                    class="sc-bZQynM hVWCYP"
                     src="//assetsprx.matchesfashion.com/img/product/1247661_3_large.jpg"
                   />
                 </div>
@@ -426,7 +424,7 @@ Object {
                 >
                   <img
                     alt="Intrecciato leather cardholder"
-                    class="Pdp__StyledImage-sc-1l9qd5e-2 dxSsMs"
+                    class="sc-bZQynM hVWCYP"
                     src="//assetsprx.matchesfashion.com/img/product/1247661_4_large.jpg"
                   />
                 </div>
@@ -436,7 +434,7 @@ Object {
                 >
                   <img
                     alt="Intrecciato leather cardholder"
-                    class="Pdp__StyledImage-sc-1l9qd5e-2 dxSsMs"
+                    class="sc-bZQynM hVWCYP"
                     src="//assetsprx.matchesfashion.com/img/product/1247661_5_large.jpg"
                   />
                 </div>
@@ -444,7 +442,7 @@ Object {
             </div>
             <noscript />
             <div
-              class="Pdp__Controls-sc-1l9qd5e-4 kAHnNc"
+              class="sc-htoDjs jlUijO"
             >
               <button>
                 Previous
@@ -455,7 +453,7 @@ Object {
             </div>
           </div>
           <div
-            class="Pdp__ProductDetailsContainer-sc-1l9qd5e-3 evYRvz"
+            class="sc-gzVnrw fgRfqU"
           >
             <h2>
               Bottega Veneta
