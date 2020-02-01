@@ -26,6 +26,23 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
 }
 
 .c2::before {
+  content: url("/checkbox_checked.svg");
+  position: relative;
+  bottom: -2px;
+}
+
+.c3 {
+  color: black;
+  font-size: 13px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: block;
+  padding-left: 10px;
+  text-indent: -15px;
+  margin-bottom: 6px;
+}
+
+.c3::before {
   content: url("/checkbox_unchecked.svg");
   position: relative;
   bottom: -2px;
@@ -47,133 +64,133 @@ exports[`With Snapshot Testing FilterBlock displays items 1`] = `
         1017 ALYX 9SM
       </a>
       <a
-        class="c2"
+        class="c3"
         href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amens-2xu"
       >
         2XU
       </a>
       <a
-        class="c2"
+        class="c3"
         href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensandwander"
       >
         And Wander
       </a>
       <a
-        class="c2"
+        class="c3"
         href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensaztech-mountain"
       >
         Aztech Mountain
       </a>
       <a
-        class="c2"
+        class="c3"
         href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensblackbarrett-by"
       >
         Blackbarrett by Neil Barrett
       </a>
       <a
-        class="c2"
+        class="c3"
         href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amenscafe-du"
       >
         Café Du Cycliste
       </a>
       <a
-        class="c2"
+        class="c3"
         href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amenscastore"
       >
         Castore
       </a>
       <a
-        class="c2"
+        class="c3"
         href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensfalke"
       >
         Falke
       </a>
       <a
-        class="c2"
+        class="c3"
         href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensfendi"
       >
         Fendi
       </a>
       <a
-        class="c2"
+        class="c3"
         href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amenshelly-hansen"
       >
         Helly Hansen
       </a>
       <a
-        class="c2"
+        class="c3"
         href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensiffley-road"
       >
         Iffley Road
       </a>
       <a
-        class="c2"
+        class="c3"
         href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amenslndr"
       >
         LNDR
       </a>
       <a
-        class="c2"
+        class="c3"
         href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensmammut"
       >
         Mammut Delta X
       </a>
       <a
-        class="c2"
+        class="c3"
         href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensmoncler"
       >
         Moncler
       </a>
       <a
-        class="c2"
+        class="c3"
         href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensmoncler-genius"
       >
         Moncler Genius
       </a>
       <a
-        class="c2"
+        class="c3"
         href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensmoncler-grenoble"
       >
         Moncler Grenoble
       </a>
       <a
-        class="c2"
+        class="c3"
         href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensnemen"
       >
         Nemen
       </a>
       <a
-        class="c2"
+        class="c3"
         href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amenspeak-performance"
       >
         Peak Performance
       </a>
       <a
-        class="c2"
+        class="c3"
         href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensperfect-moment"
       >
         Perfect Moment
       </a>
       <a
-        class="c2"
+        class="c3"
         href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amenssalomon"
       >
         Salomon
       </a>
       <a
-        class="c2"
+        class="c3"
         href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amenssatisfy"
       >
         Satisfy
       </a>
       <a
-        class="c2"
+        class="c3"
         href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensthe-upside"
       >
         The Upside
       </a>
       <a
-        class="c2"
+        class="c3"
         href="/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amenstilak"
       >
         Tilak
