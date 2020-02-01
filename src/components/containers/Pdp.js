@@ -90,8 +90,7 @@ function Pdp(props) {
 }
 
 Pdp.getInitialProps = async ({ req, query }) => {
-  const q = req && req.query ? req.query : query
-  const res = await getProduct(q, !!req)
+  const res = await getProduct(query, !!req)
   return res.data
 }
 

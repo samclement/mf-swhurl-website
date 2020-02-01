@@ -53,6 +53,7 @@
     "babel-core": "^7.0.0-bridge",
     "babel-eslint": "10.0.2",
     "babel-jest": "^24.1.0",
+    "babel-plugin-rewire": "^1.2.0",
     "babel-plugin-styled-components": "1.10.1",
     "chai": "4.2.0",
     "chromedriver": "79.0.0",

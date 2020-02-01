@@ -96,10 +96,9 @@ function Plp(props) {
 }
 
 Plp.getInitialProps = async ({ req, query }) => {
-  const q = req && req.query ? req.query : query
-  const res = await getSearchResults(q, !!req)
+  const res = await getSearchResults(query, !!req)
   const { results, categoryFacets, facets } = res.data
-  const gender = q.url.match(/\/mens/) ? 'mens' : 'womens'
+  const gender = query.url.match(/\/mens/) ? 'mens' : 'womens'
   return { results, gender, categoryFacets, facets }
 }
 

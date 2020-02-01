@@ -26,11 +26,8 @@ describe('With Snapshot Testing', () => {
     expect(firstRender).toMatchSnapshot(asFragment())
   })
   it('Plp getInitialProps', async () => {
+    Pdp.__Rewire__('getProduct', () => data)
     const res = await Pdp.getInitialProps({ query: { code: 1247661 } })
-    expect(res).toMatchSnapshot()
-  })
-  it('Plp getInitialProps', async () => {
-    const res = await Pdp.getInitialProps({ req: { query: { code: 1247661 } } })
     expect(res).toMatchSnapshot()
   })
 })
