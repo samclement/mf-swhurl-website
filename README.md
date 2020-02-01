@@ -1,4 +1,4 @@
-# Next.js app  demo application
+# Next.js demo application
 
 [![CircleCI](https://circleci.com/gh/samclement/mf-swhurl-website.svg?style=svg)](https://circleci.com/gh/samclement/mf-swhurl-website)
 [![Greenkeeper badge](https://badges.greenkeeper.io/samclement/mf-swhurl-website.svg)](https://greenkeeper.io/)
