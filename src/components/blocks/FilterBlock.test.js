@@ -7,7 +7,7 @@ import '@testing-library/jest-dom/extend-expect'
 import FilterBlock from './FilterBlock.js'
 // Data
 import data from '../../../test-data/activewear.json'
-import { parseSearchResults } from '../../lib/plp.js'
+import { parseSearchResults } from '../../lib/parser.js'
 // Nextjs routing support
 import Router from 'next/router'
 const mockedRouter = { push: () => {} }

@@ -5,7 +5,7 @@ import { render, fireEvent } from '@testing-library/react'
 import 'jest-styled-components'
 import '@testing-library/jest-dom/extend-expect'
 import Plp from './Plp.js'
-import { parseSearchResults } from '../../lib/plp.js'
+import { parseSearchResults } from '../../lib/parser.js'
 // Nextjs routing support
 import Router from 'next/router'
 const mockedRouter = { push: () => {} }
