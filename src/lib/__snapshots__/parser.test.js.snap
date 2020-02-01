@@ -3372,7 +3372,7 @@ Object {
       "values": Array [
         Object {
           "name": "1017 ALYX 9SM",
-          "selected": false,
+          "selected": true,
           "url": "/mens/shop/clothing/activewear?q=%3A%3AallDesigners%3Amensalyx",
         },
         Object {
