@@ -6,7 +6,7 @@ const axios = require('axios')
 const { setupCache } = require('axios-cache-adapter')
 const cache = setupCache({ maxAge: 5 * 60 * 1000 })
 const api = axios.create({ adapter: cache.adapter })
-const plpParser = require('./lib/plp.js')
+const plpParser = require('./lib/parser.js')
 
 const BASE_URL = `https://www.matchesfashion.com`
 const API_KEY = process.env.API_KEY || ''
