@@ -10,9 +10,9 @@
     "test:ci:send": "./send-test-output.sh",
     "test:unit": "NODE_ENV=test jest",
     "test:jest": "jest --watch",
-    "test:jest:ci": "JEST_JUNIT_OUTPUT=test-output/junit/js-test-results.xml jest --ci --runInBand --reporters=default --reporters=jest-junit",
+    "test:jest:ci": "JEST_JUNIT_OUTPUT=test/output/junit/js-test-results.xml jest --ci --runInBand --reporters=default --reporters=jest-junit",
     "test:e2e": "wdio",
-    "test:perf": "lighthouse http://website:3000 --quiet --output=json html --config-path=./lighthouse.config.json --chrome-flags=\"--headless --no-sandbox --disable-gpu\" --output-path=./test-output/lighthouse/lighthouse && node ./lighthouse-report-parser.js",
+    "test:perf": "lighthouse http://website:3000 --quiet --output=json html --config-path=./lighthouse.config.json --chrome-flags=\"--headless --no-sandbox --disable-gpu\" --output-path=./test/output/lighthouse/lighthouse && node ./lighthouse-report-parser.js",
     "lint": "eslint .",
     "precommit": "precise-commits --whitelist=\"./package-lock.json\"",
     "fmt": "prettier --write \"src/**/*.js\""
@@ -87,7 +87,7 @@
       "./test"
     ],
     "collectCoverage": true,
-    "coverageDirectory": "./test-output/jest",
+    "coverageDirectory": "./test/output/jest",
     "collectCoverageFrom": [
       "src/components/**/*.js",
       "src/pages/**/*.js",
@@ -95,7 +95,7 @@
       "src/lib/**/*.js"
     ],
     "coveragePathIgnorePatterns": [
-      "./test-output/coverage/",
+      "./test/output/coverage/",
       "./node_modules/",
       "./.next",
       "./pages/_document.js",
