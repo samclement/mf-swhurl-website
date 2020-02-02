@@ -117,12 +117,12 @@ exports.config = {
   reporters: [
     'spec',
     ['allure', {
-      outputDir: './test-output/allure',
+      outputDir: './test/output/allure',
       disableWebdriverStepsReporting: true,
       disableWebdriverScreenshotsReporting: true
     }],
     ['junit', {
-      outputDir: './test-output/mocha',
+      outputDir: './test/output/mocha',
       outputFileFormat: function(opts) {
         return `results-${opts.cid}.${opts.capabilities}.xml`
       },
