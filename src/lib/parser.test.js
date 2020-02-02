@@ -1,7 +1,7 @@
 const parser = require('./parser.js')
-const catLevel2Data = require('../../test-data/activewear.json')
-const catLevel1Data = require('../../test-data/clothing.json')
-const catLevel3Data = require('../../test-data/sports-jackets.json')
+const catLevel2Data = require('../../test/data/activewear.json')
+const catLevel1Data = require('../../test/data/clothing.json')
+const catLevel3Data = require('../../test/data/sports-jackets.json')
 
 describe('PLP', () => {
   it('Should parse the navigation', () => {
