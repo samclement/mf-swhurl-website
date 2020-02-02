@@ -2,7 +2,7 @@ node_modules
 tags
 .next
 *.DS_Store
-test-output/
+test/output/
 !test-output/allure/.gitkeep
 !test-output/mocha/.gitkeep
 !test-output/screenshots/.gitkeep

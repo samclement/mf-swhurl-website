@@ -1,4 +1,4 @@
-const report = require('./test-output/lighthouse/lighthouse.report.json')
+const report = require('./test/output/lighthouse/lighthouse.report.json')
 const table = require('table').table
 const s = {
   ...report.categories
