@@ -5,7 +5,7 @@ jobs:
       - image: buildpack-deps:trusty
     steps:
       - checkout
-      - setup_remote_docker:
+      - setup_remote_docker
       - run: |
           echo -e "commit: $CIRCLE_SHA1\ntag: $CIRCLE_TAG" > ./version.txt
       - run:
