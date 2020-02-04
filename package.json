@@ -36,7 +36,7 @@
     "react": "16.10.0",
     "react-dom": "16.10.0",
     "react-swipe": "^6.0.4",
-    "styled-components": "4.2.1",
+    "styled-components": "5.0.1",
     "swipe-js-iso": "2.1.5"
   },
   "license": "ISC",
