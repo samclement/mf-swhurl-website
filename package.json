@@ -36,7 +36,7 @@
     "react": "16.10.0",
     "react-dom": "16.10.0",
     "react-swipe": "^6.0.4",
-    "styled-components": "4.2.1",
+    "styled-components": "5.0.1",
     "swipe-js-iso": "2.1.5"
   },
   "license": "ISC",
@@ -67,7 +67,7 @@
     "husky": "3.0.6",
     "jest": "24.1.0",
     "jest-junit": "^10.0.0",
-    "jest-styled-components": "6.3.4",
+    "jest-styled-components": "^7.0.0",
     "lighthouse": "^5.6.0",
     "npm-run-all": "4.1.5",
     "precise-commits": "1.0.2",
@@ -84,6 +84,9 @@
       "./.next",
       "./node_modules/",
       "./test"
+    ],
+    "watchPathIgnorePatterns": [
+      "./node_modules/"
     ],
     "moduleFileExtensions": [
       "js"
