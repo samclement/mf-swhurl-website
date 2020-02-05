@@ -40,12 +40,16 @@ describe('With Snapshot Testing', () => {
     expect(asFragment()).toMatchSnapshot(firstRender)
   })
   it('Plp getInitialProps - mens', async () => {
-    Plp.__Rewire__('getSearchResults', () => { return { data } })
+    Plp.__Rewire__('getSearchResults', () => {
+      return { data }
+    })
     const res = await Plp.getInitialProps({ query: { url: '/mens/' } })
     expect(res).toMatchSnapshot()
   })
   it('Plp getInitialProps - womens', async () => {
-    Plp.__Rewire__('getSearchResults', () => { return { data } })
+    Plp.__Rewire__('getSearchResults', () => {
+      return { data }
+    })
     const res = await Plp.getInitialProps({ query: { url: '/womens/' } })
     expect(res).toMatchSnapshot()
   })

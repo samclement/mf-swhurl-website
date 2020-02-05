@@ -75,14 +75,28 @@ function Plp(props) {
           <FilterBlockContainer>
             <FilterBlock title="Category" filters={categoryFacets} />
             {facets.map((f, i) => {
-              return <FilterBlock key={i} title={f.name} filters={f.values} scrollable={false} />
+              return (
+                <FilterBlock
+                  key={i}
+                  title={f.name}
+                  filters={f.values}
+                  scrollable={false}
+                />
+              )
             })}
           </FilterBlockContainer>
         </CheeseburgerMenu>
         <DesktopFilterBlockContainer>
           <FilterBlock title="Category" filters={categoryFacets} />
           {facets.map((f, i) => {
-            return <FilterBlock key={i} title={f.name} filters={f.values} scrollable />
+            return (
+              <FilterBlock
+                key={i}
+                title={f.name}
+                filters={f.values}
+                scrollable
+              />
+            )
           })}
         </DesktopFilterBlockContainer>
         <ProductsList>

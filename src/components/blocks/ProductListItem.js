@@ -23,9 +23,7 @@ const StyledPrice = styled.p`
 `
 
 export default ({ item }) => {
-  const imageUrl = `//assetsprx.matchesfashion.com/img/product/${
-    item.code
-  }_1_small.jpg`
+  const imageUrl = `//assetsprx.matchesfashion.com/img/product/${item.code}_1_small.jpg`
   const url = `/pdp?code=${item.code}`
   return (
     <StyledProduct>
@@ -35,7 +33,9 @@ export default ({ item }) => {
         </a>
       </Link>
       {item.name}
-      <StyledPrice>&pound;{new Intl.NumberFormat().format(item.price)}</StyledPrice>
+      <StyledPrice>
+        &pound;{new Intl.NumberFormat().format(item.price)}
+      </StyledPrice>
     </StyledProduct>
   )
 }

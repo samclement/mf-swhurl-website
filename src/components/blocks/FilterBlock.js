@@ -8,11 +8,11 @@ const StyledBlock = styled.div`
 `
 
 const StyledFilters = styled.div`
-  max-height: ${props => props.scrollable ? '420px' : 'initial'};
-  overflow-y: ${props => props.scrollable ? 'auto' : 'initial'};
-  border: ${props => props.scrollable ? '1px solid #ccc' : 'initial'};
-  padding: ${props => props.scrollable ? '5px 9px' : 'initial'};
- `
+  max-height: ${props => (props.scrollable ? '420px' : 'initial')};
+  overflow-y: ${props => (props.scrollable ? 'auto' : 'initial')};
+  border: ${props => (props.scrollable ? '1px solid #ccc' : 'initial')};
+  padding: ${props => (props.scrollable ? '5px 9px' : 'initial')};
+`
 
 const StyledLink = styled.a`
   color: black;
