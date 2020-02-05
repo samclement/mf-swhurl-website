@@ -121,6 +121,12 @@ exports.config = {
       outputDir: './test/output/e2e',
       embedImages: true,
       screenshotStrategy: 'before:click'
+    }],
+    ['junit', {
+      outputDir: './test/output/junit',
+      outputFileFormat: function(opts) {
+        return `results-${opts.cid}.${opts.capabilities.browserName}.xml`
+      }
     }]
   ],
   //
