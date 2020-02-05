@@ -14,9 +14,16 @@ jobs:
             set -x
             curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
             chmod +x /usr/local/bin/docker-compose
+            curl -fsSL https://get.docker.com -o get-docker.sh
+            sh get-docker.sh
       - run: |
           docker-compose build
           docker-compose up --exit-code-from test
+          docker cp project_test_1:/www/test/output /output/
+      - store_artifacts:
+          path: /output
+      - store_test_results:
+          path: /output/junit/
       - run: |
           if [[ "$CIRCLE_BRANCH" = "master" ]]
           then
