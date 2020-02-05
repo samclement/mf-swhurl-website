@@ -10,7 +10,7 @@
     "test:ci:send": "./send-test-output.sh",
     "test:unit": "NODE_ENV=test jest",
     "test:jest": "jest --watch",
-    "test:jest:ci": "JEST_JUNIT_OUTPUT=test/output/junit/js-test-results.xml jest --ci --runInBand --reporters=default --reporters=jest-junit",
+    "test:jest:ci": "jest --ci --runInBand --reporters=default",
     "test:e2e": "wdio",
     "test:perf": "lighthouse http://website:3000 --quiet --output=json html --config-path=./lighthouse.config.json --chrome-flags=\"--headless --no-sandbox --disable-gpu\" --output-path=./test/output/lighthouse/lighthouse && node ./lighthouse-report-parser.js",
     "lint": "eslint .",
@@ -43,13 +43,11 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^5.0.0",
     "@testing-library/react": "^9.1.4",
-    "@wdio/allure-reporter": "^5.4.16",
-    "@wdio/cli": "^5.4.17",
-    "@wdio/junit-reporter": "^5.9.1",
-    "@wdio/local-runner": "^5.4.17",
-    "@wdio/mocha-framework": "^5.9.0",
-    "@wdio/spec-reporter": "^5.4.15",
-    "@wdio/sync": "^5.4.14",
+    "@wdio/cli": "^5.18.6",
+    "@wdio/local-runner": "^5.18.6",
+    "@wdio/mocha-framework": "^5.18.6",
+    "@wdio/spec-reporter": "^5.18.6",
+    "@wdio/sync": "^5.18.6",
     "babel-core": "^7.0.0-bridge",
     "babel-eslint": "10.0.2",
     "babel-jest": "^24.1.0",
@@ -68,7 +66,7 @@
     "eslint-plugin-styled-components-config": "0.0.2",
     "husky": "3.0.6",
     "jest": "24.1.0",
-    "jest-junit": "10.0.0",
+    "jest-junit": "^10.0.0",
     "jest-styled-components": "6.3.4",
     "lighthouse": "^5.6.0",
     "npm-run-all": "4.1.5",
@@ -78,6 +76,7 @@
     "snapshot-diff": "^0.6.0",
     "table": "5.4.0",
     "wdio-chromedriver-service": "^5.0.0",
+    "wdio-timeline-reporter": "^5.1.2",
     "webdriverio": "^5.4.14"
   },
   "jest": {
@@ -90,7 +89,7 @@
       "js"
     ],
     "collectCoverage": true,
-    "coverageDirectory": "./test/output/jest",
+    "coverageDirectory": "./test/output/unit",
     "collectCoverageFrom": [
       "src/components/**/*.js",
       "src/pages/**/*.js",
@@ -98,7 +97,7 @@
       "src/lib/**/*.js"
     ],
     "coveragePathIgnorePatterns": [
-      "./test/output/coverage/",
+      "./test/output/",
       "./node_modules/",
       "./.next",
       "./pages/_document.js",
@@ -106,10 +105,7 @@
     ],
     "coverageReporters": [
       "html",
-      "json",
-      "lcov",
-      "text",
-      "clover"
+      "text"
     ],
     "coverageThreshold": {
       "global": {
