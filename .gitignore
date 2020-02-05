@@ -3,11 +3,10 @@ tags
 .next
 *.DS_Store
 test/output/
-!test-output/allure/.gitkeep
-!test-output/mocha/.gitkeep
-!test-output/screenshots/.gitkeep
-!test-output/jest/.gitkeep
-!test-output/lighthouse/.gitkeep
+!test/output/e2e/.gitkeep
+!test/output/unit/.gitkeep
+!test/output/lighthouse/.gitkeep
+!test/output/index.html
 yarn-error.log
 lighthouse.report.*
 junit.xml

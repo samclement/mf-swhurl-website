@@ -1,3 +1,4 @@
+const { TimelineService } = require('wdio-timeline-reporter/timeline-service')
 const targetHost = process.env.DOCKER_COMPOSE === 'true' ? 'website' : 'localhost'
 exports.config = {
   //
@@ -101,7 +102,7 @@ exports.config = {
   // Services take over a specific job you don't want to take care of. They enhance
   // your test setup with almost no effort. Unlike plugins, they don't add new
   // commands. Instead, they hook themselves up into the test process.
-  services: ['chromedriver'], //
+  services: ['chromedriver', [TimelineService]], //
   chromeDriverArgs: ['--whitelisted-ips'],
   // Framework you want to run your specs with.
   // The following are supported: Mocha, Jasmine, and Cucumber
@@ -116,21 +117,10 @@ exports.config = {
   // see also: https://webdriver.io/docs/dot-reporter.html
   reporters: [
     'spec',
-    ['allure', {
-      outputDir: './test/output/allure',
-      disableWebdriverStepsReporting: true,
-      disableWebdriverScreenshotsReporting: true
-    }],
-    ['junit', {
-      outputDir: './test/output/mocha',
-      outputFileFormat: function(opts) {
-        return `results-${opts.cid}.${opts.capabilities}.xml`
-      },
-      errorOptions: {
-        error: 'message',
-        failure: 'message',
-        stacktrace: 'stack'
-      }
+    ['timeline', {
+      outputDir: './test/output/e2e',
+      embedImages: true,
+      screenshotStrategy: 'before:click'
     }]
   ],
   //
@@ -254,7 +244,7 @@ exports.config = {
    * @param {<Object>} results object containing test results
    */
   // onComplete: function(exitCode, config, capabilities, results) {
-  // },
+  // }
   /**
    * Gets executed when a refresh happens.
    * @param {String} oldSessionId session ID of the old session
