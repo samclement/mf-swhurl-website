@@ -1,6 +1,5 @@
 FROM swhurl/mf-website-test-base:node-10-chrome-stable
 WORKDIR /www
-COPY ./package-lock.json ./package.json /www/
-RUN npm i --dev-only -q
 COPY . /www/
 ENTRYPOINT ["npm", "run", "test:ci"]
+
