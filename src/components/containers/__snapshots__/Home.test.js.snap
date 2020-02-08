@@ -2,11 +2,7 @@
 
 exports[`With Snapshot Testing Index page shows "mf.swhurl.com" H1 1`] = `
 <DocumentFragment>
-  .c4 {
-  color: black;
-}
-
-.c0 {
+  .c0 {
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -84,11 +80,9 @@ exports[`With Snapshot Testing Index page shows "mf.swhurl.com" H1 1`] = `
         </div>
       </div>
     </nav>
-    <h1
-      class="c4"
-    >
+    <h2>
       mf.swhurl.com
-    </h1>
+    </h2>
     <p>
       Example next.js app, including:
     </p>
