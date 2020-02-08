@@ -4,7 +4,12 @@ exports[`With Snapshot Testing NavLink shows "About" with href "/about" 1`] = `
 <DocumentFragment>
   .c0 {
   color: black;
-  padding-right: 5px;
+  padding: 5px 10px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .c0:hover {
@@ -13,6 +18,12 @@ exports[`With Snapshot Testing NavLink shows "About" with href "/about" 1`] = `
 
 .c0:visited {
   color: black;
+}
+
+@media only screen and (max-width:480px) {
+  .c0 {
+    padding: 5px;
+  }
 }
 
 <a

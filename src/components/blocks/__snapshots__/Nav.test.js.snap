@@ -4,7 +4,12 @@ exports[`With Snapshot Testing Nav displays items 1`] = `
 <DocumentFragment>
   .c2 {
   color: black;
-  padding-right: 5px;
+  padding: 5px 10px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .c2:hover {
@@ -38,6 +43,12 @@ exports[`With Snapshot Testing Nav displays items 1`] = `
   align-items: center;
 }
 
+@media only screen and (max-width:480px) {
+  .c2 {
+    padding: 5px;
+  }
+}
+
 <nav
     class="c0"
   >
@@ -54,9 +65,9 @@ exports[`With Snapshot Testing Nav displays items 1`] = `
     </a>
     <a
       class="c2"
-      href="/mens/shop/shoes"
+      href="/mens/shop/bags"
     >
-      Shoes
+      Bags
     </a>
     <a
       class="c2"
@@ -66,9 +77,9 @@ exports[`With Snapshot Testing Nav displays items 1`] = `
     </a>
     <a
       class="c2"
-      href="/mens/shop/bags"
+      href="/mens/shop/shoes"
     >
-      Bags
+      Shoes
     </a>
     <a
       class="c2"

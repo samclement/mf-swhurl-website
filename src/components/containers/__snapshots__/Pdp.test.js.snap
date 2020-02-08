@@ -6,7 +6,12 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
 <DocumentFragment>
   .c7 {
   color: black;
-  padding-right: 5px;
+  padding: 5px 10px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .c7:hover {
@@ -87,11 +92,8 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
 }
 
 .c8 {
-  width: 100%;
-  text-align: center;
-  text-transform: capitalize;
-  margin-bottom: 0px;
-  background-color: #eee;
+  border: 1px solid #000;
+  margin: 0;
 }
 
 .c9 {
@@ -111,6 +113,12 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
 .c12 {
   text-align: center;
   margin-bottom: 20px;
+}
+
+@media only screen and (max-width:480px) {
+  .c7 {
+    padding: 5px;
+  }
 }
 
 @media only screen and (min-width:641px) {
@@ -217,11 +225,9 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         Homeware
       </a>
     </nav>
-    <h2
+    <hr
       class="c8"
-    >
-      womens
-    </h2>
+    />
     <div
       class="c9"
     >
@@ -322,7 +328,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 2`] = `
 - First value
 + Second value
 
-@@ -93,11 +93,11 @@
+@@ -91,11 +91,11 @@
             <div
               style=\\"overflow: hidden; position: relative; width: 0px;\\"
             >
@@ -387,41 +393,39 @@ Object {
             class="sc-AxirZ btnOEr"
           />
           <a
-            class="sc-AxjAm ewpPYA"
+            class="sc-AxjAm gUxNoH"
             href="/womens/shop/accessories"
           >
             Accessories
           </a>
           <a
-            class="sc-AxjAm ewpPYA"
+            class="sc-AxjAm gUxNoH"
             href="/womens/shop/bags"
           >
             Bags
           </a>
           <a
-            class="sc-AxjAm ewpPYA"
+            class="sc-AxjAm gUxNoH"
             href="/womens/shop/clothing"
           >
             Clothing
           </a>
           <a
-            class="sc-AxjAm ewpPYA"
+            class="sc-AxjAm gUxNoH"
             href="/womens/shop/shoes"
           >
             Shoes
           </a>
           <a
-            class="sc-AxjAm ewpPYA"
+            class="sc-AxjAm gUxNoH"
             href="/womens/shop/homeware"
           >
             Homeware
           </a>
         </nav>
-        <h2
-          class="sc-Axmtr kuEamB"
-        >
-          womens
-        </h2>
+        <hr
+          class="sc-Axmtr hnOHfr"
+        />
         <div
           class="sc-AxmLO hFHDnP"
         >

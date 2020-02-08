@@ -17,7 +17,12 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
 
 .c7 {
   color: black;
-  padding-right: 5px;
+  padding: 5px 10px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .c7:hover {
@@ -98,11 +103,8 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
 }
 
 .c8 {
-  width: 100%;
-  text-align: center;
-  text-transform: capitalize;
-  margin-bottom: 0px;
-  background-color: #eee;
+  border: 1px solid #000;
+  margin: 0;
 }
 
 .c12 {
@@ -224,6 +226,12 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
   }
 }
 
+@media only screen and (max-width:480px) {
+  .c7 {
+    padding: 5px;
+  }
+}
+
 @media only screen and (max-width:640px) {
   .c16 {
     display: none;
@@ -289,9 +297,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
       </a>
       <a
         class="c7"
-        href="/mens/shop/shoes"
+        href="/mens/shop/bags"
       >
-        Shoes
+        Bags
       </a>
       <a
         class="c7"
@@ -301,9 +309,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
       </a>
       <a
         class="c7"
-        href="/mens/shop/bags"
+        href="/mens/shop/shoes"
       >
-        Bags
+        Shoes
       </a>
       <a
         class="c7"
@@ -312,11 +320,9 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
         Homeware
       </a>
     </nav>
-    <h2
+    <hr
       class="c8"
-    >
-      mens
-    </h2>
+    />
     <button
       class="c9"
       id="filterButton"
@@ -2212,7 +2218,7 @@ exports[`With Snapshot Testing Plp - show filters button 2`] = `
 - First value
 + Second value
 
-@@ -88,22 +88,22 @@
+@@ -86,22 +86,22 @@
       </button>
       <div
         class=\\"sc-fznKkj cVEcpF\\"
@@ -2238,7 +2244,7 @@ exports[`With Snapshot Testing Plp - show filters button 2`] = `
                 class=\\"cheeseburger-menu-inner touch\\"
                 style=\\"height: 100%; padding-bottom: 0px; overflow-y: auto;\\"
               >
-@@ -431,11 +431,11 @@
+@@ -429,11 +429,11 @@
                   </div>
                 </div>
               </div>

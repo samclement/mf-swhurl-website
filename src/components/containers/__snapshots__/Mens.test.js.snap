@@ -48,11 +48,8 @@ exports[`With Snapshot Testing Mens page renders correctly 1`] = `
 }
 
 .c4 {
-  width: 100%;
-  text-align: center;
-  text-transform: capitalize;
-  margin-bottom: 0px;
-  background-color: #eee;
+  border: 1px solid #000;
+  margin: 0;
 }
 
 <div>
@@ -94,7 +91,7 @@ exports[`With Snapshot Testing Mens page renders correctly 1`] = `
         </div>
       </div>
     </nav>
-    <h2
+    <hr
       class="c4"
     />
   </div>

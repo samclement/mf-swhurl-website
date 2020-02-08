@@ -31,6 +31,11 @@ const StyledLink = styled.a`
   font-weight: ${props => (props.isSelected ? 'bold' : 'normal')};
 `
 
+const StyledHr = styled.hr`
+  border: 1px solid #000;
+  margin: 0;
+`
+
 const Header = props => {
   const { gender } = props
   return (
@@ -63,6 +68,7 @@ const Header = props => {
       {gender.length > 0 && (
         <Nav items={gender.match(/^men/) ? mens : womens} />
       )}
+      <StyledHr />
     </React.Fragment>
   )
 }
