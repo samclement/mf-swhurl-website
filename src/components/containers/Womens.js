@@ -1,7 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
 import Header from '../blocks/Header'
-import GenderHeader from '../elements/GenderHeader.js'
 
 function Womens(props) {
   const { gender } = props
@@ -11,7 +10,6 @@ function Womens(props) {
         <title>mf.swhurl.com | {gender}</title>
       </Head>
       <Header gender={gender} />
-      <GenderHeader gender={gender} />
     </div>
   )
 }

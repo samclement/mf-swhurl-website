@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import ProductListItem from '../blocks/ProductListItem.js'
 import Header from '../blocks/Header.js'
-import GenderHeader from '../elements/GenderHeader.js'
 import FilterBlock from '../blocks/FilterBlock.js'
 import Head from 'next/head'
 import { getSearchResults } from '../../services'
@@ -59,7 +58,6 @@ function Plp(props) {
         <title>mf.swhurl.com | {gender}</title>
       </Head>
       <Header gender={gender} />
-      <GenderHeader gender={gender} />
       <FilterButton id="filterButton" onClick={() => setMenuOpen(!menuOpen)}>
         Show Filters
       </FilterButton>

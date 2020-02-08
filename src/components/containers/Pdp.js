@@ -2,7 +2,6 @@ import React from 'react'
 import Head from 'next/head'
 import Header from '../blocks/Header'
 import { getProduct } from '../../services'
-import GenderHeader from '../elements/GenderHeader.js'
 import styled from 'styled-components'
 import ReactSwipe from 'react-swipe'
 
@@ -55,7 +54,6 @@ function Pdp(props) {
         <title>mf.swhurl.com | {name}</title>
       </Head>
       <Header gender={gender} />
-      <GenderHeader gender={gender} />
       <StyledProductContainer>
         <ImageContainer>
           <ReactSwipe className="carousel" ref={el => (reactSwipeEl = el)}>
