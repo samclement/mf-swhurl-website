@@ -10,10 +10,10 @@ exports[`With Snapshot Testing H1 shows "mf.swhurl.com" 1`] = `
   background-color: #eee;
 }
 
-<h1
+<h2
     class="c0"
   >
     test
-  </h1>
+  </h2>
 </DocumentFragment>
 `;

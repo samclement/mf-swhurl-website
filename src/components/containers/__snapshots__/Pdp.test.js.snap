@@ -4,26 +4,25 @@ exports[`With Snapshot Testing Plp getInitialProps 1`] = `undefined`;
 
 exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
 <DocumentFragment>
-  .c2 {
+  .c7 {
   color: black;
   padding-right: 5px;
 }
 
-.c2:hover {
+.c7:hover {
   color: #f00;
 }
 
-.c2:visited {
+.c7:visited {
   color: black;
 }
 
-.c1 {
+.c6 {
   font-weight: bold;
   text-transform: capitalize;
-  padding-right: 10px;
 }
 
-.c0 {
+.c5 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -31,9 +30,63 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
   -webkit-flex-flow: row wrap;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.c1 {
+  text-align: center;
+  text-transform: uppercase;
+  width: 33%;
 }
 
 .c3 {
+  padding: 0 10px;
+}
+
+.c2 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #000;
+  font-weight: normal;
+}
+
+.c4 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.c8 {
   width: 100%;
   text-align: center;
   text-transform: capitalize;
@@ -41,34 +94,34 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
   background-color: #eee;
 }
 
-.c4 {
+.c9 {
   width: 100%;
 }
 
-.c5 {
+.c10 {
   width: 100%;
   float: left;
 }
 
-.c6 {
+.c11 {
   width: 100%;
   margin: 0 auto;
 }
 
-.c7 {
+.c12 {
   text-align: center;
   margin-bottom: 20px;
 }
 
 @media only screen and (min-width:641px) {
-  .c4 {
+  .c9 {
     display: inline-block;
     text-align: center;
   }
 }
 
 @media only screen and (min-width:641px) {
-  .c5 {
+  .c10 {
     width: 44%;
     display: inline-block;
     padding: 10px 3% 0 3%;
@@ -76,107 +129,104 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
 }
 
 @media only screen and (max-width:320px) {
-  .c6 {
+  .c11 {
     max-width: 320px;
   }
 }
 
 @media only screen and (min-width:641px) {
-  .c8 {
+  .c13 {
     width: 50%;
     display: inline-block;
   }
 }
 
 <div>
-    <nav
-      class="c0"
-    >
+    <nav>
       <div
-        class="c1"
+        class="c0"
       >
-        mens
+        <div
+          class="c1"
+        >
+          <a
+            class="c2"
+            href="/mens"
+          >
+            Men
+          </a>
+        </div>
+        <div
+          class="c3"
+        >
+          <h1>
+            <a
+              class="c2"
+              href="/"
+            >
+              MATCHESFASHION
+            </a>
+          </h1>
+        </div>
+        <div
+          class="c1"
+        >
+          <a
+            class="c4"
+            href="/womens"
+          >
+            Women
+          </a>
+        </div>
       </div>
-      <a
-        class="c2"
-        href="/mens/shop/accessories"
-      >
-        Accessories
-      </a>
-      <a
-        class="c2"
-        href="/mens/shop/shoes"
-      >
-        Shoes
-      </a>
-      <a
-        class="c2"
-        href="/mens/shop/clothing"
-      >
-        Clothing
-      </a>
-      <a
-        class="c2"
-        href="/mens/shop/bags"
-      >
-        Bags
-      </a>
-      <a
-        class="c2"
-        href="/mens/shop/homeware"
-      >
-        Homeware
-      </a>
     </nav>
     <nav
-      class="c0"
+      class="c5"
     >
       <div
-        class="c1"
-      >
-        womens
-      </div>
+        class="c6"
+      />
       <a
-        class="c2"
+        class="c7"
         href="/womens/shop/accessories"
       >
         Accessories
       </a>
       <a
-        class="c2"
+        class="c7"
         href="/womens/shop/bags"
       >
         Bags
       </a>
       <a
-        class="c2"
+        class="c7"
         href="/womens/shop/clothing"
       >
         Clothing
       </a>
       <a
-        class="c2"
+        class="c7"
         href="/womens/shop/shoes"
       >
         Shoes
       </a>
       <a
-        class="c2"
+        class="c7"
         href="/womens/shop/homeware"
       >
         Homeware
       </a>
     </nav>
-    <h1
-      class="c3"
+    <h2
+      class="c8"
     >
-      Womens
-    </h1>
+      womens
+    </h2>
     <div
-      class="c4"
+      class="c9"
     >
       <div
-        class="c5"
+        class="c10"
       >
         <div
           class="react-swipe-container carousel"
@@ -191,7 +241,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
             >
               <img
                 alt="Intrecciato leather cardholder"
-                class="c6"
+                class="c11"
                 src="//assetsprx.matchesfashion.com/img/product/1247661_1_large.jpg"
               />
             </div>
@@ -201,7 +251,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
             >
               <img
                 alt="Intrecciato leather cardholder"
-                class="c6"
+                class="c11"
                 src="//assetsprx.matchesfashion.com/img/product/1247661_2_large.jpg"
               />
             </div>
@@ -211,7 +261,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
             >
               <img
                 alt="Intrecciato leather cardholder"
-                class="c6"
+                class="c11"
                 src="//assetsprx.matchesfashion.com/img/product/1247661_3_large.jpg"
               />
             </div>
@@ -221,7 +271,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
             >
               <img
                 alt="Intrecciato leather cardholder"
-                class="c6"
+                class="c11"
                 src="//assetsprx.matchesfashion.com/img/product/1247661_4_large.jpg"
               />
             </div>
@@ -231,7 +281,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
             >
               <img
                 alt="Intrecciato leather cardholder"
-                class="c6"
+                class="c11"
                 src="//assetsprx.matchesfashion.com/img/product/1247661_5_large.jpg"
               />
             </div>
@@ -239,7 +289,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         </div>
         <noscript />
         <div
-          class="c7"
+          class="c12"
         >
           <button>
             Previous
@@ -250,7 +300,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
         </div>
       </div>
       <div
-        class="c8"
+        class="c13"
       >
         <h2>
           Bottega Veneta
@@ -272,7 +322,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 2`] = `
 - First value
 + Second value
 
-@@ -96,11 +96,11 @@
+@@ -93,11 +93,11 @@
             <div
               style=\\"overflow: hidden; position: relative; width: 0px;\\"
             >
@@ -283,7 +333,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 2`] = `
               >
                 <img
                   alt=\\"Intrecciato leather cardholder\\"
-                  class=\\"sc-AxheI hqoFNX\\"
+                  class=\\"sc-fzoLsD fgcLqO\\"
                   src=\\"//assetsprx.matchesfashion.com/img/product/1247661_1_large.jpg\\""
 `;
 
@@ -292,53 +342,50 @@ Object {
   Symbol(SameObject caches): Object {
     "childNodes": NodeList [
       <div>
-        <nav
-          class="sc-AxiKw kObvJP"
-        >
+        <nav>
           <div
-            class="sc-AxirZ itgfYF"
+            class="sc-AxhCb ehLzjf"
           >
-            mens
+            <div
+              class="sc-AxhUy ktROhf"
+            >
+              <a
+                class="sc-AxheI fJvjhW"
+                href="/mens"
+              >
+                Men
+              </a>
+            </div>
+            <div
+              class="sc-AxgMl WgHts"
+            >
+              <h1>
+                <a
+                  class="sc-AxheI fJvjhW"
+                  href="/"
+                >
+                  MATCHESFASHION
+                </a>
+              </h1>
+            </div>
+            <div
+              class="sc-AxhUy ktROhf"
+            >
+              <a
+                class="sc-AxheI lgdTfg"
+                href="/womens"
+              >
+                Women
+              </a>
+            </div>
           </div>
-          <a
-            class="sc-AxjAm ewpPYA"
-            href="/mens/shop/accessories"
-          >
-            Accessories
-          </a>
-          <a
-            class="sc-AxjAm ewpPYA"
-            href="/mens/shop/shoes"
-          >
-            Shoes
-          </a>
-          <a
-            class="sc-AxjAm ewpPYA"
-            href="/mens/shop/clothing"
-          >
-            Clothing
-          </a>
-          <a
-            class="sc-AxjAm ewpPYA"
-            href="/mens/shop/bags"
-          >
-            Bags
-          </a>
-          <a
-            class="sc-AxjAm ewpPYA"
-            href="/mens/shop/homeware"
-          >
-            Homeware
-          </a>
         </nav>
         <nav
-          class="sc-AxiKw kObvJP"
+          class="sc-AxiKw jdEnaj"
         >
           <div
-            class="sc-AxirZ itgfYF"
-          >
-            womens
-          </div>
+            class="sc-AxirZ btnOEr"
+          />
           <a
             class="sc-AxjAm ewpPYA"
             href="/womens/shop/accessories"
@@ -370,16 +417,16 @@ Object {
             Homeware
           </a>
         </nav>
-        <h1
-          class="sc-AxhCb gJUsOj"
+        <h2
+          class="sc-Axmtr kuEamB"
         >
-          Womens
-        </h1>
+          womens
+        </h2>
         <div
-          class="sc-AxhUy fdtiAp"
+          class="sc-AxmLO hFHDnP"
         >
           <div
-            class="sc-AxgMl gUSXoB"
+            class="sc-fzozJi hxUOAo"
           >
             <div
               class="react-swipe-container carousel"
@@ -394,7 +441,7 @@ Object {
                 >
                   <img
                     alt="Intrecciato leather cardholder"
-                    class="sc-AxheI hqoFNX"
+                    class="sc-fzoLsD fgcLqO"
                     src="//assetsprx.matchesfashion.com/img/product/1247661_1_large.jpg"
                   />
                 </div>
@@ -404,7 +451,7 @@ Object {
                 >
                   <img
                     alt="Intrecciato leather cardholder"
-                    class="sc-AxheI hqoFNX"
+                    class="sc-fzoLsD fgcLqO"
                     src="//assetsprx.matchesfashion.com/img/product/1247661_2_large.jpg"
                   />
                 </div>
@@ -414,7 +461,7 @@ Object {
                 >
                   <img
                     alt="Intrecciato leather cardholder"
-                    class="sc-AxheI hqoFNX"
+                    class="sc-fzoLsD fgcLqO"
                     src="//assetsprx.matchesfashion.com/img/product/1247661_3_large.jpg"
                   />
                 </div>
@@ -424,7 +471,7 @@ Object {
                 >
                   <img
                     alt="Intrecciato leather cardholder"
-                    class="sc-AxheI hqoFNX"
+                    class="sc-fzoLsD fgcLqO"
                     src="//assetsprx.matchesfashion.com/img/product/1247661_4_large.jpg"
                   />
                 </div>
@@ -434,7 +481,7 @@ Object {
                 >
                   <img
                     alt="Intrecciato leather cardholder"
-                    class="sc-AxheI hqoFNX"
+                    class="sc-fzoLsD fgcLqO"
                     src="//assetsprx.matchesfashion.com/img/product/1247661_5_large.jpg"
                   />
                 </div>
@@ -442,7 +489,7 @@ Object {
             </div>
             <noscript />
             <div
-              class="sc-AxmLO hkUbGf"
+              class="sc-fzplWN bHIVxF"
             >
               <button>
                 Previous
@@ -453,7 +500,7 @@ Object {
             </div>
           </div>
           <div
-            class="sc-Axmtr bDQAir"
+            class="sc-fzpans kmebAB"
           >
             <h2>
               Bottega Veneta

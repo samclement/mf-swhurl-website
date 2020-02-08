@@ -1,6 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`With Snapshot Testing Index page shows "mf.swhurl.com" H1 1`] = `
+exports[`With Snapshot Testing Mens getInitialProps 1`] = `
+Object {
+  "gender": "mens",
+}
+`;
+
+exports[`With Snapshot Testing Mens page renders correctly 1`] = `
 <DocumentFragment>
   .c0 {
   width: 100%;
@@ -39,6 +45,14 @@ exports[`With Snapshot Testing Index page shows "mf.swhurl.com" H1 1`] = `
   text-decoration: none;
   color: #000;
   font-weight: normal;
+}
+
+.c4 {
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 0px;
+  background-color: #eee;
 }
 
 <div>
@@ -80,58 +94,9 @@ exports[`With Snapshot Testing Index page shows "mf.swhurl.com" H1 1`] = `
         </div>
       </div>
     </nav>
-    <h2>
-      mf.swhurl.com
-    </h2>
-    <p>
-      Example next.js app, including:
-    </p>
-    <ul>
-      <li>
-        nextjs (server-side rendering single-page application)
-      </li>
-      <li>
-        styled-components
-      </li>
-      <li>
-        linting with eslint
-      </li>
-      <li>
-        jest snapshot testing
-      </li>
-      <li>
-        prettier formatting
-      </li>
-      <li>
-        lighthouse performance testing
-      </li>
-      <li>
-        chrome browser testing (wdio)
-      </li>
-      <li>
-        greenkeeper (automatic PRs for upgrading dependencies)
-      </li>
-      <li>
-        kustomize (k8s deployment configuration)
-      </li>
-    </ul>
-    <p>
-      The application is deployed to a k8s cluster that includes:
-    </p>
-    <ul>
-      <li>
-        cert-manager (automatic TLS certificate provisioning from LetsEncript)
-      </li>
-      <li>
-        oauth2-proxy (authentication against github)
-      </li>
-      <li>
-        prometheus (infrastructure and applicaiton monitoring)
-      </li>
-      <li>
-        fluentbit / loggly integration (log aggregation)
-      </li>
-    </ul>
+    <h2
+      class="c4"
+    />
   </div>
 </DocumentFragment>
 `;

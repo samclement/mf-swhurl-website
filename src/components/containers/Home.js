@@ -1,8 +1,6 @@
 import React from 'react'
-import H1 from '../elements/H1.js'
-import Nav from '../blocks/Nav.js'
 import Head from 'next/head'
-import { mens, womens } from '../navigation.js'
+import Header from '../blocks/Header'
 
 export default props => {
   return (
@@ -10,9 +8,8 @@ export default props => {
       <Head>
         <title>mf.swhurl.com</title>
       </Head>
-      <Nav items={mens} gender="mens" />
-      <Nav items={womens} gender="womens" />
-      <H1>mf.swhurl.com</H1>
+      <Header />
+      <h2>mf.swhurl.com</h2>
       <p>Example next.js app, including:</p>
       <ul>
         <li>nextjs (server-side rendering single-page application)</li>
