@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const StyledH1 = styled.h1`
+const StyledH2 = styled.h2`
   width: 100%;
   text-align: center;
   text-transform: capitalize;
@@ -11,5 +11,5 @@ const StyledH1 = styled.h1`
 
 export default props => {
   const { gender } = props
-  return <StyledH1>{gender}</StyledH1>
+  return <StyledH2>{gender}</StyledH2>
 }

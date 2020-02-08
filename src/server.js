@@ -70,7 +70,7 @@ app.prepare().then(() => {
 
   server.get('*', (req, res) => {
     // SSR for PLP SEO URLs
-    if (req.url.startsWith('/mens') || req.url.startsWith('/womens')) {
+    if (req.url.startsWith('/mens/') || req.url.startsWith('/womens/')) {
       req.query.url = req.url
       return app.render(req, res, '/plp', { url: req.url })
     }

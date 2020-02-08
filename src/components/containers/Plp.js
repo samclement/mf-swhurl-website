@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import ProductListItem from '../blocks/ProductListItem.js'
-import Nav from '../blocks/Nav.js'
+import Header from '../blocks/Header.js'
 import GenderHeader from '../elements/GenderHeader.js'
 import FilterBlock from '../blocks/FilterBlock.js'
 import Head from 'next/head'
-import { mens, womens } from '../navigation.js'
 import { getSearchResults } from '../../services'
 import styled from 'styled-components'
 import CheeseburgerMenu from 'cheeseburger-menu'
@@ -59,8 +58,7 @@ function Plp(props) {
       <Head>
         <title>mf.swhurl.com | {gender}</title>
       </Head>
-      <Nav items={mens} gender="mens" />
-      <Nav items={womens} gender="womens" />
+      <Header gender={gender} />
       <GenderHeader gender={gender} />
       <FilterButton id="filterButton" onClick={() => setMenuOpen(!menuOpen)}>
         Show Filters

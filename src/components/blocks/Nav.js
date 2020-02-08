@@ -5,12 +5,13 @@ import styled from 'styled-components'
 const StyledTitle = styled.div`
   font-weight: bold;
   text-transform: capitalize;
-  padding-right: 10px;
 `
 
 const StyledNav = styled.nav`
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
 `
 
 export default ({ items, gender }) => {

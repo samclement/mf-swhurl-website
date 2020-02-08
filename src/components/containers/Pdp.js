@@ -1,7 +1,6 @@
 import React from 'react'
-import Nav from '../blocks/Nav.js'
 import Head from 'next/head'
-import { mens, womens } from '../navigation.js'
+import Header from '../blocks/Header'
 import { getProduct } from '../../services'
 import GenderHeader from '../elements/GenderHeader.js'
 import styled from 'styled-components'
@@ -48,15 +47,15 @@ const Controls = styled.div`
 function Pdp(props) {
   const { name, thumbnail, designerData, priceData, sizeTaxonomyName } = props
   const mainImage = thumbnail.replace('thumbnail', 'large')
+  const gender = sizeTaxonomyName.split(' ')[0].toLowerCase()
   let reactSwipeEl
   return (
     <div>
       <Head>
         <title>mf.swhurl.com | {name}</title>
       </Head>
-      <Nav items={mens} gender="mens" />
-      <Nav items={womens} gender="womens" />
-      <GenderHeader gender={sizeTaxonomyName.split(' ')[0]} />
+      <Header gender={gender} />
+      <GenderHeader gender={gender} />
       <StyledProductContainer>
         <ImageContainer>
           <ReactSwipe className="carousel" ref={el => (reactSwipeEl = el)}>
