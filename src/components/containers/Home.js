@@ -1,5 +1,4 @@
 import React from 'react'
-import H1 from '../elements/H1.js'
 import Head from 'next/head'
 import Header from '../blocks/Header'
 
@@ -10,7 +9,7 @@ export default props => {
         <title>mf.swhurl.com</title>
       </Head>
       <Header />
-      <H1>mf.swhurl.com</H1>
+      <h2>mf.swhurl.com</h2>
       <p>Example next.js app, including:</p>
       <ul>
         <li>nextjs (server-side rendering single-page application)</li>
