@@ -22,20 +22,27 @@ const StyledPrice = styled.p`
   border: 1px solid #ccc;
 `
 
+const StyledLink = styled.a`
+  color: #000;
+  &:active {
+    color: #666;
+  }
+`
+
 export default ({ item }) => {
   const imageUrl = `//assetsprx.matchesfashion.com/img/product/${item.code}_1_small.jpg`
   const url = `/pdp?code=${item.code}`
   return (
     <StyledProduct>
       <Link href={url} as={item.url}>
-        <a aria-label={item.name}>
+        <StyledLink aria-label={item.name}>
           <img src={imageUrl} alt={item.name} width="100%" />
-        </a>
+          {item.name}
+          <StyledPrice>
+            &pound;{new Intl.NumberFormat().format(item.price)}
+          </StyledPrice>
+        </StyledLink>
       </Link>
-      {item.name}
-      <StyledPrice>
-        &pound;{new Intl.NumberFormat().format(item.price)}
-      </StyledPrice>
     </StyledProduct>
   )
 }

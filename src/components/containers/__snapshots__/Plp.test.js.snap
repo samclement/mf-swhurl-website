@@ -10,9 +10,17 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
   margin: 0;
 }
 
-.c20 {
+.c21 {
   border-radius: 3px;
   border: 1px solid #ccc;
+}
+
+.c20 {
+  color: #000;
+}
+
+.c20:active {
+  color: #666;
 }
 
 .c7 {
@@ -1012,1200 +1020,1200 @@ exports[`With Snapshot Testing Plp - show filters button 1`] = `
         >
           <a
             aria-label="Hooded zip-up track jacket"
-            href="/products/Blackbarrett-by-Neil-Barrett-Hooded-zip-up-track-jacket-1245717"
+            class="c20"
           >
             <img
               alt="Hooded zip-up track jacket"
               src="//assetsprx.matchesfashion.com/img/product/1245717_1_small.jpg"
               width="100%"
             />
+            Hooded zip-up track jacket
+            <p
+              class="c21"
+            >
+              £555
+            </p>
           </a>
-          Hooded zip-up track jacket
-          <p
-            class="c20"
-          >
-            £555
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Agile technical ripstop jacket "
-            href="/products/Salomon-Agile-technical-ripstop-jacket--1263536"
+            class="c20"
           >
             <img
               alt="Agile technical ripstop jacket "
               src="//assetsprx.matchesfashion.com/img/product/1263536_1_small.jpg"
               width="100%"
             />
+            Agile technical ripstop jacket 
+            <p
+              class="c21"
+            >
+              £70
+            </p>
           </a>
-          Agile technical ripstop jacket 
-          <p
-            class="c20"
-          >
-            £70
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Logo-print cotton-blend T-shirt"
-            href="/products/Blackbarrett-by-Neil-Barrett-Logo-print-cotton-blend-T-shirt-1245726"
+            class="c20"
           >
             <img
               alt="Logo-print cotton-blend T-shirt"
               src="//assetsprx.matchesfashion.com/img/product/1245726_1_small.jpg"
               width="100%"
             />
+            Logo-print cotton-blend T-shirt
+            <p
+              class="c21"
+            >
+              £120
+            </p>
           </a>
-          Logo-print cotton-blend T-shirt
-          <p
-            class="c20"
-          >
-            £120
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Accelerate compression stretch leggings"
-            href="/products/2XU-Accelerate-compression-stretch-leggings-1261981"
+            class="c20"
           >
             <img
               alt="Accelerate compression stretch leggings"
               src="//assetsprx.matchesfashion.com/img/product/1261981_1_small.jpg"
               width="100%"
             />
+            Accelerate compression stretch leggings
+            <p
+              class="c21"
+            >
+              £80
+            </p>
           </a>
-          Accelerate compression stretch leggings
-          <p
-            class="c20"
-          >
-            £80
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Hooded technical jacket"
-            href="/products/And-Wander-Hooded-technical-jacket-1256827"
+            class="c20"
           >
             <img
               alt="Hooded technical jacket"
               src="//assetsprx.matchesfashion.com/img/product/1256827_1_small.jpg"
               width="100%"
             />
+            Hooded technical jacket
+            <p
+              class="c21"
+            >
+              £440
+            </p>
           </a>
-          Hooded technical jacket
-          <p
-            class="c20"
-          >
-            £440
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Hybrid mesh T-shirt"
-            href="/products/And-Wander-Hybrid-mesh-T-shirt-1256819"
+            class="c20"
           >
             <img
               alt="Hybrid mesh T-shirt"
               src="//assetsprx.matchesfashion.com/img/product/1256819_1_small.jpg"
               width="100%"
             />
+            Hybrid mesh T-shirt
+            <p
+              class="c21"
+            >
+              £180
+            </p>
           </a>
-          Hybrid mesh T-shirt
-          <p
-            class="c20"
-          >
-            £180
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Technical track pants"
-            href="/products/Blackbarrett-by-Neil-Barrett-Technical-track-pants-1245719"
+            class="c20"
           >
             <img
               alt="Technical track pants"
               src="//assetsprx.matchesfashion.com/img/product/1245719_1_small.jpg"
               width="100%"
             />
+            Technical track pants
+            <p
+              class="c21"
+            >
+              £290
+            </p>
           </a>
-          Technical track pants
-          <p
-            class="c20"
-          >
-            £290
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Tech-Preme logo-patch technical sweatshirt"
-            href="/products/LNDR-Tech-Preme-logo-patch-technical-sweatshirt-1247264"
+            class="c20"
           >
             <img
               alt="Tech-Preme logo-patch technical sweatshirt"
               src="//assetsprx.matchesfashion.com/img/product/1247264_1_small.jpg"
               width="100%"
             />
+            Tech-Preme logo-patch technical sweatshirt
+            <p
+              class="c21"
+            >
+              £155
+            </p>
           </a>
-          Tech-Preme logo-patch technical sweatshirt
-          <p
-            class="c20"
-          >
-            £155
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="FF-logo zip-through cotton-blend hooded sweatshirt"
-            href="/products/Fendi-FF-logo-zip-through-cotton-blend-hooded-sweatshirt-1256167"
+            class="c20"
           >
             <img
               alt="FF-logo zip-through cotton-blend hooded sweatshirt"
               src="//assetsprx.matchesfashion.com/img/product/1256167_1_small.jpg"
               width="100%"
             />
+            FF-logo zip-through cotton-blend hooded sweatshirt
+            <p
+              class="c21"
+            >
+              £690
+            </p>
           </a>
-          FF-logo zip-through cotton-blend hooded sweatshirt
-          <p
-            class="c20"
-          >
-            £690
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Logo-patch raglan jersey T-shirt"
-            href="/products/And-Wander-Logo-patch-raglan-jersey-T-shirt-1256820"
+            class="c20"
           >
             <img
               alt="Logo-patch raglan jersey T-shirt"
               src="//assetsprx.matchesfashion.com/img/product/1256820_1_small.jpg"
               width="100%"
             />
+            Logo-patch raglan jersey T-shirt
+            <p
+              class="c21"
+            >
+              £145
+            </p>
           </a>
-          Logo-patch raglan jersey T-shirt
-          <p
-            class="c20"
-          >
-            £145
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Belted stretch trousers"
-            href="/products/And-Wander-Belted-stretch-trousers-1256815"
+            class="c20"
           >
             <img
               alt="Belted stretch trousers"
               src="//assetsprx.matchesfashion.com/img/product/1256815_1_small.jpg"
               width="100%"
             />
+            Belted stretch trousers
+            <p
+              class="c21"
+            >
+              £305
+            </p>
           </a>
-          Belted stretch trousers
-          <p
-            class="c20"
-          >
-            £305
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="FF cotton-blend hooded sweatshirt"
-            href="/products/Fendi-FF-cotton-blend-hooded-sweatshirt-1256180"
+            class="c20"
           >
             <img
               alt="FF cotton-blend hooded sweatshirt"
               src="//assetsprx.matchesfashion.com/img/product/1256180_1_small.jpg"
               width="100%"
             />
+            FF cotton-blend hooded sweatshirt
+            <p
+              class="c21"
+            >
+              £450
+            </p>
           </a>
-          FF cotton-blend hooded sweatshirt
-          <p
-            class="c20"
-          >
-            £450
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="GHST two-in-one jacket "
-            href="/products/2XU-GHST-two-in-one-jacket--1261985"
+            class="c20"
           >
             <img
               alt="GHST two-in-one jacket "
               src="//assetsprx.matchesfashion.com/img/product/1261985_1_small.jpg"
               width="100%"
             />
+            GHST two-in-one jacket 
+            <p
+              class="c21"
+            >
+              £135
+            </p>
           </a>
-          GHST two-in-one jacket 
-          <p
-            class="c20"
-          >
-            £135
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Logo-patch crew-neck cotton T-shirt"
-            href="/products/Fendi-Logo-patch-crew-neck-cotton-T-shirt-1221480"
+            class="c20"
           >
             <img
               alt="Logo-patch crew-neck cotton T-shirt"
               src="//assetsprx.matchesfashion.com/img/product/1221480_1_small.jpg"
               width="100%"
             />
+            Logo-patch crew-neck cotton T-shirt
+            <p
+              class="c21"
+            >
+              £250
+            </p>
           </a>
-          Logo-patch crew-neck cotton T-shirt
-          <p
-            class="c20"
-          >
-            £250
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Urban jersey track pants"
-            href="/products/2XU-Urban-jersey-track-pants-1261994"
+            class="c20"
           >
             <img
               alt="Urban jersey track pants"
               src="//assetsprx.matchesfashion.com/img/product/1261994_1_small.jpg"
               width="100%"
             />
+            Urban jersey track pants
+            <p
+              class="c21"
+            >
+              £45
+            </p>
           </a>
-          Urban jersey track pants
-          <p
-            class="c20"
-          >
-            £45
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Run West moth-eaten cotton T-shirt"
-            href="/products/Satisfy-Run-West-moth-eaten-cotton-T-shirt-1256197"
+            class="c20"
           >
             <img
               alt="Run West moth-eaten cotton T-shirt"
               src="//assetsprx.matchesfashion.com/img/product/1256197_1_small.jpg"
               width="100%"
             />
+            Run West moth-eaten cotton T-shirt
+            <p
+              class="c21"
+            >
+              £105
+            </p>
           </a>
-          Run West moth-eaten cotton T-shirt
-          <p
-            class="c20"
-          >
-            £105
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Contrast-panel hooded bomber jacket"
-            href="/products/Moncler-Contrast-panel-hooded-bomber-jacket-1194379"
+            class="c20"
           >
             <img
               alt="Contrast-panel hooded bomber jacket"
               src="//assetsprx.matchesfashion.com/img/product/1194379_1_small.jpg"
               width="100%"
             />
+            Contrast-panel hooded bomber jacket
+            <p
+              class="c21"
+            >
+              £595
+            </p>
           </a>
-          Contrast-panel hooded bomber jacket
-          <p
-            class="c20"
-          >
-            £595
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Cult moth-eaten cotton tank top"
-            href="/products/Satisfy-Cult-moth-eaten-cotton-tank-top-1256190"
+            class="c20"
           >
             <img
               alt="Cult moth-eaten cotton tank top"
               src="//assetsprx.matchesfashion.com/img/product/1256190_1_small.jpg"
               width="100%"
             />
+            Cult moth-eaten cotton tank top
+            <p
+              class="c21"
+            >
+              £105
+            </p>
           </a>
-          Cult moth-eaten cotton tank top
-          <p
-            class="c20"
-          >
-            £105
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Striped cotton-blend track pants"
-            href="/products/Fendi-Striped-cotton-blend-track-pants-1221482"
+            class="c20"
           >
             <img
               alt="Striped cotton-blend track pants"
               src="//assetsprx.matchesfashion.com/img/product/1221482_1_small.jpg"
               width="100%"
             />
+            Striped cotton-blend track pants
+            <p
+              class="c21"
+            >
+              £450
+            </p>
           </a>
-          Striped cotton-blend track pants
-          <p
-            class="c20"
-          >
-            £450
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Rix hooded jacket"
-            href="/products/Castore-Rix-hooded-jacket-1262681"
+            class="c20"
           >
             <img
               alt="Rix hooded jacket"
               src="//assetsprx.matchesfashion.com/img/product/1262681_1_small.jpg"
               width="100%"
             />
+            Rix hooded jacket
+            <p
+              class="c21"
+            >
+              £245
+            </p>
           </a>
-          Rix hooded jacket
-          <p
-            class="c20"
-          >
-            £245
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Front-stripe logo-printed jersey sweatshirt"
-            href="/products/Fendi-Front-stripe-logo-printed-jersey-sweatshirt-1256166"
+            class="c20"
           >
             <img
               alt="Front-stripe logo-printed jersey sweatshirt"
               src="//assetsprx.matchesfashion.com/img/product/1256166_1_small.jpg"
               width="100%"
             />
+            Front-stripe logo-printed jersey sweatshirt
+            <p
+              class="c21"
+            >
+              £490
+            </p>
           </a>
-          Front-stripe logo-printed jersey sweatshirt
-          <p
-            class="c20"
-          >
-            £490
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Logo print cotton-blend T-shirt"
-            href="/products/Blackbarrett-by-Neil-Barrett-Logo-print-cotton-blend-T-shirt-1245725"
+            class="c20"
           >
             <img
               alt="Logo print cotton-blend T-shirt"
               src="//assetsprx.matchesfashion.com/img/product/1245725_1_small.jpg"
               width="100%"
             />
+            Logo print cotton-blend T-shirt
+            <p
+              class="c21"
+            >
+              £120
+            </p>
           </a>
-          Logo print cotton-blend T-shirt
-          <p
-            class="c20"
-          >
-            £120
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Zip-pocket track shorts"
-            href="/products/Blackbarrett-by-Neil-Barrett-Zip-pocket-track-shorts-1245720"
+            class="c20"
           >
             <img
               alt="Zip-pocket track shorts"
               src="//assetsprx.matchesfashion.com/img/product/1245720_1_small.jpg"
               width="100%"
             />
+            Zip-pocket track shorts
+            <p
+              class="c21"
+            >
+              £238
+            </p>
           </a>
-          Zip-pocket track shorts
-          <p
-            class="c20"
-          >
-            £238
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Striped cotton-blend jersey T-shirt"
-            href="/products/Blackbarrett-by-Neil-Barrett-Striped-cotton-blend-jersey-T-shirt-1245727"
+            class="c20"
           >
             <img
               alt="Striped cotton-blend jersey T-shirt"
               src="//assetsprx.matchesfashion.com/img/product/1245727_1_small.jpg"
               width="100%"
             />
+            Striped cotton-blend jersey T-shirt
+            <p
+              class="c21"
+            >
+              £150
+            </p>
           </a>
-          Striped cotton-blend jersey T-shirt
-          <p
-            class="c20"
-          >
-            £150
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="The Redford cotton sweatshirt"
-            href="/products/The-Upside-The-Redford-cotton-sweatshirt-1263588"
+            class="c20"
           >
             <img
               alt="The Redford cotton sweatshirt"
               src="//assetsprx.matchesfashion.com/img/product/1263588_1_small.jpg"
               width="100%"
             />
+            The Redford cotton sweatshirt
+            <p
+              class="c21"
+            >
+              £120
+            </p>
           </a>
-          The Redford cotton sweatshirt
-          <p
-            class="c20"
-          >
-            £120
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Baldwin checked cotton shirt"
-            href="/products/Aztech-Mountain-Baldwin-checked-cotton-shirt-1256157"
+            class="c20"
           >
             <img
               alt="Baldwin checked cotton shirt"
               src="//assetsprx.matchesfashion.com/img/product/1256157_1_small.jpg"
               width="100%"
             />
+            Baldwin checked cotton shirt
+            <p
+              class="c21"
+            >
+              £565
+            </p>
           </a>
-          Baldwin checked cotton shirt
-          <p
-            class="c20"
-          >
-            £565
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Seamless compression tights"
-            href="/products/Falke-Ess-Seamless-compression-tights-1247647"
+            class="c20"
           >
             <img
               alt="Seamless compression tights"
               src="//assetsprx.matchesfashion.com/img/product/1247647_1_small.jpg"
               width="100%"
             />
+            Seamless compression tights
+            <p
+              class="c21"
+            >
+              £45
+            </p>
           </a>
-          Seamless compression tights
-          <p
-            class="c20"
-          >
-            £45
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Reverse cotton T-shirt"
-            href="/products/Satisfy-Reverse-cotton-T-shirt-1256192"
+            class="c20"
           >
             <img
               alt="Reverse cotton T-shirt"
               src="//assetsprx.matchesfashion.com/img/product/1256192_1_small.jpg"
               width="100%"
             />
+            Reverse cotton T-shirt
+            <p
+              class="c21"
+            >
+              £80
+            </p>
           </a>
-          Reverse cotton T-shirt
-          <p
-            class="c20"
-          >
-            £80
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Marlow technical-twill running jacket"
-            href="/products/Iffley-Road-Marlow-technical-twill-running-jacket-1261935"
+            class="c20"
           >
             <img
               alt="Marlow technical-twill running jacket"
               src="//assetsprx.matchesfashion.com/img/product/1261935_1_small.jpg"
               width="100%"
             />
+            Marlow technical-twill running jacket
+            <p
+              class="c21"
+            >
+              £210
+            </p>
           </a>
-          Marlow technical-twill running jacket
-          <p
-            class="c20"
-          >
-            £210
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Big Logo-print cotton tank top"
-            href="/products/The-Upside-Big-Logo-print-cotton-tank-top-1263586"
+            class="c20"
           >
             <img
               alt="Big Logo-print cotton tank top"
               src="//assetsprx.matchesfashion.com/img/product/1263586_1_small.jpg"
               width="100%"
             />
+            Big Logo-print cotton tank top
+            <p
+              class="c21"
+            >
+              £60
+            </p>
           </a>
-          Big Logo-print cotton tank top
-          <p
-            class="c20"
-          >
-            £60
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Windsor II stretch-jersey leggings"
-            href="/products/Iffley-Road-Windsor-II-stretch-jersey-leggings-1261936"
+            class="c20"
           >
             <img
               alt="Windsor II stretch-jersey leggings"
               src="//assetsprx.matchesfashion.com/img/product/1261936_1_small.jpg"
               width="100%"
             />
+            Windsor II stretch-jersey leggings
+            <p
+              class="c21"
+            >
+              £90
+            </p>
           </a>
-          Windsor II stretch-jersey leggings
-          <p
-            class="c20"
-          >
-            £90
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Sense Pro crew-neck T-shirt"
-            href="/products/Salomon-Sense-Pro-crew-neck-T-shirt-1263540"
+            class="c20"
           >
             <img
               alt="Sense Pro crew-neck T-shirt"
               src="//assetsprx.matchesfashion.com/img/product/1263540_1_small.jpg"
               width="100%"
             />
+            Sense Pro crew-neck T-shirt
+            <p
+              class="c21"
+            >
+              £50
+            </p>
           </a>
-          Sense Pro crew-neck T-shirt
-          <p
-            class="c20"
-          >
-            £50
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Mesh zip-up track top"
-            href="/products/Blackbarrett-by-Neil-Barrett-Mesh-zip-up-track-top-1245722"
+            class="c20"
           >
             <img
               alt="Mesh zip-up track top"
               src="//assetsprx.matchesfashion.com/img/product/1245722_1_small.jpg"
               width="100%"
             />
+            Mesh zip-up track top
+            <p
+              class="c21"
+            >
+              £330
+            </p>
           </a>
-          Mesh zip-up track top
-          <p
-            class="c20"
-          >
-            £330
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="The Newman cotton T-shirt"
-            href="/products/The-Upside-The-Newman-cotton-T-shirt-1263591"
+            class="c20"
           >
             <img
               alt="The Newman cotton T-shirt"
               src="//assetsprx.matchesfashion.com/img/product/1263591_1_small.jpg"
               width="100%"
             />
+            The Newman cotton T-shirt
+            <p
+              class="c21"
+            >
+              £80
+            </p>
           </a>
-          The Newman cotton T-shirt
-          <p
-            class="c20"
-          >
-            £80
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Court-stripe leggings"
-            href="/products/Blackbarrett-by-Neil-Barrett-Court-stripe-leggings-1245728"
+            class="c20"
           >
             <img
               alt="Court-stripe leggings"
               src="//assetsprx.matchesfashion.com/img/product/1245728_1_small.jpg"
               width="100%"
             />
+            Court-stripe leggings
+            <p
+              class="c21"
+            >
+              £198
+            </p>
           </a>
-          Court-stripe leggings
-          <p
-            class="c20"
-          >
-            £198
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Big Logo-print cotton tank top"
-            href="/products/The-Upside-Big-Logo-print-cotton-tank-top-1263596"
+            class="c20"
           >
             <img
               alt="Big Logo-print cotton tank top"
               src="//assetsprx.matchesfashion.com/img/product/1263596_1_small.jpg"
               width="100%"
             />
+            Big Logo-print cotton tank top
+            <p
+              class="c21"
+            >
+              £60
+            </p>
           </a>
-          Big Logo-print cotton tank top
-          <p
-            class="c20"
-          >
-            £60
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="GHST contrast-panel performance top"
-            href="/products/2XU-GHST-contrast-panel-performance-top-1261987"
+            class="c20"
           >
             <img
               alt="GHST contrast-panel performance top"
               src="//assetsprx.matchesfashion.com/img/product/1261987_1_small.jpg"
               width="100%"
             />
+            GHST contrast-panel performance top
+            <p
+              class="c21"
+            >
+              £70
+            </p>
           </a>
-          GHST contrast-panel performance top
-          <p
-            class="c20"
-          >
-            £70
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Marion stretch-jersey T-shirt"
-            href="/products/Caf%C3%A9-Du-Cycliste-Marion-stretch-jersey-T-shirt-1263246"
+            class="c20"
           >
             <img
               alt="Marion stretch-jersey T-shirt"
               src="//assetsprx.matchesfashion.com/img/product/1263246_1_small.jpg"
               width="100%"
             />
+            Marion stretch-jersey T-shirt
+            <p
+              class="c21"
+            >
+              £40
+            </p>
           </a>
-          Marion stretch-jersey T-shirt
-          <p
-            class="c20"
-          >
-            £40
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Royston track pants"
-            href="/products/Iffley-Road-Royston-track-pants-1261948"
+            class="c20"
           >
             <img
               alt="Royston track pants"
               src="//assetsprx.matchesfashion.com/img/product/1261948_1_small.jpg"
               width="100%"
             />
+            Royston track pants
+            <p
+              class="c21"
+            >
+              £110
+            </p>
           </a>
-          Royston track pants
-          <p
-            class="c20"
-          >
-            £110
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Fellows long-sleeved stretch-mesh T-shirt"
-            href="/products/Castore-Fellows-long-sleeved-stretch-mesh-T-shirt-1262688"
+            class="c20"
           >
             <img
               alt="Fellows long-sleeved stretch-mesh T-shirt"
               src="//assetsprx.matchesfashion.com/img/product/1262688_1_small.jpg"
               width="100%"
             />
+            Fellows long-sleeved stretch-mesh T-shirt
+            <p
+              class="c21"
+            >
+              £120
+            </p>
           </a>
-          Fellows long-sleeved stretch-mesh T-shirt
-          <p
-            class="c20"
-          >
-            £120
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Quarter-zip technical hooded jacket "
-            href="/products/Satisfy-Quarter-zip-technical-hooded-jacket--1256196"
+            class="c20"
           >
             <img
               alt="Quarter-zip technical hooded jacket "
               src="//assetsprx.matchesfashion.com/img/product/1256196_1_small.jpg"
               width="100%"
             />
+            Quarter-zip technical hooded jacket 
+            <p
+              class="c21"
+            >
+              £395
+            </p>
           </a>
-          Quarter-zip technical hooded jacket 
-          <p
-            class="c20"
-          >
-            £395
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Logo-print longline performance T-shirt"
-            href="/products/And-Wander-Logo-print-longline-performance-T-shirt-1256816"
+            class="c20"
           >
             <img
               alt="Logo-print longline performance T-shirt"
               src="//assetsprx.matchesfashion.com/img/product/1256816_1_small.jpg"
               width="100%"
             />
+            Logo-print longline performance T-shirt
+            <p
+              class="c21"
+            >
+              £245
+            </p>
           </a>
-          Logo-print longline performance T-shirt
-          <p
-            class="c20"
-          >
-            £245
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Compression running leggings"
-            href="/products/2XU-Compression-running-leggings-1261980"
+            class="c20"
           >
             <img
               alt="Compression running leggings"
               src="//assetsprx.matchesfashion.com/img/product/1261980_1_small.jpg"
               width="100%"
             />
+            Compression running leggings
+            <p
+              class="c21"
+            >
+              £105
+            </p>
           </a>
-          Compression running leggings
-          <p
-            class="c20"
-          >
-            £105
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="FF-logo appliqué cotton T-shirt"
-            href="/products/Fendi-FF-logo-appliqu%C3%A9-cotton-T-shirt-1288573"
+            class="c20"
           >
             <img
               alt="FF-logo appliqué cotton T-shirt"
               src="//assetsprx.matchesfashion.com/img/product/1288573_1_small.jpg"
               width="100%"
             />
+            FF-logo appliqué cotton T-shirt
+            <p
+              class="c21"
+            >
+              £250
+            </p>
           </a>
-          FF-logo appliqué cotton T-shirt
-          <p
-            class="c20"
-          >
-            £250
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Mesh-panel performance top"
-            href="/products/And-Wander-Mesh-panel-performance-top-1256818"
+            class="c20"
           >
             <img
               alt="Mesh-panel performance top"
               src="//assetsprx.matchesfashion.com/img/product/1256818_1_small.jpg"
               width="100%"
             />
+            Mesh-panel performance top
+            <p
+              class="c21"
+            >
+              £200
+            </p>
           </a>
-          Mesh-panel performance top
-          <p
-            class="c20"
-          >
-            £200
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Performance T-shirt"
-            href="/products/Falke-Ess-Performance-T-shirt-1247641"
+            class="c20"
           >
             <img
               alt="Performance T-shirt"
               src="//assetsprx.matchesfashion.com/img/product/1247641_1_small.jpg"
               width="100%"
             />
+            Performance T-shirt
+            <p
+              class="c21"
+            >
+              £85
+            </p>
           </a>
-          Performance T-shirt
-          <p
-            class="c20"
-          >
-            £85
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Climbing belted trousers"
-            href="/products/And-Wander-Climbing-belted-trousers-1256811"
+            class="c20"
           >
             <img
               alt="Climbing belted trousers"
               src="//assetsprx.matchesfashion.com/img/product/1256811_1_small.jpg"
               width="100%"
             />
+            Climbing belted trousers
+            <p
+              class="c21"
+            >
+              £280
+            </p>
           </a>
-          Climbing belted trousers
-          <p
-            class="c20"
-          >
-            £280
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Guard technical jacket "
-            href="/products/Nemen-Guard-technical-jacket--1261151"
+            class="c20"
           >
             <img
               alt="Guard technical jacket "
               src="//assetsprx.matchesfashion.com/img/product/1261151_1_small.jpg"
               width="100%"
             />
+            Guard technical jacket 
+            <p
+              class="c21"
+            >
+              £570
+            </p>
           </a>
-          Guard technical jacket 
-          <p
-            class="c20"
-          >
-            £570
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Constrast-panel performance jacket"
-            href="/products/Nemen-Constrast-panel-performance-jacket-1261142"
+            class="c20"
           >
             <img
               alt="Constrast-panel performance jacket"
               src="//assetsprx.matchesfashion.com/img/product/1261142_1_small.jpg"
               width="100%"
             />
+            Constrast-panel performance jacket
+            <p
+              class="c21"
+            >
+              £750
+            </p>
           </a>
-          Constrast-panel performance jacket
-          <p
-            class="c20"
-          >
-            £750
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Guard reflective jacket"
-            href="/products/Nemen-Guard-reflective-jacket-1261139"
+            class="c20"
           >
             <img
               alt="Guard reflective jacket"
               src="//assetsprx.matchesfashion.com/img/product/1261139_1_small.jpg"
               width="100%"
             />
+            Guard reflective jacket
+            <p
+              class="c21"
+            >
+              £795
+            </p>
           </a>
-          Guard reflective jacket
-          <p
-            class="c20"
-          >
-            £795
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Revolt technical jacket "
-            href="/products/Nemen-Revolt-technical-jacket--1261140"
+            class="c20"
           >
             <img
               alt="Revolt technical jacket "
               src="//assetsprx.matchesfashion.com/img/product/1261140_1_small.jpg"
               width="100%"
             />
+            Revolt technical jacket 
+            <p
+              class="c21"
+            >
+              £570
+            </p>
           </a>
-          Revolt technical jacket 
-          <p
-            class="c20"
-          >
-            £570
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Dondi crew-neck technical sweatshirt"
-            href="/products/Nemen-Dondi-crew-neck-technical-sweatshirt-1261149"
+            class="c20"
           >
             <img
               alt="Dondi crew-neck technical sweatshirt"
               src="//assetsprx.matchesfashion.com/img/product/1261149_1_small.jpg"
               width="100%"
             />
+            Dondi crew-neck technical sweatshirt
+            <p
+              class="c21"
+            >
+              £370
+            </p>
           </a>
-          Dondi crew-neck technical sweatshirt
-          <p
-            class="c20"
-          >
-            £370
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Scramble nylon shorts "
-            href="/products/Nemen-Scramble-nylon-shorts--1261148"
+            class="c20"
           >
             <img
               alt="Scramble nylon shorts "
               src="//assetsprx.matchesfashion.com/img/product/1261148_1_small.jpg"
               width="100%"
             />
+            Scramble nylon shorts 
+            <p
+              class="c21"
+            >
+              £320
+            </p>
           </a>
-          Scramble nylon shorts 
-          <p
-            class="c20"
-          >
-            £320
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Crushed technical fabric trousers"
-            href="/products/Nemen-Crushed-technical-fabric-trousers-1261147"
+            class="c20"
           >
             <img
               alt="Crushed technical fabric trousers"
               src="//assetsprx.matchesfashion.com/img/product/1261147_1_small.jpg"
               width="100%"
             />
+            Crushed technical fabric trousers
+            <p
+              class="c21"
+            >
+              £350
+            </p>
           </a>
-          Crushed technical fabric trousers
-          <p
-            class="c20"
-          >
-            £350
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Utility shell sweatshirt"
-            href="/products/Nemen-Utility-shell-sweatshirt-1261141"
+            class="c20"
           >
             <img
               alt="Utility shell sweatshirt"
               src="//assetsprx.matchesfashion.com/img/product/1261141_1_small.jpg"
               width="100%"
             />
+            Utility shell sweatshirt
+            <p
+              class="c21"
+            >
+              £370
+            </p>
           </a>
-          Utility shell sweatshirt
-          <p
-            class="c20"
-          >
-            £370
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Dondi technical-shell sweatshirt"
-            href="/products/Nemen-Dondi-technical-shell-sweatshirt-1261145"
+            class="c20"
           >
             <img
               alt="Dondi technical-shell sweatshirt"
               src="//assetsprx.matchesfashion.com/img/product/1261145_1_small.jpg"
               width="100%"
             />
+            Dondi technical-shell sweatshirt
+            <p
+              class="c21"
+            >
+              £370
+            </p>
           </a>
-          Dondi technical-shell sweatshirt
-          <p
-            class="c20"
-          >
-            £370
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Marking reflective jacket"
-            href="/products/Nemen-Marking-reflective-jacket-1261143"
+            class="c20"
           >
             <img
               alt="Marking reflective jacket"
               src="//assetsprx.matchesfashion.com/img/product/1261143_1_small.jpg"
               width="100%"
             />
+            Marking reflective jacket
+            <p
+              class="c21"
+            >
+              £750
+            </p>
           </a>
-          Marking reflective jacket
-          <p
-            class="c20"
-          >
-            £750
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Haloes hybrid hooded down-filled jacket"
-            href="/products/Salomon-Haloes-hybrid-hooded-down-filled-jacket-1263534"
+            class="c20"
           >
             <img
               alt="Haloes hybrid hooded down-filled jacket"
               src="//assetsprx.matchesfashion.com/img/product/1263534_1_small.jpg"
               width="100%"
             />
+            Haloes hybrid hooded down-filled jacket
+            <p
+              class="c21"
+            >
+              £160
+            </p>
           </a>
-          Haloes hybrid hooded down-filled jacket
-          <p
-            class="c20"
-          >
-            £160
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Agile mesh-panel performance shorts"
-            href="/products/Salomon-Agile-mesh-panel-performance-shorts-1263551"
+            class="c20"
           >
             <img
               alt="Agile mesh-panel performance shorts"
               src="//assetsprx.matchesfashion.com/img/product/1263551_1_small.jpg"
               width="100%"
             />
+            Agile mesh-panel performance shorts
+            <p
+              class="c21"
+            >
+              £45
+            </p>
           </a>
-          Agile mesh-panel performance shorts
-          <p
-            class="c20"
-          >
-            £45
-          </p>
         </div>
         <div
           class="c19"
         >
           <a
             aria-label="Agile polka dot-print performance jacket"
-            href="/products/Salomon-Agile-polka-dot-print-performance-jacket-1263537"
+            class="c20"
           >
             <img
               alt="Agile polka dot-print performance jacket"
               src="//assetsprx.matchesfashion.com/img/product/1263537_1_small.jpg"
               width="100%"
             />
+            Agile polka dot-print performance jacket
+            <p
+              class="c21"
+            >
+              £70
+            </p>
           </a>
-          Agile polka dot-print performance jacket
-          <p
-            class="c20"
-          >
-            £70
-          </p>
         </div>
       </div>
     </div>
@@ -2221,7 +2229,7 @@ exports[`With Snapshot Testing Plp - show filters button 2`] = `
 @@ -86,22 +86,22 @@
       </button>
       <div
-        class=\\"sc-fznKkj cVEcpF\\"
+        class=\\"sc-fznZeY iBKrxR\\"
       >
         <div
 -         class=\\"cheeseburger-menu\\"

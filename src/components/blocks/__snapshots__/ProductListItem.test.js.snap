@@ -10,9 +10,17 @@ exports[`With Snapshot Testing Product list item 1`] = `
   margin: 0;
 }
 
-.c1 {
+.c2 {
   border-radius: 3px;
   border: 1px solid #ccc;
+}
+
+.c1 {
+  color: #000;
+}
+
+.c1:active {
+  color: #666;
 }
 
 @media only screen and (min-width:380px) and (max-width:640px) {
@@ -33,20 +41,20 @@ exports[`With Snapshot Testing Product list item 1`] = `
   >
     <a
       aria-label="test"
-      href="/pdp?code=1"
+      class="c1"
     >
       <img
         alt="test"
         src="//assetsprx.matchesfashion.com/img/product/1_1_small.jpg"
         width="100%"
       />
+      test
+      <p
+        class="c2"
+      >
+        £10
+      </p>
     </a>
-    test
-    <p
-      class="c1"
-    >
-      £10
-    </p>
   </div>
 </DocumentFragment>
 `;
