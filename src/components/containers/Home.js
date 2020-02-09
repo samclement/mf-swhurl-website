@@ -1,6 +1,21 @@
 import React from 'react'
+import Link from 'next/link'
 import Head from 'next/head'
 import Header from '../blocks/Header'
+import styled from 'styled-components'
+
+const Container = styled.div`
+  display: flex;
+
+`
+
+const StyledImage = styled.img`
+  width: 100%;
+`
+
+const StyledLink = styled.a`
+  width: 50%;
+`
 
 export default props => {
   return (
@@ -9,28 +24,18 @@ export default props => {
         <title>mf.swhurl.com</title>
       </Head>
       <Header />
-      <h2>mf.swhurl.com</h2>
-      <p>Example next.js app, including:</p>
-      <ul>
-        <li>nextjs (server-side rendering single-page application)</li>
-        <li>styled-components</li>
-        <li>linting with eslint</li>
-        <li>jest snapshot testing</li>
-        <li>prettier formatting</li>
-        <li>lighthouse performance testing</li>
-        <li>chrome browser testing (wdio)</li>
-        <li>greenkeeper (automatic PRs for upgrading dependencies)</li>
-        <li>kustomize (k8s deployment configuration)</li>
-      </ul>
-      <p>The application is deployed to a k8s cluster that includes:</p>
-      <ul>
-        <li>
-          cert-manager (automatic TLS certificate provisioning from LetsEncript)
-        </li>
-        <li>oauth2-proxy (authentication against github)</li>
-        <li>prometheus (infrastructure and applicaiton monitoring)</li>
-        <li>fluentbit / loggly integration (log aggregation)</li>
-      </ul>
+      <Container>
+        <Link href="/mens">
+          <StyledLink href="/mens" aria-label="SHOP MEN’S. Shop all men's items on Matchesfashion!" title="SHOP MEN’S" data-gender="mens">
+            <StyledImage alt="SHOP MEN’S. Shop all men's items on Matchesfashion!" src="//assets.matchesfashion.com/devTest/translated/2019/pre-home/launch/qa/published/img/hero/mens-desk.jpg?quality=60&amp;" />
+          </StyledLink>
+        </Link>
+        <Link href="/womens">
+          <StyledLink href="/womens" aria-label="SHOP WOMEN’S. Shop all women's items on Matchesfashion!" title="SHOP WOMEN’S" data-gender="womens">
+            <StyledImage alt="SHOP WOMEN’S. Shop all women's items on Matchesfashion!" src="//assets.matchesfashion.com/devTest/translated/2019/pre-home/launch/qa/published/img/hero/womens-desk.jpg?quality=60&amp;" />
+          </StyledLink>
+        </Link>
+      </Container>
     </div>
   )
 }

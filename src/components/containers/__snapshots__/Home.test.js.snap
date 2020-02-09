@@ -46,6 +46,21 @@ exports[`With Snapshot Testing Index page shows "mf.swhurl.com" H1 1`] = `
   margin: 0;
 }
 
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c7 {
+  width: 100%;
+}
+
+.c6 {
+  width: 50%;
+}
+
 <div>
     <nav>
       <div
@@ -88,58 +103,36 @@ exports[`With Snapshot Testing Index page shows "mf.swhurl.com" H1 1`] = `
     <hr
       class="c4"
     />
-    <h2>
-      mf.swhurl.com
-    </h2>
-    <p>
-      Example next.js app, including:
-    </p>
-    <ul>
-      <li>
-        nextjs (server-side rendering single-page application)
-      </li>
-      <li>
-        styled-components
-      </li>
-      <li>
-        linting with eslint
-      </li>
-      <li>
-        jest snapshot testing
-      </li>
-      <li>
-        prettier formatting
-      </li>
-      <li>
-        lighthouse performance testing
-      </li>
-      <li>
-        chrome browser testing (wdio)
-      </li>
-      <li>
-        greenkeeper (automatic PRs for upgrading dependencies)
-      </li>
-      <li>
-        kustomize (k8s deployment configuration)
-      </li>
-    </ul>
-    <p>
-      The application is deployed to a k8s cluster that includes:
-    </p>
-    <ul>
-      <li>
-        cert-manager (automatic TLS certificate provisioning from LetsEncript)
-      </li>
-      <li>
-        oauth2-proxy (authentication against github)
-      </li>
-      <li>
-        prometheus (infrastructure and applicaiton monitoring)
-      </li>
-      <li>
-        fluentbit / loggly integration (log aggregation)
-      </li>
-    </ul>
+    <div
+      class="c5"
+    >
+      <a
+        aria-label="SHOP MEN’S. Shop all men's items on Matchesfashion!"
+        class="c6"
+        data-gender="mens"
+        href="/mens"
+        title="SHOP MEN’S"
+      >
+        <img
+          alt="SHOP MEN’S. Shop all men's items on Matchesfashion!"
+          class="c7"
+          src="//assets.matchesfashion.com/devTest/translated/2019/pre-home/launch/qa/published/img/hero/mens-desk.jpg?quality=60&"
+        />
+      </a>
+      <a
+        aria-label="SHOP WOMEN’S. Shop all women's items on Matchesfashion!"
+        class="c6"
+        data-gender="womens"
+        href="/womens"
+        title="SHOP WOMEN’S"
+      >
+        <img
+          alt="SHOP WOMEN’S. Shop all women's items on Matchesfashion!"
+          class="c7"
+          src="//assets.matchesfashion.com/devTest/translated/2019/pre-home/launch/qa/published/img/hero/womens-desk.jpg?quality=60&"
+        />
+      </a>
+    </div>
   </div>
 </DocumentFragment>
 `;
