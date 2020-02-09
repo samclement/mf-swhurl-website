@@ -59,10 +59,6 @@ exports[`With Snapshot Testing Mens page renders correctly 1`] = `
   display: flex;
 }
 
-.c7 {
-  width: 100%;
-}
-
 .c6 {
   width: 100%;
 }
@@ -114,14 +110,13 @@ exports[`With Snapshot Testing Mens page renders correctly 1`] = `
     >
       <a
         aria-label="SHOP MEN’S. Shop all men's items on Matchesfashion!"
-        class="c6"
         data-gender="mens"
-        href="/mens"
+        href="/mens/shop/clothing"
         title="SHOP MEN’S"
       >
         <img
           alt="SHOP MEN’S. Shop all men's items on Matchesfashion!"
-          class="c7"
+          class="c6"
           src="//assets.matchesfashion.com/devTest/translated/2019/pre-home/launch/qa/published/img/hero/mens-desk.jpg?quality=60&"
         />
       </a>

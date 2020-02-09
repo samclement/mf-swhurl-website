@@ -12,10 +12,6 @@ const StyledImage = styled.img`
   width: 100%;
 `
 
-const StyledLink = styled.a`
-  width: 100%;
-`
-
 function Mens(props) {
   const { gender } = props
   return (
@@ -25,10 +21,17 @@ function Mens(props) {
       </Head>
       <Header gender={gender} />
       <Container>
-        <Link href="/mens">
-          <StyledLink href="/mens" aria-label="SHOP MEN’S. Shop all men's items on Matchesfashion!" title="SHOP MEN’S" data-gender="mens">
-            <StyledImage alt="SHOP MEN’S. Shop all men's items on Matchesfashion!" src="//assets.matchesfashion.com/devTest/translated/2019/pre-home/launch/qa/published/img/hero/mens-desk.jpg?quality=60&amp;" />
-          </StyledLink>
+        <Link href="/plp?url=/mens/shop/clothing" as="/mens/shop/clothing">
+          <a
+            aria-label="SHOP MEN’S. Shop all men's items on Matchesfashion!"
+            title="SHOP MEN’S"
+            data-gender="mens"
+          >
+            <StyledImage
+              alt="SHOP MEN’S. Shop all men's items on Matchesfashion!"
+              src="//assets.matchesfashion.com/devTest/translated/2019/pre-home/launch/qa/published/img/hero/mens-desk.jpg?quality=60&amp;"
+            />
+          </a>
         </Link>
       </Container>
     </div>
