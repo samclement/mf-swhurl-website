@@ -1,6 +1,7 @@
 import App from 'next/app'
 import Router from 'next/router'
 import React from 'react'
+import withGA from 'next-ga'
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
@@ -9,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
   .no-scroll { position: fixed; }
 `
 
-export default class MyApp extends App {
+class MyApp extends App {
   static async getInitialProps({ Component, router, ctx }) {
     let pageProps = {}
     if (Component.getInitialProps) {
@@ -45,3 +46,5 @@ export default class MyApp extends App {
     )
   }
 }
+
+export default withGA('UA-158914730-1', Router)(MyApp)
