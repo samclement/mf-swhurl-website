@@ -224,6 +224,12 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 1`] = `
       >
         Homeware
       </a>
+      <a
+        class="c7"
+        href="/womens/sale"
+      >
+        Sale
+      </a>
     </nav>
     <hr
       class="c8"
@@ -328,7 +334,7 @@ exports[`With Snapshot Testing Plp page shows "mf.swhurl.com" H1 2`] = `
 - First value
 + Second value
 
-@@ -91,11 +91,11 @@
+@@ -97,11 +97,11 @@
             <div
               style=\\"overflow: hidden; position: relative; width: 0px;\\"
             >
@@ -421,6 +427,12 @@ Object {
             href="/womens/shop/homeware"
           >
             Homeware
+          </a>
+          <a
+            class="sc-AxjAm gUxNoH"
+            href="/womens/sale"
+          >
+            Sale
           </a>
         </nav>
         <hr

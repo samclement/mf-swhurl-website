@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`With Snapshot Testing Global Style 1`] = `
+HTMLCollection [
+  <style
+    data-styled="active"
+    data-styled-version="5.0.1"
+  >
+    body{font-family:Helvetica,Arial,sans-serif;}
+    .touch{-webkit-overflow-scrolling:touch;}
+    .no-scroll{position:fixed;}
+  </style>,
+]
+`;

@@ -10,3 +10,4 @@ test/output/
 yarn-error.log
 lighthouse.report.*
 junit.xml
+.out
