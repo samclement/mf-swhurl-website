@@ -47,4 +47,14 @@ class MyApp extends App {
   }
 }
 
-export default withGA('UA-158914730-1', Router)(MyApp)
+function getGaCode() {
+  const IS_BROWSER = typeof window !== 'undefined'
+  const BASE_GA_CODE = `UA-158914730`
+  const GA_PROPERTY =
+    IS_BROWSER && window.location.hostname === 'staging.mf.swhurl.com'
+      ? '1'
+      : '2'
+  return `${BASE_GA_CODE}-${GA_PROPERTY}`
+}
+
+export default withGA(getGaCode(), Router)(MyApp)

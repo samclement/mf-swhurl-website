@@ -4,7 +4,8 @@ const BROWSER_CACHE_LIMIT = 20
 
 const api = setup({
   cache: {
-    limit: isNode() ? NODE_CACHE_LIMIT : BROWSER_CACHE_LIMIT,
+    limit:
+      typeof window !== 'undefined' ? BROWSER_CACHE_LIMIT : NODE_CACHE_LIMIT,
     maxAge: 5 * 60 * 1000
   }
 })
@@ -26,8 +27,4 @@ export const getSearchResults = async function(q, isServer) {
 
 export const getProduct = async function(q, isServer) {
   return api(`${getApiUrl(isServer)}/api/products/${q.code}`)
-}
-
-function isNode() {
-  return process && process.versions && process.versions.node
 }
