@@ -31,6 +31,7 @@
     "express-prom-bundle": "5.1.5",
     "ignore-loader": "0.1.2",
     "next": "9.2.1",
+    "next-ga": "^2.3.4",
     "prom-client": "11.4.0",
     "react": "16.10.0",
     "react-dom": "16.10.0",
