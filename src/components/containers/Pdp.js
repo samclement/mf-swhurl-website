@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactGA from 'react-ga'
 import Head from 'next/head'
 import Header from '../blocks/Header'
 import { getProduct } from '../../services'
@@ -48,6 +49,13 @@ function Pdp(props) {
   const mainImage = thumbnail.replace('thumbnail', 'large')
   const gender = sizeTaxonomyName.split(' ')[0].toLowerCase()
   let reactSwipeEl
+  const doSwipe = (index, el) => {
+    ReactGA.event({
+      category: 'PDP',
+      action: 'Hero Image Swipe',
+      value: index
+    })
+  }
   return (
     <div>
       <Head>
@@ -56,7 +64,11 @@ function Pdp(props) {
       <Header gender={gender} />
       <StyledProductContainer>
         <ImageContainer>
-          <ReactSwipe className="carousel" ref={el => (reactSwipeEl = el)}>
+          <ReactSwipe
+            className="carousel"
+            ref={el => (reactSwipeEl = el)}
+            swipeOptions={{ callback: doSwipe }}
+          >
             {[...Array(5).keys()].map(num => {
               return (
                 <div key={num}>
