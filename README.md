@@ -7,6 +7,7 @@ Demo Nextjs application that includes:
 
 - nextjs (server-side rendering single-page application)
 - styled-components
+- storybook component previewing: http://docs.mf.swhurl.com/
 - linting with eslint
 - jest snapshot testing
 - prettier formatting
