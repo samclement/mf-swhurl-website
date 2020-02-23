@@ -17,9 +17,12 @@ const StyledProduct = styled.div`
   }
 `
 
-const StyledPrice = styled.p`
-  border-radius: 3px;
-  border: 1px solid #ccc;
+const StyledPrice = styled.span`
+  color: ${props => (props.item.previousPrice ? '#c00' : '#000')};
+`
+
+const PreviousPrice = styled.span`
+  text-decoration: line-through;
 `
 
 const StyledLink = styled.a`
@@ -27,6 +30,14 @@ const StyledLink = styled.a`
   &:active {
     color: #666;
   }
+`
+
+const PriceContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 3px;
+  border: 1px solid #ccc;
 `
 
 export default ({ item }) => {
@@ -38,9 +49,21 @@ export default ({ item }) => {
         <StyledLink aria-label={item.name}>
           <img src={imageUrl} alt={item.name} width="100%" />
           {item.name}
-          <StyledPrice>
-            &pound;{new Intl.NumberFormat().format(item.price)}
-          </StyledPrice>
+          <PriceContainer>
+            <StyledPrice item={item}>
+              &pound;{new Intl.NumberFormat().format(item.price)}
+            </StyledPrice>
+            {item.previousPrice ? (
+              <React.Fragment>
+                <span>&nbsp;</span>
+                <PreviousPrice>
+                  (&pound;{new Intl.NumberFormat().format(item.previousPrice)})
+                </PreviousPrice>
+              </React.Fragment>
+            ) : (
+              ''
+            )}
+          </PriceContainer>
         </StyledLink>
       </Link>
     </StyledProduct>

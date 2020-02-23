@@ -2,13 +2,7 @@ import App from 'next/app'
 import Router from 'next/router'
 import React from 'react'
 import withGA from 'next-ga'
-import { createGlobalStyle } from 'styled-components'
-
-const GlobalStyle = createGlobalStyle`
-  body { font-family: Helvetica, Arial, sans-serif; }
-  .touch { -webkit-overflow-scrolling: touch; }
-  .no-scroll { position: fixed; }
-`
+import GlobalStyle from '../components/GlobalStyle'
 
 class MyApp extends App {
   static async getInitialProps({ Component, router, ctx }) {

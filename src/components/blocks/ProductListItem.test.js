@@ -12,4 +12,9 @@ describe('With Snapshot Testing', () => {
     const { asFragment } = render(<ProductListItem item={item} />)
     expect(asFragment()).toMatchSnapshot()
   })
+  it('Product list item with sale price', () => {
+    const item = { code: 1, name: 'test', price: 10, previousPrice: 20 }
+    const { asFragment } = render(<ProductListItem item={item} />)
+    expect(asFragment()).toMatchSnapshot()
+  })
 })

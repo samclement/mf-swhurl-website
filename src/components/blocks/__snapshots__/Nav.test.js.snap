@@ -87,6 +87,12 @@ exports[`With Snapshot Testing Nav displays items 1`] = `
     >
       Homeware
     </a>
+    <a
+      class="c2"
+      href="/mens/sale"
+    >
+      Sale
+    </a>
   </nav>
 </DocumentFragment>
 `;

@@ -10,9 +10,8 @@ exports[`With Snapshot Testing Product list item 1`] = `
   margin: 0;
 }
 
-.c2 {
-  border-radius: 3px;
-  border: 1px solid #ccc;
+.c3 {
+  color: #000;
 }
 
 .c1 {
@@ -21,6 +20,22 @@ exports[`With Snapshot Testing Product list item 1`] = `
 
 .c1:active {
   color: #666;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 3px;
+  border: 1px solid #ccc;
 }
 
 @media only screen and (min-width:380px) and (max-width:640px) {
@@ -49,11 +64,106 @@ exports[`With Snapshot Testing Product list item 1`] = `
         width="100%"
       />
       test
-      <p
+      <div
         class="c2"
       >
-        £10
-      </p>
+        <span
+          class="c3"
+        >
+          £10
+        </span>
+      </div>
+    </a>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`With Snapshot Testing Product list item with sale price 1`] = `
+<DocumentFragment>
+  .c0 {
+  width: 150px;
+  min-height: 220px;
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+}
+
+.c3 {
+  color: #c00;
+}
+
+.c4 {
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+.c1 {
+  color: #000;
+}
+
+.c1:active {
+  color: #666;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+@media only screen and (min-width:380px) and (max-width:640px) {
+  .c0 {
+    margin: 0 12px;
+  }
+}
+
+@media only screen and (min-width:641px) and (max-width:780px) {
+  .c0 {
+    padding: 10px 5px;
+    margin: 0;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <a
+      aria-label="test"
+      class="c1"
+    >
+      <img
+        alt="test"
+        src="//assetsprx.matchesfashion.com/img/product/1_1_small.jpg"
+        width="100%"
+      />
+      test
+      <div
+        class="c2"
+      >
+        <span
+          class="c3"
+        >
+          £10
+        </span>
+        <span>
+           
+        </span>
+        <span
+          class="c4"
+        >
+          (£20)
+        </span>
+      </div>
     </a>
   </div>
 </DocumentFragment>
