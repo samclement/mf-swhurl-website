@@ -16,7 +16,7 @@
     "precommit": "precise-commits --whitelist=\"./package-lock.json\"",
     "fmt": "prettier --write \"src/**/*.js\"",
     "storybook": "start-storybook -s ./src/public -p 9001",
-    "build-storybook": "build-storybook -c .storybook -s ./src/public -o .out"
+    "build-storybook": "build-storybook -c .storybook -s ./src/public -o ./docs/"
   },
   "repository": {
     "type": "git",
