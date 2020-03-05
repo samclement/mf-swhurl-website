@@ -23,7 +23,7 @@
     "url": "https://github.com/samclement/mf-swhurl-website.git"
   },
   "dependencies": {
-    "@babel/core": "7.6.0",
+    "@babel/core": "7.8.7",
     "axios": "0.19.2",
     "axios-cache-adapter": "2.5.0",
     "body-scroll-lock": "2.6.2",
