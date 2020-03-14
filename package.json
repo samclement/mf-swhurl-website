@@ -44,7 +44,7 @@
   "license": "ISC",
   "devDependencies": {
     "@storybook/addon-actions": "^5.3.15",
-    "@storybook/react": "^5.3.13",
+    "@storybook/react": "^5.3.15",
     "@testing-library/jest-dom": "^5.0.0",
     "@testing-library/react": "^9.1.4",
     "@wdio/cli": "^5.18.6",
