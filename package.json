@@ -35,7 +35,7 @@
     "next": "9.2.2",
     "next-ga": "^2.3.4",
     "prom-client": "11.4.0",
-    "react": "16.10.0",
+    "react": "16.13.1",
     "react-dom": "16.10.0",
     "react-swipe": "^6.0.4",
     "styled-components": "5.0.1",
