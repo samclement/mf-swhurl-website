@@ -35,56 +35,9 @@ jobs:
               echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin
               docker push swhurl/mf-website:$CIRCLE_SHA1
           fi
-  deploy_staging:
-    machine: true
-    steps:
-      - add_ssh_keys:
-          fingerprints: 
-            - "35:df:e3:cc:13:79:99:24:29:2f:39:b4:8b:5a:0a:14"
-      - run: |
-          echo "staging: branch == master"
-          echo "sha1: '$CIRCLE_SHA1'"
-          echo "tag: '$CIRCLE_TAG'"
-          echo "deploy: swhurl/mf-website:$CIRCLE_SHA1"
-          ssh $SSH_USER@$SSH_HOST "kubectl get deployment staging-mf-swhurl-website -o yaml | sed -r 's/mf-website:(.*)/mf-website:$CIRCLE_SHA1/g' | kubectl apply -f -"
-  deploy_prod:
-    machine: true
-    steps:
-      - add_ssh_keys:
-          fingerprints: 
-            - "35:df:e3:cc:13:79:99:24:29:2f:39:b4:8b:5a:0a:14"
-      - run: |
-          echo "production: tag == $CIRCLE_TAG"
-          echo "sha1: '$CIRCLE_SHA1'"
-          echo "tag: '$CIRCLE_TAG'"
-          echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin
-          docker pull swhurl/mf-website:$CIRCLE_SHA1
-          docker tag swhurl/mf-website:$CIRCLE_SHA1 swhurl/mf-website:${CIRCLE_TAG##v}
-          docker push swhurl/mf-website:${CIRCLE_TAG##v}
-          echo "deploy swhurl/mf-website:${CIRCLE_TAG##v}"
-          ssh $SSH_USER@$SSH_HOST "kubectl get deployment production-mf-swhurl-website -o yaml | sed -r 's/mf-website:(.*)/mf-website:${CIRCLE_TAG##v}/g' | kubectl apply -f -"
-  release_tag:
-    machine: true
-    steps:
-      - run: |
-          echo "deploy swhurl/mf-website:${CIRCLE_TAG}"
-          ssh $SSH_USER@$SSH_HOST "kubectl get deployment production-mf-swhurl-website -o yaml | sed -r 's/mf-website:(.*)/mf-website:${CIRCLE_TAG}/g' | kubectl apply -f -"
         
 workflows:
   version: 2
   build_test_push_deploy:
     jobs:
       - build_test
-      - deploy_staging:
-          requires:
-            - build_test
-          filters:
-            branches:
-              only: 
-                - master
-      - deploy_prod:
-          filters:
-            branches:
-              ignore: /.*/
-            tags:
-              only: /^v(.*)/
