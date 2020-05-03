@@ -82,7 +82,7 @@
     "snapshot-diff": "^0.7.0",
     "storybook-addon-styled-component-theme": "^1.3.0",
     "table": "5.4.0",
-    "wdio-chromedriver-service": "^5.0.0",
+    "wdio-chromedriver-service": "^6.0.3",
     "wdio-timeline-reporter": "^5.1.2",
     "webdriverio": "^5.4.14"
   },
