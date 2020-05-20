@@ -60,7 +60,7 @@
     "@wdio/spec-reporter": "^5.18.6",
     "@wdio/sync": "^5.18.6",
     "chai": "4.2.0",
-    "chromedriver": "80.0.1",
+    "chromedriver": "83.0.0",
     "eslint": "6.4.0",
     "eslint-config-standard": "13.0.1",
     "eslint-config-standard-react": "9.1.0",
